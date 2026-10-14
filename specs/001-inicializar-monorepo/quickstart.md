@@ -123,6 +123,9 @@ local con Remove-Item Env:PORT. No crear .env ni proporcionar datos reales para 
 - Confirmar dos workspaces, package.json propios y ausencia de dependencias cruzadas.
 - Confirmar que el README documenta la organización pública/privada y las ubicaciones
   reservadas del plan sin crear páginas, layouts, componentes de ejemplo o código vacío.
+- Confirmar que apps/web/src/features/public/ y private/ existen físicamente; se permite
+  un .gitkeep en cada carpeta vacía. No deben existir todavía sus subcarpetas landing,
+  documents, auth o dashboard ni archivos TypeScript vacíos dentro de las áreas.
 - Confirmar Zustand, pg y socket.io declarados sin stores, imports o instancias sin uso.
 - Confirmar configuración Tailwind técnica sin clases visuales o estilos propios.
 - Confirmar que no se crearon PRODUCT.md, DESIGN.md ni briefs de Impeccable.

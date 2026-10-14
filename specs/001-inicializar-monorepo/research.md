@@ -55,6 +55,9 @@ Se alinea @types/node de 24 a 22: se verificó
 el peer de Vite. También se consultaron @types/react 19.2.17, @types/react-dom 19.2.3
 y @types/express 5.0.6; sus manifests no imponen otro runtime y el peer de tipos DOM
 admite @types/react ^19.2.0. No es una reducción de las bibliotecas de aplicación.
+Ese peer pertenece a @types/react-dom, no a React Router: el manifest documentado de
+react-router 8.4.0 declara peers de react/react-dom, sin mínimo de sus paquetes de tipos.
+Se conservan React/DOM 19.3.1, Router 8.4.0 y ambos paquetes de tipos seleccionados.
 
 Se comprobaron además los metadatos de
 [rolldown 1.2.12](https://registry.npmjs.org/rolldown/1.2.12),
@@ -169,12 +172,15 @@ servidor Socket.IO, dotenv, métricas, trazas ni endpoints de negocio.
 
 ## 7. Estructura y verificación proporcional
 
-**Decisión**: Una tabla de reservas en README preservará las ubicaciones futuras sin
-archivos de código vacíos ni marcadores obligatorios. Los recursos de identidad no se
-copian. El modelo de datos declara ausencia de entidades persistentes.
+**Decisión**: Las carpetas principales apps/web/src/features/public/ y private/ existirán
+físicamente al finalizar Implement, con .gitkeep permitido en cada una si está vacía.
+Una tabla en README preservará las subcarpetas futuras landing, documents, auth y dashboard
+sin crearlas; las demás reservas tampoco requieren código vacío ni marcadores. Los recursos
+de identidad no se copian. El modelo de datos declara ausencia de entidades persistentes.
 
-**Justificación**: Las carpetas vacías no sobreviven a un clon de Git; documentar las reservas
-evita confundir estructura prevista con funcionalidad existente. Inspección del DOM,
+**Justificación**: Los dos .gitkeep permitidos conservan en Git la separación física principal
+sin implementar funcionalidad. Documentar las subcarpetas futuras evita confundirlas con
+páginas existentes. Inspección del DOM,
 solicitud HTTP, tipos y build verifican el comportamiento actual sin una suite adicional.
 
 **Alternativas consideradas**: No generar páginas, modelos, servicios, middleware o

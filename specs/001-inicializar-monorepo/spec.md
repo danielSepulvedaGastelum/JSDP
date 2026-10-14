@@ -79,9 +79,11 @@ seguridad simulada ni navegación antes de sus especificaciones.
 
 **Acceptance Scenarios**:
 
-1. **Given** la estructura del Frontend, **When** identifico sus áreas, **Then** existe
-   separación organizativa entre funcionalidades públicas y privadas, con Landing Page,
-   Documentos y Login previstos para la primera, y Dashboard y futuros módulos para la segunda.
+1. **Given** la estructura del Frontend al finalizar Implement, **When** identifico sus áreas,
+   **Then** existen físicamente apps/web/src/features/public/ y apps/web/src/features/private/;
+   si están vacías, se permite un .gitkeep en cada una para conservarlas en Git. Las subcarpetas
+   landing, documents, auth y dashboard solo se documentan como futuras en README.md, sin crearlas
+   ni añadir componentes, layouts, stores o archivos TypeScript vacíos dentro de public/private.
 2. **Given** la organización documentada, **When** busco responsabilidades transversales,
    **Then** encuentro ubicaciones previstas para rutas, componentes comunes, stores Zustand,
    hooks, servicios y estilos, sin stores de negocio, autenticación ni servicios de negocio.
@@ -206,8 +208,9 @@ instalar desde la raíz, verificar tipos, compilar e iniciar ambos procesos sepa
   se convierte en una página de ejemplo. Solo / renderiza el contenido mínimo de aplicación.
 - **Puerto local ocupado**: el desarrollador puede identificar el conflicto y resolverlo
   siguiendo la documentación, sin que se informe falsamente un arranque correcto.
-- **Copia limpia sin carpetas vacías conservadas por Git**: la documentación mantiene
-  identificables todas las ubicaciones previstas, sin requerir archivos de código ficticios.
+- **Copia limpia sin carpetas vacías conservadas por Git**: public/ y private/ deben existir
+  físicamente; se permiten sus .gitkeep si están vacías. El resto de las ubicaciones futuras
+  permanece documentado, sin crear subcarpetas o archivos de código ficticios.
 - **Verificación fallida**: una comprobación de tipos o compilación con errores impide
   considerar completada la entrega; su comando debe terminar con resultado de fallo.
 - **Archivos sensibles o dependencias locales**: no se incorporan al repositorio;
@@ -227,6 +230,9 @@ instalar desde la raíz, verificar tipos, compilar e iniciar ambos procesos sepa
 - **FR-004**: El Frontend DEBE ser una sola aplicación React organizada en áreas públicas y
   privadas, con ubicaciones previstas para rutas, componentes comunes, stores Zustand, hooks,
   servicios y estilos y posibilidad de layouts independientes.
+  Al finalizar Implement DEBEN existir físicamente apps/web/src/features/public/ y
+  apps/web/src/features/private/; se permite un .gitkeep en cada carpeta vacía para conservarla
+  en Git. Sus subcarpetas landing, documents, auth y dashboard NO DEBEN crearse todavía.
 - **FR-005**: Las ubicaciones futuras DEBEN distinguir Landing Page, Documentos y Login
   de Dashboard y módulos privados. NO DEBEN generarse páginas, layouts definitivos,
   navegación de ejemplo, stores o servicios de negocio ni autenticación.
@@ -265,6 +271,8 @@ instalar desde la raíz, verificar tipos, compilar e iniciar ambos procesos sepa
 - **FR-018**: Solo DEBEN crearse archivos indispensables para el alcance. Se permiten
   carpetas organizativas y archivos mínimos de configuración, entrada y verificación;
   NO se permiten archivos vacíos de código para representar funcionalidades futuras.
+  Los .gitkeep de public/ y private/ previstos en FR-004 son marcadores organizativos
+  permitidos, no código de relleno ni autorización para añadir archivos de aplicación.
 - **FR-019**: NO DEBEN incluirse configuración de producción, despliegues, contenedores Docker,
   CI/CD, conexiones institucionales, tablas de datos, sistema de componentes, DataTables,
   formularios, menús, barras laterales ni componentes de tema claro u oscuro.
@@ -334,10 +342,11 @@ proporcionalmente en Plan sin añadir producción ni acceso externo.
   No se solicita ni se realiza una enmienda constitucional.
 - Esta es la primera y única especificación creada en esta ejecución. Ningún criterio de
   aceptación se declara implementado por el hecho de escribir estos documentos.
-- Las ubicaciones organizativas pueden expresarse mediante carpetas necesarias y documentación
-  explícita. Como Git no conserva directorios vacíos, las previsiones futuras pueden quedar
-  documentadas sin archivos de código ficticios ni paquetes compartidos vacíos.
-  La separación de áreas debe ser identificable en la organización real del Frontend.
+- La separación principal public/private DEBE existir físicamente al finalizar Implement,
+  con .gitkeep permitido en cada carpeta si está vacía. Las subcarpetas landing, documents,
+  auth y dashboard seguirán siendo reservas conceptuales documentadas en README.md, sin
+  crearlas ni añadir código de relleno. Las demás ubicaciones futuras pueden documentarse
+  sin archivos de código ficticios ni paquetes compartidos vacíos.
 - La configuración técnica de Tailwind CSS puede incluir su comportamiento base propio;
   "sin estilos personalizados" prohíbe diseñar la interfaz, añadir clases de presentación
   al párrafo, temas, paletas definitivas o estilos institucionales.

@@ -18,6 +18,8 @@ La instalación será única desde la raíz; desarrollo, tipos y compilación se
 Tailwind se integrará técnicamente sin diseño. Zustand, pg y Socket.IO se instalarán sin
 stores, clientes, instancias ni conexiones. Las áreas, paquetes e infraestructura futuros
 quedarán reservados conceptualmente en la documentación, sin código de relleno.
+Solo las carpetas principales apps/web/src/features/public/ y private/ deberán existir
+físicamente al finalizar Implement, con .gitkeep permitido si están vacías.
 
 ## Technical Context
 
@@ -42,7 +44,9 @@ No se crea package.json en esta revisión. Véase la matriz oficial en [research
 | apps/web | react y react-dom 19.3; react-router 8.4; zustand 5.0 | vite 8.3; @vitejs/plugin-react 6.1; tailwindcss y @tailwindcss/vite 4.3; typescript 7.0; @types/react y @types/react-dom 19; @types/node 22 |
 | apps/api | express 5.3; pg 8; socket.io 4.8 | typescript 7.0; @types/express 5; @types/node 22 |
 
-Los tipos React elegidos deben satisfacer los peers de React Router (al menos 19.2).
+Los tipos React elegidos deben ser compatibles entre sí y con React/DOM. React Router 8.4.0
+declara peers de react/react-dom >=19.2.7, no un mínimo de @types/react o @types/react-dom.
+Se conservan @types/react 19.2.17 y @types/react-dom 19.2.3 de la investigación, sin degradarlos.
 React/DOM comparten versión; Tailwind/plugin Vite comparten versión compatible.
 No instalar react-router-dom, adaptadores de framework, @types/pg sin uso, ORM ni pg-native.
 El hoisting físico de npm no modifica la propiedad declarada de las dependencias.
@@ -89,7 +93,7 @@ Los estados siguientes evalúan el diseño, no certifican una implementación to
 | 2. Público y alcance | Desarrollo local; intranet no equivale a Internet; sin usuarios implementados | Cumple | Cumple |
 | 3. Monorepo | Dos workspaces explícitos, entradas y scripts propios, sin paquete compartido ficticio | Cumple | Cumple |
 | 4. Tecnologías | Stack obligatorio; Router solo /; pg y Socket.IO instalados pero inactivos | Cumple | Cumple |
-| 5. Separación funcional | Organización pública/privada documentada; sin vistas futuras ni autorización simulada | Cumple | Cumple |
+| 5. Separación funcional | Carpetas principales public/private físicas; subcarpetas documentadas, sin vistas futuras ni autorización simulada | Cumple | Cumple |
 | 6. Interfaces | Sin PublicLayout, AuthLayout, DashboardLayout ni temas | Cumple | Cumple |
 | 7. Identidad gráfica | Recursos originales conservados en docs, sin copiarlos o cargarlos; sin colores definitivos | Cumple | Cumple |
 | 8. Contenido institucional | No se publica misión, visión o valores | Cumple | Cumple |
@@ -139,7 +143,10 @@ Estructura a crear durante Implement, no durante Plan:
 │   │   └── src/
 │   │       ├── main.tsx
 │   │       ├── app/router/index.tsx
-│   │       └── styles/index.css
+│   │       ├── styles/index.css
+│   │       └── features/
+│   │           ├── public/          # Física; .gitkeep permitido si está vacía
+│   │           └── private/         # Física; .gitkeep permitido si está vacía
 │   └── api/
 │       ├── package.json
 │       ├── tsconfig.json
@@ -152,9 +159,12 @@ Estructura a crear durante Implement, no durante Plan:
 Workspaces explícitos apps/web y apps/api, ambos privados y con type: module.
 No declarar packages/shared como workspace hasta que contenga un contrato real.
 
-El README incluirá el mapa de ubicaciones reservadas siguiente. Se pueden crear directorios
-organizativos al implementar, pero no se requieren marcadores .gitkeep ni archivos vacíos.
-La documentación conserva la separación al clonar, aunque Git no conserve carpetas vacías:
+Durante Implement se crearán físicamente apps/web/src/features/public/ y
+apps/web/src/features/private/. Si están vacías, cada una podrá contener un .gitkeep para
+conservarla en Git; estos marcadores no son código de relleno. No crear componentes React,
+layouts, stores o archivos TypeScript vacíos dentro de ellas.
+El README incluirá el mapa de reservas siguiente, sin crear las subcarpetas futuras landing,
+documents, auth o dashboard. Las demás reservas no requieren .gitkeep ni archivos vacíos:
 
 | Ubicación reservada | Uso futuro; nada de este uso se implementa ahora |
 | --- | --- |
