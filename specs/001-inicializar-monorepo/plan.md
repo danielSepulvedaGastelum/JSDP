@@ -21,23 +21,33 @@ quedarán reservados conceptualmente en la documentación, sin código de rellen
 
 ## Technical Context
 
-**Language/Version**: TypeScript 7.0 estable; Node.js 24 LTS, base 24.22.0; npm 11.
+**Language/Version**: TypeScript 7.0 estable; Node.js 22.23.2 LTS; npm 10.9.8.
 La resolución exacta de parches y sus peer dependencies se fijará al instalar en Implement
 dentro de estas líneas, con versiones directas exactas y un único package-lock.json raíz.
 La compatibilidad documental no sustituye las pruebas reales de instalación y compilación.
+
+El entorno seleccionado es Windows 11 con las versiones ya instaladas; no se requiere
+actualizarlas. Durante Implement, el package.json principal incluirá engines con
+node: ">=22.23.2 <23" y npm: ">=10.9.8 <11". Los mínimos declarados de las dependencias
+verificadas admiten estos rangos; la instalación y el lockfile deberán volver a comprobar
+los engines y peers del árbol efectivamente resuelto, sin ignorar incompatibilidades.
+engines documenta compatibilidad; npm lo trata como advertencia salvo engine-strict.
+No se crea package.json en esta revisión. Véase la matriz oficial en [research.md](research.md).
 
 **Primary Dependencies**:
 
 | Propietario | Dependencias de ejecución | Dependencias de desarrollo |
 | --- | --- | --- |
 | Raíz | Ninguna | Ninguna; solo coordinación npm Workspaces |
-| apps/web | react y react-dom 19.3; react-router 8.4; zustand 5.0 | vite 8.3; @vitejs/plugin-react 6.1; tailwindcss y @tailwindcss/vite 4.3; typescript 7.0; @types/react y @types/react-dom 19; @types/node 24 |
-| apps/api | express 5.3; pg 8; socket.io 4.8 | typescript 7.0; @types/express 5; @types/node 24 |
+| apps/web | react y react-dom 19.3; react-router 8.4; zustand 5.0 | vite 8.3; @vitejs/plugin-react 6.1; tailwindcss y @tailwindcss/vite 4.3; typescript 7.0; @types/react y @types/react-dom 19; @types/node 22 |
+| apps/api | express 5.3; pg 8; socket.io 4.8 | typescript 7.0; @types/express 5; @types/node 22 |
 
 Los tipos React elegidos deben satisfacer los peers de React Router (al menos 19.2).
 React/DOM comparten versión; Tailwind/plugin Vite comparten versión compatible.
 No instalar react-router-dom, adaptadores de framework, @types/pg sin uso, ORM ni pg-native.
 El hoisting físico de npm no modifica la propiedad declarada de las dependencias.
+Se conserva la línea de las doce dependencias de aplicación y compilación; únicamente
+@types/node se alinea de 24 a 22 para no declarar APIs de un runtime diferente.
 
 **Storage**: Ninguno. PostgreSQL es la tecnología futura; pg permanece sin importarse.
 
@@ -61,9 +71,10 @@ desde el navegador. Sin dependencias circulares ni código anticipatorio.
 **Scale/Scope**: Dos aplicaciones, una ruta visible y un endpoint. Los 600 usuarios registrados
 son contexto institucional futuro, no una carga concurrente a implementar ahora.
 
-**Entorno observado**: Node 22.23.2 y npm 10.9.8 en este equipo. No se actualizaron.
-Antes de Implement se deberá disponer de Node 24 LTS/npm 11 según los prerrequisitos.
-Esta diferencia no impide generar documentación ni demuestra fallos de las aplicaciones.
+**Entorno observado y seleccionado**: Windows 11, Node.js 22.23.2 y npm 10.9.8,
+confirmados localmente. La implementación debe utilizar estas versiones, sin actualizarlas.
+No existe una incompatibilidad de entorno pendiente; los metadatos oficiales revisados
+admiten esta combinación. Las pruebas reales siguen diferidas a Implement.
 
 ## Constitution Check
 

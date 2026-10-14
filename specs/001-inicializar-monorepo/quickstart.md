@@ -7,10 +7,15 @@ como parte de esta etapa ni interpretar esta guía como resultados de pruebas.
 
 ## Prerrequisitos
 
-Windows 11, Git, Node.js 24 LTS (base 24.22.0), npm 11 y navegador moderno.
+Windows 11, Git, Node.js 22.23.2 LTS, npm 10.9.8 y navegador moderno.
+Las versiones instaladas son el entorno seleccionado; no se requiere actualizarlas.
 Acceso autorizado al registro de paquetes para instalar dependencias.
 No se necesita PostgreSQL, credenciales, servicios institucionales, Docker ni cuenta externa.
 Comprobar node --version y npm --version antes de instalar.
+Los resultados esperados en el equipo seleccionado son v22.23.2 y 10.9.8.
+El futuro package.json raíz documentará engines node ">=22.23.2 <23" y
+npm ">=10.9.8 <11". La compatibilidad de engines/peers revisada se detalla en
+[research.md](research.md); la instalación y compilación reales se comprueban en Implement.
 Si PowerShell bloquea npm.ps1, usar npm.cmd en los mismos comandos; no es necesario
 cambiar la política de ejecución del sistema.
 
