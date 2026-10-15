@@ -1,0 +1,37 @@
+openapi: 3.1.0
+info:
+  title: Salud local de Express - IMSS JSDP Sonora
+  version: 1.0.0
+  description: >-
+    Contrato documental de la Spec 001. No certifica PostgreSQL, Socket.IO
+    ni servicios institucionales. No genera servidor ni código.
+servers:
+  - url: http://127.0.0.1:3000
+    description: Desarrollo local; el puerto puede modificarse mediante PORT.
+paths:
+  /api/health:
+    get:
+      operationId: getExpressHealth
+      summary: Confirmar que el proceso Express responde.
+      security: []
+      responses:
+        '200':
+          description: Express respondió correctamente a la solicitud HTTP.
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: false
+                required:
+                  - status
+                  - service
+                properties:
+                  status:
+                    type: string
+                    const: ok
+                  service:
+                    type: string
+                    const: express
+              example:
+                status: ok
+                service: express
