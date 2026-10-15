@@ -25,11 +25,11 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 **Propósito**: Fijar las fuentes aprobadas, preparar evidencia verificable y evitar que recursos o datos pendientes lleguen al cliente.
 
-- [ ] T001 Crear la matriz de implementación y aceptación con referencias a Constitución, Spec, Plan, brief aprobado, `sobria-hero.png`, `selection.json`, quickstart y FR/IR/NFR/SC en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T002 [P] Registrar el estado de VI-01 a VI-05, CONT-01 y ORG-01 a ORG-03, incluida la regla de excluir recursos o datos no autorizados del build, en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T003 [P] Crear el manifiesto de recursos institucionales con origen, variante, autorización, hash y decisión incluir/omitir, sin declarar colores o tipografías exploratorias como oficiales, en `apps/web/src/assets/institutional/README.md`
-- [ ] T004 Copiar byte a byte únicamente los SVG institucionales cuya variante, fondo, convivencia y uso estén validados a `apps/web/src/assets/institutional/Logotipo_del_IMSS.svg` y `apps/web/src/assets/institutional/logo_blanco.svg`, o documentar su omisión si el gate sigue abierto
-- [ ] T005 Verificar que no se copien a recursos servidos PDFs, Markdown institucional, mockups, textura sin maestro ni datos personales pendientes y registrar el resultado inicial en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T001 Crear la matriz de implementación y aceptación con referencias a Constitución, Spec, Plan, brief aprobado, `sobria-hero.png`, `selection.json`, quickstart y FR/IR/NFR/SC en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T002 [P] Registrar el estado de VI-01 a VI-05, CONT-01 y ORG-01 a ORG-03, incluida la regla de excluir recursos o datos no autorizados del build, en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T003 [P] Crear el manifiesto de recursos institucionales con origen, variante, autorización, hash y decisión incluir/omitir, sin declarar colores o tipografías exploratorias como oficiales, en `apps/web/src/assets/institutional/README.md`
+- [x] T004 Copiar byte a byte únicamente los SVG institucionales cuya variante, fondo, convivencia y uso estén validados a `apps/web/src/assets/institutional/Logotipo_del_IMSS.svg` y `apps/web/src/assets/institutional/logo_blanco.svg`, o documentar su omisión si el gate sigue abierto
+- [x] T005 Verificar que no se copien a recursos servidos PDFs, Markdown institucional, mockups, textura sin maestro ni datos personales pendientes y registrar el resultado inicial en `specs/002-landing-institucional-jsdp/verification.md`
 
 **Checkpoint**: Las fuentes aprobadas y los gates de publicación quedan explícitos; ningún pendiente se resuelve por inferencia.
 
@@ -69,7 +69,7 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 ### Implementación para User Story 1
 
-- [ ] T018 [US1] Crear `LandingPage` con la secuencia Encabezado → Hero → Presentación → Accesos → Misión/Visión → Valores → Organigrama → Pie, usando regiones y encabezados semánticos, en `apps/web/src/features/public/landing/LandingPage.tsx`
+- [ ] T018 [US1] Crear `LandingPage` únicamente con la secuencia interna Hero → Presentación → Accesos → Misión/Visión → Valores → Organigrama, usando regiones y encabezados semánticos; `PublicLayout` aporta el Encabezado antes y el Pie después para completar los ocho bloques sin duplicarlos, en `apps/web/src/features/public/landing/LandingPage.tsx`
 - [ ] T019 [US1] Implementar el Hero blanco y amplio con franja «OOAD Sonora», «Bienvenida» secundaria, h1 dominante «Jefatura de Servicios de Desarrollo de Personal», apoyo aprobado y ancla «Conocer la JSDP» en `apps/web/src/features/public/landing/LandingPage.tsx`
 - [ ] T020 [US1] Implementar la Presentación con la pertenencia comprobada al OOAD Sonora del IMSS y el contexto de Recursos Humanos, sin funciones, cifras, lemas ni CONT-01 inventado, en `apps/web/src/features/public/landing/LandingPage.tsx`
 - [ ] T021 [US1] Implementar Misión y Visión como dos bloques editoriales visibles, completos y sin corregir «proximos» ni atribuirlos formalmente a una unidad en `apps/web/src/features/public/landing/LandingPage.tsx`
@@ -194,7 +194,8 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 - [ ] T065 Registrar peso transferido, estabilidad visual, recursos demorados/ausentes e interacción móvil con banner y organigrama en condiciones reproducibles de intranet en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T066 Capturar `/`, `/documentos`, `/inicio-sesion`, banner activo/estático y organigrama expandido/contraído/seleccionado en anchos aprobados y compararlos con `design-brief.md` y `sobria-hero.png` en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T067 Revisar hashes, proporciones, fondos, convivencia e integridad de cada SVG servido contra el original autorizado y registrar cualquier gate VI pendiente en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T068 Confirmar diff final limitado al Frontend y documentos necesarios, `apps/api/` intacto, cero autenticación/Dashboard/administración/servicios nuevos y todos los criterios obligatorios resueltos o explícitamente bloqueados en `specs/002-landing-institucional-jsdp/verification.md`
+- [ ] T068 Impedir la inicialización de `IntersectionObserver` y provocar de forma controlada un fallo de la mejora animada para comprobar que ninguna sección renderizada queda oculta o inoperable, que nombres, valores, relaciones y controles conservan una representación estable, y registrar la evidencia de SC-015 en `specs/002-landing-institucional-jsdp/verification.md`
+- [ ] T069 Confirmar diff final limitado al Frontend y documentos necesarios, `apps/api/` intacto, cero autenticación/Dashboard/administración/servicios nuevos y todos los criterios obligatorios resueltos o explícitamente bloqueados en `specs/002-landing-institucional-jsdp/verification.md`
 
 ---
 
@@ -283,8 +284,8 @@ Evitar ejecutar en paralelo tareas que modifican simultáneamente `LandingPage.t
 | Organigrama, datos, nodos, conexiones y ficha | T007, T024–T034 |
 | Animaciones, scroll, hover/focus y reducción | T008–T009, T032, T043–T051, T059–T061 |
 | Teclado, toque, WCAG y responsive | T010–T014, T026–T033, T039–T040, T048–T058 |
-| Pruebas, typecheck, build y fidelidad | T016–T017, T024–T025, T035–T036, T043–T044, T051–T058, T062–T068 |
+| Pruebas, typecheck, build y fidelidad | T016–T017, T024–T025, T035–T036, T043–T044, T051–T058, T062–T069 |
 
 ## Validación de formato
 
-Las 68 tareas usan checkbox, ID secuencial, marcador `[P]` solo cuando corresponde, etiqueta `[US#]` únicamente en fases de historia y una ruta concreta. Este documento no ejecuta Implement.
+Las 69 tareas usan checkbox, ID secuencial, marcador `[P]` solo cuando corresponde, etiqueta `[US#]` únicamente en fases de historia y una ruta concreta. Este documento no ejecuta Implement.
