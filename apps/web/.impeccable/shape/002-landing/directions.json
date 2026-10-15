@@ -1,0 +1,235 @@
+{
+  "title": "Landing institucional · IMSS JSDP Sonora",
+  "question": "Compara las direcciones, revisa sus detalles y elige una o solicita otra ronda. Son maquetas exploratorias, no páginas implementadas. Los espacios de marca se reservan para SVG originales; no se generan logos ni textura. Colores y fuentes quedan sujetos a validación institucional. La elección abrirá un brief para tu confirmación final.",
+  "options": [
+    {
+      "id": "umbral",
+      "kind": "assigned",
+      "label": "Umbral institucional",
+      "lineage": "Espacios de bienvenida de arquitectura cívica",
+      "thesis": "La JSDP se presenta como un gran umbral verde que abre una lectura institucional serena.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Plano verde continuo",
+        "Lectura blanca sin tarjetas",
+        "Tipografía humanista por validar"
+      ],
+      "viewport": "Encabezado IMSS blanco; navegación horizontal separada; nombre JSDP sobre verde y paso abierto hacia Misión.",
+      "risk": "La escala del título exige ajustar los saltos de línea en móvil; los colores siguen sujetos a validación.",
+      "raised": [
+        {
+          "from": "Archivo enlazado",
+          "raise": "Toda sección mantiene una dirección y un recorrido de vuelta inequívocos, sin ocultar contenido."
+        },
+        {
+          "from": "Tablero de orientación",
+          "raise": "La alineación debe permitir reconocer siempre identidad y destino, sin simular datos en vivo."
+        },
+        {
+          "from": "Planos superpuestos",
+          "raise": "Un solo gesto espacial organiza toda la página; las demás secciones mantienen calma."
+        },
+        {
+          "from": "Calendario estacional",
+          "raise": "Cada contenido tiene una posición estable y una lectura completa, sin etapas ficticias."
+        },
+        {
+          "from": "Álbum de colección",
+          "raise": "Los siete valores aparecen íntegros, sin carruseles ni estados de progreso."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/002-umbral.png",
+      "case": "Recorrido: encabezado → presentación → Misión amplia → Visión abierta → valores en secuencia → pie. En móvil, una columna y menú desplegable accesible; sin desplazamiento lateral."
+    },
+    {
+      "id": "memoria",
+      "kind": "pick",
+      "label": "Memoria editorial",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Memorias y publicaciones institucionales",
+      "thesis": "Una página editorial hace del nombre completo de la JSDP el inicio de una lectura continua.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Blanco predominante en lectura",
+        "Verde en identificación y reglas",
+        "Márgenes editoriales"
+      ],
+      "viewport": "Masthead institucional y navegación en segunda línea; gran título alineado; Misión y Visión en dos columnas desiguales.",
+      "risk": "Es una solución familiar en publicaciones institucionales; puede sentirse menos espacial que el Umbral.",
+      "comp": ".impeccable/mocks/decision/002-memoria.png",
+      "case": "Recorrido: identidad → JSDP → Misión/Visión diferenciadas → siete filas de valores → pie gubernamental separado. Móvil: se apilan los capítulos y se conserva toda la navegación; sin carruseles."
+    },
+    {
+      "id": "indice",
+      "kind": "challenger",
+      "catalogId": "rw-manual-acetate-tab-board",
+      "label": "Índice institucional",
+      "verdict": "competitive",
+      "lineage": "Manuales con divisiones e índice de canto, traducidos a identidad IMSS",
+      "thesis": "Un índice de contenidos visible convierte la bienvenida en una referencia clara que se puede recorrer.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Campo verde institucional",
+        "Hojas de lectura blancas",
+        "Divisiones tipográficas sin textura"
+      ],
+      "viewport": "Barra institucional arriba; índice de Misión, Visión y Valores al canto de un único campo de lectura continuo.",
+      "risk": "El índice podría confundirse con módulos: deberá señalar secciones de la misma página y no sustituir al menú superior.",
+      "case": "Compite en claridad de recorrido; Umbral identifica antes la pertenencia. Se traducen paleta y fuentes a las restricciones IMSS, sin pestañas multicolor, transparencias ni simulación de libro. En móvil el índice pasa a enlaces en línea y todo el contenido queda visible.",
+      "comp": ".impeccable/mocks/decision/002-indice.png",
+      "board": "https://impeccable.style/worlds/cards/rw-manual-acetate-tab-board.webp",
+      "hero": "https://impeccable.style/worlds/cards/rw-manual-acetate-tab-board-hero.webp"
+    },
+    {
+      "id": "alt-medium-native-hypercard-stack-shoebox",
+      "kind": "challenger",
+      "catalogId": "medium-native-hypercard-stack-shoebox",
+      "label": "Archivo enlazado",
+      "verdict": "declined",
+      "thesis": "La bienvenida y sus tres destinos podrían organizarse como fichas enlazadas.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Traducción a verde IMSS",
+        "Texto literal institucional"
+      ],
+      "viewport": "Identificación completa, enlaces públicos y contenido institucional bajo la gramática descrita.",
+      "risk": "Su adopción requeriría resolver la distancia con el contexto institucional.",
+      "case": "La metáfora editable distrae de la bienvenida y debilita la identidad institucional.",
+      "kept": "Recorridos explícitos y retorno inequívoco.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-hypercard-stack-shoebox-hero.webp"
+    },
+    {
+      "id": "alt-signals-instruments-split-flap-concourse",
+      "kind": "challenger",
+      "catalogId": "signals-instruments-split-flap-concourse",
+      "label": "Tablero de orientación",
+      "verdict": "declined",
+      "thesis": "Renglones estables podrían ordenar identidad y contenidos.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Traducción a verde IMSS",
+        "Texto literal institucional"
+      ],
+      "viewport": "Identificación completa, enlaces públicos y contenido institucional bajo la gramática descrita.",
+      "risk": "Su adopción requeriría resolver la distancia con el contexto institucional.",
+      "case": "La gramática de estados en vivo sugiere un servicio operativo que esta Spec excluye.",
+      "kept": "Alineación y lectura rápida.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse-hero.webp"
+    },
+    {
+      "id": "alt-generative-art-computational-color-chord-counterpoint",
+      "kind": "challenger",
+      "catalogId": "generative-art-computational-color-chord-counterpoint",
+      "label": "Planos superpuestos",
+      "verdict": "declined",
+      "thesis": "Bandas verdes podrían articular una transición espacial entre contenidos.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Traducción a verde IMSS",
+        "Texto literal institucional"
+      ],
+      "viewport": "Identificación completa, enlaces públicos y contenido institucional bajo la gramática descrita.",
+      "risk": "Su adopción requeriría resolver la distancia con el contexto institucional.",
+      "case": "La exploración cromática y los controles de capas alejan al visitante del contenido institucional.",
+      "kept": "Un gesto dominante y resto en calma.",
+      "hero": "https://impeccable.style/worlds/cards/generative-art-computational-color-chord-counterpoint-hero.webp"
+    },
+    {
+      "id": "alt-food-fermentation-culinary-theater-pickling-brine-calendar",
+      "kind": "challenger",
+      "catalogId": "food-fermentation-culinary-theater-pickling-brine-calendar",
+      "label": "Calendario estacional",
+      "verdict": "declined",
+      "thesis": "Etiquetas en secuencia podrían presentar los contenidos literales.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Traducción a verde IMSS",
+        "Texto literal institucional"
+      ],
+      "viewport": "Identificación completa, enlaces públicos y contenido institucional bajo la gramática descrita.",
+      "risk": "Su adopción requeriría resolver la distancia con el contexto institucional.",
+      "case": "Ni la metáfora culinaria ni los estados de maduración identifican la JSDP o aclaran su propósito.",
+      "kept": "Orden estable y lectura completa.",
+      "hero": "https://impeccable.style/worlds/cards/food-fermentation-culinary-theater-pickling-brine-calendar-hero.webp"
+    },
+    {
+      "id": "alt-pop-culture-shelf-sticker-album-spread",
+      "kind": "challenger",
+      "catalogId": "pop-culture-shelf-sticker-album-spread",
+      "label": "Álbum de colección",
+      "verdict": "declined",
+      "thesis": "Siete posiciones podrían presentar los siete valores.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f4f5f2"
+      ],
+      "materials": [
+        "Traducción a verde IMSS",
+        "Texto literal institucional"
+      ],
+      "viewport": "Identificación completa, enlaces públicos y contenido institucional bajo la gramática descrita.",
+      "risk": "Su adopción requeriría resolver la distancia con el contexto institucional.",
+      "case": "La colección y el progreso implican una interacción lúdica ajena al propósito institucional.",
+      "kept": "Completitud de los siete valores.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-sticker-album-spread-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "steer": true,
+  "canon": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canonCard": {
+    "label": "Portal institucional convencional",
+    "thesis": "Encabezado compacto, bienvenida centrada y bloques informativos de lectura inmediata.",
+    "palette": [
+      "#154f3a",
+      "#ffffff",
+      "#f4f5f2"
+    ],
+    "materials": [
+      "Superficies blancas",
+      "Bloques verdes",
+      "Composición convencional"
+    ],
+    "viewport": "Identidad IMSS y menú arriba; título central; Misión y Visión contiguas y valores debajo.",
+    "risk": "Menor diferenciación respecto a otros portales institucionales.",
+    "comp": ".impeccable/mocks/decision/002-convencional.png"
+  }
+}

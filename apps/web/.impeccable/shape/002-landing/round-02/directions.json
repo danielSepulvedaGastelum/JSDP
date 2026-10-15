@@ -1,0 +1,235 @@
+{
+  "title": "Spec 002 · nueva exploración UX/UI",
+  "question": "Tres direcciones nuevas para comparar, sin aprobación previa. En cada una: Hero de bienvenida → Presentación → Accesos → Misión/Visión → Valores con íconos → Organigrama → Pie. Se muestran composiciones estáticas y esquemas de estados propuestos, no prototipos ejecutables. Puedes elegir, dar instrucciones para combinar elementos o solicitar otra ronda; el brief requerirá después tu aprobación explícita. Los logos se incorporarán como originales, nunca generados; colores y tipografías están sujetos a validación institucional.",
+  "options": [
+    {
+      "id": "r02-cartografia",
+      "kind": "assigned",
+      "label": "Cartografía institucional",
+      "lineage": "Sistemas de información pública y diagramas de relaciones",
+      "thesis": "Una bienvenida tipográfica amplia abre un recorrido de lectura y relaciones claramente diferenciadas.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Verde estructural y blanco",
+        "Retícula de lectura abierta",
+        "Líneas precisas sin textura"
+      ],
+      "viewport": "Cabecera IMSS compacta y Hero de nombre completo; solo comienza Presentación al pie de la primera pantalla.",
+      "risk": "La retícula exige evitar que el organigrama parezca un mapa geográfico o un panel de operación.",
+      "comp": ".impeccable/mocks/decision/round-02/cartografia-hero.png",
+      "case": "Valores estáticos con siete íconos; organigrama con enfoque de nodo y conexiones; móvil en lista jerárquica con ficha expandida.",
+      "raised": [
+        {
+          "from": "Teletexto",
+          "raise": "Cada destino y sección tiene una referencia inequívoca, sin conservar cuadrícula rígida ni destellos."
+        },
+        {
+          "from": "Tinta fluida",
+          "raise": "El foco y el resultado de selección permanecen estables aunque se suprima toda animación."
+        },
+        {
+          "from": "Ciudad nocturna",
+          "raise": "El recorrido articula variaciones de densidad y reposo sin crear escenarios o datos institucionales."
+        },
+        {
+          "from": "Pixorama",
+          "raise": "Los estados siguen siendo legibles en móvil sin depender de reducir toda la composición."
+        },
+        {
+          "from": "Folio botánico",
+          "raise": "La comparación de estados mantiene el mismo significado y posición de las seis unidades."
+        }
+      ]
+    },
+    {
+      "id": "r02-senaletica",
+      "kind": "pick",
+      "label": "Señalética de bienvenida",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Orientación y gráfica de espacios públicos",
+      "thesis": "Un gran rótulo de bienvenida identifica la JSDP y conduce a secciones con escalas distintas.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Plano verde de gran escala",
+        "Rótulos humanistas",
+        "Bandas editoriales de acceso"
+      ],
+      "viewport": "Identidad y navegación en dos niveles; Hero verde con nombre protagonista y bienvenida, sin contenidos de Misión, Visión o Valores.",
+      "risk": "La orientación es familiar en instituciones; debe evitar convertirse en una colección repetitiva de paneles.",
+      "comp": ".impeccable/mocks/decision/round-02/senaletica-hero.png",
+      "case": "Banda de Valores derecha a izquierda con pausa y vista estática; árbol completo con ficha lateral; móvil vertical con detalles al tocar."
+    },
+    {
+      "id": "r02-despliegue",
+      "kind": "challenger",
+      "catalogId": "paper-folds-pleats-deployable-miura-orbit-sheet",
+      "label": "Despliegue institucional",
+      "verdict": "competitive",
+      "lineage": "Gramática de despliegue de planos, adaptada al marco IMSS",
+      "thesis": "Planos abiertos y divisiones amplias acompañan una bienvenida asimétrica y un organigrama que se explora por niveles.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Blanco y verde IMSS",
+        "Planos sobrios sin textura",
+        "Despliegue discreto sin simulación 3D"
+      ],
+      "viewport": "Un nombre JSDP dominante sobre espacio blanco y un plano verde complementario, con navegación superior clara y Presentación posterior.",
+      "risk": "El gesto geométrico debe mantenerse secundario para no parecer emblema, textura oficial o anuncio político.",
+      "case": "Compite en comprensión del despliegue; Cartografía ofrece una lectura inicial más directa; Valores estáticos y árbol expandible, móvil en acordeón jerárquico.",
+      "comp": ".impeccable/mocks/decision/round-02/despliegue-hero.png",
+      "board": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-miura-orbit-sheet.webp",
+      "hero": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-miura-orbit-sheet-hero.webp"
+    },
+    {
+      "id": "r02-alt-broadcast-programming-teletext-service",
+      "kind": "challenger",
+      "catalogId": "broadcast-programming-teletext-service",
+      "label": "Índice de emisión",
+      "verdict": "declined",
+      "thesis": "La navegación por páginas numeradas podría ordenar los destinos públicos.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Traducción institucional provisional",
+        "Contenido confirmado"
+      ],
+      "viewport": "El nombre de la JSDP conserva la prioridad y las secciones el orden obligatorio.",
+      "risk": "La gramática de origen puede desplazar el reconocimiento institucional.",
+      "case": "Pierde identificación y claridad: su cuadrícula fija, destellos y revelado de texto comprometen el carácter institucional y el reflujo.",
+      "kept": "Direcciones y secciones inequívocas.",
+      "hero": "https://impeccable.style/worlds/cards/broadcast-programming-teletext-service-hero.webp"
+    },
+    {
+      "id": "r02-alt-medium-native-fluid-ink-basin",
+      "kind": "challenger",
+      "catalogId": "medium-native-fluid-ink-basin",
+      "label": "Campo de tinta",
+      "verdict": "declined",
+      "thesis": "Una superficie continua podría conectar los capítulos del recorrido.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Traducción institucional provisional",
+        "Contenido confirmado"
+      ],
+      "viewport": "El nombre de la JSDP conserva la prioridad y las secciones el orden obligatorio.",
+      "risk": "La gramática de origen puede desplazar el reconocimiento institucional.",
+      "case": "Pierde identificación y claridad: la simulación fluida domina el contenido y no aporta a la tarea institucional.",
+      "kept": "Estado estable independiente de la animación.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-fluid-ink-basin-hero.webp"
+    },
+    {
+      "id": "r02-alt-light-shadow-caustics-rain-night-cityscape",
+      "kind": "challenger",
+      "catalogId": "light-shadow-caustics-rain-night-cityscape",
+      "label": "Lectura de ciudad",
+      "verdict": "declined",
+      "thesis": "Bandas de distinto ritmo podrían ordenar secciones y acciones.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Traducción institucional provisional",
+        "Contenido confirmado"
+      ],
+      "viewport": "El nombre de la JSDP conserva la prioridad y las secciones el orden obligatorio.",
+      "risk": "La gramática de origen puede desplazar el reconocimiento institucional.",
+      "case": "Pierde identificación y claridad: el entorno nocturno y sus datos sugerirían instalaciones o servicios no verificados.",
+      "kept": "Alternancia de densidad y reposo.",
+      "hero": "https://impeccable.style/worlds/cards/light-shadow-caustics-rain-night-cityscape-hero.webp"
+    },
+    {
+      "id": "r02-alt-eboy-pixorama-metropolis",
+      "kind": "challenger",
+      "catalogId": "eboy-pixorama-metropolis",
+      "label": "Bloques de exploración",
+      "verdict": "declined",
+      "thesis": "El enfoque por nodos podría permitir reconocer unidades al explorar.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Traducción institucional provisional",
+        "Contenido confirmado"
+      ],
+      "viewport": "El nombre de la JSDP conserva la prioridad y las secciones el orden obligatorio.",
+      "risk": "La gramática de origen puede desplazar el reconocimiento institucional.",
+      "case": "Pierde identificación y claridad: el mundo lúdico y el zoom desvían el objetivo de bienvenida profesional.",
+      "kept": "Estados legibles sin encoger la composición.",
+      "hero": "https://impeccable.style/worlds/cards/eboy-pixorama-metropolis-hero.webp"
+    },
+    {
+      "id": "r02-alt-editorial-sequence-montage-botanical-folio-season",
+      "kind": "challenger",
+      "catalogId": "editorial-sequence-montage-botanical-folio-season",
+      "label": "Folio de estados",
+      "verdict": "declined",
+      "thesis": "Un registro de estados podría hacer comparables selección y expansión.",
+      "palette": [
+        "#154f3a",
+        "#ffffff",
+        "#f2f4f1"
+      ],
+      "materials": [
+        "Traducción institucional provisional",
+        "Contenido confirmado"
+      ],
+      "viewport": "El nombre de la JSDP conserva la prioridad y las secciones el orden obligatorio.",
+      "risk": "La gramática de origen puede desplazar el reconocimiento institucional.",
+      "case": "Pierde identificación y claridad: la metáfora vegetal introduce una narrativa ajena a las funciones comprobadas de la JSDP.",
+      "kept": "Significado y orientación constantes entre estados.",
+      "hero": "https://impeccable.style/worlds/cards/editorial-sequence-montage-botanical-folio-season-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "steer": true,
+  "canon": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canonCard": {
+    "label": "Lectura institucional sobria",
+    "thesis": "Un portal informativo familiar conserva ocho secciones claras y una bienvenida independiente.",
+    "palette": [
+      "#154f3a",
+      "#ffffff",
+      "#f2f4f1"
+    ],
+    "materials": [
+      "Lectura blanca",
+      "Identificación verde",
+      "Separación convencional de secciones"
+    ],
+    "viewport": "Masthead blanco y navegación alineada; amplia bienvenida antes de la presentación, sin Misión, Visión o Valores en el Hero.",
+    "risk": "Menor diferenciación visual; necesita cuidar el ritmo para no parecer una plantilla.",
+    "comp": ".impeccable/mocks/decision/round-02/sobria-hero.png"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "prompt": "Edit this mockup's HEADER ONLY. Preserve the entire hero layout, typography, green/white composition, text, action, and lower Presentation section exactly.\n\nThe stacked serif “Gobierno de México” at the left of the header resembles a wordmark. REMOVE that whole stacked wordmark-like rendering, including the tiny irregular mark after “de”. Do not replace it with any symbol or logo.\n\nThe header should have plain, modest Arial-like text:\n“Instituto Mexicano del Seguro Social”\n“OOAD Sonora”\nand a SMALLER, SINGLE-LINE, plain sans-serif affiliation “Gobierno de México” in a separate quiet zone. Government affiliation must be secondary to IMSS. No stacked Government lettering, no contrasting display fonts for that affiliation, no emblems, no eagles, no official or simulated logos. Keep “Inicio”, “Documentos”, “Iniciar sesión” unchanged.\n\nLeave any original-mark reserved space EMPTY with no placeholder wording. All actual official marks will be inserted unchanged from supplied SVG files in a later authorized implementation. Change nothing else.",
+  "approved": false,
+  "round": 2,
+  "kind": "composition-first-viewport",
+  "generator": "image_gen",
+  "notes": "Corrección: referencia gubernamental tipográfica simple; no simulación de marca."
+}

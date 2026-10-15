@@ -1,0 +1,227 @@
+{
+  "title": "Spec 002 · tercera ronda · propuestas nuevas",
+  "question": "Comparación sin selección ni aprobación. Las tres propuestas nuevas conservan Encabezado → Hero → Presentación → Accesos → Misión/Visión → Valores → Organigrama → Pie. Se muestran composiciones estáticas; interacciones y animaciones se describen, no se ejecutan. Puedes seleccionar, combinar características, rechazar o solicitar cambios; el brief requerirá después aprobación explícita. Los espacios de marca reservan originales y las tipografías/colores siguen pendientes de validación institucional.",
+  "options": [
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-atril",
+      "kind": "assigned",
+      "label": "Atril de lectura pública",
+      "lineage": "Secuencia vertical de lectura pública",
+      "thesis": "Un eje de lectura central y un margen de orientación hacen del nombre completo de la JSDP el primer destino del recorrido.",
+      "viewport": "Cabecera horizontal, margen lateral estrecho y título en columna central amplia. La Presentación comienza después del Hero.",
+      "risk": "El margen de orientación puede parecer navegación operativa si adquiere demasiado peso; no contiene módulos ni indicadores.",
+      "case": "Valores estáticos en siete renglones con íconos; organigrama con foco de conexiones y ficha en el flujo. Móvil sin margen lateral.",
+      "comp": ".impeccable/mocks/decision/round-03/atril.png",
+      "raised": [
+        {
+          "from": "Bazar de sombras",
+          "raise": "La unidad activa conserva su procedencia y relación de forma explícita, sin simular intercambio ni datos inexistentes."
+        },
+        {
+          "from": "Cola de capas",
+          "raise": "El nodo activo gana prioridad sin encerrar cada contenido de la página en una tarjeta."
+        },
+        {
+          "from": "Terminal",
+          "raise": "Cada acción conserva una respuesta textual comprensible y un resultado estable."
+        },
+        {
+          "from": "Revista de escena",
+          "raise": "La identificación JSDP tiene una escala inequívoca sin dispersar el orden de lectura."
+        },
+        {
+          "from": "Collage Merz",
+          "raise": "Secciones de distinta densidad conservan una pertenencia común sin repetir un módulo visual."
+        }
+      ]
+    },
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-informe",
+      "kind": "pick",
+      "label": "Portada institucional por franjas",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Informes públicos y publicaciones institucionales",
+      "thesis": "La pertenencia, el nombre y la bienvenida ocupan franjas tipográficas sucesivas que dan a la portada una lectura horizontal de gran escala.",
+      "viewport": "Navegación en banda propia; título a todo ancho en varios registros, sin imagen lateral ni retícula de tarjetas.",
+      "risk": "Es la dirección más familiar de la ronda por su parentesco con publicaciones administrativas; debe mantener claridad sin parecer un PDF.",
+      "case": "Valores estáticos en una retícula abierta; árbol expandible con detalle integrado y acordeón móvil. Misión/Visión en una secuencia vertical diferenciada.",
+      "comp": ".impeccable/mocks/decision/round-03/informe.png"
+    },
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-arco",
+      "kind": "challenger",
+      "catalogId": "paper-folds-pleats-deployable-curved-crease-shell",
+      "label": "Arco de bienvenida",
+      "verdict": "competitive",
+      "lineage": "Una curva continua como transición entre presentación e información",
+      "thesis": "Un solo arco amplio organiza la bienvenida; la interfaz conserva texto horizontal y áreas de lectura estables.",
+      "viewport": "Bienvenida centrada bajo cabecera institucional, nombre JSDP protagonista y un límite curvo verde/blanco que conduce a Presentación.",
+      "risk": "El arco es geometría de composición, no textura ni símbolo oficial; una simulación material dominante desviaría la identidad IMSS.",
+      "case": "Compite en continuidad y orientación al pasar de portada a contenido; la identificación institucional es más directa en Atril. Valores en banda controlada; organigrama completo con panel de detalles. Móvil con fichas jerárquicas.",
+      "comp": ".impeccable/mocks/decision/round-03/arco.png",
+      "board": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-curved-crease-shell.webp",
+      "hero": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-curved-crease-shell-hero.webp"
+    },
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-dream-surreal-impossible-worlds-moon-shadow-bazaar",
+      "kind": "challenger",
+      "catalogId": "dream-surreal-impossible-worlds-moon-shadow-bazaar",
+      "label": "Bazar de sombras",
+      "verdict": "declined",
+      "thesis": "Traducción evaluada contra identificación institucional y claridad del producto.",
+      "viewport": "Se mantiene el nombre JSDP y el orden confirmado.",
+      "risk": "La jerarquía se traduciría en una secuencia de unidades con procedencia y ficha, pero la metáfora comercial y onírica dificulta identificación y comprensión institucional.",
+      "case": "Pierde ambos ejes: La jerarquía se traduciría en una secuencia de unidades con procedencia y ficha, pero la metáfora comercial y onírica dificulta identificación y comprensión institucional.",
+      "kept": "Procedencia y relación explícitas.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-moon-shadow-bazaar-hero.webp"
+    },
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-operate-c-cracktro-scroller-queue",
+      "kind": "challenger",
+      "catalogId": "operate-c-cracktro-scroller-queue",
+      "label": "Planos de prioridad",
+      "verdict": "declined",
+      "thesis": "Traducción evaluada contra identificación institucional y claridad del producto.",
+      "viewport": "Se mantiene el nombre JSDP y el orden confirmado.",
+      "risk": "La unidad activa podría adelantarse en una secuencia sin cajas, pero capas en movimiento y tipografía bitmap perjudican identificación y claridad de jerarquía.",
+      "case": "Pierde ambos ejes: La unidad activa podría adelantarse en una secuencia sin cajas, pero capas en movimiento y tipografía bitmap perjudican identificación y claridad de jerarquía.",
+      "kept": "Prioridad visible sin tarjeta universal.",
+      "hero": "https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue-hero.webp"
+    },
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-signals-instruments-phosphor-terminal-midnight",
+      "kind": "challenger",
+      "catalogId": "signals-instruments-phosphor-terminal-midnight",
+      "label": "Transcripción institucional",
+      "verdict": "declined",
+      "thesis": "Traducción evaluada contra identificación institucional y claridad del producto.",
+      "viewport": "Se mantiene el nombre JSDP y el orden confirmado.",
+      "risk": "Los cambios podrían narrarse como un registro textual, pero un diálogo de terminal confunde esta bienvenida con una herramienta operativa.",
+      "case": "Pierde ambos ejes: Los cambios podrían narrarse como un registro textual, pero un diálogo de terminal confunde esta bienvenida con una herramienta operativa.",
+      "kept": "Respuesta textual estable.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-phosphor-terminal-midnight-hero.webp"
+    },
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-posters-covers-sleeves-movida-scene-magazine",
+      "kind": "challenger",
+      "catalogId": "posters-covers-sleeves-movida-scene-magazine",
+      "label": "Portada de escena",
+      "verdict": "declined",
+      "thesis": "Traducción evaluada contra identificación institucional y claridad del producto.",
+      "viewport": "Se mantiene el nombre JSDP y el orden confirmado.",
+      "risk": "El nombre podría adquirir gran escala, pero ángulos y dispersión de enlaces comprometen lectura secuencial e identidad.",
+      "case": "Pierde ambos ejes: El nombre podría adquirir gran escala, pero ángulos y dispersión de enlaces comprometen lectura secuencial e identidad.",
+      "kept": "Protagonismo de nombre sin ambigüedad.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-movida-scene-magazine-hero.webp"
+    },
+    {
+      "palette": [
+        "#154f3a",
+        "#ffffff"
+      ],
+      "materials": [
+        "Verde IMSS exploratorio",
+        "Blanco de lectura",
+        "Marca original reservada, sin recreación"
+      ],
+      "id": "r03-design-canon-merz-collage-page",
+      "kind": "challenger",
+      "catalogId": "design-canon-merz-collage-page",
+      "label": "Archivo ensamblado",
+      "verdict": "declined",
+      "thesis": "Traducción evaluada contra identificación institucional y claridad del producto.",
+      "viewport": "Se mantiene el nombre JSDP y el orden confirmado.",
+      "risk": "Las unidades podrían ser fichas de pertenencia, pero fragmentación y reordenamiento aparente sugieren relaciones cambiantes y debilitan identidad.",
+      "case": "Pierde ambos ejes: Las unidades podrían ser fichas de pertenencia, pero fragmentación y reordenamiento aparente sugieren relaciones cambiantes y debilitan identidad.",
+      "kept": "Variedad de densidad dentro de una pertenencia común.",
+      "hero": "https://impeccable.style/worlds/cards/design-canon-merz-collage-page-hero.webp"
+    }
+  ],
+  "reroll": true,
+  "steer": true,
+  "canon": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canonCard": {
+    "label": "Lectura institucional sobria",
+    "thesis": "Un portal informativo familiar conserva ocho secciones claras y una bienvenida independiente.",
+    "palette": [
+      "#154f3a",
+      "#ffffff",
+      "#f2f4f1"
+    ],
+    "materials": [
+      "Lectura blanca",
+      "Identificación verde",
+      "Separación convencional de secciones"
+    ],
+    "viewport": "Masthead blanco y navegación alineada; amplia bienvenida antes de la presentación, sin Misión, Visión o Valores en el Hero.",
+    "risk": "Menor diferenciación visual; necesita cuidar el ritmo para no parecer una plantilla.",
+    "comp": ".impeccable/mocks/decision/round-02/sobria-hero.png"
+  }
+}

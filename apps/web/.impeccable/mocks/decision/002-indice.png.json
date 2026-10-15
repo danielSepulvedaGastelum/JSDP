@@ -1,0 +1,7 @@
+{
+  "prompt": "Edit the institutional landing-page mockup to correct ONLY its section labels and their content pairing. Preserve the general page layout, colors, top navigation, JSDP title and the empty SVG spaces. Do not generate logos.\n\nOn the white reading panel:\n1. Replace the top heading “Presentación” with “Misión”. Keep the paragraph directly below it EXACTLY: “Garantizar resultados en seguridad social con servicios de prevención y atención a la salud con calidad, calidez, y transparencia para las y los trabajadores de Sonora y sus beneficiarios”.\n2. Replace the second heading currently “Misión” with “Visión”. Keep the paragraph directly below it EXACTLY: “Ser el OOAD líder e innovador en atención a la salud y seguridad social en la región en los proximos tres años”.\n3. Remove the third EMPTY section currently labeled “Visión”, including its extra horizontal rules and the space it occupied. It is redundant.\n4. Keep “Valores” followed by exactly “Solidaridad, Compromiso, Integridad, Lealtad, Innovación, Empatía y Disciplina.”\n\nThe right edge index should now contain precisely “Misión”, “Visión”, “Valores” pointing at those visible sections; no content is hidden or collapsed. It is an in-page section index, separate from top navigation “Inicio”, “Documentos”, “Iniciar sesión”. Do not invent text, official texture, symbols, photos, emblems or new motifs. All paragraphs remain readable.",
+  "approved": false,
+  "generator": "image_gen",
+  "date": "2026-10-15",
+  "notes": "Corrección de correspondencia entre títulos y textos literales."
+}

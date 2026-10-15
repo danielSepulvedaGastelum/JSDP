@@ -1,0 +1,29 @@
+{
+  "round": 3,
+  "questionKey": "07ceed4a",
+  "seedKey": "611d7fbc",
+  "kind": "canon",
+  "optionId": "canon",
+  "label": "Lectura institucional sobria",
+  "comp": ".impeccable/mocks/decision/round-02/sobria-hero.png",
+  "selectionSource": "ANSWER de serve-question",
+  "directionSelected": true,
+  "briefApproved": true,
+  "pending": [
+    "Validaciones institucionales VI-01 a VI-05, CONT-01 y ORG-01 a ORG-03"
+  ],
+  "constraints": "No autoriza implementación ni cierra pendientes institucionales.",
+  "confirmedChoices": {
+    "reference": "https://www.gob.mx/",
+    "referenceAccess": "HTTP 403; diseño actual no verificado",
+    "values": "Banner lento con pausa y vista estática",
+    "organization": "Árbol expandible"
+  },
+  "briefPath": "specs/002-landing-institucional-jsdp/design-brief.md",
+  "approval": {
+    "date": "2026-10-15",
+    "source": "Respuesta explícita del usuario en la conversación",
+    "answer": "Apruebo el brief UX/UI",
+    "scope": "Brief UX/UI completo; no permisos institucionales ni inicio de implementación"
+  }
+}

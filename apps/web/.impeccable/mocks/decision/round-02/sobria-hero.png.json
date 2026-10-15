@@ -1,0 +1,14 @@
+{
+  "prompt": "High-fidelity desktop institutional landing-page first viewport for IMSS JSDP Sonora, 1536x1024 landscape edge to edge, crisp Spanish, no browser or device frame. Category-standard institutional welcome at high craft, understated and informative, never a software dashboard or commercial template.\n\nUse a calm compact WHITE masthead and a distinct horizontal navigation line. A broad green band beneath identifies OOAD Sonora. The white welcome composition has a readable humanist institutional headline, a narrow explanatory reading measure and generous quiet space. Green is the principal institutional color. Avoid enormous generic bold startup typography, repeated cards, gradients and decorative motifs.\n\nExact permitted copy:\n“Instituto Mexicano del Seguro Social”\n“OOAD Sonora”\nsmall plain sans-serif “Gobierno de México” as secondary affiliation, no wordmark treatment.\nNavigation: “Inicio” “Documentos” “Iniciar sesión”.\nHero small “Bienvenida”.\nHero title: “Jefatura de Servicios de Desarrollo de Personal”.\nSubtitle: “Plataforma institucional de Recursos Humanos del OOAD Sonora.”\nText link: “Conocer la JSDP”.\n\nOnly at the bottom begin the next section “Presentación”, followed by exactly “La Jefatura de Servicios de Desarrollo de Personal forma parte del OOAD Sonora del Instituto Mexicano del Seguro Social.”\n\nNo Misión, Visión, Valores or organizational nodes in this first screen. Those sections occur after Presentation and highlighted destination links, in that order. Do not invent copy. No logos, simulated logos, eagles, shields, seals, photographs, official textures or illustrations. Reserve a small EMPTY mark space without placeholder wording inside the website. This is a static exploratory composition.",
+  "approved": true,
+  "round": 2,
+  "kind": "composition-first-viewport",
+  "generator": "image_gen",
+  "approval": {
+    "date": "2026-10-15",
+    "scope": "Referencia compositiva de primera pantalla dentro del brief UX/UI aprobado",
+    "briefPath": "specs/002-landing-institucional-jsdp/design-brief.md",
+    "answer": "Apruebo el brief UX/UI",
+    "institutionalValidationPending": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "order": [
+    "Encabezado institucional y navegación",
+    "Hero de bienvenida",
+    "Presentación de la JSDP",
+    "Accesos destacados",
+    "Misión y Visión",
+    "Valores institucionales",
+    "Organigrama interactivo",
+    "Pie institucional"
+  ],
+  "title": "Jefatura de Servicios de Desarrollo de Personal",
+  "institution": "Instituto Mexicano del Seguro Social",
+  "ooad": "OOAD Sonora",
+  "intro": "La Jefatura de Servicios de Desarrollo de Personal forma parte del OOAD Sonora del Instituto Mexicano del Seguro Social.",
+  "mission": "Garantizar resultados en seguridad social con servicios de prevención y atención a la salud con calidad, calidez, y transparencia para las y los trabajadores de Sonora y sus beneficiarios",
+  "vision": "Ser el OOAD líder e innovador en atención a la salud y seguridad social en la región en los proximos tres años",
+  "values": [
+    "Solidaridad",
+    "Compromiso",
+    "Integridad",
+    "Lealtad",
+    "Innovación",
+    "Empatía",
+    "Disciplina"
+  ],
+  "nodes": [
+    {
+      "id": "J",
+      "label": "Jefatura de Servicios de Desarrollo de Personal"
+    },
+    {
+      "id": "O",
+      "label": "Oficina de Información y Seguimiento de Auditorías"
+    },
+    {
+      "id": "D1",
+      "label": "Departamento de Personal Delegacional"
+    },
+    {
+      "id": "D2",
+      "label": "Departamento de Presupuesto y Control del Gasto"
+    },
+    {
+      "id": "D3",
+      "label": "Jefe del Departamento de Relaciones Laborales"
+    },
+    {
+      "id": "D4",
+      "label": "Departamento de Capacitación"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+DIRECTION CONCEPT SEED (key: 611d7fbc; mode: persuade; source: api; approved pool: c3b204a1eed6; 306/564 human-approved; rerun with --scope direction --mode persuade --from 611d7fbc --reroll 2 --candidate-count 7 to reproduce this roll against this catalog revision)
+RE-ROLL ROUND 2: every candidate presented in earlier rounds, grounded
+  and challenger alike, is eliminated and may not return reworded. Derive
+  genuinely new grounded candidates from unexplored angles before judging
+  these fresh challengers.
+ASSIGNED INDEX: 6
+  After ordering the grounded directions by resonance, build candidate
+  6 of your own grounded list; the assignment never points at a
+  challenger. The assignment is the roll, not a suggestion: your top-ranked
+  direction is what every run would ship, so the script decides which grounded
+  direction gets built. Each direction joins a durable visual system to a
+  concrete expression for the requested first surface, decided as one. It must
+  survive the current task plus navigation, quiet and dense content,
+  interaction and state, and a substantially different future surface. In an
+  attended run, present the assigned direction fully committed and offer
+  re-roll. You may add ONE card for your top-ranked grounded candidate when
+  it is not the assigned direction, kicker IMPECCABLE’S PICK, with an honest risk line
+  naming its familiarity; one pick card, never a ranked lineup, and the pick
+  never takes the lead position. When the assignment IS your top candidate,
+  there is no pick card. Re-roll yourself only
+  on named factual grounds, when the assignment cannot carry the product's
+  truth or task; taste is never grounds.
+  The assignment exists to refuse the model's ranking rut, never to outrank
+  the user or the brief. Never expose assignment metadata in user-facing labels.
+CHALLENGERS:
+  1. a moon-shadow bazaar, where merchants trade shadows by length, memory, temperature, and the strange light that cast them
+     SOURCE ID: dream-surreal-impossible-worlds-moon-shadow-bazaar
+     CREATIVE SPARK: A vendor unrolls the cool shadow of a cedar at midnight, another offers a child's summer silhouette in a glass jar, and the moon changes price by moving behind a cloud.
+     SYSTEM GRAMMAR:
+       - Palette/material: moonlit blue-black lane as ground, shadow goods in layered soft blacks, stall canvas in muted saffron, one cool moon white edging the active trade
+       - Type/composition: bazaar signpainter script over chalked price caps, stalls ranked down one lane, each shadow tagged with a small ticket of origin and length
+       - Topology/navigation: Wander stalls by shadow origin, shape, time, emotional charge, and possible exchange.
+       - Controls/state: Cast, stretch, compare, trade, and return a shadow while its story stays attached.
+       - Responsive/motion: Arrange stalls as a moonlit vertical lane on phones and retain high-contrast readable commerce.
+     WEB LEVERAGE: Camera silhouette capture, solar geometry, and interactive shadow deformation turn personal light moments into ephemeral tradable artifacts.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-moon-shadow-bazaar.webp · hero https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-moon-shadow-bazaar-hero.webp
+  2. a circular sheet folded along one sweeping curved crease, where paper rises into a rigid shell without straight facets or added support
+     SOURCE ID: paper-folds-pleats-deployable-curved-crease-shell
+     CREATIVE SPARK: The cream disc lifts along one charcoal arc and locks into a saddle whose shadow looks drawn with a compass in midair.
+     SYSTEM GRAMMAR:
+       - Palette/material: cream cotton paper as ground, one charcoal compass arc as the active crease, graphite shadow gradients for depth, body notes in soft black ink
+       - Type/composition: geometer's inclined serif italic for labels, figures numbered like plates, layout ruled by the sweep of one arc rather than a rectangular grid
+       - Topology/navigation: Connect planar crease, local curvature, ridge, and resulting shell through registered views.
+       - Controls/state: Bend, invert, lock, and compare with flat, curving, stable, buckled, and reversed states.
+       - Responsive/motion: Pair plan and section on small screens and expose a small set of stable key forms.
+     WEB LEVERAGE: A curve-driven deformation model can show how one line produces spatial rigidity while retaining a precise 2D source.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-curved-crease-shell.webp · hero https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-curved-crease-shell-hero.webp
+  3. A worked queue built from a cracktro title screen: one bitmap face riding baselines over an emissive black void, where rank is depth, fields of grey dust drift behind the work at layered speeds, and nothing is ever enclosed by a rule or a box.
+     SOURCE ID: operate-c-cracktro-scroller-queue
+     CREATIVE SPARK: At 2am one ivory line of bitmap text sits dead still on a black screen while three fields of grey pinpricks drift behind it at different speeds, and a single amber caret blinks at the head of the line.
+     SYSTEM GRAMMAR:
+       - Palette/material: emissive black void, four dust neutrals ash to ivory, one signal amber; prose is ivory on void only; foreign images sit unretouched on the void, never tinted.
+       - Type/composition: one bitmap face at two sizes; all text rides baselines on a single unit; overlap allowed, enclosure never; no rules, boxes or dividers.
+       - Topology/navigation: layers stacked front to back; every baseline continues past both screen edges, so nothing is contained; navigating means pulling a layer forward.
+       - Controls/state: state is depth: brightness step plus letterspacing plus drift rate; the frontmost brightest widest item outranks all; a reversed glyph cell marks failure.
+       - Responsive/motion: only rear layers drift, one slow rate halved per step forward; the front plane holds still while read; narrow widths drop depth steps, not brightness steps.
+     WEB LEVERAGE: Every element declares an integer depth; one stylesheet maps depth to brightness step, letterspacing and drift rate off a single shared clock, and focus freezes the front plane to full stillness.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue.webp · hero https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue-hero.webp
+  4. a green-phosphor terminal in a midnight machine room, where a blinking cursor, scanline glow, and afterimage trails make text feel alive on glass
+     SOURCE ID: signals-instruments-phosphor-terminal-midnight
+     CREATIVE SPARK: The cursor breathes; each typed line lands with a faint bloom and its ghost lingers a half-second after the scroll.
+     SYSTEM GRAMMAR:
+       - Palette/material: P1 phosphor green on near-black curved glass, dimmer green afterimage for history, bright bloom for the cursor line; the tube's dark ground holds all
+       - Type/composition: one monospaced bitmap face in a fixed 80-column field, no other type exists; hierarchy is made of indentation, case, and full-width rules
+       - Topology/navigation: the surface is one continuous scrolling transcript; place is position in the conversation's history.
+       - Controls/state: input is a first-class typed dialogue; system states print themselves rather than appearing as chrome.
+       - Responsive/motion: phosphor bloom and trails scale with capability
+     WEB LEVERAGE: A live transcript log with CSS phosphor glow, searchable history, and full keyboard-first operation.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/signals-instruments-phosphor-terminal-midnight.webp · hero https://impeccable.style/worlds/cards/signals-instruments-phosphor-terminal-midnight-hero.webp
+  5. a madrid scene magazine cover after the dictatorship, a flash-lit portrait cropped hard under a hand-inked masthead, cover lines scattered at angles in three fluorescent inks with no grid holding them
+     SOURCE ID: posters-covers-sleeves-movida-scene-magazine
+     CREATIVE SPARK: a face cropped so hard it loses the chin, a masthead somebody inked by hand that afternoon, and six cover lines thrown across it at angles chosen by nobody in particular.
+     SYSTEM GRAMMAR:
+       - Palette/material: fluorescent pink, acid green and black over white, printed cheap so the inks misregister at every edge
+       - Type/composition: a hand-inked masthead, a flash-lit portrait cropped past the frame, and cover lines set at four different angles with no shared baseline
+       - Topology/navigation: the cover is a scatter, so navigation is picking a cover line out of the noise rather than reading in order
+       - Controls/state: controls are cover lines, the active one flips to acid green, and read ones drop to black
+       - Responsive/motion: cover lines re-scatter without ever aligning, and motion is a misregistered ink shift on selection
+     WEB LEVERAGE: css transforms scattering cover lines responsive, a misregistration shift animation on state, and read state in local storage
+     QUALITY BAR: board https://impeccable.style/worlds/cards/posters-covers-sleeves-movida-scene-magazine.webp · hero https://impeccable.style/worlds/cards/posters-covers-sleeves-movida-scene-magazine-hero.webp
+  6. a dada assemblage page built from tram tickets, torn newsprint, and mixed type cases, rules and printers' fists dragged in at angles so the composition reads as a found object rather than a layout
+     SOURCE ID: design-canon-merz-collage-page
+     CREATIVE SPARK: a tram ticket, half a headline, a printer's fist pointing at nothing in particular, and eleven sizes of type from the same raided case, all glued down at angles that should not work and completely do.
+     SYSTEM GRAMMAR:
+       - Palette/material: aged ticket stock, newsprint gray, and one dull red, everything sitting at slightly different paper ages and thicknesses
+       - Type/composition: every size and face at once from a raided case, printers' fists and rules pointing across the field, no dominant axis
+       - Topology/navigation: the field is a pinboard of scraps, and navigation means pulling one scrap forward while the rest keep their positions
+       - Controls/state: controls are pasted scraps, pressing one lifts it with a small shadow, and used ones settle back into the collage
+       - Responsive/motion: scraps repack rather than scale as the frame changes, and motion is a paste-and-lift with no smooth easing
+     WEB LEVERAGE: a responsive collage that repacks scraps, css transforms for lift and paste states, and pointer-driven z-order reordering
+     QUALITY BAR: board https://impeccable.style/worlds/cards/design-canon-merz-collage-page.webp · hero https://impeccable.style/worlds/cards/design-canon-merz-collage-page-hero.webp
+Fuse each challenger before judging it: the challenger supplies the form
+  and its system grammar, the product supplies every fact, and clarity wins
+  conflicts. Weigh the fused result against the assigned direction on exactly
+  two axes, audience identification and product clarity. Losing to strong
+  grounded material is a valid outcome; beating a thin or tool-monoculture
+  list is the point. A fused challenger that wins both axes becomes the build.
+  Close the weighing with a verdict per challenger, decided before any
+  borrowing is considered: wins (beats the assigned direction on both axes),
+  competitive (holds one axis), or declined (loses both). A declined
+  challenger is not spent: name the one discipline of its system the assigned
+  direction lacks, and raise the assigned direction to match before
+  presenting it. A donation transfers ambition and system discipline, never
+  the challenger's clothes. A component treatment, such as a button's shadow
+  or a display face, is clothes, not discipline; one world owns the page.
+  Write each raise as its own named line on the presented direction, and
+  carry every verdict, kept line, and raise into the decision page payload.
+When you can view images, open the QUALITY BAR board and hero for any
+challenger you weigh seriously and for the world you build. They exist as a
+craft bar, the finish level and commitment the build is expected to reach,
+never as a mockup to copy; your surface serves this product, not that render.
+PRODUCT.md and explicit incumbent brand commitments constrain every direction.
+The seed never chooses exact colors, fonts, tokens, or a user preference, and
+it never permits the world and first surface to be selected independently.
+The CREATIVE SPARK is a complete visual system, not a theme or decorative
+reference. Translate every supplied system rule into the product: palette and
+material, type and composition, topology, controls and states, and adaptation.
+Keep the source's visible character, scale, rhythm, and interaction instead of
+reducing vivid grammar to generic nouns. Keep a literal carrier only when it
+becomes functional.
+Ambitious motion, spatial media, or interaction is welcome when it strengthens
+the product without weakening semantics, performance, or fallback behavior.
+MODE RULES unavailable: read reference/mode-persuade.md before writing directions or comps.
+TELEMETRY: after the user's choice resolves, rerun this script once with
+  --kind <assigned|pick|challenger|canon> --from 611d7fbc --scope direction --mode persuade,
+  adding --chosen <challenger-id> when a dealt challenger won and keeping
+  --register <safer|bolder> when the resolved round came from a steered hand.
+  One ping per resolved attended round. The ping is anonymous, the card kind
+  plus the catalog id when one won; your grounded candidates' names never
+  leave the machine, and the ping is skipped automatically when DO_NOT_TRACK
+  or IMPECCABLE_NO_TELEMETRY is set.
+A user- or brief-pinned decision beats the roll, always.
+ASSIGNED INDEX (restated for truncated readers): 6. Build candidate
+6 of your own grounded list; seed key 611d7fbc.
+PRESENTATION (the decision round, condensed from new-work.md; follow it even when your read of that file came back cut):
+- Re-roll round: while the page is open on a key, deliver this hand to it with `C:\Users\daniel.sepulveda\.impeccable\bin\0.1.14\impeccable.exe serve-question --update --key <same key> --payload <file>` and never --start a second server. A re-roll made before any page opened starts one with `C:\Users\daniel.sepulveda\.impeccable\bin\0.1.14\impeccable.exe serve-question --start --payload <file>`; a round already on the structured-tool fallback stays there.
+- With image generation, every card declares a comp under .impeccable/mocks/decision/, canon included, declined challengers excepted. Serve first, then generate each comp in reading order (assigned, pick, full-card hand, canon), writing its prompt sidecar as it lands (a.png gets a.png.json).
+- After the last comp or sketch lands (at once when this round makes none), hold `C:\Users\daniel.sepulveda\.impeccable\bin\0.1.14\impeccable.exe serve-question --wait --key <key>`. If your shell hands back a session before --wait exits, keep polling that session until it exits; rerun --wait only after it exits 3 with no answer.
+- Build path: none recorded in .impeccable/config.json or .impeccable/config.local.json, so comp-led whenever image generation exists. Then put "buildPath": {"value": "comp", "toggle": true} in the payload; without image generation there is no toggle and the build is code-led. Never ask about the build path during the round; only when the ANSWER returns buildPathFlipped: true, offer once afterwards to keep the flipped value as the default.
+- The structured question tool is the fallback, never the first channel: take it when --start exits 2, when --wait exits 4 after the page closed unanswered, or when your harness cannot hold a blocking --wait at all (say so in your first reply). It carries the same options and asks nothing about the build path.
