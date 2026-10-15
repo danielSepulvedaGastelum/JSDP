@@ -64,17 +64,17 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 ### Pruebas para User Story 1
 
-- [ ] T016 [P] [US1] Crear pruebas fallidas para denominaciones, texto exacto de Misión/Visión, siete Valores y exclusión de contenido inventado en `apps/web/tests/content.test.mjs`
-- [ ] T017 [P] [US1] Añadir a la matriz una comprobación del orden semántico y visual de los ocho bloques y del h1 único de Landing en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T016 [P] [US1] Crear pruebas fallidas para denominaciones, texto exacto de Misión/Visión, siete Valores y exclusión de contenido inventado en `apps/web/tests/content.test.mjs`
+- [x] T017 [P] [US1] Añadir a la matriz una comprobación del orden semántico y visual de los ocho bloques y del h1 único de Landing en `specs/002-landing-institucional-jsdp/verification.md`
 
 ### Implementación para User Story 1
 
-- [ ] T018 [US1] Crear `LandingPage` únicamente con la secuencia interna Hero → Presentación → Accesos → Misión/Visión → Valores → Organigrama, usando regiones y encabezados semánticos; `PublicLayout` aporta el Encabezado antes y el Pie después para completar los ocho bloques sin duplicarlos, en `apps/web/src/features/public/landing/LandingPage.tsx`
-- [ ] T019 [US1] Implementar el Hero blanco y amplio con franja «OOAD Sonora», «Bienvenida» secundaria, h1 dominante «Jefatura de Servicios de Desarrollo de Personal», apoyo aprobado y ancla «Conocer la JSDP» en `apps/web/src/features/public/landing/LandingPage.tsx`
-- [ ] T020 [US1] Implementar la Presentación con la pertenencia comprobada al OOAD Sonora del IMSS y el contexto de Recursos Humanos, sin funciones, cifras, lemas ni CONT-01 inventado, en `apps/web/src/features/public/landing/LandingPage.tsx`
-- [ ] T021 [US1] Implementar Misión y Visión como dos bloques editoriales visibles, completos y sin corregir «proximos» ni atribuirlos formalmente a una unidad en `apps/web/src/features/public/landing/LandingPage.tsx`
-- [ ] T022 [US1] Ajustar jerarquía, ritmo, ancho de lectura, espacios y adaptación del Hero/Presentación/Misión-Visión a la dirección «Lectura institucional sobria» en `apps/web/src/styles/index.css`
-- [ ] T023 [US1] Registrar comparación de contenido y primera pantalla contra `design-brief.md` y `sobria-hero.png`, sin rasterizar la maqueta ni adoptar alternativas descartadas, en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T018 [US1] Crear `LandingPage` únicamente con la secuencia interna Hero → Presentación → Accesos → Misión/Visión → Valores → Organigrama, usando regiones y encabezados semánticos; `PublicLayout` aporta el Encabezado antes y el Pie después para completar los ocho bloques sin duplicarlos, en `apps/web/src/features/public/landing/LandingPage.tsx`
+- [x] T019 [US1] Implementar el Hero blanco y amplio con franja «OOAD Sonora», «Bienvenida» secundaria, h1 dominante «Jefatura de Servicios de Desarrollo de Personal», apoyo aprobado y ancla «Conocer la JSDP» en `apps/web/src/features/public/landing/LandingPage.tsx`
+- [x] T020 [US1] Implementar la Presentación con la pertenencia comprobada al OOAD Sonora del IMSS y el contexto de Recursos Humanos, sin funciones, cifras, lemas ni CONT-01 inventado, en `apps/web/src/features/public/landing/LandingPage.tsx`
+- [x] T021 [US1] Implementar Misión y Visión como dos bloques editoriales visibles, completos y sin corregir «proximos» ni atribuirlos formalmente a una unidad en `apps/web/src/features/public/landing/LandingPage.tsx`
+- [x] T022 [US1] Ajustar jerarquía, ritmo, ancho de lectura, espacios y adaptación del Hero/Presentación/Misión-Visión a la dirección «Lectura institucional sobria» en `apps/web/src/styles/index.css`
+- [x] T023 [US1] Registrar comparación de contenido y primera pantalla contra `design-brief.md` y `sobria-hero.png`, sin rasterizar la maqueta ni adoptar alternativas descartadas, en `specs/002-landing-institucional-jsdp/verification.md`
 
 **Checkpoint**: La Landing comunica la identidad y contenido principal con el orden aprobado; los componentes interactivos de Valores y Organigrama se completan en sus historias.
 
@@ -88,20 +88,20 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 ### Pruebas para User Story 4
 
-- [ ] T024 [P] [US4] Crear pruebas fallidas de seis IDs únicos, una raíz, cinco relaciones directas, D3 literal, C ausente, Oficina sin hijos departamentales y cero responsables públicos en `apps/web/tests/organization.test.mjs`
-- [ ] T025 [US4] Añadir pruebas fallidas para selección inicial J, expansión inicial, conservación de `selectedUnitId` al contraer/expandir y derivación de conexiones activas en `apps/web/tests/organization.test.mjs`
+- [x] T024 [P] [US4] Crear pruebas fallidas de seis IDs únicos, una raíz, cinco relaciones directas, D3 literal, C ausente, Oficina sin hijos departamentales y cero responsables públicos en `apps/web/tests/organization.test.mjs`
+- [x] T025 [US4] Añadir pruebas fallidas para selección inicial J, expansión inicial, conservación de `selectedUnitId` al contraer/expandir y derivación de conexiones activas en `apps/web/tests/organization.test.mjs`
 
 ### Implementación para User Story 4
 
-- [ ] T026 [US4] Implementar la estructura `ul/li` con botones nativos de unidad, J como raíz, cinco dependencias inicialmente expandidas y sin `role=tree` en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
-- [ ] T027 [US4] Implementar selección única con `aria-pressed`, estados de reposo/hover/focus/seleccionado y cambio inmediato entre las seis unidades en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
-- [ ] T028 [US4] Implementar disclosure separado con `aria-expanded`/`aria-controls`, conservación de selección y retorno del foco al control antes de ocultar una dependencia enfocada en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
-- [ ] T029 [US4] Implementar la ficha inferior en flujo con denominación completa y relación con J; para J indicar raíz y cinco dependencias, sin nombres, vacancias ni datos adicionales en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
-- [ ] T030 [US4] Trazar cinco conexiones decorativas `aria-hidden` desde anclajes reales, recalcularlas con `ResizeObserver` y resaltar la conexión pertinente sin duplicar relaciones de datos en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
-- [ ] T031 [US4] Implementar la composición móvil vertical del mismo DOM, con nombres completos, objetivos táctiles adecuados, detalles en flujo y cero scroll horizontal o reducción ilegible en `apps/web/src/styles/index.css`
-- [ ] T032 [US4] Añadir transiciones ligeras de expansión, selección y ficha que no bloqueen acciones y que se eliminen o estabilicen con movimiento reducido en `apps/web/src/styles/index.css`
+- [x] T026 [US4] Implementar la estructura `ul/li` con botones nativos de unidad, J como raíz, cinco dependencias inicialmente expandidas y sin `role=tree` en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
+- [x] T027 [US4] Implementar selección única con `aria-pressed`, estados de reposo/hover/focus/seleccionado y cambio inmediato entre las seis unidades en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
+- [x] T028 [US4] Implementar disclosure separado con `aria-expanded`/`aria-controls`, conservación de selección y retorno del foco al control antes de ocultar una dependencia enfocada en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
+- [x] T029 [US4] Implementar la ficha inferior en flujo con denominación completa y relación con J; para J indicar raíz y cinco dependencias, sin nombres, vacancias ni datos adicionales en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
+- [x] T030 [US4] Trazar cinco conexiones decorativas `aria-hidden` desde anclajes reales, recalcularlas con `ResizeObserver` y resaltar la conexión pertinente sin duplicar relaciones de datos en `apps/web/src/features/public/landing/components/OrganizationChart.tsx`
+- [x] T031 [US4] Implementar la composición móvil vertical del mismo DOM, con nombres completos, objetivos táctiles adecuados, detalles en flujo y cero scroll horizontal o reducción ilegible en `apps/web/src/styles/index.css`
+- [x] T032 [US4] Añadir transiciones ligeras de expansión, selección y ficha que no bloqueen acciones y que se eliminen o estabilicen con movimiento reducido en `apps/web/src/styles/index.css`
 - [ ] T033 [US4] Ejecutar la matriz de seis selecciones, contracción con D3 activo, reexpansión, cambio de ancho/orientación y equivalencia ratón/teclado/toque, y registrar evidencia en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T034 [US4] Inspeccionar contenido, assets y build para confirmar cero nombres personales pendientes, C o fuentes institucionales completas entregadas al navegador y registrar el resultado en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T034 [US4] Inspeccionar contenido, assets y build para confirmar cero nombres personales pendientes, C o fuentes institucionales completas entregadas al navegador y registrar el resultado en `specs/002-landing-institucional-jsdp/verification.md`
 
 **Checkpoint**: El organigrama reproduce seis unidades y cinco relaciones reales, sin editor, datos personales ni jerarquías inventadas.
 
@@ -115,16 +115,16 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 ### Pruebas para User Story 2
 
-- [ ] T035 [P] [US2] Extender las pruebas fallidas con exactamente Inicio `/`, Documentos `/documentos` e Iniciar sesión `/inicio-sesion`, sin rutas privadas o de negocio, en `apps/web/tests/content.test.mjs`
-- [ ] T036 [P] [US2] Añadir casos de navegación, acceso directo, recarga, historial y estado de ruta actual a `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T035 [P] [US2] Extender las pruebas fallidas con exactamente Inicio `/`, Documentos `/documentos` e Iniciar sesión `/inicio-sesion`, sin rutas privadas o de negocio, en `apps/web/tests/content.test.mjs`
+- [x] T036 [P] [US2] Añadir casos de navegación, acceso directo, recarga, historial y estado de ruta actual a `specs/002-landing-institucional-jsdp/verification.md`
 
 ### Implementación para User Story 2
 
-- [ ] T037 [P] [US2] Crear `UnavailablePage` con h1 configurable, aviso de servicio todavía no disponible, retorno a Inicio y cero formulario/catálogo/promesa de fecha en `apps/web/src/features/public/pages/UnavailablePage.tsx`
-- [ ] T038 [US2] Configurar `/`, `/documentos` y `/inicio-sesion` como rutas hijas de `PublicLayout`, con `LandingPage` y dos instancias identificables de `UnavailablePage`, en `apps/web/src/app/router/index.tsx`
-- [ ] T039 [US2] Completar la navegación de escritorio con `NavLink`, estado actual visual y accesible y los tres destinos en `apps/web/src/components/institutional/InstitutionalHeader.tsx`
-- [ ] T040 [US2] Implementar el disclosure móvil «Menú» con estado abierto/cerrado, operación por teclado/toque, cierre al navegar y devolución coherente de foco en `apps/web/src/components/institutional/InstitutionalHeader.tsx`
-- [ ] T041 [US2] Implementar los dos accesos destacados sobrios, apilables en móvil, con etiqueta, ícono conceptual y enlace real a Documentos/Iniciar sesión en `apps/web/src/features/public/landing/LandingPage.tsx`
+- [x] T037 [P] [US2] Crear `UnavailablePage` con h1 configurable, aviso de servicio todavía no disponible, retorno a Inicio y cero formulario/catálogo/promesa de fecha en `apps/web/src/features/public/pages/UnavailablePage.tsx`
+- [x] T038 [US2] Configurar `/`, `/documentos` y `/inicio-sesion` como rutas hijas de `PublicLayout`, con `LandingPage` y dos instancias identificables de `UnavailablePage`, en `apps/web/src/app/router/index.tsx`
+- [x] T039 [US2] Completar la navegación de escritorio con `NavLink`, estado actual visual y accesible y los tres destinos en `apps/web/src/components/institutional/InstitutionalHeader.tsx`
+- [x] T040 [US2] Implementar el disclosure móvil «Menú» con estado abierto/cerrado, operación por teclado/toque, cierre al navegar y devolución coherente de foco en `apps/web/src/components/institutional/InstitutionalHeader.tsx`
+- [x] T041 [US2] Implementar los dos accesos destacados sobrios, apilables en móvil, con etiqueta, ícono conceptual y enlace real a Documentos/Iniciar sesión en `apps/web/src/features/public/landing/LandingPage.tsx`
 - [ ] T042 [US2] Verificar en desarrollo y preview las tres rutas por enlace, URL directa, recarga y Atrás/Adelante, y registrar contenido renderizado y ausencia de operaciones futuras en `specs/002-landing-institucional-jsdp/verification.md`
 
 **Checkpoint**: Las rutas son destinos reales y públicos; Documentos y Login comunican indisponibilidad sin implementar sus servicios futuros.
@@ -139,17 +139,17 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 ### Pruebas para User Story 5
 
-- [ ] T043 [P] [US5] Crear pruebas fallidas para `running/static`, pausa persistente, reanudación explícita, reducción inicial/en vivo y prohibición de reinicio automático en `apps/web/tests/values-motion.test.mjs`
-- [ ] T044 [P] [US5] Extender las pruebas de contenido con exactamente siete nombres y siete `iconId` distintos, sin logotipos como iconos, en `apps/web/tests/content.test.mjs`
+- [x] T043 [P] [US5] Crear pruebas fallidas para `running/static`, pausa persistente, reanudación explícita, reducción inicial/en vivo y prohibición de reinicio automático en `apps/web/tests/values-motion.test.mjs`
+- [x] T044 [P] [US5] Extender las pruebas de contenido con exactamente siete nombres y siete `iconId` distintos, sin logotipos como iconos, en `apps/web/tests/content.test.mjs`
 
 ### Implementación para User Story 5
 
-- [ ] T045 [P] [US5] Crear siete SVG de interfaz con un solo estilo de trazo para personas unidas, eslabones, escudo genérico, estrella, bombilla, corazón y lista, decorativos junto al texto y sin marcas oficiales, en `apps/web/src/features/public/landing/components/ValueIcon.tsx`
-- [ ] T046 [US5] Implementar la representación base estática y completa de los siete pares, responsive y visible antes de activar mejoras de movimiento, en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
-- [ ] T047 [US5] Implementar la banda continua lenta de derecha a izquierda con un listado lógico y copias solo visuales `aria-hidden`, sin controles o IDs duplicados, en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
-- [ ] T048 [US5] Implementar controles visibles Pausar/Reanudar y «Ver sin movimiento» que conserven foco, muestren los siete pares al detenerse y no reviertan una pausa sin acción explícita en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
-- [ ] T049 [US5] Integrar `useReducedMotion` para presentación estática al cargar o cambiar la preferencia, sin reanudación automática al volver a normal y sin afectar al organigrama en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
-- [ ] T050 [US5] Añadir animación contenida, uniforme y sin overflow global, rejilla estática y adaptación móvil del banner en `apps/web/src/styles/index.css`
+- [x] T045 [P] [US5] Crear siete SVG de interfaz con un solo estilo de trazo para personas unidas, eslabones, escudo genérico, estrella, bombilla, corazón y lista, decorativos junto al texto y sin marcas oficiales, en `apps/web/src/features/public/landing/components/ValueIcon.tsx`
+- [x] T046 [US5] Implementar la representación base estática y completa de los siete pares, responsive y visible antes de activar mejoras de movimiento, en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
+- [x] T047 [US5] Implementar la banda continua lenta de derecha a izquierda con un listado lógico y copias solo visuales `aria-hidden`, sin controles o IDs duplicados, en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
+- [x] T048 [US5] Implementar controles visibles Pausar/Reanudar y «Ver sin movimiento» que conserven foco, muestren los siete pares al detenerse y no reviertan una pausa sin acción explícita en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
+- [x] T049 [US5] Integrar `useReducedMotion` para presentación estática al cargar o cambiar la preferencia, sin reanudación automática al volver a normal y sin afectar al organigrama en `apps/web/src/features/public/landing/components/ValuesBanner.tsx`
+- [x] T050 [US5] Añadir animación contenida, uniforme y sin overflow global, rejilla estática y adaptación móvil del banner en `apps/web/src/styles/index.css`
 - [ ] T051 [US5] Registrar pruebas de movimiento normal, pausa, reanudación, vista estática, preferencia reducida en vivo, lectura asistida única y teclado/toque en `specs/002-landing-institucional-jsdp/verification.md`
 
 **Checkpoint**: Los siete Valores son legibles con y sin movimiento y el banner cumple el tratamiento aprobado.
@@ -166,13 +166,13 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 ### Pruebas para User Story 3
 
-- [ ] T052 [P] [US3] Preparar en la matriz recorridos completos de Tab/Shift+Tab/Enter/Espacio, orden de foco, skip link, menú móvil, disclosure, selección y controles de movimiento en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T053 [US3] Preparar casos de 320, 768, 1024 y 1440 CSS px, reflujo 400 % desde 1280, orientación, nombres largos y recursos bloqueados en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T052 [P] [US3] Preparar en la matriz recorridos completos de Tab/Shift+Tab/Enter/Espacio, orden de foco, skip link, menú móvil, disclosure, selección y controles de movimiento en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T053 [US3] Preparar casos de 320, 768, 1024 y 1440 CSS px, reflujo 400 % desde 1280, orientación, nombres largos y recursos bloqueados en `specs/002-landing-institucional-jsdp/verification.md`
 
 ### Implementación y validación para User Story 3
 
-- [ ] T054 [US3] Corregir `lang="es-MX"`, regiones, encabezados, nombres accesibles, alternativas de logos y estados anunciados en `apps/web/index.html`, `apps/web/src/layouts/PublicLayout.tsx`, `apps/web/src/components/institutional/InstitutionalHeader.tsx`, `apps/web/src/components/institutional/InstitutionalFooter.tsx`, `apps/web/src/features/public/landing/LandingPage.tsx`, `apps/web/src/features/public/landing/components/ValuesBanner.tsx`, `apps/web/src/features/public/landing/components/OrganizationChart.tsx` y `apps/web/src/features/public/pages/UnavailablePage.tsx`
-- [ ] T055 [US3] Ajustar foco visible/no oculto, objetivos táctiles, contraste de estados, reflujo y eliminación de overflow global en `apps/web/src/styles/index.css`
+- [x] T054 [US3] Corregir `lang="es-MX"`, regiones, encabezados, nombres accesibles, alternativas de logos y estados anunciados en `apps/web/index.html`, `apps/web/src/layouts/PublicLayout.tsx`, `apps/web/src/components/institutional/InstitutionalHeader.tsx`, `apps/web/src/components/institutional/InstitutionalFooter.tsx`, `apps/web/src/features/public/landing/LandingPage.tsx`, `apps/web/src/features/public/landing/components/ValuesBanner.tsx`, `apps/web/src/features/public/landing/components/OrganizationChart.tsx` y `apps/web/src/features/public/pages/UnavailablePage.tsx`
+- [x] T055 [US3] Ajustar foco visible/no oculto, objetivos táctiles, contraste de estados, reflujo y eliminación de overflow global en `apps/web/src/styles/index.css`
 - [ ] T056 [US3] Verificar equivalencia sin hover de enlaces, menú, banner, unidades, expansión y detalles con teclado y toque, y registrar hallazgos/resoluciones en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T057 [US3] Ejecutar revisión con lector de pantalla disponible y auditoría automática local de WCAG 2.2 AA en las tres rutas y estados interactivos, registrando herramienta, versión, alcance y pendientes en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T058 [US3] Ejecutar la matriz responsive y reflujo, incluidas orientación y navegación móvil abierta, y registrar cero contenido perdido, solapamientos bloqueantes o scroll horizontal global en `specs/002-landing-institucional-jsdp/verification.md`
@@ -185,17 +185,17 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 
 **Propósito**: Completar el movimiento selectivo, demostrar fidelidad al brief, ejecutar pruebas y cerrar controles técnicos sin ampliar alcance.
 
-- [ ] T059 [P] Implementar entrada discreta del Hero visible desde el inicio y microinteracciones moderadas hover/focus para enlaces, accesos, controles y nodos, sin rebotes, paralaje ni espera de `transitionend`, en `apps/web/src/styles/index.css`
-- [ ] T060 Implementar revelado opcional de una sola vez solo para Presentación y Misión/Visión, con `IntersectionObserver`, limpieza y contenido visible si la mejora falla, en `apps/web/src/hooks/useScrollReveal.ts`
-- [ ] T061 Integrar el revelado selectivo sin ocultar contenido por defecto y mantener el pie estático en `apps/web/src/features/public/landing/LandingPage.tsx`
-- [ ] T062 [P] Ejecutar `node --test apps/web/tests/content.test.mjs apps/web/tests/organization.test.mjs apps/web/tests/values-motion.test.mjs` y registrar resultados en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T063 Ejecutar `npm run typecheck --workspace apps/web` y `npm run build --workspace apps/web`, resolver errores sin tocar Backend ni añadir paquetes y registrar resultados en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T059 [P] Implementar entrada discreta del Hero visible desde el inicio y microinteracciones moderadas hover/focus para enlaces, accesos, controles y nodos, sin rebotes, paralaje ni espera de `transitionend`, en `apps/web/src/styles/index.css`
+- [x] T060 Implementar revelado opcional de una sola vez solo para Presentación y Misión/Visión, con `IntersectionObserver`, limpieza y contenido visible si la mejora falla, en `apps/web/src/hooks/useScrollReveal.ts`
+- [x] T061 Integrar el revelado selectivo sin ocultar contenido por defecto y mantener el pie estático en `apps/web/src/features/public/landing/LandingPage.tsx`
+- [x] T062 [P] Ejecutar `node --test apps/web/tests/content.test.mjs apps/web/tests/organization.test.mjs apps/web/tests/values-motion.test.mjs` y registrar resultados en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T063 Ejecutar `npm run typecheck --workspace apps/web` y `npm run build --workspace apps/web`, resolver errores sin tocar Backend ni añadir paquetes y registrar resultados en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T064 Inspeccionar `apps/web/dist` y solicitudes de red para excluir nombres personales pendientes, fuentes documentales, textura no autorizada, servicios de negocio y recursos ajenos al manifiesto en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T065 Registrar peso transferido, estabilidad visual, recursos demorados/ausentes e interacción móvil con banner y organigrama en condiciones reproducibles de intranet en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T066 Capturar `/`, `/documentos`, `/inicio-sesion`, banner activo/estático y organigrama expandido/contraído/seleccionado en anchos aprobados y compararlos con `design-brief.md` y `sobria-hero.png` en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T067 Revisar hashes, proporciones, fondos, convivencia e integridad de cada SVG servido contra el original autorizado y registrar cualquier gate VI pendiente en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T067 Revisar hashes, proporciones, fondos, convivencia e integridad de cada SVG servido contra el original autorizado y registrar cualquier gate VI pendiente en `specs/002-landing-institucional-jsdp/verification.md`
 - [ ] T068 Impedir la inicialización de `IntersectionObserver` y provocar de forma controlada un fallo de la mejora animada para comprobar que ninguna sección renderizada queda oculta o inoperable, que nombres, valores, relaciones y controles conservan una representación estable, y registrar la evidencia de SC-015 en `specs/002-landing-institucional-jsdp/verification.md`
-- [ ] T069 Confirmar diff final limitado al Frontend y documentos necesarios, `apps/api/` intacto, cero autenticación/Dashboard/administración/servicios nuevos y todos los criterios obligatorios resueltos o explícitamente bloqueados en `specs/002-landing-institucional-jsdp/verification.md`
+- [x] T069 Confirmar diff final limitado al Frontend y documentos necesarios, `apps/api/` intacto, cero autenticación/Dashboard/administración/servicios nuevos y todos los criterios obligatorios resueltos o explícitamente bloqueados en `specs/002-landing-institucional-jsdp/verification.md`
 
 ---
 

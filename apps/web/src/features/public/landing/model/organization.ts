@@ -38,3 +38,26 @@ export const ORGANIZATION_UNITS = [
     parentId: 'J',
   },
 ] as const satisfies readonly OrganizationUnit[];
+
+export interface OrganizationState {
+  readonly selectedUnitId: OrganizationUnitId;
+  readonly expanded: boolean;
+}
+
+export type OrganizationEvent =
+  | { readonly type: 'select'; readonly id: OrganizationUnitId }
+  | { readonly type: 'toggle-expanded' };
+
+export const INITIAL_ORGANIZATION_STATE: OrganizationState = {
+  selectedUnitId: 'J',
+  expanded: true,
+};
+
+export function transitionOrganization(state: OrganizationState, event: OrganizationEvent): OrganizationState {
+  if (event.type === 'select') return { ...state, selectedUnitId: event.id };
+  return { ...state, expanded: !state.expanded };
+}
+
+export function getActiveConnectionId(state: OrganizationState): OrganizationUnitId | null {
+  return state.selectedUnitId === 'J' ? null : state.selectedUnitId;
+}

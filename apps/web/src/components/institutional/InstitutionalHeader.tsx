@@ -1,4 +1,5 @@
-import { Link } from 'react-router';
+import { useEffect, useRef, useState } from 'react';
+import { Link, NavLink, useLocation } from 'react-router';
 import {
   AREA,
   INSTITUTION,
@@ -12,23 +13,53 @@ const PUBLIC_DESTINATIONS = [
 ] as const;
 
 export function InstitutionalHeader() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const location = useLocation();
+
+  useEffect(() => setMenuOpen(false), [location.pathname]);
+
+  function closeMenu() {
+    setMenuOpen(false);
+  }
+
   return (
     <header className="institutional-header">
       <div className="public-container institutional-header__inner">
-        <Link className="institutional-identity" to="/">
+        <Link className="institutional-identity" to="/" onClick={closeMenu}>
           <span className="institutional-identity__primary">{INSTITUTION}</span>
+          <span className="institutional-identity__government">Gobierno de México</span>
           <span className="institutional-identity__context">
             {OOAD} · {AREA}
           </span>
         </Link>
 
-        <nav aria-label="Navegación principal">
+        <button
+          ref={menuButtonRef}
+          className="institutional-menu-toggle"
+          type="button"
+          aria-expanded={menuOpen}
+          aria-controls="institutional-navigation"
+          onClick={() => setMenuOpen((open) => !open)}
+        >
+          Menú <span aria-hidden="true">{menuOpen ? '−' : '+'}</span>
+        </button>
+        <nav aria-label="Navegación principal" id="institutional-navigation" className={menuOpen ? 'institutional-nav is-open' : 'institutional-nav'} onKeyDown={(event) => {
+          if (event.key === 'Escape' && menuOpen) {
+            closeMenu();
+            menuButtonRef.current?.focus();
+          }
+        }}>
           <ul className="institutional-navigation">
             {PUBLIC_DESTINATIONS.map((destination) => (
               <li key={destination.to}>
-                <Link className="institutional-navigation__link" to={destination.to}>
-                  {destination.label}
-                </Link>
+                <NavLink
+                  className={({ isActive }) => `institutional-navigation__link${isActive ? ' is-current' : ''}`}
+                  to={destination.to}
+                  end
+                  aria-current={location.pathname === destination.to ? 'page' : undefined}
+                  onClick={closeMenu}
+                >{destination.label}</NavLink>
               </li>
             ))}
           </ul>
