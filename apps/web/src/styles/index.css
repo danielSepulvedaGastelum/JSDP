@@ -21,6 +21,7 @@
   --ui-surface: #ffffff;
   --ui-surface-subtle: #f4f7f5;
   --ui-border: #cbd5d1;
+  --ui-boundary-strong: #6f827b;
   --ui-focus: #9f6b00;
   --ui-container: 90rem;
   --ui-gutter: clamp(1rem, 4vw, 5rem);
@@ -366,7 +367,7 @@ a {
 
 .organization-chart__connections path {
   fill: none;
-  stroke: var(--ui-border);
+  stroke: var(--ui-boundary-strong);
   stroke-width: 2;
   transition: stroke 180ms ease-out, stroke-width 180ms ease-out;
 }
@@ -425,7 +426,7 @@ a {
   min-height: 7rem;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--ui-border);
+  border: 1px solid var(--ui-boundary-strong);
   border-radius: 0.45rem;
   background: var(--ui-surface);
   color: var(--ui-ink);

@@ -23,7 +23,7 @@ export function ValuesBanner() {
 
   return (
     <div className="values-banner">
-      <div className="values-banner__controls public-container" aria-label="Controles de movimiento de Valores">
+      <div className="values-banner__controls public-container" role="group" aria-label="Controles de movimiento de Valores">
         <button type="button" onClick={() => setIntent((current) => transitionValuesMotion(current, running ? { type: 'pause' } : { type: 'resume', reducedMotion }))} disabled={!running && reducedMotion}>
           {running ? 'Pausar' : 'Reanudar'}
         </button>

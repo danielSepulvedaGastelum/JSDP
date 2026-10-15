@@ -19,14 +19,18 @@ export function InstitutionalHeader() {
 
   useEffect(() => setMenuOpen(false), [location.pathname]);
 
-  function closeMenu() {
+  function closeMenu(destination?: string) {
+    const normalizePath = (value: string) => value.replace(/\/+$/, '') || '/';
+    if (menuOpen && destination && normalizePath(location.pathname) === normalizePath(destination)) {
+      menuButtonRef.current?.focus();
+    }
     setMenuOpen(false);
   }
 
   return (
     <header className="institutional-header">
       <div className="public-container institutional-header__inner">
-        <Link className="institutional-identity" to="/" onClick={closeMenu}>
+        <Link className="institutional-identity" to="/" onClick={() => closeMenu('/')}>
           <span className="institutional-identity__primary">{INSTITUTION}</span>
           <span className="institutional-identity__government">Gobierno de México</span>
           <span className="institutional-identity__context">
@@ -58,7 +62,7 @@ export function InstitutionalHeader() {
                   to={destination.to}
                   end
                   aria-current={location.pathname === destination.to ? 'page' : undefined}
-                  onClick={closeMenu}
+                  onClick={() => closeMenu(destination.to)}
                 >{destination.label}</NavLink>
               </li>
             ))}
