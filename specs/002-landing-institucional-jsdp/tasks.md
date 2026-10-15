@@ -45,12 +45,12 @@ description: "Tareas de implementación de la Landing Page institucional IMSS JS
 - [x] T007 [P] Crear `OrganizationUnitId = J | O | D1 | D2 | D3 | D4` y seis unidades readonly con exactamente una raíz, cinco `parentId = J`, D3 literal, sin C, ciclos, referencias inexistentes ni responsables personales en `apps/web/src/features/public/landing/model/organization.ts`
 - [x] T008 [P] Crear las transiciones puras `running | static`, pausa persistente, reanudación explícita y cálculo `effectiveRunning` que nunca venza `prefers-reduced-motion` en `apps/web/src/features/public/landing/model/values-motion.ts`
 - [x] T009 [P] Implementar escucha inicial y en vivo de `matchMedia('(prefers-reduced-motion: reduce)')`, con limpieza del listener y fallback estable, en `apps/web/src/hooks/useReducedMotion.ts`
-- [ ] T010 [P] Crear el shell semántico con enlace para saltar al contenido, `InstitutionalHeader`, `Outlet`, `main` identificado e `InstitutionalFooter` en `apps/web/src/layouts/PublicLayout.tsx`
-- [ ] T011 Implementar la cabecera institucional compartida, identidad textual disponible aunque fallen imágenes y estructura base del menú Inicio/Documentos/Iniciar sesión en `apps/web/src/components/institutional/InstitutionalHeader.tsx`
-- [ ] T012 [P] Implementar el pie estático con identificación comprobada, presencia gubernamental secundaria y cero contactos, lemas, redes o enlaces legales inventados en `apps/web/src/components/institutional/InstitutionalFooter.tsx`
-- [ ] T013 Definir estilos base responsive, tipografía de sistema mientras VI-02 siga abierta, foco visible, contenedores, superficies y variables de implementación que no se presenten como equivalencias oficiales de marca en `apps/web/src/styles/index.css`
-- [ ] T014 Integrar `PublicLayout` en `BrowserRouter` Declarative Mode y preparar rutas públicas sin loaders, actions, stores ni cambios privados en `apps/web/src/app/router/index.tsx`
-- [ ] T015 Eliminar `apps/web/src/features/public/.gitkeep` cuando existan los primeros módulos reales y confirmar que `apps/web/src/features/private/.gitkeep` y `apps/api/` permanecen intactos
+- [x] T010 [P] Crear el shell semántico con enlace para saltar al contenido, `InstitutionalHeader`, `Outlet`, `main` identificado e `InstitutionalFooter` en `apps/web/src/layouts/PublicLayout.tsx`
+- [x] T011 Implementar la cabecera institucional compartida, identidad textual disponible aunque fallen imágenes y estructura base del menú Inicio/Documentos/Iniciar sesión en `apps/web/src/components/institutional/InstitutionalHeader.tsx`
+- [x] T012 [P] Implementar el pie estático con identificación comprobada, presencia gubernamental secundaria y cero contactos, lemas, redes o enlaces legales inventados en `apps/web/src/components/institutional/InstitutionalFooter.tsx`
+- [x] T013 Definir estilos base responsive, tipografía de sistema mientras VI-02 siga abierta, foco visible, contenedores, superficies y variables de implementación que no se presenten como equivalencias oficiales de marca en `apps/web/src/styles/index.css`
+- [x] T014 Integrar `PublicLayout` en `BrowserRouter` Declarative Mode y preparar rutas públicas sin loaders, actions, stores ni cambios privados en `apps/web/src/app/router/index.tsx`
+- [x] T015 Eliminar `apps/web/src/features/public/.gitkeep` cuando existan los primeros módulos reales y confirmar que `apps/web/src/features/private/.gitkeep` y `apps/api/` permanecen intactos
 
 **Checkpoint**: Datos públicos sin nombres personales, movimiento reducido reactivo y shell común disponibles para todas las rutas.
 
