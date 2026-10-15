@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T22:56:22Z",
+  "title": "Design System: IMSS JSDP Sonora",
+  "extensions": {
+    "colorMeta": {
+      "accent-strong": { "role": "primary", "displayName": "Verde de énfasis provisional", "canonical": "#0f513f", "tonalRamp": ["oklch(15% 0.08 164)", "oklch(25% 0.08 164)", "oklch(35% 0.08 164)", "oklch(45% 0.08 164)", "oklch(55% 0.08 164)", "oklch(68% 0.08 164)", "oklch(82% 0.05 164)", "oklch(95% 0.02 164)"] },
+      "accent-deep": { "role": "primary", "displayName": "Verde de lectura profundo provisional", "canonical": "#093d31", "tonalRamp": ["oklch(15% 0.07 164)", "oklch(25% 0.07 164)", "oklch(35% 0.07 164)", "oklch(45% 0.07 164)", "oklch(55% 0.07 164)", "oklch(68% 0.07 164)", "oklch(82% 0.04 164)", "oklch(95% 0.02 164)"] },
+      "accent-soft": { "role": "primary", "displayName": "Verde de respuesta suave provisional", "canonical": "#e8f1ed", "tonalRamp": ["oklch(15% 0.02 164)", "oklch(25% 0.02 164)", "oklch(35% 0.02 164)", "oklch(45% 0.02 164)", "oklch(55% 0.02 164)", "oklch(68% 0.02 164)", "oklch(82% 0.02 164)", "oklch(95% 0.02 164)"] },
+      "ink": { "role": "neutral", "displayName": "Tinta principal", "canonical": "#17221f", "tonalRamp": ["oklch(15% 0.01 164)", "oklch(25% 0.01 164)", "oklch(35% 0.01 164)", "oklch(45% 0.01 164)", "oklch(55% 0.01 164)", "oklch(68% 0.01 164)", "oklch(82% 0.01 164)", "oklch(95% 0.01 164)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Tinta secundaria", "canonical": "#53615d", "tonalRamp": ["oklch(15% 0.01 164)", "oklch(25% 0.01 164)", "oklch(35% 0.01 164)", "oklch(45% 0.01 164)", "oklch(55% 0.01 164)", "oklch(68% 0.01 164)", "oklch(82% 0.01 164)", "oklch(95% 0.01 164)"] },
+      "surface": { "role": "neutral", "displayName": "Papel blanco", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(45% 0 0)", "oklch(55% 0 0)", "oklch(68% 0 0)", "oklch(82% 0 0)", "oklch(95% 0 0)"] },
+      "surface-subtle": { "role": "neutral", "displayName": "Papel tenue", "canonical": "#f4f7f5", "tonalRamp": ["oklch(15% 0.005 164)", "oklch(25% 0.005 164)", "oklch(35% 0.005 164)", "oklch(45% 0.005 164)", "oklch(55% 0.005 164)", "oklch(68% 0.005 164)", "oklch(82% 0.005 164)", "oklch(95% 0.005 164)"] },
+      "border": { "role": "neutral", "displayName": "Línea tenue", "canonical": "#cbd5d1", "tonalRamp": ["oklch(15% 0.01 164)", "oklch(25% 0.01 164)", "oklch(35% 0.01 164)", "oklch(45% 0.01 164)", "oklch(55% 0.01 164)", "oklch(68% 0.01 164)", "oklch(82% 0.01 164)", "oklch(95% 0.01 164)"] },
+      "boundary-strong": { "role": "neutral", "displayName": "Límite reforzado", "canonical": "#6f827b", "tonalRamp": ["oklch(15% 0.02 164)", "oklch(25% 0.02 164)", "oklch(35% 0.02 164)", "oklch(45% 0.02 164)", "oklch(55% 0.02 164)", "oklch(68% 0.02 164)", "oklch(82% 0.02 164)", "oklch(95% 0.02 164)"] },
+      "focus": { "role": "tertiary", "displayName": "Ámbar de foco", "canonical": "#9f6b00", "tonalRamp": ["oklch(15% 0.1 80)", "oklch(25% 0.1 80)", "oklch(35% 0.1 80)", "oklch(45% 0.1 80)", "oklch(55% 0.1 80)", "oklch(68% 0.1 80)", "oklch(82% 0.07 80)", "oklch(95% 0.02 80)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Nombre completo de la JSDP en el Hero de la Landing." },
+      "headline": { "displayName": "Headline", "purpose": "Encabezados de las secciones públicas actuales." },
+      "body": { "displayName": "Body", "purpose": "Lectura institucional sin fuentes distribuidas." },
+      "label": { "displayName": "Label", "purpose": "Identidad, navegación y controles nativos." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "hero-enter", "value": "550ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Entrada única y discreta del Hero." },
+      { "name": "editorial-reveal", "value": "420ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Revelado opcional sin ocultación previa." },
+      { "name": "state-feedback", "value": "160ms ease-out", "purpose": "Cambios de hover y selección." },
+      { "name": "organization-change", "value": "180ms ease-out", "purpose": "Disclosure, conexiones y ficha." },
+      { "name": "values-marquee", "value": "75s linear infinite", "purpose": "Solo con movimiento permitido y reproducción activa." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce", "purpose": "Sin desplazamiento continuo; Valores estáticos y transiciones CSS mínimas." }
+    ],
+    "breakpoints": [
+      { "name": "organization-vertical", "value": "68rem" },
+      { "name": "public-mobile", "value": "48rem" },
+      { "name": "narrow-navigation", "value": "25rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Identity link",
+      "kind": "nav",
+      "refersTo": "identity-link",
+      "description": "Identificación textual principal del IMSS; no sustituye al logosímbolo autorizado.",
+      "html": "<a class=\"ds-identity\" href=\"#\"><strong>Instituto Mexicano del Seguro Social</strong><small>Gobierno de México · OOAD Sonora</small></a>",
+      "css": ".ds-identity{display:inline-flex;flex-direction:column;gap:.15rem;max-width:43rem;color:var(--ui-accent-deep);text-decoration:none;overflow-wrap:anywhere}.ds-identity strong{font-size:1.25rem;line-height:1.25}.ds-identity small{color:var(--ui-ink-muted);font-size:.85rem}.ds-identity:hover strong{text-decoration:underline}.ds-identity:focus-visible{outline:.2rem solid var(--ui-focus);outline-offset:.22rem}"
+    },
+    {
+      "name": "Navigation link",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "Destino público con subrayado para ruta actual.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\" aria-current=\"page\">Inicio</a>",
+      "css": ".ds-nav-link{display:inline-flex;align-items:center;min-height:2.75rem;color:var(--ui-ink-muted);font-weight:600;text-decoration-color:transparent;text-underline-offset:.22em;transition:color 160ms ease-out,text-decoration-color 160ms ease-out}.ds-nav-link:hover,.ds-nav-link[aria-current=page]{color:var(--ui-accent-deep);text-decoration:underline}.ds-nav-link:focus-visible{outline:.2rem solid var(--ui-focus);outline-offset:.22rem}"
+    },
+    {
+      "name": "Menu toggle",
+      "kind": "button",
+      "refersTo": "menu-toggle",
+      "description": "Disclosure móvil del encabezado; el estado real se gestiona en React.",
+      "html": "<button class=\"ds-menu-toggle\" type=\"button\" aria-expanded=\"false\">Menú <span aria-hidden=\"true\">+</span></button>",
+      "css": ".ds-menu-toggle{display:inline-flex;align-items:center;justify-content:space-between;gap:1rem;min-height:2.75rem;padding:.45rem .8rem;border:1px solid var(--ui-border);border-radius:.4rem;background:var(--ui-surface);color:var(--ui-accent-deep);font:700 1rem Arial,Helvetica,sans-serif;cursor:pointer}.ds-menu-toggle:hover{background:var(--ui-accent-soft)}.ds-menu-toggle:focus-visible{outline:.2rem solid var(--ui-focus);outline-offset:.22rem}"
+    },
+    {
+      "name": "Values control",
+      "kind": "button",
+      "refersTo": "values-control",
+      "description": "Botón de pausa o vista estática de los siete Valores; patrón propio de la Landing.",
+      "html": "<button class=\"ds-values-control\" type=\"button\">Pausar</button>",
+      "css": ".ds-values-control{min-height:2.75rem;padding:.45rem 1rem;border:1px solid var(--ui-accent-deep);border-radius:.35rem;background:var(--ui-surface);color:var(--ui-accent-deep);font:700 1rem Arial,Helvetica,sans-serif;cursor:pointer;transition:background-color 160ms ease-out}.ds-values-control:hover{background:var(--ui-accent-soft)}.ds-values-control:focus-visible{outline:.2rem solid var(--ui-focus);outline-offset:.22rem}"
+    },
+    {
+      "name": "Organization unit",
+      "kind": "button",
+      "refersTo": "organization-unit",
+      "description": "Selección única del organigrama; patrón propio de la Landing.",
+      "html": "<button class=\"ds-organization-unit\" type=\"button\" aria-pressed=\"true\">Jefatura de Servicios de Desarrollo de Personal</button>",
+      "css": ".ds-organization-unit{display:flex;align-items:center;justify-content:center;width:100%;min-height:7rem;padding:1rem;border:1px solid var(--ui-boundary-strong);border-radius:.45rem;background:var(--ui-surface);color:var(--ui-ink);font:600 1rem/1.35 Arial,Helvetica,sans-serif;text-align:center;overflow-wrap:anywhere;cursor:pointer;transition:background-color 160ms ease-out,border-color 160ms ease-out}.ds-organization-unit:hover{background:var(--ui-accent-soft)}.ds-organization-unit[aria-pressed=true]{border:2px solid var(--ui-accent-deep);background:var(--ui-accent-soft);color:var(--ui-accent-deep)}.ds-organization-unit:focus-visible{outline:.2rem solid var(--ui-focus);outline-offset:.22rem}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Lectura institucional sobria",
+    "overview": "La interfaz pública implementada da prioridad a la identidad textual del IMSS y a una lectura clara: superficies amplias, espacios blancos, verde como acento y pocas formas repetidas. La referencia UX/UI vinculante de la Landing es [design-brief.md](../../specs/002-landing-institucional-jsdp/design-brief.md); su composición inicial se contrasta con `sobria-hero.png`. La pertenencia a Gobierno de México se muestra en segundo plano. Esta documentación describe código existente; no convierte las decisiones exploratorias en autorización institucional.\n\nEl sistema compartido abarca tipografía de lectura, paleta provisional, contenedor, foco, navegación pública, encabezado y pie. El Hero, el orden editorial de las seis secciones internas, los accesos destacados, la banda de Valores y el organigrama son exclusivos de la Landing. Un Dashboard futuro puede adoptar otra composición manteniendo la identidad institucional y las reglas compartidas que se validen.",
+    "keyCharacteristics": [
+      "IMSS predominante; Gobierno de México presente sin crear una firma conjunta.",
+      "Lectura plana y espaciosa, con jerarquía tipográfica antes que decoración.",
+      "Interacciones nativas, foco visible y movimiento opcional, nunca necesario para leer.",
+      "Logotipos y textura oficiales omitidos del cliente mientras sus controles permanezcan abiertos."
+    ],
+    "rules": [
+      { "name": "The Provisional Color Rule", "body": "Ningún token de interfaz documentado aquí se declara color oficial ni se aplica para recolorear un recurso de marca. La norma IMSS menciona Pantone 561 C y presenta equivalencias que deben cotejarse con el SVG y el contexto digital antes de cerrar VI-01; la guía gubernamental no autoriza adoptar sus colores como paleta principal de esta interfaz.", "section": "colors" },
+      { "name": "The Text Is Not a Logo Rule", "body": "La identificación textual actual no pretende reproducir el logosímbolo. La norma IMSS prescribe Optima Bold para éste y admite Helvetica/Arial como tipografía secundaria; la aplicación y disponibilidad definitivas de tipografías institucionales siguen sujetas a VI-02 y VI-03. La guía gubernamental menciona Patria y Noto Sans para sus usos específicos, pero ninguna está incorporada al Frontend.", "section": "typography" },
+      { "name": "The Flat Reading Rule", "body": "El énfasis institucional procede de jerarquía, superficies y estados, no de tarjetas flotantes.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** mantener IMSS como identidad predominante y Gobierno de México como pertenencia secundaria, sin fingir una firma oficial.",
+      "**Do** conservar en el producto compartido navegación, foco, contenedor y estados accesibles; documentar por separado la composición propia de cada superficie.",
+      "**Do** validar en móvil, teclado, zoom y movimiento reducido cualquier patrón nuevo antes de reutilizarlo.",
+      "**Do** registrar evidencia de VI-01–VI-05, CONT-01 y ORG-01–ORG-03 antes de sustituir omisiones por recursos o datos institucionales."
+    ],
+    "donts": [
+      "**Don't** declarar oficiales los valores cromáticos, fuentes de sistema o rampas ilustrativas de la herramienta.",
+      "**Don't** deformar, recolorear, recomponer ni publicar logos o textura sin validar variante, fondo, convivencia, vigencia y autorización.",
+      "**Don't** trasladar automáticamente el Hero, la banda de Valores o el organigrama a Documentos, Login o Dashboard.",
+      "**Don't** esconder contenido tras animaciones, exigir hover para operar ni introducir nombres personales pendientes en el cliente."
+    ]
+  }
+}

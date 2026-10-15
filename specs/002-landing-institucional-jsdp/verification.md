@@ -107,3 +107,20 @@ Pasada final tras T032/T059–T061 y el ajuste de foco entre rutas: 8/8 pruebas 
 ## Gates institucionales aún abiertos
 
 VI-01 (equivalencia cromática), VI-02 (tipografías autorizadas), VI-03 (variantes, fondos, convivencia y textura), VI-04 (atribución formal), VI-05 (vigencia/publicación), CONT-01 (presentación ampliada), ORG-01 (vigencia de responsables), ORG-02 (confirmación formal de denominaciones) y ORG-03 (publicación de nombres en intranet sin sesión) continúan abiertos. Los textos y estructura se muestran con fidelidad a las fuentes sin adscripción nueva; los responsables, dos SVG y textura continúan omitidos. No hay autorización implícita por pasar pruebas.
+
+## Reanudación de Implement y verificación reproducible · 2026-10-15
+
+Se revisó la raíz Git `C:/Desarrollo/JSDP`, rama `003-landing-institucional-jsdp`, `git status`, diff sin preparar y preparado, y los commits recientes. Al comenzar esta reanudación no había cambios de código ni de la Spec sin confirmar. Únicamente estaban sin seguimiento `apps/web/DESIGN.md` y `apps/web/.impeccable/design.json`, creados en la etapa posterior Impeccable Document; se conservaron sin sobrescribir. Se leyeron las 69 tareas y este registro; el estado comprobado es 59 `[x]` y 10 `[ ]`. La primera dependencia pendiente es T033. No se encontraron cambios de `apps/api` ni del lockfile.
+
+| Comprobación repetida | Resultado | Límite de la evidencia |
+| --- | --- | --- |
+| `node --test apps/web/tests/content.test.mjs apps/web/tests/organization.test.mjs apps/web/tests/values-motion.test.mjs` | 8 aprobadas, 0 fallidas | Modelos, contenido y transiciones puras; no prueba DOM o interacción real. |
+| `npm.cmd run typecheck --workspace apps/web` | Salida 0 | TypeScript, sin errores reportados. |
+| `NODE_ENV=production` limitado al proceso y `npm.cmd run build --workspace apps/web` | Salida 0; Vite 8.3.4, 105 módulos; HTML 0.41 kB, CSS 20.57 kB (gzip 4.96), JS 272.35 kB (gzip 86.10) | Tamaños de salida de Vite, no transferencia medida en intranet. |
+| Inspección privada de `apps/web/dist` | Solo `index.html` y un CSS/JS; cero coincidencias de responsables personales conocidos, PDF/Markdown fuente, SVG institucionales, mockup, `selection.json` o `socket.io` | No sustituye la inspección de solicitudes de un navegador ejecutando React (T064). |
+| HTTP local de desarrollo | `/`, `/documentos` y `/inicio-sesion` respondieron 200 con `text/html` | El fallback de Vite no demuestra contenido React, navegación, recarga/historial ni accesibilidad (T042). |
+| Recursos y alcance | `apps/web/public` no existe; `src/assets/institutional` solo contiene el manifiesto; `apps/api` permanece sin diff | Los controles VI y ORG siguen abiertos. |
+
+Se intentó conectar el navegador integrado para iniciar T033: la selección devolvió «No browser is available» y el descubrimiento de backends devolvió `[]`. Se consultó la guía de recuperación del navegador; no existe un backend disponible en esta sesión. Por ello T033, T042, T051, T056–T058, T064–T066 y T068 permanecen sin marcar. No se atribuyen capturas, lector de pantalla, toque, reflujo, inspección de red de runtime, estabilidad visual ni fallo controlado de `IntersectionObserver` a las comprobaciones estáticas. Para completarlas, ejecutar los recorridos de `quickstart.md` en un entorno con navegador y herramientas de accesibilidad, registrar versión, ancho, estados, condiciones y resultados, corregir los fallos que aparezcan y solo entonces marcar cada tarea aplicable.
+
+Los manuales PDF fueron legibles posteriormente durante Impeccable Document mediante un lector local distinto de las utilidades que faltaban en la recuperación inicial. Esa lectura no aporta autorización institucional: VI-01–VI-05, CONT-01 y ORG-01–ORG-03 continúan abiertos. Esta reanudación no cambia el diseño, el contenido ni el código de la aplicación.
