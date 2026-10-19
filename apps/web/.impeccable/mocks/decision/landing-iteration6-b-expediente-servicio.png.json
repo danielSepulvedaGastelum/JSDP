@@ -1,0 +1,8 @@
+{
+  "proposal": "B — Expediente de servicio",
+  "tool": "built-in image_gen",
+  "approved": false,
+  "intent": "Dirección editorial de expediente público, con capítulos numerados, gran ritmo vertical y accesos tratados como índice.",
+  "prompt": "Mockup editorial de alta fidelidad para JSDP OOAD 27 Sonora; Patria sólo en título breve, Noto Sans en interfaz, capítulos blancos y gris piedra, organigrama multicolor institucional sin azul.",
+  "postprocess": "Logotipo_del_IMSS.svg fue superpuesto sin transformación de forma o color; el generador dejó reservada el área de marca."
+}

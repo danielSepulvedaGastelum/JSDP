@@ -1,0 +1,19 @@
+{
+  "proposal": "C — Sistema de enlace · Móvil",
+  "parentComp": ".impeccable/mocks/decision/landing-iteration6-c-sistema-enlace.png",
+  "targetViewport": "390px portrait mobile",
+  "renderSize": "742x2120 retina-style presentation",
+  "tool": "built-in image_gen",
+  "approved": true,
+  "adaptation": "La composición pasa a una columna, preserva la red de unidades y transforma el organigrama en navegación progresiva por niveles.",
+  "navigation": "Header sticky compacto; menú principal en drawer; acceso de usuario visible; índice horizontal de secciones desplazable y táctil.",
+  "organigram": "Filas jerárquicas expandibles de ancho completo con objetivos táctiles de 48px; la selección abre una ficha inferior que no depende de hover.",
+  "motion": [
+    "Aparición por opacidad de 160–220ms al hacer scroll",
+    "Feedback pressed inmediato en botones, filas y controles",
+    "Accordion jerárquico de 180–220ms con foco trasladado al contenido revelado",
+    "Ficha inferior con transición corta y cierre explícito",
+    "prefers-reduced-motion elimina desplazamiento, escala y animación del scroll"
+  ],
+  "postprocess": "Logotipo_del_IMSS.svg superpuesto sin modificar forma o color."
+}
