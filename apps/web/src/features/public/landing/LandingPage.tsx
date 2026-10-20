@@ -157,19 +157,75 @@ function Header() {
 }
 
 function NetworkGraphic() {
+  const networkRef = useRef<HTMLDivElement>(null);
+  const [isMotionActive, setIsMotionActive] = useState(false);
+
+  useEffect(() => {
+    const network = networkRef.current;
+    if (!network) return;
+
+    let isIntersecting = false;
+    const syncMotion = () => setIsMotionActive(isIntersecting && document.visibilityState === 'visible');
+    const observer = new IntersectionObserver(([entry]) => {
+      isIntersecting = entry.isIntersecting;
+      syncMotion();
+    }, { threshold: 0.05 });
+
+    observer.observe(network);
+    document.addEventListener('visibilitychange', syncMotion);
+
+    return () => {
+      observer.disconnect();
+      document.removeEventListener('visibilitychange', syncMotion);
+    };
+  }, []);
+
   return (
-    <div className="network" role="img" aria-label="Composición visual institucional de la JSDP en Sonora">
+    <div ref={networkRef} className={`network${isMotionActive ? ' is-motion-active' : ''}`} role="img" aria-label="Composición visual institucional de la JSDP en Sonora">
       <img className="sonora-shape" src="/identity/Silueta_Sonora-verde.png" alt="" aria-hidden="true" />
       <svg className="network-lines" viewBox="0 0 520 420" aria-hidden="true">
+        <defs>
+          <mask id="network-gray-line-occlusion" maskUnits="userSpaceOnUse">
+            <rect width="520" height="420" fill="white"/>
+            <circle cx="304" cy="56" r="5.5" fill="black"/>
+            <path d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" fill="black"/>
+          </mask>
+        </defs>
+        <g className="network-gray-connections">
+          <path className="network-gray-line" d="M380 250A40 40 0 0 0 400 195"/>
+        </g>
         <g className="network-gold-connections">
           <path className="network-gold-line" d="M135 45Q176 4 222 43"/>
           <path className="network-gold-line" d="M100 98A150 150 0 0 0 205 260"/>
           <path className="network-gold-line" d="M205 250Q174 280 145 320"/>
+          <path className="network-gold-line" d="M206 345A100 100 0 0 0 360 336"/>
+          <path className="network-gold-line" d="M392 298A35 35 0 0 0 380 250"/>
+        </g>
+        <g className="network-gray-connections">
+          <path className="network-gray-line" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)"/>
         </g>
         <g className="network-green-connections">
           <path className="network-green-line network-green-line-medical" d="M148 93C178 99 202.67 121.67 210 141"/>
           <path className="network-green-line network-green-line-offices" d="M360 102C333 104 315 116 302 139"/>
           <path className="network-green-line network-green-line-coordination" d="M260 276C258 305 234 334 206 345"/>
+        </g>
+        <g className="network-signals">
+          <path className="network-signal signal-gray" pathLength="100" d="M380 250A40 40 0 0 0 400 195"/>
+          <path className="network-signal signal-gold" pathLength="100" d="M135 45Q176 4 222 43"/>
+          <path className="network-signal signal-gold" pathLength="100" d="M100 98A150 150 0 0 0 205 260"/>
+          <path className="network-signal signal-gold" pathLength="100" d="M205 250Q174 280 145 320"/>
+          <path className="network-signal signal-gold" pathLength="100" d="M206 345A100 100 0 0 0 360 336"/>
+          <path className="network-signal signal-gold" pathLength="100" d="M392 298A35 35 0 0 0 380 250"/>
+          <path className="network-signal signal-gray" pathLength="100" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)"/>
+          <path className="network-signal signal-green" pathLength="100" d="M148 93C178 99 202.67 121.67 210 141"/>
+          <path className="network-signal signal-green" pathLength="100" d="M360 102C333 104 315 116 302 139"/>
+          <path className="network-signal signal-green" pathLength="100" d="M260 276C258 305 234 334 206 345"/>
+        </g>
+        <g className="network-gold-points">
+          <circle className="network-gold-point" cx="285" cy="377" r="5.5"/>
+          <circle className="network-gold-point" cx="380" cy="250" r="5"/>
+          <circle className="network-soft-gold-point" cx="85" cy="270" r="9.5"/>
+          <circle className="network-soft-gold-point" cx="304" cy="56" r="4.5"/>
         </g>
         <g className="network-neutral-points">
           <circle className="network-gray-point" cx="174.5" cy="282.5" r="5"/>
@@ -179,14 +235,22 @@ function NetworkGraphic() {
           <circle className="network-green-point" cx="187.5" cy="112" r="7.5"/>
           <circle className="network-green-point" cx="326" cy="113.5" r="7.5"/>
           <circle className="network-green-point" cx="123" cy="198" r="6.5"/>
-          <circle className="network-green-point" cx="359" cy="195" r="8"/>
+          <circle className="network-green-point" cx="400" cy="195" r="9"/>
           <circle className="network-green-point" cx="206" cy="345" r="6.5"/>
         </g>
         <g className="network-petals">
-          <path className="network-petal petal-green" d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z"/>
-          <path className="network-petal petal-gold" d="M448 106C462 96 479 94 492 101C486 116 471 127 453 131C447 124 445 115 448 106Z"/>
-          <path className="network-petal petal-green" d="M474 176C487 190 489 214 477 235C464 221 461 197 470 179L474 176Z"/>
-          <path className="network-petal petal-green" d="M198 374C216 365 240 368 258 383C242 393 216 391 197 380L198 374Z"/>
+          <g className="network-petal-motion">
+            <path className="network-petal petal-green" d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" transform="translate(241 23) scale(1.08) translate(-241 -23)"/>
+          </g>
+          <g className="network-petal-motion">
+            <path className="network-petal petal-gold" d="M446 118C457 98 476 91 495 99C491 116 475 132 451 134C445 129 443 123 446 118Z" transform="translate(469 145) scale(1.28) translate(-470 -113)"/>
+          </g>
+          <g className="network-petal-motion">
+            <path className="network-petal petal-green" d="M474 176C487 190 489 214 477 235C464 221 461 197 470 179L474 176Z" transform="translate(475 232) scale(1.28) translate(-475 -206)"/>
+          </g>
+          <g className="network-petal-motion">
+            <path className="network-petal petal-green" d="M198 374C216 365 240 368 258 383C242 393 216 391 197 380L198 374Z" transform="translate(166 387) scale(1.38) translate(-228 -379)"/>
+          </g>
         </g>
       </svg>
       <div className="network-center"><Icon name="people" size={36}/><strong>JSDP</strong><span>Sonora</span></div>
