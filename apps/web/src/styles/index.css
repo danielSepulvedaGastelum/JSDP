@@ -309,41 +309,36 @@ p {
   stroke-linejoin: round;
 }
 
-.network-lines .network-thread-soft {
-  stroke: rgba(166, 192, 182, .46);
+.network-lines .network-green-line {
+  stroke: #185c4b;
   stroke-width: 1.15;
 }
 
-.network-lines .network-thread-soft.inner {
-  stroke: rgba(211, 220, 216, .76);
-  stroke-width: .9;
-}
-
-.network-lines .network-thread-gold {
-  stroke: rgba(194, 143, 39, .7);
+.network-lines .network-gold-line {
+  stroke: rgba(194, 143, 39, .82);
   stroke-width: 1.25;
 }
 
-.network-lines .network-thread-green {
-  stroke: rgba(8, 101, 75, .78);
-  stroke-width: 1.35;
+.network-lines .network-green-line-offices {
+  stroke-width: 1.45;
 }
 
-.network-lines circle {
-  stroke: rgba(255, 255, 255, .92);
-  stroke-width: 1.25;
+.network-lines .network-green-line-medical {
+  stroke-width: 1.45;
 }
 
-.network-lines .dot-green {
+.network-lines .network-green-line-coordination {
+  stroke-width: 1.45;
+}
+
+.network-lines .network-green-point {
   fill: var(--green);
+  stroke: none;
 }
 
-.network-lines .dot-gold {
-  fill: #c28f27;
-}
-
-.network-lines .dot-neutral {
+.network-lines .network-gray-point {
   fill: #c8cfcc;
+  stroke: none;
 }
 
 .network-lines .network-petal {
