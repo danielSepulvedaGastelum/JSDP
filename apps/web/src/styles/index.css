@@ -480,13 +480,13 @@ p {
 }
 
 .about .section-shell {
-  min-height: 220px;
+  min-height: 330px;
   display: grid;
   grid-template-columns: minmax(0, 680px) auto;
   align-items: center;
   justify-content: space-between;
   gap: clamp(40px, 7vw, 112px);
-  padding: 42px 0;
+  padding: 64px 0;
 }
 
 .about h2,
@@ -535,7 +535,8 @@ p {
 }
 
 .planned {
-  padding-block: var(--section-space);
+  min-height: 410px;
+  padding-block: 32px;
 }
 
 .section-heading p {
@@ -546,25 +547,24 @@ p {
 .planned-list {
   padding: 0;
   list-style: none;
-  margin-top: 24px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0;
-  border-block: 1px solid var(--line);
+  gap: 18px;
 }
 
 .planned-list li {
-  min-height: 104px;
-  padding: 20px 22px;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 16px;
+  min-height: 264px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
   color: #647180;
-}
-
-.planned-list li+li {
-  border-left: 1px solid var(--line);
+  background: #fff;
+  border: 1px solid #e0e5e4;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(16, 55, 48, .05);
 }
 
 .planned-list li,
@@ -580,27 +580,48 @@ p {
 }
 
 .planned-icon {
-  width: 46px;
-  height: 46px;
+  width: 76px;
+  height: 76px;
   display: grid;
   place-items: center;
-  border-radius: 50%;
-  color: #718090;
-  background: #f0f2f3;
+  border-radius: 12px;
+  color: var(--green);
+  background: #eef5f2;
+}
+
+.planned-icon svg {
+  width: 36px;
+  height: 36px;
+}
+
+.planned-card-top {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.planned-list li.is-muted .planned-icon {
+  color: #7c8792;
+  background: #f1f2f3;
 }
 
 .planned-list strong {
   display: block;
+  margin-top: 24px;
   color: var(--ink);
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 1.25;
 }
 
 .planned-list small {
   display: block;
-  margin-top: 4px;
-  font-size: 12px;
+  max-width: 30ch;
+  margin-top: 8px;
+  font-size: 15px;
   color: var(--muted);
-  line-height: 1.35;
+  line-height: 1.45;
 }
 
 .identity-grid {
@@ -610,8 +631,8 @@ p {
 }
 
 .identity-panel {
-  min-height: 224px;
-  padding: 40px max(40px, calc((100vw - 1240px) / 2));
+  min-height: 336px;
+  padding: 60px max(40px, calc((100vw - 1240px) / 2));
   display: grid;
   grid-template-columns: 1fr;
   align-content: center;
@@ -1361,7 +1382,8 @@ p {
   }
 
   .planned {
-    padding-block: var(--section-space-compact);
+    min-height: 356px;
+    padding-block: 18px;
   }
 
   .planned-list {
@@ -1369,16 +1391,17 @@ p {
   }
 
   .planned-list li {
-    padding: 16px 14px;
-    gap: 10px;
+    min-height: 240px;
+    padding: 24px;
+    gap: 0;
   }
 
   .planned-list strong {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .planned-list small {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .identity-panel {
@@ -1543,37 +1566,73 @@ p {
   }
 
   .planned {
-    padding-block: var(--section-space-compact);
+    min-height: 540px;
+    padding-block: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .planned-list {
     margin-top: 16px;
-    grid-template-columns: 1fr;
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: min(82vw, 300px);
+    gap: 12px;
+    padding-bottom: 8px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #9db3ac #eef3f1;
   }
 
   .planned-list li {
-    min-height: 76px;
-    padding: 12px 0;
-    gap: 12px;
+    min-height: 208px;
+    padding: 20px;
+    gap: 0;
+    scroll-snap-align: start;
   }
 
   .planned-list li+li {
-    border-left: 0;
-    border-top: 1px solid var(--line);
+    border: 1px solid #e0e5e4;
+  }
+
+  .planned-list::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .planned-list::-webkit-scrollbar-track {
+    background: #eef3f1;
+    border-radius: 999px;
+  }
+
+  .planned-list::-webkit-scrollbar-thumb {
+    background: #9db3ac;
+    border-radius: 999px;
   }
 
   .planned-icon {
-    width: 44px;
-    height: 44px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .planned-icon svg {
+    width: 32px;
+    height: 32px;
   }
 
   .planned-list strong {
-    font-size: 14px;
+    margin-top: 18px;
+  }
+
+  .planned-list strong {
+    font-size: 16px;
   }
 
   .planned-list small {
     margin-top: 3px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .identity-grid {
@@ -1584,8 +1643,8 @@ p {
   .identity-panel,
   .mission,
   .vision {
-    min-height: 180px;
-    padding: 28px 36px;
+    min-height: 240px;
+    padding: 36px;
     grid-template-columns: 1fr;
     gap: 12px;
   }
@@ -1992,19 +2051,20 @@ p {
   }
 
   .planned {
-    padding-block: var(--section-space-compact);
+    min-height: 540px;
+    padding-block: 48px;
   }
 
   .planned-icon {
-    width: 44px;
-    height: 44px;
+    width: 64px;
+    height: 64px;
   }
 
   .identity-panel,
   .mission,
   .vision {
-    min-height: 0;
-    padding: 24px;
+    min-height: 240px;
+    padding: 36px 24px;
     grid-template-columns: 1fr;
     gap: 12px;
   }
@@ -2174,14 +2234,23 @@ p {
 }
 
 @media (min-width: 761px) and (max-width: 900px) {
+  .planned {
+    padding-block: 85px;
+  }
+
   .planned-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .planned-list li {
+    min-height: 240px;
+    padding: 20px;
   }
 
   .planned-list li:last-child {
-    grid-column: 1 / -1;
-    border-top: 1px solid var(--line);
-    border-left: 0;
+    grid-column: auto;
+    border: 1px solid #e0e5e4;
   }
 
   .identity-grid {
@@ -2325,10 +2394,10 @@ p {
   }
 
   .about .section-shell {
-    min-height: 210px;
+    min-height: 315px;
     grid-template-columns: minmax(0, 600px) auto;
     gap: 32px;
-    padding-block: 34px;
+    padding-block: 52px;
   }
 
   .about p {
@@ -2351,9 +2420,12 @@ p {
   }
 
   .about .section-shell {
-    min-height: 278px;
-    display: block;
-    padding-block: 30px;
+    min-height: 417px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding-block: 45px;
   }
 
   .about-copy {

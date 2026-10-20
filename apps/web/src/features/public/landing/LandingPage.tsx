@@ -19,6 +19,7 @@ type IconName =
   | 'people'
   | 'person'
   | 'roadmap'
+  | 'settings'
   | 'solidarity'
   | 'target'
   | 'training'
@@ -57,6 +58,7 @@ function Icon({ name, size = 24 }: { name: IconName; size?: number }) {
     people: <><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M15 14a5 5 0 0 1 6 4.9V20"/></>,
     person: <><circle cx="12" cy="8" r="4"/><path d="M4 22a8 8 0 0 1 16 0"/></>,
     roadmap: <><path d="M5 21V5M19 21V9"/><path d="M5 6h9l-2-3M19 10h-9l2-3"/></>,
+    settings: <><path d="M9.5 3h5l.7 2.2 2 .8 2.1-1 2.5 4.3-1.8 1.5v2.4l1.8 1.5-2.5 4.3-2.1-1-2 .8-.7 2.2h-5l-.7-2.2-2-.8-2.1 1-2.5-4.3L4 13.2v-2.4L2.2 9.3 4.7 5l2.1 1 2-.8L9.5 3Z"/><circle cx="12" cy="12" r="3"/></>,
     solidarity: <><circle cx="12" cy="7" r="3"/><circle cx="5" cy="9" r="2"/><circle cx="19" cy="9" r="2"/><path d="M7.5 20v-2.2a4.5 4.5 0 0 1 9 0V20M2 19v-1.4A3.6 3.6 0 0 1 6.5 14M22 19v-1.4a3.6 3.6 0 0 0-4.5-3.5"/></>,
     target: <><circle cx="10" cy="14" r="7.5"/><circle cx="10" cy="14" r="4.25"/><circle cx="10" cy="14" r="1.25"/><path d="m11 13 9-9M15.5 4H20v4.5"/></>,
     training: <><path d="M4 5h16v13H4zM8 22h8M12 18v4"/><path d="m9 13 2-2 2 2 3-4"/></>,
@@ -188,10 +190,10 @@ function Hero() {
 function PlannedFeatures() {
   const items = [
     { title: 'Documentos', text: 'La consulta y descarga se habilitarán en una próxima etapa', icon: 'document' as const },
-    { title: 'Inicio de sesión', text: 'El acceso al área privada aún no está habilitado', icon: 'login' as const },
-    { title: 'Nuevas funcionalidades', text: 'Los servicios adicionales se incorporarán gradualmente', icon: 'roadmap' as const },
+    { title: 'Inicio de sesión', text: 'El acceso al área privada aún no está habilitado', icon: 'person' as const },
+    { title: 'Nuevas funcionalidades', text: 'Los servicios adicionales se incorporarán gradualmente', icon: 'settings' as const, muted: true },
   ];
-  return <section className="planned section-shell reveal" id="accesos"><div className="section-heading"><h2>Próximas funciones</h2><p>Servicios identificados para una etapa posterior.</p></div><ul className="planned-list">{items.map(item => <li key={item.title}><span className="planned-icon"><Icon name={item.icon}/></span><span><strong>{item.title}</strong><small>{item.text}</small></span><PendingBadge compact/></li>)}</ul></section>;
+  return <section className="planned section-shell reveal" id="accesos"><div className="section-heading"><h2>Próximas funciones</h2><p>Servicios identificados para una etapa posterior.</p></div><ul className="planned-list">{items.map(item => <li className={item.muted ? 'is-muted' : undefined} key={item.title}><span className="planned-card-top"><span className="planned-icon"><Icon name={item.icon}/></span><PendingBadge compact/></span><strong>{item.title}</strong><small>{item.text}</small></li>)}</ul></section>;
 }
 
 function MissionVision() {
