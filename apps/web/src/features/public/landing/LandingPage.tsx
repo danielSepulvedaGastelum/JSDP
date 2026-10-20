@@ -201,7 +201,28 @@ function MissionVision() {
 }
 
 function Values() {
-  return <section className="values section-shell reveal" id="valores"><div className="section-heading"><h2>Nuestro Valores</h2><p>Principios que guían nuestro trabajo diario.</p></div><div className="values-grid">{values.map(([name, description, icon]) => <article className="value" key={name}><span><Icon name={icon} size={40}/></span><h3>{name}</h3><p>{description}</p></article>)}</div></section>;
+  const sectionRef = useRef<HTMLElement>(null);
+  const [marqueeActive, setMarqueeActive] = useState(false);
+  const marqueeCopies = [0, 1, 2, 3];
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+    let inView = false;
+    const syncMotion = () => setMarqueeActive(inView && document.visibilityState === 'visible');
+    const observer = new IntersectionObserver(([entry]) => {
+      inView = entry.isIntersecting;
+      syncMotion();
+    }, { rootMargin: '120px 0px' });
+    observer.observe(section);
+    document.addEventListener('visibilitychange', syncMotion);
+    return () => {
+      observer.disconnect();
+      document.removeEventListener('visibilitychange', syncMotion);
+    };
+  }, []);
+
+  return <section ref={sectionRef} className="values section-shell reveal" id="valores"><div className="section-heading"><h2>Nuestro Valores</h2><p>Principios que guían nuestro trabajo diario.</p></div><div className="values-marquee"><div className={`values-track ${marqueeActive ? 'is-moving' : ''}`}>{marqueeCopies.map(copyIndex => <div className={`values-grid ${copyIndex > 0 ? 'values-grid-duplicate' : ''}`} aria-hidden={copyIndex > 0 ? true : undefined} key={`values-copy-${copyIndex}`}>{values.map(([name, description, icon]) => <article className="value" key={`${name}-${copyIndex}`}><span><Icon name={icon} size={40}/></span><h3>{name}</h3><p>{description}</p></article>)}</div>)}</div></div></section>;
 }
 
 function OrgCard({ node, selected, onSelect, compact = false, disclosure = false, controls }: { node: OrgNode; selected: boolean; onSelect: () => void; compact?: boolean; disclosure?: boolean; controls?: string }) {

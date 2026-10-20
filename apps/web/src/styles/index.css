@@ -690,8 +690,21 @@ p {
   padding-block: var(--section-space);
 }
 
-.values-grid {
+.values-marquee {
   margin-top: 28px;
+  overflow: hidden;
+}
+
+.values-track {
+  width: max-content;
+  display: flex;
+  gap: 24px;
+  transform: translate3d(0, 0, 0);
+}
+
+.values-grid {
+  width: min(calc(100vw - 120px), 1240px);
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 24px;
@@ -2440,5 +2453,87 @@ p {
 
   .secondary-button {
     margin: 20px 0 0 auto;
+  }
+}
+
+@keyframes values-marquee-scroll {
+  to {
+    transform: translate3d(calc(-25% - 6px), 0, 0);
+  }
+}
+
+@media (min-width: 1181px) {
+  .values-marquee {
+    width: 100vw;
+    margin-inline: calc(50% - 50vw);
+  }
+
+  .value>span {
+    flex: 0 0 auto;
+    margin: 0 auto;
+  }
+
+  .values-track.is-moving {
+    animation: values-marquee-scroll 70s linear infinite;
+    will-change: transform;
+  }
+
+  .values-marquee:hover .values-track {
+    animation-play-state: paused;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1180px) {
+  .values-marquee {
+    margin-top: 18px;
+    overflow: visible;
+  }
+
+  .values-track {
+    width: auto;
+    display: block;
+    transform: none;
+  }
+
+  .values-grid {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .values-grid-duplicate {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .values-marquee {
+    margin-top: 20px;
+    overflow: visible;
+  }
+
+  .values-track {
+    width: auto;
+    display: block;
+    transform: none;
+  }
+
+  .values-grid {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .values-grid-duplicate {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .values-track.is-moving {
+    animation: none;
+    transform: none;
+  }
+
+  .values-grid-duplicate {
+    display: none;
   }
 }
