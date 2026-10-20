@@ -160,10 +160,42 @@ function NetworkGraphic() {
   return (
     <div className="network" role="img" aria-label="Composición visual institucional de la JSDP en Sonora">
       <img className="sonora-shape" src="/identity/Silueta_Sonora-verde.png" alt="" aria-hidden="true" />
-      <svg className="network-lines" viewBox="0 0 520 420" aria-hidden="true"><path d="M260 210 142 92M260 210 394 92M260 210 407 305M260 210 126 314"/><path d="M142 92C235 35 315 34 394 92M394 92c62 75 58 148 13 213M407 305c-91 60-190 55-281 9M126 314C62 224 78 143 142 92" className="orbit"/><g><circle cx="215" cy="59" r="6"/><circle cx="347" cy="55" r="5"/><circle cx="447" cy="210" r="6"/><circle cx="335" cy="356" r="5"/><circle cx="91" cy="225" r="6"/></g></svg>
-      <span className="network-leaf leaf-one" aria-hidden="true" />
-      <span className="network-leaf leaf-two" aria-hidden="true" />
-      <span className="network-leaf leaf-three" aria-hidden="true" />
+      <svg className="network-lines" viewBox="0 0 520 420" aria-hidden="true">
+        <g className="network-petals">
+          <path className="network-petal petal-green" d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z"/>
+          <path className="network-petal petal-gold" d="M448 106C462 96 479 94 492 101C486 116 471 127 453 131C447 124 445 115 448 106Z"/>
+          <path className="network-petal petal-green" d="M474 176C487 190 489 214 477 235C464 221 461 197 470 179L474 176Z"/>
+          <path className="network-petal petal-green" d="M198 374C216 365 240 368 258 383C242 393 216 391 197 380L198 374Z"/>
+        </g>
+        <g className="network-threads">
+          <path className="network-thread-soft" d="M118 71C190 31 334 32 402 76"/>
+          <path className="network-thread-soft" d="M120 359C194 397 334 397 402 356"/>
+          <path className="network-thread-soft" d="M119 94C76 159 76 270 119 338"/>
+          <path className="network-thread-soft" d="M401 97C444 163 444 270 401 337"/>
+          <path className="network-thread-soft inner" d="M157 106C210 68 312 68 365 108"/>
+          <path className="network-thread-soft inner" d="M156 333C211 367 310 368 366 333"/>
+          <path className="network-thread-gold" d="M161 79C174 132 186 174 218 201M359 84C346 136 334 176 299 201"/>
+          <path className="network-thread-gold" d="M161 348C184 329 202 296 222 252M359 349C337 329 318 296 297 252"/>
+          <path className="network-thread-green" d="M161 78C172 88 181 99 189 112C207 132 221 156 232 180"/>
+          <path className="network-thread-green" d="M359 84C349 92 340 102 332 113C314 132 300 156 289 181"/>
+          <path className="network-thread-green" d="M162 347C174 332 181 315 189 298C207 280 221 264 232 252"/>
+          <path className="network-thread-green" d="M358 348C347 333 340 315 332 298C314 280 300 264 289 252"/>
+        </g>
+        <g className="network-dots">
+          <circle className="dot-green" cx="189" cy="112" r="6"/>
+          <circle className="dot-neutral" cx="273" cy="64" r="5"/>
+          <circle className="dot-green" cx="332" cy="113" r="6"/>
+          <circle className="dot-gold" cx="403" cy="151" r="5"/>
+          <circle className="dot-green" cx="449" cy="219" r="7"/>
+          <circle className="dot-neutral" cx="421" cy="279" r="4"/>
+          <circle className="dot-green" cx="332" cy="298" r="6"/>
+          <circle className="dot-gold" cx="312" cy="367" r="5"/>
+          <circle className="dot-neutral" cx="208" cy="365" r="5"/>
+          <circle className="dot-green" cx="189" cy="298" r="6"/>
+          <circle className="dot-gold" cx="81" cy="239" r="7"/>
+          <circle className="dot-neutral" cx="105" cy="163" r="4"/>
+        </g>
+      </svg>
       <div className="network-center"><Icon name="people" size={36}/><strong>JSDP</strong><span>Sonora</span></div>
       <div className="network-node medical"><img src="/identity/Unidad_Medica.jpg" alt=""/><span>Unidades médicas</span></div>
       <div className="network-node offices"><img src="/identity/Unidad_No_Medica.jpg" alt=""/><span>Unidades no médicas</span></div>
