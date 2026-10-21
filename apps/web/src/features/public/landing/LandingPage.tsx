@@ -41,31 +41,31 @@ function Icon({ name, size = 24 }: { name: IconName; size?: number }) {
     'aria-hidden': true,
   };
   const paths: Record<IconName, ReactNode> = {
-    arrow: <><path d="M5 12h13"/><path d="m14 7 5 5-5 5"/></>,
-    audit: <><path d="M5 3h9l4 4v6"/><path d="M14 3v5h5M5 3v18h7"/><circle cx="17" cy="17" r="3"/><path d="m19.2 19.2 2.3 2.3M8 11h6M8 15h3"/></>,
-    budget: <><ellipse cx="9" cy="6" rx="6" ry="3"/><path d="M3 6v4c0 1.7 2.7 3 6 3 1.1 0 2.1-.1 3-.4M3 10v4c0 1.7 2.7 3 6 3"/><ellipse cx="16" cy="16" rx="5" ry="2.5"/><path d="M11 16v3c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-3"/></>,
-    check: <path d="m5 12 4 4L19 6"/>,
-    chevron: <path d="m9 6 6 6-6 6"/>,
-    discipline: <><path d="M3 21h18M5 16h3v5H5zM10.5 12h3v9h-3zM16 7h3v14h-3z"/><path d="M3 4v17"/></>,
-    document: <><path d="M6 2h8l4 4v16H6z"/><path d="M14 2v5h5M9 12h6M9 16h6"/></>,
-    empathy: <><path d="M4 13.5V8a2 2 0 0 1 4 0v4"/><path d="M8 11V6.5a2 2 0 0 1 4 0V11"/><path d="M12 10V7.5a2 2 0 0 1 4 0V12"/><path d="M16 11a2 2 0 0 1 4 0v3c0 4.4-3.6 8-8 8h-1a7 7 0 0 1-7-7v-1.5"/><path d="M4 13.5a2 2 0 0 1 3.4-1.4L10 15"/></>,
-    handshake: <><path d="m3 12 4-4 4 2 2-1 8 7-3 3-3-1-2 2-3-2-2 1-5-5Z"/><path d="m8 13 3 3M11 11l5 5M14 10l5 5"/></>,
-    heart: <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>,
-    idea: <><path d="M9 18h6M10 22h4M8 14c-1.3-1.1-2-2.6-2-4.2A6 6 0 0 1 18 10c0 1.6-.7 3.1-2 4.2-.7.6-1 1.1-1 1.8H9c0-.7-.3-1.2-1-2Z"/><path d="M12 1v2M3.5 4.5 5 6M21 10h-2M19.5 4.5 18 6M5 10H3"/></>,
-    integrity: <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/>,
-    login: <><path d="M14 3h6v18h-6"/><path d="M3 12h12M10 7l5 5-5 5"/></>,
-    loyalty: <><circle cx="12" cy="9" r="5"/><circle cx="12" cy="9" r="2.25"/><path d="m8.8 13.2-2 8.8 5.2-3 5.2 3-2-8.8"/></>,
-    people: <><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M15 14a5 5 0 0 1 6 4.9V20"/></>,
-    person: <><circle cx="12" cy="8" r="4"/><path d="M4 22a8 8 0 0 1 16 0"/></>,
-    roadmap: <><path d="M5 21V5M19 21V9"/><path d="M5 6h9l-2-3M19 10h-9l2-3"/></>,
-    settings: <><path d="M9.5 3h5l.7 2.2 2 .8 2.1-1 2.5 4.3-1.8 1.5v2.4l1.8 1.5-2.5 4.3-2.1-1-2 .8-.7 2.2h-5l-.7-2.2-2-.8-2.1 1-2.5-4.3L4 13.2v-2.4L2.2 9.3 4.7 5l2.1 1 2-.8L9.5 3Z"/><circle cx="12" cy="12" r="3"/></>,
-    solidarity: <><circle cx="12" cy="7" r="3"/><circle cx="5" cy="9" r="2"/><circle cx="19" cy="9" r="2"/><path d="M7.5 20v-2.2a4.5 4.5 0 0 1 9 0V20M2 19v-1.4A3.6 3.6 0 0 1 6.5 14M22 19v-1.4a3.6 3.6 0 0 0-4.5-3.5"/></>,
-    target: <><circle cx="10" cy="14" r="7.5"/><circle cx="10" cy="14" r="4.25"/><circle cx="10" cy="14" r="1.25"/><path d="m11 13 9-9M15.5 4H20v4.5"/></>,
-    training: <><path d="M4 5h16v13H4zM8 22h8M12 18v4"/><path d="m9 13 2-2 2 2 3-4"/></>,
-    vision: <><path d="M2.5 20 10 7l3.2 5.4 2-3.1L21.5 20h-19Z"/><path d="m7.9 10.7 2.1 2 1.7-1.4M10 7V2.5M10 2.5h6l-1.8 2 1.8 2h-6"/></>,
-    zoomIn: <><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5M10 7v6M7 10h6"/></>,
-    zoomOut: <><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5M7 10h6"/></>,
-    zoomFit: <><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/><path d="m3 8 5-5M21 8l-5-5M3 16l5 5M21 16l-5 5"/></>,
+    arrow: <><path d="M5 12h13" /><path d="m14 7 5 5-5 5" /></>,
+    audit: <><path d="M5 3h9l4 4v6" /><path d="M14 3v5h5M5 3v18h7" /><circle cx="17" cy="17" r="3" /><path d="m19.2 19.2 2.3 2.3M8 11h6M8 15h3" /></>,
+    budget: <><ellipse cx="9" cy="6" rx="6" ry="3" /><path d="M3 6v4c0 1.7 2.7 3 6 3 1.1 0 2.1-.1 3-.4M3 10v4c0 1.7 2.7 3 6 3" /><ellipse cx="16" cy="16" rx="5" ry="2.5" /><path d="M11 16v3c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-3" /></>,
+    check: <path d="m5 12 4 4L19 6" />,
+    chevron: <path d="m9 6 6 6-6 6" />,
+    discipline: <><path d="M3 21h18M5 16h3v5H5zM10.5 12h3v9h-3zM16 7h3v14h-3z" /><path d="M3 4v17" /></>,
+    document: <><path d="M6 2h8l4 4v16H6z" /><path d="M14 2v5h5M9 12h6M9 16h6" /></>,
+    empathy: <><path d="M4 13.5V8a2 2 0 0 1 4 0v4" /><path d="M8 11V6.5a2 2 0 0 1 4 0V11" /><path d="M12 10V7.5a2 2 0 0 1 4 0V12" /><path d="M16 11a2 2 0 0 1 4 0v3c0 4.4-3.6 8-8 8h-1a7 7 0 0 1-7-7v-1.5" /><path d="M4 13.5a2 2 0 0 1 3.4-1.4L10 15" /></>,
+    handshake: <><path d="m3 12 4-4 4 2 2-1 8 7-3 3-3-1-2 2-3-2-2 1-5-5Z" /><path d="m8 13 3 3M11 11l5 5M14 10l5 5" /></>,
+    heart: <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z" />,
+    idea: <><path d="M9 18h6M10 22h4M8 14c-1.3-1.1-2-2.6-2-4.2A6 6 0 0 1 18 10c0 1.6-.7 3.1-2 4.2-.7.6-1 1.1-1 1.8H9c0-.7-.3-1.2-1-2Z" /><path d="M12 1v2M3.5 4.5 5 6M21 10h-2M19.5 4.5 18 6M5 10H3" /></>,
+    integrity: <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />,
+    login: <><path d="M14 3h6v18h-6" /><path d="M3 12h12M10 7l5 5-5 5" /></>,
+    loyalty: <><circle cx="12" cy="9" r="5" /><circle cx="12" cy="9" r="2.25" /><path d="m8.8 13.2-2 8.8 5.2-3 5.2 3-2-8.8" /></>,
+    people: <><circle cx="9" cy="8" r="3" /><circle cx="17" cy="9" r="2" /><path d="M3 20v-2a6 6 0 0 1 12 0v2M15 14a5 5 0 0 1 6 4.9V20" /></>,
+    person: <><circle cx="12" cy="8" r="4" /><path d="M4 22a8 8 0 0 1 16 0" /></>,
+    roadmap: <><path d="M5 21V5M19 21V9" /><path d="M5 6h9l-2-3M19 10h-9l2-3" /></>,
+    settings: <><path d="M9.5 3h5l.7 2.2 2 .8 2.1-1 2.5 4.3-1.8 1.5v2.4l1.8 1.5-2.5 4.3-2.1-1-2 .8-.7 2.2h-5l-.7-2.2-2-.8-2.1 1-2.5-4.3L4 13.2v-2.4L2.2 9.3 4.7 5l2.1 1 2-.8L9.5 3Z" /><circle cx="12" cy="12" r="3" /></>,
+    solidarity: <><circle cx="12" cy="7" r="3" /><circle cx="5" cy="9" r="2" /><circle cx="19" cy="9" r="2" /><path d="M7.5 20v-2.2a4.5 4.5 0 0 1 9 0V20M2 19v-1.4A3.6 3.6 0 0 1 6.5 14M22 19v-1.4a3.6 3.6 0 0 0-4.5-3.5" /></>,
+    target: <><circle cx="10" cy="14" r="7.5" /><circle cx="10" cy="14" r="4.25" /><circle cx="10" cy="14" r="1.25" /><path d="m11 13 9-9M15.5 4H20v4.5" /></>,
+    training: <><path d="M4 5h16v13H4zM8 22h8M12 18v4" /><path d="m9 13 2-2 2 2 3-4" /></>,
+    vision: <><path d="M2.5 20 10 7l3.2 5.4 2-3.1L21.5 20h-19Z" /><path d="m7.9 10.7 2.1 2 1.7-1.4M10 7V2.5M10 2.5h6l-1.8 2 1.8 2h-6" /></>,
+    zoomIn: <><circle cx="10" cy="10" r="6" /><path d="m15 15 5 5M10 7v6M7 10h6" /></>,
+    zoomOut: <><circle cx="10" cy="10" r="6" /><path d="m15 15 5 5M7 10h6" /></>,
+    zoomFit: <><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5" /><path d="m3 8 5-5M21 8l-5-5M3 16l5 5M21 16l-5 5" /></>,
   };
   return <svg {...common}>{paths[name]}</svg>;
 }
@@ -129,11 +129,10 @@ function renderOrgChartNode(node: OrgChartNode<OrgChartDatum>, selectedId: strin
   </div>`;
 }
 
-function BrandLogo({ compact = false }: { compact?: boolean }) {
+function BrandLogo() {
   return (
-    <a className="brand" href="#inicio" aria-label="IMSS, volver al inicio">
-      <img src="/identity/Logotipo_del_IMSS.svg" alt="Instituto Mexicano del Seguro Social" />
-      {!compact && <span>JSDP · OOAD 27 Sonora</span>}
+    <a className="brand" href="#inicio" aria-label="IMSS JSDP Sonora, volver al inicio">
+      <img src="/identity/JSDP-Sonora-09.svg" alt="IMSS — JSDP Sonora" />
     </a>
   );
 }
@@ -148,8 +147,8 @@ function Header() {
       <div className="header-inner">
         <BrandLogo />
         <div className="header-actions" aria-label="Funciones próximas">
-          <span className="header-action" aria-label="Documentos, próximamente"><Icon name="document" size={19}/><span><strong>Documentos</strong><small>Próximamente</small></span></span>
-          <span className="header-action" aria-label="Iniciar sesión, próximamente"><Icon name="login" size={19}/><span><strong>Iniciar sesión</strong><small>Próximamente</small></span></span>
+          <span className="header-action header-action-plain" aria-label="Documentos, próximamente" aria-disabled="true"><span><strong>Documentos</strong></span></span>
+          <span className="header-action header-action-login" aria-label="Iniciar sesión, próximamente" aria-disabled="true"><Icon name="login" size={19} /><span><strong>Iniciar sesión</strong></span></span>
         </div>
       </div>
     </header>
@@ -186,78 +185,212 @@ function NetworkGraphic() {
       <svg className="network-lines" viewBox="0 0 520 420" aria-hidden="true">
         <defs>
           <mask id="network-gray-line-occlusion" maskUnits="userSpaceOnUse">
-            <rect width="520" height="420" fill="white"/>
-            <circle cx="304" cy="56" r="5.5" fill="black"/>
-            <path d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" fill="black"/>
+            <rect width="520" height="420" fill="white" />
+            <circle cx="304" cy="56" r="5.5" fill="black" />
+            <path d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" fill="black" />
           </mask>
         </defs>
         <g className="network-gray-connections">
-          <path className="network-gray-line" d="M380 250A40 40 0 0 0 400 195"/>
+          <path className="network-gray-line" d="M380 250A40 40 0 0 0 400 195" />
         </g>
         <g className="network-gold-connections">
-          <path className="network-gold-line" d="M135 45Q176 4 222 43"/>
-          <path className="network-gold-line" d="M100 98A150 150 0 0 0 205 260"/>
-          <path className="network-gold-line" d="M205 250Q174 280 145 320"/>
-          <path className="network-gold-line" d="M206 345A100 100 0 0 0 360 336"/>
-          <path className="network-gold-line" d="M392 298A35 35 0 0 0 380 250"/>
+          <path className="network-gold-line" d="M135 45Q176 4 222 43" />
+          <path className="network-gold-line" d="M100 98A150 150 0 0 0 205 260" />
+          <path className="network-gold-line" d="M205 250Q174 280 145 320" />
+          <path className="network-gold-line" d="M206 345A100 100 0 0 0 360 336" />
+          <path className="network-gold-line" d="M392 298A35 35 0 0 0 380 250" />
         </g>
         <g className="network-gray-connections">
-          <path className="network-gray-line" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)"/>
+          <path className="network-gray-line" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)" />
         </g>
         <g className="network-green-connections">
-          <path className="network-green-line network-green-line-medical" d="M148 93C178 99 202.67 121.67 210 141"/>
-          <path className="network-green-line network-green-line-offices" d="M360 102C333 104 315 116 302 139"/>
-          <path className="network-green-line network-green-line-coordination" d="M260 276C258 305 234 334 206 345"/>
+          <path className="network-green-line network-green-line-medical" d="M148 93C178 99 202.67 121.67 210 141" />
+          <path className="network-green-line network-green-line-offices" d="M360 102C333 104 315 116 302 139" />
+          <path className="network-green-line network-green-line-coordination" d="M260 276C258 305 234 334 206 345" />
         </g>
         <g className="network-signals">
-          <path className="network-signal signal-gray" pathLength="100" d="M380 250A40 40 0 0 0 400 195"/>
-          <path className="network-signal signal-gold" pathLength="100" d="M135 45Q176 4 222 43"/>
-          <path className="network-signal signal-gold" pathLength="100" d="M100 98A150 150 0 0 0 205 260"/>
-          <path className="network-signal signal-gold" pathLength="100" d="M205 250Q174 280 145 320"/>
-          <path className="network-signal signal-gold" pathLength="100" d="M206 345A100 100 0 0 0 360 336"/>
-          <path className="network-signal signal-gold" pathLength="100" d="M392 298A35 35 0 0 0 380 250"/>
-          <path className="network-signal signal-gray" pathLength="100" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)"/>
-          <path className="network-signal signal-green" pathLength="100" d="M148 93C178 99 202.67 121.67 210 141"/>
-          <path className="network-signal signal-green" pathLength="100" d="M360 102C333 104 315 116 302 139"/>
-          <path className="network-signal signal-green" pathLength="100" d="M260 276C258 305 234 334 206 345"/>
+          <path className="network-signal signal-gray" pathLength="100" d="M380 250A40 40 0 0 0 400 195" />
+          <path className="network-signal signal-gold" pathLength="100" d="M135 45Q176 4 222 43" />
+          <path className="network-signal signal-gold" pathLength="100" d="M100 98A150 150 0 0 0 205 260" />
+          <path className="network-signal signal-gold" pathLength="100" d="M205 250Q174 280 145 320" />
+          <path className="network-signal signal-gold" pathLength="100" d="M206 345A100 100 0 0 0 360 336" />
+          <path className="network-signal signal-gold" pathLength="100" d="M392 298A35 35 0 0 0 380 250" />
+          <path className="network-signal signal-gray" pathLength="100" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)" />
+          <path className="network-signal signal-green" pathLength="100" d="M148 93C178 99 202.67 121.67 210 141" />
+          <path className="network-signal signal-green" pathLength="100" d="M360 102C333 104 315 116 302 139" />
+          <path className="network-signal signal-green" pathLength="100" d="M260 276C258 305 234 334 206 345" />
         </g>
         <g className="network-gold-points">
-          <circle className="network-gold-point" cx="285" cy="377" r="5.5"/>
-          <circle className="network-gold-point" cx="380" cy="250" r="5"/>
-          <circle className="network-soft-gold-point" cx="85" cy="270" r="9.5"/>
-          <circle className="network-soft-gold-point" cx="304" cy="56" r="4.5"/>
+          <circle className="network-gold-point" cx="285" cy="377" r="5.5" />
+          <circle className="network-gold-point" cx="380" cy="250" r="5" />
+          <circle className="network-soft-gold-point" cx="85" cy="270" r="9.5" />
+          <circle className="network-soft-gold-point" cx="304" cy="56" r="4.5" />
         </g>
         <g className="network-neutral-points">
-          <circle className="network-gray-point" cx="174.5" cy="282.5" r="5"/>
+          <circle className="network-gray-point" cx="174.5" cy="282.5" r="5" />
         </g>
         <g className="network-green-points">
-          <circle className="network-green-point" cx="222" cy="43" r="6"/>
-          <circle className="network-green-point" cx="187.5" cy="112" r="7.5"/>
-          <circle className="network-green-point" cx="326" cy="113.5" r="7.5"/>
-          <circle className="network-green-point" cx="123" cy="198" r="6.5"/>
-          <circle className="network-green-point" cx="400" cy="195" r="9"/>
-          <circle className="network-green-point" cx="206" cy="345" r="6.5"/>
+          <circle className="network-green-point" cx="222" cy="43" r="6" />
+          <circle className="network-green-point" cx="187.5" cy="112" r="7.5" />
+          <circle className="network-green-point" cx="326" cy="113.5" r="7.5" />
+          <circle className="network-green-point" cx="123" cy="198" r="6.5" />
+          <circle className="network-green-point" cx="400" cy="195" r="9" />
+          <circle className="network-green-point" cx="206" cy="345" r="6.5" />
         </g>
         <g className="network-petals">
           <g className="network-petal-motion">
-            <path className="network-petal petal-green" d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" transform="translate(241 23) scale(1.08) translate(-241 -23)"/>
+            <path className="network-petal petal-green" d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" transform="translate(241 23) scale(1.08) translate(-241 -23)" />
           </g>
           <g className="network-petal-motion">
-            <path className="network-petal petal-gold" d="M446 118C457 98 476 91 495 99C491 116 475 132 451 134C445 129 443 123 446 118Z" transform="translate(469 145) scale(1.28) translate(-470 -113)"/>
+            <path className="network-petal petal-gold" d="M446 118C457 98 476 91 495 99C491 116 475 132 451 134C445 129 443 123 446 118Z" transform="translate(469 145) scale(1.28) translate(-470 -113)" />
           </g>
           <g className="network-petal-motion">
-            <path className="network-petal petal-green" d="M474 176C487 190 489 214 477 235C464 221 461 197 470 179L474 176Z" transform="translate(475 232) scale(1.28) translate(-475 -206)"/>
+            <path className="network-petal petal-green" d="M474 176C487 190 489 214 477 235C464 221 461 197 470 179L474 176Z" transform="translate(475 232) scale(1.28) translate(-475 -206)" />
           </g>
           <g className="network-petal-motion">
-            <path className="network-petal petal-green" d="M198 374C216 365 240 368 258 383C242 393 216 391 197 380L198 374Z" transform="translate(166 387) scale(1.38) translate(-228 -379)"/>
+            <path className="network-petal petal-green" d="M198 374C216 365 240 368 258 383C242 393 216 391 197 380L198 374Z" transform="translate(166 387) scale(1.38) translate(-228 -379)" />
           </g>
         </g>
       </svg>
-      <div className="network-center"><Icon name="people" size={36}/><strong>JSDP</strong><span>Sonora</span></div>
-      <div className="network-node medical"><img src="/identity/Unidad_Medica.jpg" alt=""/><span>Unidades médicas</span></div>
-      <div className="network-node offices"><img src="/identity/Unidad_No_Medica.jpg" alt=""/><span>Unidades no médicas</span></div>
-      <div className="network-node persons"><img src="/identity/Personas.jpg" alt=""/><span>Personas</span></div>
-      <div className="network-node coordination"><img src="/identity/Coordinacion.jpg" alt=""/><span>Coordinación</span></div>
+      <div className="network-center"><Icon name="people" size={36} /><strong>JSDP</strong><span>Sonora</span></div>
+      <div className="network-node medical"><img src="/identity/Unidad_Medica.jpg" alt="" /><span>Unidades médicas</span></div>
+      <div className="network-node offices"><img src="/identity/Unidad_No_Medica.jpg" alt="" /><span>Unidades no médicas</span></div>
+      <div className="network-node persons"><img src="/identity/Personas.jpg" alt="" /><span>Personas</span></div>
+      <div className="network-node coordination"><img src="/identity/Coordinacion.jpg" alt="" /><span>Coordinación</span></div>
+    </div>
+  );
+}
+
+const mobileHeroSlides = [
+  { label: 'Unidades médicas', image: '/identity/Unidad_Medica.jpg' },
+  { label: 'Unidades no médicas', image: '/identity/Unidad_No_Medica.jpg' },
+  { label: 'Coordinación', image: '/identity/Coordinacion.jpg' },
+  { label: 'Personas', image: '/identity/Personas.jpg' },
+] as const;
+
+function MobileHeroCarousel() {
+  const trackRef = useRef<HTMLDivElement>(null);
+  const loopSlides = [mobileHeroSlides.at(-1)!, ...mobileHeroSlides, mobileHeroSlides[0]];
+
+  useEffect(() => {
+    const track = trackRef.current;
+    if (!track) return;
+
+    const mobileQuery = window.matchMedia('(max-width: 760px)');
+    const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let isVisible = false;
+    let isInteracting = false;
+    let visualIndex = 1;
+    let autoplayTimer: number | undefined;
+    let settleTimer: number | undefined;
+    let resizeFrame = 0;
+
+    const clearAutoplay = () => window.clearTimeout(autoplayTimer);
+    const jumpTo = (index: number) => {
+      if (!track.clientWidth) return;
+      visualIndex = index;
+      track.scrollTo({ left: index * track.clientWidth, behavior: 'auto' });
+    };
+    const normalizeLoop = () => {
+      if (!track.clientWidth) return;
+      visualIndex = Math.round(track.scrollLeft / track.clientWidth);
+      if (visualIndex === 0) jumpTo(mobileHeroSlides.length);
+      if (visualIndex === mobileHeroSlides.length + 1) jumpTo(1);
+    };
+    const canAutoplay = () => (
+      mobileQuery.matches
+      && isVisible
+      && !isInteracting
+      && !reducedMotionQuery.matches
+      && document.visibilityState === 'visible'
+    );
+    const scheduleAutoplay = () => {
+      clearAutoplay();
+      if (!canAutoplay()) return;
+      autoplayTimer = window.setTimeout(() => {
+        visualIndex += 1;
+        track.scrollTo({ left: visualIndex * track.clientWidth, behavior: 'smooth' });
+      }, 5000);
+    };
+    const settle = () => {
+      window.clearTimeout(settleTimer);
+      settleTimer = window.setTimeout(() => {
+        normalizeLoop();
+        scheduleAutoplay();
+      }, 180);
+    };
+    const handlePointerDown = (event: PointerEvent) => {
+      if (event.pointerType !== 'touch') return;
+      isInteracting = true;
+      clearAutoplay();
+    };
+    const handlePointerEnd = (event: PointerEvent) => {
+      if (event.pointerType !== 'touch') return;
+      isInteracting = false;
+      settle();
+    };
+    const handleAvailabilityChange = () => {
+      if (mobileQuery.matches) {
+        resizeFrame = window.requestAnimationFrame(() => jumpTo(visualIndex));
+      }
+      scheduleAutoplay();
+    };
+
+    const observer = new IntersectionObserver(([entry]) => {
+      isVisible = entry.isIntersecting;
+      scheduleAutoplay();
+    }, { threshold: 0.2 });
+    const resizeObserver = new ResizeObserver(() => {
+      window.cancelAnimationFrame(resizeFrame);
+      resizeFrame = window.requestAnimationFrame(() => jumpTo(visualIndex));
+    });
+
+    observer.observe(track);
+    resizeObserver.observe(track);
+    track.addEventListener('scroll', settle, { passive: true });
+    track.addEventListener('pointerdown', handlePointerDown, { passive: true });
+    track.addEventListener('pointerup', handlePointerEnd, { passive: true });
+    track.addEventListener('pointercancel', handlePointerEnd, { passive: true });
+    document.addEventListener('visibilitychange', handleAvailabilityChange);
+    mobileQuery.addEventListener('change', handleAvailabilityChange);
+    reducedMotionQuery.addEventListener('change', handleAvailabilityChange);
+    resizeFrame = window.requestAnimationFrame(() => jumpTo(1));
+
+    return () => {
+      clearAutoplay();
+      window.clearTimeout(settleTimer);
+      window.cancelAnimationFrame(resizeFrame);
+      observer.disconnect();
+      resizeObserver.disconnect();
+      track.removeEventListener('scroll', settle);
+      track.removeEventListener('pointerdown', handlePointerDown);
+      track.removeEventListener('pointerup', handlePointerEnd);
+      track.removeEventListener('pointercancel', handlePointerEnd);
+      document.removeEventListener('visibilitychange', handleAvailabilityChange);
+      mobileQuery.removeEventListener('change', handleAvailabilityChange);
+      reducedMotionQuery.removeEventListener('change', handleAvailabilityChange);
+    };
+  }, []);
+
+  return (
+    <div className="mobile-hero-carousel" role="region" aria-roledescription="carrusel" aria-label="Áreas de la JSDP">
+      <div className="mobile-hero-carousel-track" ref={trackRef}>
+        {loopSlides.map((slide, index) => {
+          const isClone = index === 0 || index === loopSlides.length - 1;
+          const realPosition = index === 0 ? mobileHeroSlides.length : index === loopSlides.length - 1 ? 1 : index;
+          return (
+            <figure
+              className="mobile-hero-slide"
+              key={`${slide.label}-${index}`}
+              aria-hidden={isClone || undefined}
+              aria-label={isClone ? undefined : `${slide.label}, ${realPosition} de ${mobileHeroSlides.length}`}
+            >
+              <img src={slide.image} alt="" draggable="false" decoding="async" />
+              <figcaption>{slide.label}</figcaption>
+            </figure>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -269,9 +402,10 @@ function Hero() {
         <h1>JSDP · Sonora</h1>
         <p className="hero-lead">Jefatura de Servicios de Desarrollo de Personal</p>
         <p className="hero-body">Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.</p>
-        <a className="primary-button" href="#conoce">Conoce la JSDP <Icon name="arrow" size={18}/></a>
+        <a className="primary-button" href="#conoce">Conoce la JSDP <Icon name="arrow" size={18} /></a>
       </div>
       <NetworkGraphic />
+      <MobileHeroCarousel />
     </section>
   );
 }
@@ -282,11 +416,11 @@ function PlannedFeatures() {
     { title: 'Inicio de sesión', text: 'El acceso al área privada aún no está habilitado', icon: 'person' as const },
     { title: 'Nuevas funcionalidades', text: 'Los servicios adicionales se incorporarán gradualmente', icon: 'settings' as const, muted: true },
   ];
-  return <section className="planned section-shell reveal" id="accesos"><div className="section-heading"><h2>Próximas funciones</h2><p>Servicios identificados para una etapa posterior.</p></div><ul className="planned-list">{items.map(item => <li className={item.muted ? 'is-muted' : undefined} key={item.title}><span className="planned-card-top"><span className="planned-icon"><Icon name={item.icon}/></span><PendingBadge compact/></span><strong>{item.title}</strong><small>{item.text}</small></li>)}</ul></section>;
+  return <section className="planned section-shell reveal" id="accesos"><div className="section-heading"><h2>Próximas funciones</h2><p>Servicios identificados para una etapa posterior.</p></div><ul className="planned-list">{items.map(item => <li className={item.muted ? 'is-muted' : undefined} key={item.title}><span className="planned-card-top"><span className="planned-icon"><Icon name={item.icon} /></span><PendingBadge compact /></span><strong>{item.title}</strong><small>{item.text}</small></li>)}</ul></section>;
 }
 
 function MissionVision() {
-  return <section className="identity-grid" id="identidad"><article className="identity-panel mission reveal"><div className="identity-panel-heading"><Icon name="target" size={64}/><h2>Misión</h2></div><p>Garantizar resultados en seguridad social con servicios de prevención y atención a la salud con calidad, calidez, y transparencia para las y los trabajadores de Sonora y sus beneficiarios</p></article><article className="identity-panel vision reveal"><div className="identity-panel-heading"><Icon name="vision" size={64}/><h2>Visión</h2></div><p>Ser el OOAD líder e innovador en atención a la salud y seguridad social en la región en los proximos tres años</p></article></section>;
+  return <section className="identity-grid" id="identidad"><article className="identity-panel mission reveal"><div className="identity-panel-heading"><Icon name="target" size={64} /><h2>Misión</h2></div><p>Garantizar resultados en seguridad social con servicios de prevención y atención a la salud con calidad, calidez, y transparencia para las y los trabajadores de Sonora y sus beneficiarios</p></article><article className="identity-panel vision reveal"><div className="identity-panel-heading"><Icon name="vision" size={64} /><h2>Visión</h2></div><p>Ser el OOAD líder e innovador en atención a la salud y seguridad social en la región en los proximos tres años</p></article></section>;
 }
 
 function Values() {
@@ -311,17 +445,17 @@ function Values() {
     };
   }, []);
 
-  return <section ref={sectionRef} className="values section-shell reveal" id="valores"><div className="section-heading"><h2>Nuestro Valores</h2><p>Principios que guían nuestro trabajo diario.</p></div><div className="values-marquee"><div className={`values-track ${marqueeActive ? 'is-moving' : ''}`}>{marqueeCopies.map(copyIndex => <div className={`values-grid ${copyIndex > 0 ? 'values-grid-duplicate' : ''}`} aria-hidden={copyIndex > 0 ? true : undefined} key={`values-copy-${copyIndex}`}>{values.map(([name, description, icon]) => <article className="value" key={`${name}-${copyIndex}`}><span><Icon name={icon} size={40}/></span><h3>{name}</h3><p>{description}</p></article>)}</div>)}</div></div></section>;
+  return <section ref={sectionRef} className="values section-shell reveal" id="valores"><div className="section-heading"><h2>Nuestro Valores</h2><p>Principios que guían nuestro trabajo diario.</p></div><div className="values-marquee"><div className={`values-track ${marqueeActive ? 'is-moving' : ''}`}>{marqueeCopies.map(copyIndex => <div className={`values-grid ${copyIndex > 0 ? 'values-grid-duplicate' : ''}`} aria-hidden={copyIndex > 0 ? true : undefined} key={`values-copy-${copyIndex}`}>{values.map(([name, description, icon]) => <article className="value" key={`${name}-${copyIndex}`}><span><Icon name={icon} size={40} /></span><h3>{name}</h3><p>{description}</p></article>)}</div>)}</div></div></section>;
 }
 
 function OrgCard({ node, selected, onSelect, compact = false, disclosure = false, controls }: { node: OrgNode; selected: boolean; onSelect: () => void; compact?: boolean; disclosure?: boolean; controls?: string }) {
   const stateProps = disclosure ? { 'aria-expanded': selected, 'aria-controls': controls } : { 'aria-pressed': selected };
   const actionLabel = disclosure ? `${selected ? 'Ocultar' : 'Mostrar'} información de ${node.title}` : `Mostrar información de ${node.title}`;
-  return <button type="button" className={`org-card tone-${node.tone} ${selected ? 'selected' : ''} ${compact ? 'compact' : ''}`} onClick={onSelect} aria-label={actionLabel} {...stateProps}><span className="org-card-head"><Icon name={node.icon} size={compact ? 21 : 25}/><strong>{node.title}</strong><span className={`org-card-action ${disclosure && selected ? 'is-open' : ''}`} aria-hidden="true"><Icon name={disclosure ? 'chevron' : selected ? 'check' : 'arrow'} size={17}/></span></span><span className="org-card-person"><small>{node.label}:</small>{node.person}</span></button>;
+  return <button type="button" className={`org-card tone-${node.tone} ${selected ? 'selected' : ''} ${compact ? 'compact' : ''}`} onClick={onSelect} aria-label={actionLabel} {...stateProps}><span className="org-card-head"><Icon name={node.icon} size={compact ? 21 : 25} /><strong>{node.title}</strong><span className={`org-card-action ${disclosure && selected ? 'is-open' : ''}`} aria-hidden="true"><Icon name={disclosure ? 'chevron' : selected ? 'check' : 'arrow'} size={17} /></span></span><span className="org-card-person"><small>{node.label}:</small>{node.person}</span></button>;
 }
 
 function OrgInfo({ node, id }: { node: OrgNode; id?: string }) {
-  return <aside id={id} className="org-info" aria-live="polite"><div className="org-info-title"><h3>Información del puesto</h3></div><div className={`org-info-role tone-${node.tone}`}><Icon name={node.icon}/><strong>{node.title}</strong></div><dl><div><dt><Icon name="person" size={18}/> {node.label}</dt><dd>{node.person}</dd></div><div><dt><Icon name="people" size={18}/> Nivel jerárquico</dt><dd>{node.id === 'jefatura' ? 'Jefatura de Servicio' : node.id === 'auditorias' ? 'Oficina' : 'Departamento'}</dd></div></dl><p className="org-info-pending"><span>Detalle del puesto</span><PendingBadge compact/></p></aside>;
+  return <aside id={id} className="org-info" aria-live="polite"><div className="org-info-title"><h3>Información del puesto</h3></div><div className={`org-info-role tone-${node.tone}`}><Icon name={node.icon} /><strong>{node.title}</strong></div><dl><div><dt><Icon name="person" size={18} /> {node.label}</dt><dd>{node.person}</dd></div><div><dt><Icon name="people" size={18} /> Nivel jerárquico</dt><dd>{node.id === 'jefatura' ? 'Jefatura de Servicio' : node.id === 'auditorias' ? 'Oficina' : 'Departamento'}</dd></div></dl><p className="org-info-pending"><span>Detalle del puesto</span><PendingBadge compact /></p></aside>;
 }
 
 function OrganizationChart() {
@@ -451,11 +585,11 @@ function OrganizationChart() {
     });
   }, [selectedId]);
 
-  return <section className="organization reveal" id="estructura"><div className="section-shell org-heading"><div className="section-heading"><h2>Estructura organizacional</h2><p>Conoce la estructura de la Jefatura de Servicios de Desarrollo de Personal.</p></div><button className="collapse-all" type="button" aria-expanded={expanded} aria-controls="organigrama" onClick={toggleTree}>{expanded ? 'Contraer estructura' : 'Expandir estructura'}</button></div><div className="org-layout section-shell"><div id="organigrama" className="org-tree"><div className="org-chart-controls" role="toolbar" aria-label="Controles de zoom del organigrama"><button type="button" onClick={() => chartRef.current?.zoomIn()} aria-label="Acercar organigrama" title="Acercar"><Icon name="zoomIn" size={19}/></button><button type="button" onClick={() => chartRef.current?.zoomOut()} aria-label="Alejar organigrama" title="Alejar"><Icon name="zoomOut" size={19}/></button><button type="button" onClick={() => chartRef.current?.fit({ animate: true })} aria-label="Ajustar organigrama al área visible" title="Ajustar al área"><Icon name="zoomFit" size={19}/></button></div><div ref={chartContainerRef} className="org-d3-chart" role="group" aria-label="Organigrama de la Jefatura de Servicios de Desarrollo de Personal"/></div><OrgInfo node={selected}/></div><div className="org-mobile-list section-shell">{orgNodes.map(node => { const open = sheetOpen && selectedId === node.id; const detailId = `puesto-${node.id}`; return <Fragment key={node.id}><OrgCard node={node} selected={open} onSelect={() => toggleMobile(node.id)} compact disclosure controls={detailId}/>{open && <OrgInfo id={detailId} node={node}/>}</Fragment>; })}</div></section>;
+  return <section className="organization reveal" id="estructura"><div className="section-shell org-heading"><div className="section-heading"><h2>Estructura organizacional</h2><p>Conoce la estructura de la Jefatura de Servicios de Desarrollo de Personal.</p></div><button className="collapse-all" type="button" aria-expanded={expanded} aria-controls="organigrama" onClick={toggleTree}>{expanded ? 'Contraer estructura' : 'Expandir estructura'}</button></div><div className="org-layout section-shell"><div id="organigrama" className="org-tree"><div className="org-chart-controls" role="toolbar" aria-label="Controles de zoom del organigrama"><button type="button" onClick={() => chartRef.current?.zoomIn()} aria-label="Acercar organigrama" title="Acercar"><Icon name="zoomIn" size={19} /></button><button type="button" onClick={() => chartRef.current?.zoomOut()} aria-label="Alejar organigrama" title="Alejar"><Icon name="zoomOut" size={19} /></button><button type="button" onClick={() => chartRef.current?.fit({ animate: true })} aria-label="Ajustar organigrama al área visible" title="Ajustar al área"><Icon name="zoomFit" size={19} /></button></div><div ref={chartContainerRef} className="org-d3-chart" role="group" aria-label="Organigrama de la Jefatura de Servicios de Desarrollo de Personal" /></div><OrgInfo node={selected} /></div><div className="org-mobile-list section-shell">{orgNodes.map(node => { const open = sheetOpen && selectedId === node.id; const detailId = `puesto-${node.id}`; return <Fragment key={node.id}><OrgCard node={node} selected={open} onSelect={() => toggleMobile(node.id)} compact disclosure controls={detailId} />{open && <OrgInfo id={detailId} node={node} />}</Fragment>; })}</div></section>;
 }
 
 function Footer() {
-  return <footer className="site-footer" id="contacto"><div className="footer-pattern" aria-hidden="true"/><div className="footer-content"><div className="footer-brands"><img className="government-logo" src="/identity/Gobierno_de_Mexico_2024-2030.svg" alt="Gobierno de México 2024–2030" loading="lazy" decoding="async"/><span className="brand-divider"/><img className="imss-logo" src="/identity/Logotipo_del_IMSS.svg" alt="Instituto Mexicano del Seguro Social" loading="lazy" decoding="async"/><p>Jefatura de Servicios de Desarrollo de Personal<br/>OOAD Sonora</p></div><div className="footer-meta"><span>Instituto Mexicano del Seguro Social</span><p className="footer-pending"><span>Privacidad, términos y contacto</span><PendingBadge compact/></p></div></div></footer>;
+  return <footer className="site-footer" id="contacto"><div className="footer-pattern" aria-hidden="true" /><div className="footer-content"><div className="footer-brands"><img className="government-logo" src="/identity/Gobierno_de_Mexico_2024-2030.svg" alt="Gobierno de México 2024–2030" loading="lazy" decoding="async" /><span className="brand-divider" /><img className="imss-logo" src="/identity/Logotipo_del_IMSS.svg" alt="Instituto Mexicano del Seguro Social" loading="lazy" decoding="async" /><p>Jefatura de Servicios de Desarrollo de Personal<br />OOAD Sonora</p></div><div className="footer-meta"><span>Instituto Mexicano del Seguro Social</span><p className="footer-pending"><span>Privacidad, términos y contacto</span><PendingBadge compact /></p></div></div></footer>;
 }
 
 export function LandingPage() {
@@ -468,5 +602,5 @@ export function LandingPage() {
     items.forEach(el => observer.observe(el));
     return () => observer.disconnect();
   }, []);
-  return <div className="landing-page" id={pageId}><a className="skip-link" href="#contenido">Saltar al contenido</a><Header/><main id="contenido"><div className="page-frame"><Hero/></div><section className="about" id="conoce"><div className="about-visual" aria-hidden="true"><img src="/identity/OOAD_IMSS_ampliada_derecha_optimizada.webp" alt="" loading="lazy" decoding="async"/></div><div className="section-shell reveal"><div className="about-copy"><h2>Conoce la JSDP</h2><p>La Jefatura de Servicios de Desarrollo de Personal, del OOAD 27 Sonora, impulsa la gestión integral del personal, a través de procesos normativos, transparentes y humanos, en coordinación con las unidades médicas y no médicas.</p></div><a className="secondary-button" href="#estructura">Más información <Icon name="arrow" size={18}/></a></div></section><PlannedFeatures/><MissionVision/><Values/><OrganizationChart/></main><Footer/></div>;
+  return <div className="landing-page" id={pageId}><a className="skip-link" href="#contenido">Saltar al contenido</a><Header /><main id="contenido"><div className="page-frame"><Hero /></div><section className="about" id="conoce"><div className="about-visual" aria-hidden="true"><img src="/identity/OOAD_IMSS_ampliada_derecha_optimizada.webp" alt="" loading="lazy" decoding="async" /></div><div className="section-shell reveal"><div className="about-copy"><h2>Conoce la JSDP</h2><p>La Jefatura de Servicios de Desarrollo de Personal, del OOAD 27 Sonora, impulsa la gestión integral del personal, a través de procesos normativos, transparentes y humanos, en coordinación con las unidades médicas y no médicas.</p></div><a className="secondary-button" href="#estructura">Más información <Icon name="arrow" size={18} /></a></div></section><PlannedFeatures /><MissionVision /><Values /><OrganizationChart /></main><Footer /></div>;
 }
