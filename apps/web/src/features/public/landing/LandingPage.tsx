@@ -132,7 +132,7 @@ function renderOrgChartNode(node: OrgChartNode<OrgChartDatum>, selectedId: strin
 function BrandLogo() {
   return (
     <a className="brand" href="#inicio" aria-label="IMSS JSDP Sonora, volver al inicio">
-      <img src="/identity/JSDP-Sonora-09.svg" alt="IMSS — JSDP Sonora" />
+      <img src="/identity/JSDP-Sonora-11.svg" alt="IMSS — JSDP Sonora" />
     </a>
   );
 }
@@ -399,7 +399,7 @@ function Hero() {
   return (
     <section className="hero" id="inicio">
       <div className="hero-copy reveal">
-        <h1>JSDP · Sonora</h1>
+        <h1><img className="hero-title-logo" src="/identity/JSDP-Sonora-11.svg" alt="JSDP Sonora" /></h1>
         <p className="hero-lead">Jefatura de Servicios de Desarrollo de Personal</p>
         <p className="hero-body">Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.</p>
         <a className="primary-button" href="#conoce">Conoce la JSDP <Icon name="arrow" size={18} /></a>
