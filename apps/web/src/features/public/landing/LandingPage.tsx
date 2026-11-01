@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import type { OrgChart, OrgChartNode } from 'd3-org-chart';
+import { LandingFooter } from './LandingFooter';
 
 type IconName =
   | 'arrow'
@@ -589,7 +590,7 @@ function OrganizationChart() {
 }
 
 function Footer() {
-  return <footer className="site-footer" id="contacto"><div className="footer-pattern" aria-hidden="true" /><div className="footer-content"><div className="footer-brands"><img className="government-logo" src="/identity/Gobierno_de_Mexico_2024-2030.svg" alt="Gobierno de México 2024–2030" loading="lazy" decoding="async" /><span className="brand-divider" /><img className="imss-logo" src="/identity/Logotipo_del_IMSS.svg" alt="Instituto Mexicano del Seguro Social" loading="lazy" decoding="async" /><p>Jefatura de Servicios de Desarrollo de Personal<br />OOAD Sonora</p></div><div className="footer-meta"><span>Instituto Mexicano del Seguro Social</span><p className="footer-pending"><span>Privacidad, términos y contacto</span><PendingBadge compact /></p></div></div></footer>;
+  return <LandingFooter />;
 }
 
 export function LandingPage() {

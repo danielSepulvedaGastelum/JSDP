@@ -1,0 +1,445 @@
+.site-footer.landing-footer {
+  --footer-surface: #10312b;
+  --footer-ink: #f7f8f3;
+  --footer-heading: #fffaf2;
+  --footer-category: #edd899;
+  --footer-accent: #e0ca8c;
+  --footer-secondary: #d4e1d6;
+  --footer-line: #5e644b;
+  --footer-row: #344d40;
+  --footer-badge: #edd899;
+  --footer-badge-border: #837c56;
+  --footer-band-ink: #6b8b79;
+  --footer-band-tile: 180px;
+  min-height: 840px;
+  background-color: var(--footer-surface);
+  background-image: linear-gradient(135deg, #205344 0%, #10312b 52%, #08231e 100%);
+  color: var(--footer-ink);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+.landing-footer-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: min(calc(100% - 128px), 1240px);
+  min-height: inherit;
+  margin-inline: auto;
+  padding: 64px 0 26px;
+}
+
+.landing-footer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid var(--footer-line);
+}
+
+.landing-footer-header h2 {
+  color: var(--footer-heading);
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.landing-footer-brands {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 24px;
+}
+
+.landing-footer-government {
+  width: 240px;
+  height: auto;
+}
+
+.landing-footer-imss {
+  width: 61px;
+  height: 76px;
+  object-fit: contain;
+}
+
+.landing-footer-brand-rule {
+  width: 1px;
+  height: 72px;
+  flex: 0 0 1px;
+  background: var(--footer-accent);
+}
+
+.landing-footer-directory {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-areas:
+    "imss cubos training"
+    "imss sonora jsdp";
+  align-items: stretch;
+  column-gap: 48px;
+  row-gap: 36px;
+  margin: 43px 0 44px;
+}
+
+.landing-footer-group {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  align-content: start;
+  gap: 14px;
+  min-width: 0;
+}
+
+.landing-footer-group-imss {
+  grid-area: imss;
+  padding-right: 24px;
+  border-right: 1px solid var(--footer-row);
+}
+
+.landing-footer-group-cubos {
+  grid-area: cubos;
+}
+
+.landing-footer-group-training {
+  grid-area: training;
+}
+
+.landing-footer-group-sonora {
+  grid-area: sonora;
+}
+
+.landing-footer-group-jsdp {
+  grid-area: jsdp;
+}
+
+.landing-footer-group h3 {
+  display: flex;
+  align-items: center;
+  color: var(--footer-category);
+  margin: 0;
+  padding-top: 15px;
+  border-top: 1px solid var(--footer-accent);
+  font-family: "Patria", Georgia, serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.landing-footer-group-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  min-height: 1.44em;
+}
+
+.landing-footer-group-symbol {
+  display: block;
+  flex: 0 0 1.2em;
+  width: 1.2em;
+  height: 1.2em;
+  object-fit: contain;
+}
+
+.landing-footer-group-wordmark {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 1.3em;
+  object-fit: contain;
+}
+
+.landing-footer-group ul {
+  display: grid;
+  gap: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.landing-footer-group li {
+  min-width: 0;
+  border-bottom: 1px solid var(--footer-row);
+}
+
+.landing-footer-link,
+.landing-footer-unavailable {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  min-height: 48px;
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 1.55;
+  text-decoration: none;
+}
+
+.landing-footer-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.landing-footer-link:focus-visible {
+  outline: 2px solid var(--footer-accent);
+  outline-offset: 5px;
+  box-shadow: none;
+}
+
+.landing-footer-arrow {
+  flex: 0 0 14px;
+  margin-top: 5px;
+  transition: transform 160ms ease-out;
+}
+
+.landing-footer-link:hover .landing-footer-arrow {
+  transform: translate(2px, -2px);
+}
+
+.landing-footer-network {
+  display: inline;
+  margin-left: 4px;
+  padding: 1px 4px;
+  border: 1px solid var(--footer-badge-border);
+  border-radius: 3px;
+  color: var(--footer-badge);
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+  vertical-align: 1px;
+}
+
+.landing-footer-unavailable {
+  align-items: center;
+  gap: 12px;
+  color: var(--footer-secondary);
+}
+
+.landing-footer-unavailable small {
+  flex-shrink: 0;
+  color: var(--footer-badge);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.landing-footer-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--footer-line);
+  color: var(--footer-secondary);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.landing-footer-legal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.landing-footer-legal > span {
+  color: var(--footer-badge);
+  font-size: 11px;
+}
+
+.landing-footer-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.landing-footer ::selection {
+  background: var(--footer-accent);
+  color: var(--footer-surface);
+}
+
+.landing-footer-ornament {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.landing-footer-ornament::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 calc(-1 * var(--footer-band-tile));
+  background: var(--footer-band-ink);
+  -webkit-mask-image: url("/identity/textura_footer_gobierno_mexico_2024_2030.svg");
+  mask-image: url("/identity/textura_footer_gobierno_mexico_2024_2030.svg");
+  -webkit-mask-size: var(--footer-band-tile) auto;
+  mask-size: var(--footer-band-tile) auto;
+  -webkit-mask-position: left center;
+  mask-position: left center;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  mask-mode: alpha;
+  animation: footer-ornament-drift 36s linear infinite;
+  animation-play-state: paused;
+}
+
+.landing-footer-ornament.is-animated::before {
+  animation-play-state: running;
+}
+
+@keyframes footer-ornament-drift {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(var(--footer-band-tile));
+  }
+}
+
+@media (min-width: 1700px) {
+  .landing-footer-inner {
+    width: min(calc(100% - 160px), 1440px);
+  }
+}
+
+@media (max-width: 1100px) {
+  .landing-footer-inner {
+    width: calc(100% - 80px);
+    padding-top: 48px;
+  }
+
+  .landing-footer-directory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "imss cubos"
+      "training sonora"
+      "jsdp jsdp";
+    column-gap: 40px;
+  }
+
+  .landing-footer-group-imss {
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .landing-footer-group-jsdp ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 40px;
+  }
+
+  .landing-footer-group {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .landing-footer-group h3 {
+    padding-top: 14px;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-footer.landing-footer {
+    min-height: 0;
+  }
+
+
+  .landing-footer-inner {
+    width: calc(100% - 40px);
+    padding: 36px 0 24px;
+  }
+
+  .landing-footer-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    padding-bottom: 30px;
+  }
+
+  .landing-footer-header h2 {
+    font-size: 38px;
+  }
+
+  .landing-footer-brands {
+    gap: 18px;
+  }
+
+  .landing-footer-government {
+    width: 200px;
+  }
+
+  .landing-footer-imss {
+    width: 46px;
+    height: 58px;
+  }
+
+  .landing-footer-brand-rule {
+    height: 56px;
+  }
+
+  .landing-footer-directory {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "imss"
+      "cubos"
+      "training"
+      "sonora"
+      "jsdp";
+    gap: 28px;
+    margin: 30px 0 32px;
+  }
+
+  .landing-footer-group {
+    gap: 14px;
+  }
+
+  .landing-footer-group-jsdp ul {
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: 0;
+  }
+
+  .landing-footer-group h3 {
+    padding-top: 18px;
+    font-size: 26px;
+  }
+
+  .landing-footer-group-title {
+    gap: 10px;
+  }
+
+  .landing-footer-link {
+    min-height: 44px;
+  }
+
+  .landing-footer-unavailable {
+    min-height: 46px;
+  }
+
+  .landing-footer-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 0;
+  }
+
+  .landing-footer-legal {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-footer-ornament::before {
+    animation: none;
+    transform: none;
+  }
+
+  .landing-footer-arrow {
+    transition: none;
+  }
+}
