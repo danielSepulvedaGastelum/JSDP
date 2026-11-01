@@ -1,0 +1,161 @@
+{
+  "request": "Tres variantes combinando exactamente la cabecera de C con los cuatro bloques en cuadrícula 2×2 de B debajo.",
+  "method": "Maquetas HTML/CSS renderizadas con recursos originales; Impeccable.",
+  "references": {
+    "header": "../footer-propuestas-2026-10-31/C-indice-editorial.html",
+    "groups": "../footer-propuestas-2026-10-31/B-firma-lateral.html"
+  },
+  "assets": {
+    "government": {
+      "source": "docs/identidad-institucional/Gobierno_de_Mexico_2024-2030.svg",
+      "file": "referencias/gobierno-mexico.svg",
+      "sha256": "57c01cfa30a0c5eaaf30a1b6877d4616eab3589474b5ffad9482dc4a560942e0"
+    },
+    "imss": {
+      "source": "docs/identidad-institucional/Logotipo_del_IMSS.svg",
+      "file": "referencias/imss.svg",
+      "sha256": "86b5853fffb5cc55847cc271d0bfeeb2e57fdd3d5cc4c7aaf0be887f865d2b2b"
+    },
+    "pattern": {
+      "source": "apps/web/public/identity/textura_gobierno_mexico_2024_2030.svg",
+      "file": "referencias/patron-oficial.svg",
+      "sha256": "566de501a25d4773075114fd4ae55d57f2b3b8e101b5a84f35caf0515b41c3ea"
+    },
+    "patria": {
+      "source": "apps/web/public/identity/Patria-PDF-Reconstruida-Regular.woff2",
+      "file": "referencias/patria.woff2",
+      "sha256": "7b4c9423a55775456afc2497f1b73d5a944f8e69386ba93edaaa292c36fa2325"
+    }
+  },
+  "proposals": [
+    {
+      "id": "F",
+      "slug": "F-combinacion-abierta",
+      "title": "Combinación abierta",
+      "description": "Cabecera de C y cuadrícula abierta de B, con dos columnas, dos filas y separación amplia entre grupos.",
+      "minHeight": 820,
+      "height": 820
+    },
+    {
+      "id": "G",
+      "slug": "G-cuadricula-delimitada",
+      "title": "Cuadrícula delimitada",
+      "description": "La misma cabecera y los mismos cuatro bloques, definidos por líneas finas y márgenes interiores.",
+      "minHeight": 820,
+      "height": 820
+    },
+    {
+      "id": "H",
+      "slug": "H-directorio-editorial",
+      "title": "Directorio editorial",
+      "description": "Cuatro bloques en dos filas, con el nombre de cada categoría a la izquierda de sus enlaces para un cierre más compacto.",
+      "minHeight": 760,
+      "height": 760
+    }
+  ],
+  "groups": [
+    {
+      "id": "imss",
+      "title": "Enlaces IMSS",
+      "links": [
+        {
+          "label": "Página oficial del IMSS",
+          "href": "http://www.imss.gob.mx/"
+        },
+        {
+          "label": "Intranet IMSS",
+          "href": "http://intranet/Paginas/index.aspx",
+          "internal": true
+        },
+        {
+          "label": "Tarjetón digital · Trabajadores",
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/"
+        },
+        {
+          "label": "Tarjetón digital · Jubilados",
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "title": "Capacitación",
+      "links": [
+        {
+          "label": "SICAVI",
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/"
+        },
+        {
+          "label": "Escuela Buen Gobierno",
+          "href": "https://escuela.buengobierno.gob.mx/"
+        }
+      ]
+    },
+    {
+      "id": "sonora",
+      "title": "IMSS Sonora",
+      "links": [
+        {
+          "label": "Portal de Información",
+          "href": "http://172.24.98.216/portalinfo/",
+          "internal": true
+        },
+        {
+          "label": "Jefatura Personal · Sistema consulta nómina",
+          "href": "http://172.24.98.216/personal/",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "jsdp",
+      "title": "JSDP",
+      "links": [
+        {
+          "label": "Inicio de sesión",
+          "pending": true
+        },
+        {
+          "label": "Documentos",
+          "pending": true
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "assets": [
+      {
+        "asset": "government",
+        "sha256Identical": true
+      },
+      {
+        "asset": "imss",
+        "sha256Identical": true
+      },
+      {
+        "asset": "pattern",
+        "sha256Identical": true
+      },
+      {
+        "asset": "patria",
+        "sha256Identical": true
+      }
+    ],
+    "viewports": [
+      1440,
+      1024,
+      390,
+      320
+    ],
+    "checks": 12,
+    "allHeadersIdenticalToC": true,
+    "allGroupsAndUrlsFromB": true,
+    "desktopGrid": "2 columns × 2 rows",
+    "detector": []
+  },
+  "review": {
+    "disposition": "ship",
+    "scope": "Tres maquetas conceptuales, revisadas en seis capturas de escritorio y móvil",
+    "result": "F, G y H listas para presentar; no se observaron defectos materiales visibles."
+  }
+}

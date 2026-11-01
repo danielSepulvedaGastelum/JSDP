@@ -1,0 +1,91 @@
+{
+  "tool": "image_gen (herramienta integrada)",
+  "purpose": "Cinco propuestas fotográficas del hero dirigidas con Impeccable.",
+  "logoSourceSvg": "docs/identidad-institucional/JSDP-Sonora-11.svg",
+  "logoRasterReference": "referencias/logo-jsdp-sonora-11.png",
+  "variants": [
+    {
+      "id": "M",
+      "title": "M · Desvanecido lateral",
+      "filename": "M-desvanecido-lateral.png",
+      "refs": [
+        "referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg",
+        "apps/web/public/identity/Unidad_No_Medica.jpg",
+        "apps/web/public/identity/Personas.jpg",
+        "apps/web/public/identity/Coordinacion.jpg"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE desktop website HERO proposal for IMSS JSDP Sonora. Landscape 1600x1000, crisp readable interface, no browser/device frame.\nReference 1 is the COMPLETE OFFICIAL SITE LOGO, rasterized directly from JSDP-Sonora-11.svg. Place it intact as an image: IMSS emblem and lettering, vertical gray divider, green JSDP, dark-gray spaced Sonora, green/gold/gray underline. Preserve ALL parts, proportions, colors and lettering; never replace it with a generic IMSS logo or retyped wordmark.\nReferences 2–5 are exactly: brown hospital=\"Unidades médicas\"; white office=\"Unidades no médicas\"; surgeons=\"Personas\"; meeting=\"Coordinación\". Use these actual project photographs.\nWhite header: modest exact logo at left; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; green \"Iniciar sesión\" at right.\nBelow it, ONE full-bleed photograph covers the ENTIRE hero. Photography must dominate; its subject remains clearly visible across most of the hero. Text sits directly on a SOFT WHITE GRADIENT fading into the photograph, never a hard card or separate text column. Text and logo stay solid and readable.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\" with arrow. Elegant serif heading, sans-serif body, institutional green. No new slogans, claims or metrics.\nAt the bottom, a subtle carousel rail shows \"Unidades médicas\", \"Unidades no médicas\", \"Personas\", \"Coordinación\", with the active label underlined; small previous, pause, next controls. This is a static design of an automatically rotating four-photo hero; do not show four photos at once.\nACTIVE SLIDE: reference 2, Unidades médicas. Place the exact site logo at medium size in the hero reading area at left, followed by heading, body and action, all left aligned. The photo of the brown hospital, palms and entrance fills the whole hero; keep architecture recognizable toward center-right. The soft white gradient is strongest at the far-left edge and becomes fully transparent by the center. Keep the faded reading area compact, under forty percent of the visual width. Natural photo colors on the right. This is the most restrained, clear variant. Active carousel label: Unidades médicas."
+    },
+    {
+      "id": "N",
+      "title": "N · Lectura a la derecha",
+      "filename": "N-lectura-a-la-derecha.png",
+      "refs": [
+        "referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg",
+        "apps/web/public/identity/Unidad_No_Medica.jpg",
+        "apps/web/public/identity/Personas.jpg",
+        "apps/web/public/identity/Coordinacion.jpg"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE desktop website HERO proposal for IMSS JSDP Sonora. Landscape 1600x1000, crisp readable interface, no browser/device frame.\nReference 1 is the COMPLETE OFFICIAL SITE LOGO, rasterized directly from JSDP-Sonora-11.svg. Place it intact as an image: IMSS emblem and lettering, vertical gray divider, green JSDP, dark-gray spaced Sonora, green/gold/gray underline. Preserve ALL parts, proportions, colors and lettering; never replace it with a generic IMSS logo or retyped wordmark.\nReferences 2–5 are exactly: brown hospital=\"Unidades médicas\"; white office=\"Unidades no médicas\"; surgeons=\"Personas\"; meeting=\"Coordinación\". Use these actual project photographs.\nWhite header: modest exact logo at left; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; green \"Iniciar sesión\" at right.\nBelow it, ONE full-bleed photograph covers the ENTIRE hero. Photography must dominate; its subject remains clearly visible across most of the hero. Text sits directly on a SOFT WHITE GRADIENT fading into the photograph, never a hard card or separate text column. Text and logo stay solid and readable.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\" with arrow. Elegant serif heading, sans-serif body, institutional green. No new slogans, claims or metrics.\nAt the bottom, a subtle carousel rail shows \"Unidades médicas\", \"Unidades no médicas\", \"Personas\", \"Coordinación\", with the active label underlined; small previous, pause, next controls. This is a static design of an automatically rotating four-photo hero; do not show four photos at once.\nACTIVE SLIDE: reference 3, Unidades no médicas. Reverse the reading direction: exact site logo, heading, body and action form a compact RIGHT-aligned-to-column text block near the right margin. Preserve the natural full-bleed white office-building photograph on the left and center. A very soft white gradient enters from the right edge and vanishes toward the center, so the photo remains the hero's dominant surface. Do not mirror the photograph or its signage. Generous air around the text; no boxes. Active carousel label: Unidades no médicas."
+    },
+    {
+      "id": "O",
+      "title": "O · Desvanecido desde la base",
+      "filename": "O-desvanecido-desde-la-base.png",
+      "refs": [
+        "referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg",
+        "apps/web/public/identity/Unidad_No_Medica.jpg",
+        "apps/web/public/identity/Personas.jpg",
+        "apps/web/public/identity/Coordinacion.jpg"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE desktop website HERO proposal for IMSS JSDP Sonora. Landscape 1600x1000, crisp readable interface, no browser/device frame.\nReference 1 is the COMPLETE OFFICIAL SITE LOGO, rasterized directly from JSDP-Sonora-11.svg. Place it intact as an image: IMSS emblem and lettering, vertical gray divider, green JSDP, dark-gray spaced Sonora, green/gold/gray underline. Preserve ALL parts, proportions, colors and lettering; never replace it with a generic IMSS logo or retyped wordmark.\nReferences 2–5 are exactly: brown hospital=\"Unidades médicas\"; white office=\"Unidades no médicas\"; surgeons=\"Personas\"; meeting=\"Coordinación\". Use these actual project photographs.\nWhite header: modest exact logo at left; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; green \"Iniciar sesión\" at right.\nBelow it, ONE full-bleed photograph covers the ENTIRE hero. Photography must dominate; its subject remains clearly visible across most of the hero. Text sits directly on a SOFT WHITE GRADIENT fading into the photograph, never a hard card or separate text column. Text and logo stay solid and readable.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\" with arrow. Elegant serif heading, sans-serif body, institutional green. No new slogans, claims or metrics.\nAt the bottom, a subtle carousel rail shows \"Unidades médicas\", \"Unidades no médicas\", \"Personas\", \"Coordinación\", with the active label underlined; small previous, pause, next controls. This is a static design of an automatically rotating four-photo hero; do not show four photos at once.\nACTIVE SLIDE: reference 4, Personas. Keep the clinical team photograph dominant across the top two thirds, with faces clearly visible. A soft WHITE gradient rises from the bottom and dissipates gradually into the photo, without a sharp band edge. In the lower third, a compact horizontal reading composition: modest exact site logo and headline on the left; institutional body and action alongside on the right. Keep everything above the carousel rail, with no cropping of text. This is a photographic cover with a quiet readable base, not an enormous white panel. Active carousel label: Personas."
+    },
+    {
+      "id": "P",
+      "title": "P · Claridad central",
+      "filename": "P-claridad-central.png",
+      "refs": [
+        "referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg",
+        "apps/web/public/identity/Unidad_No_Medica.jpg",
+        "apps/web/public/identity/Personas.jpg",
+        "apps/web/public/identity/Coordinacion.jpg"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE desktop website HERO proposal for IMSS JSDP Sonora. Landscape 1600x1000, crisp readable interface, no browser/device frame.\nReference 1 is the COMPLETE OFFICIAL SITE LOGO, rasterized directly from JSDP-Sonora-11.svg. Place it intact as an image: IMSS emblem and lettering, vertical gray divider, green JSDP, dark-gray spaced Sonora, green/gold/gray underline. Preserve ALL parts, proportions, colors and lettering; never replace it with a generic IMSS logo or retyped wordmark.\nReferences 2–5 are exactly: brown hospital=\"Unidades médicas\"; white office=\"Unidades no médicas\"; surgeons=\"Personas\"; meeting=\"Coordinación\". Use these actual project photographs.\nWhite header: modest exact logo at left; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; green \"Iniciar sesión\" at right.\nBelow it, ONE full-bleed photograph covers the ENTIRE hero. Photography must dominate; its subject remains clearly visible across most of the hero. Text sits directly on a SOFT WHITE GRADIENT fading into the photograph, never a hard card or separate text column. Text and logo stay solid and readable.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\" with arrow. Elegant serif heading, sans-serif body, institutional green. No new slogans, claims or metrics.\nAt the bottom, a subtle carousel rail shows \"Unidades médicas\", \"Unidades no médicas\", \"Personas\", \"Coordinación\", with the active label underlined; small previous, pause, next controls. This is a static design of an automatically rotating four-photo hero; do not show four photos at once.\nACTIVE SLIDE: reference 5, Coordinación. The coordination meeting fills the entire hero. Put the medium exact site logo, heading, body and action in a centered compact composition over the upper-middle wall area; keep participants visible in the lower portion. Use a broad SOFT feathered white-to-transparent gradient behind only the central reading area, blending seamlessly into the photo on the sides and below, with no hard oval, box or visible border. Preserve the photo's natural room and faces. Photo remains visible around and beneath the typography. Active carousel label: Coordinación."
+    },
+    {
+      "id": "Q",
+      "title": "Q · Desvanecido oblicuo",
+      "filename": "Q-desvanecido-oblicuo.png",
+      "refs": [
+        "referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg",
+        "apps/web/public/identity/Unidad_No_Medica.jpg",
+        "apps/web/public/identity/Personas.jpg",
+        "apps/web/public/identity/Coordinacion.jpg"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE desktop website HERO proposal for IMSS JSDP Sonora. Landscape 1600x1000, crisp readable interface, no browser/device frame.\nReference 1 is the COMPLETE OFFICIAL SITE LOGO, rasterized directly from JSDP-Sonora-11.svg. Place it intact as an image: IMSS emblem and lettering, vertical gray divider, green JSDP, dark-gray spaced Sonora, green/gold/gray underline. Preserve ALL parts, proportions, colors and lettering; never replace it with a generic IMSS logo or retyped wordmark.\nReferences 2–5 are exactly: brown hospital=\"Unidades médicas\"; white office=\"Unidades no médicas\"; surgeons=\"Personas\"; meeting=\"Coordinación\". Use these actual project photographs.\nWhite header: modest exact logo at left; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; green \"Iniciar sesión\" at right.\nBelow it, ONE full-bleed photograph covers the ENTIRE hero. Photography must dominate; its subject remains clearly visible across most of the hero. Text sits directly on a SOFT WHITE GRADIENT fading into the photograph, never a hard card or separate text column. Text and logo stay solid and readable.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\" with arrow. Elegant serif heading, sans-serif body, institutional green. No new slogans, claims or metrics.\nAt the bottom, a subtle carousel rail shows \"Unidades médicas\", \"Unidades no médicas\", \"Personas\", \"Coordinación\", with the active label underlined; small previous, pause, next controls. This is a static design of an automatically rotating four-photo hero; do not show four photos at once.\nACTIVE SLIDE: reference 2, Unidades médicas. Full-bleed brown hospital photograph, prominent unobscured architecture toward the upper center and right. The gradient is strongest at the LOWER LEFT, fading diagonally toward the upper right with an extremely smooth transition, NOT an angled solid white panel. Place the exact site logo, headline, body and button within that lower-left readable area in a compact vertical arrangement. Retain a large clear photographic area above and to the right. The carousel rail is especially precise: active Unidades médicas plus small \"01 / 04\" and previous/pause/next controls. No decorative geometry or extra imagery."
+    }
+  ],
+  "carouselConcept": {
+    "implementationStatus": "Propuesta visual; todavía no aplicada al sitio.",
+    "slides": [
+      "Unidades médicas",
+      "Unidades no médicas",
+      "Personas",
+      "Coordinación"
+    ],
+    "transition": "Fundido suave entre fotos, conservando posición de texto y logotipo.",
+    "controls": [
+      "Anterior",
+      "Pausar o reanudar",
+      "Siguiente",
+      "Seleccionar categoría"
+    ],
+    "accessibility": "Respetar preferencia de movimiento reducido y permitir navegación manual."
+  },
+  "approved": false
+}

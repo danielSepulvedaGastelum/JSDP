@@ -1,0 +1,23 @@
+{
+  "advisory": "cramped-padding en P: el separador de escritorio tiene24px de separación; en tableta/móvil desaparece el borde.",
+  "computed": [
+    {
+      "width": 1440,
+      "paddingRight": "24px",
+      "borderRight": "1px",
+      "minimumInset": 25
+    },
+    {
+      "width": 1024,
+      "paddingRight": "0px",
+      "borderRight": "0px",
+      "minimumInset": 0
+    },
+    {
+      "width": 390,
+      "paddingRight": "0px",
+      "borderRight": "0px",
+      "minimumInset": 0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "artifact": "Cinco propuestas visuales, no implementación de landing",
+  "scope": "output/footer-propuestas-2026-10-31/",
+  "unchangedSources": [
+    "docs/identidad-institucional/Gobierno_de_Mexico_2024-2030.svg",
+    "docs/identidad-institucional/Logotipo_del_IMSS.svg",
+    "apps/web/public/identity/textura_gobierno_mexico_2024_2030.svg",
+    "apps/web/public/identity/Patria-PDF-Reconstruida-Regular.woff2"
+  ],
+  "viewportChecks": 20,
+  "viewports": [
+    1440,
+    1024,
+    390,
+    320
+  ],
+  "activeDestinationsVerifiedAgainstRequest": true,
+  "destinationAvailabilityChecked": false,
+  "originalAssetsMatchHashes": true,
+  "contrastPairs": [
+    {
+      "ink": "#0b503e",
+      "background": "#f5efe4",
+      "ratio": 8.22
+    },
+    {
+      "ink": "#486159",
+      "background": "#f5efe4",
+      "ratio": 5.86
+    },
+    {
+      "ink": "#69552f",
+      "background": "#f5efe4",
+      "ratio": 6.24
+    }
+  ],
+  "detector": {
+    "legibility": "Red IMSS y Próximamente aumentados a11px",
+    "remainingAdvisories": "Separadores móviles B/D revisados visualmente; el revisor confirmó que no requieren cambios."
+  },
+  "method": "HTML/CSS sobre identidad existente con Impeccable; captura de imágenes PNG con Chromium local; no generación por IA.",
+  "review": {
+    "scope": "Cinco maquetas visuales; diez capturas de escritorio/móvil",
+    "initial": "A–D listas; E móvil requería separar de Desarrollo",
+    "fix": "Se agregó espacio antes del salto de línea oculto en móvil. Nuevas capturas y comprobaciones en correccion-E.json.",
+    "final": "resolved · ship: el revisor confirmó resuelto el único defecto señalado."
+  }
+}

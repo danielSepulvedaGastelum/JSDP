@@ -1,0 +1,12 @@
+{
+  "source": "docs/identidad-institucional/textura_gobierno_mexico_2024_2030.svg",
+  "target": "apps/web/public/identity/textura_footer_gobierno_mexico_2024_2030.svg",
+  "copy": "exact",
+  "viewBox": "0 0 545 545",
+  "nativeSeamWrapCopies": 9,
+  "patternColor": "#adc8b6",
+  "background": "transparent",
+  "maskMode": "alpha",
+  "repeat": "repeat-x",
+  "animation": "180px to the right in36seconds, linear infinite"
+}

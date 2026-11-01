@@ -1,0 +1,126 @@
+{
+  "files": [
+    "apps/web/src/features/public/landing/LandingFooter.tsx",
+    "apps/web/src/features/public/landing/LandingFooter.css"
+  ],
+  "approvedProposal": "P-columna-imss-y-cuatro-bloques",
+  "groups": [
+    {
+      "id": "imss",
+      "title": "Enlaces IMSS",
+      "links": [
+        {
+          "label": "SIAP Portal",
+          "href": "https://siap.imss.gob.mx/"
+        },
+        {
+          "label": "Página oficial del IMSS",
+          "href": "http://www.imss.gob.mx/",
+          "internal": false
+        },
+        {
+          "label": "Intranet IMSS",
+          "href": "http://intranet/Paginas/index.aspx",
+          "internal": true
+        },
+        {
+          "label": "Tarjetón digital · Trabajadores",
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+          "internal": false
+        },
+        {
+          "label": "Tarjetón digital · Jubilados",
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+          "internal": false
+        }
+      ]
+    },
+    {
+      "id": "cubos",
+      "title": "CUBOS",
+      "links": [
+        {
+          "label": "Sistemas de Información",
+          "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+          "internal": true
+        },
+        {
+          "label": "Relaciones Laborales",
+          "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+          "internal": true
+        },
+        {
+          "label": "Capacitación",
+          "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+          "internal": true
+        },
+        {
+          "label": "UMAE",
+          "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "title": "Capacitación",
+      "links": [
+        {
+          "label": "SICAVI",
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+          "internal": false
+        },
+        {
+          "label": "Escuela Buen Gobierno",
+          "href": "https://escuela.buengobierno.gob.mx/",
+          "internal": false
+        }
+      ]
+    },
+    {
+      "id": "sonora",
+      "title": "IMSS Sonora",
+      "links": [
+        {
+          "label": "Portal de Información",
+          "href": "http://172.24.98.216/portalinfo/",
+          "internal": true
+        },
+        {
+          "label": "Jefatura Personal · Sistema consulta nómina",
+          "href": "http://172.24.98.216/personal/",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "jsdp",
+      "title": "JSDP",
+      "links": [
+        {
+          "label": "Inicio de sesión",
+          "pending": true
+        },
+        {
+          "label": "Documentos",
+          "pending": true
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "desktop": "IMSS en columna propia; cuatro bloques a la derecha",
+    "tablet": "Dos columnas y JSDP en ancho completo",
+    "mobile": "Cinco categorías apiladas"
+  },
+  "newUrls": [
+    "https://siap.imss.gob.mx/",
+    "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+    "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+    "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+    "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+  ],
+  "existingLinksPreserved": true,
+  "newDependencies": false,
+  "newProductAssets": false
+}

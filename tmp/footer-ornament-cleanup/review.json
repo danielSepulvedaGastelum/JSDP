@@ -1,0 +1,17 @@
+{
+  "disposition": "ship",
+  "scope": "Corrección de costuras y transparencia de la franja ornamental",
+  "materialFindings": [],
+  "evidence": [
+    "verification.json",
+    "motion-and-seams.json",
+    "scope.json",
+    "build.log",
+    "impeccable-diagnostic.json"
+  ],
+  "summary": "SVG545x545exactoalusuario, uniones revisadas sin píxeles blancos interiores aDPR1.25y2, huecosalpha0, color#adc8b6y animación36spreservados.",
+  "limits": [
+    "Solo configuraciones de pantalla probadas",
+    "No certifica todos los DPI ni accesibilidad integral"
+  ]
+}

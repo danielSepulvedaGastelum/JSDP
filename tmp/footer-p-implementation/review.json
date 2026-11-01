@@ -1,0 +1,17 @@
+{
+  "disposition": "ship",
+  "scope": "Implementación opción P con SIAP primero y categoría CUBOS",
+  "materialFindings": [],
+  "result": "Cinco categorías,13enlaces,2pendientes; fiel alcompP; fuentesglobales y franja preservadas.",
+  "evidence": [
+    "verification.json",
+    "fidelity-and-scope.json",
+    "changes.json",
+    "build.log",
+    "impeccable-diagnostic.json"
+  ],
+  "limits": [
+    "No conectividad de destinos externos",
+    "Revisión limitada al footer"
+  ]
+}

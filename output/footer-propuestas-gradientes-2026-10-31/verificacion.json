@@ -1,0 +1,693 @@
+{
+  "viewports": [
+    {
+      "proposal": "N",
+      "width": 1440,
+      "height": 808,
+      "gradient": "linear-gradient(rgb(14, 45, 40) 0%, rgb(16, 49, 43) 42%, rgb(24, 66, 54) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 1440,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 100,
+          "y": 222
+        },
+        {
+          "title": "Capacitación",
+          "x": 758,
+          "y": 222
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 100,
+          "y": 468
+        },
+        {
+          "title": "JSDP",
+          "x": 758,
+          "y": 468
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "M",
+      "width": 1440,
+      "height": 808,
+      "gradient": "radial-gradient(100% 85% at 75% 0%, rgb(28, 73, 60) 0%, rgb(21, 59, 50) 30%, rgb(16, 49, 43) 70%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 1440,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 100,
+          "y": 222
+        },
+        {
+          "title": "Capacitación",
+          "x": 758,
+          "y": 222
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 100,
+          "y": 468
+        },
+        {
+          "title": "JSDP",
+          "x": 758,
+          "y": 468
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "L",
+      "width": 1440,
+      "height": 808,
+      "gradient": "linear-gradient(135deg, rgb(23, 60, 51) 0%, rgb(16, 49, 43) 52%, rgb(12, 41, 37) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 1440,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 100,
+          "y": 222
+        },
+        {
+          "title": "Capacitación",
+          "x": 758,
+          "y": 222
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 100,
+          "y": 468
+        },
+        {
+          "title": "JSDP",
+          "x": 758,
+          "y": 468
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "M",
+      "width": 1024,
+      "height": 830.5,
+      "gradient": "radial-gradient(100% 85% at 75% 0%, rgb(28, 73, 60) 0%, rgb(21, 59, 50) 30%, rgb(16, 49, 43) 70%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 1024,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 40,
+          "y": 206
+        },
+        {
+          "title": "Capacitación",
+          "x": 532,
+          "y": 206
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 40,
+          "y": 513.75
+        },
+        {
+          "title": "JSDP",
+          "x": 532,
+          "y": 513.75
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "L",
+      "width": 1024,
+      "height": 830.5,
+      "gradient": "linear-gradient(135deg, rgb(23, 60, 51) 0%, rgb(16, 49, 43) 52%, rgb(12, 41, 37) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 1024,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 40,
+          "y": 206
+        },
+        {
+          "title": "Capacitación",
+          "x": 532,
+          "y": 206
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 40,
+          "y": 513.75
+        },
+        {
+          "title": "JSDP",
+          "x": 532,
+          "y": 513.75
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "N",
+      "width": 1024,
+      "height": 830.5,
+      "gradient": "linear-gradient(rgb(14, 45, 40) 0%, rgb(16, 49, 43) 42%, rgb(24, 66, 54) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 1024,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 40,
+          "y": 206
+        },
+        {
+          "title": "Capacitación",
+          "x": 532,
+          "y": 206
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 40,
+          "y": 513.75
+        },
+        {
+          "title": "JSDP",
+          "x": 532,
+          "y": 513.75
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "M",
+      "width": 390,
+      "height": 1243.359375,
+      "gradient": "radial-gradient(100% 85% at 75% 0%, rgb(28, 73, 60) 0%, rgb(21, 59, 50) 30%, rgb(16, 49, 43) 70%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 390,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 20,
+          "y": 228.8125
+        },
+        {
+          "title": "Capacitación",
+          "x": 20,
+          "y": 508.09375
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 20,
+          "y": 695.78125
+        },
+        {
+          "title": "JSDP",
+          "x": 20,
+          "y": 908.265625
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "L",
+      "width": 390,
+      "height": 1243.359375,
+      "gradient": "linear-gradient(135deg, rgb(23, 60, 51) 0%, rgb(16, 49, 43) 52%, rgb(12, 41, 37) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 390,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 20,
+          "y": 228.8125
+        },
+        {
+          "title": "Capacitación",
+          "x": 20,
+          "y": 508.09375
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 20,
+          "y": 695.78125
+        },
+        {
+          "title": "JSDP",
+          "x": 20,
+          "y": 908.265625
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "N",
+      "width": 390,
+      "height": 1243.359375,
+      "gradient": "linear-gradient(rgb(14, 45, 40) 0%, rgb(16, 49, 43) 42%, rgb(24, 66, 54) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 390,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 20,
+          "y": 228.8125
+        },
+        {
+          "title": "Capacitación",
+          "x": 20,
+          "y": 508.09375
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 20,
+          "y": 695.78125
+        },
+        {
+          "title": "JSDP",
+          "x": 20,
+          "y": 908.265625
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "M",
+      "width": 320,
+      "height": 1285.15625,
+      "gradient": "radial-gradient(100% 85% at 75% 0%, rgb(28, 73, 60) 0%, rgb(21, 59, 50) 30%, rgb(16, 49, 43) 70%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 320,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 20,
+          "y": 270.609375
+        },
+        {
+          "title": "Capacitación",
+          "x": 20,
+          "y": 549.890625
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 20,
+          "y": 737.578125
+        },
+        {
+          "title": "JSDP",
+          "x": 20,
+          "y": 950.0625
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "L",
+      "width": 320,
+      "height": 1285.15625,
+      "gradient": "linear-gradient(135deg, rgb(23, 60, 51) 0%, rgb(16, 49, 43) 52%, rgb(12, 41, 37) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 320,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 20,
+          "y": 270.609375
+        },
+        {
+          "title": "Capacitación",
+          "x": 20,
+          "y": 549.890625
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 20,
+          "y": 737.578125
+        },
+        {
+          "title": "JSDP",
+          "x": 20,
+          "y": 950.0625
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    },
+    {
+      "proposal": "N",
+      "width": 320,
+      "height": 1285.15625,
+      "gradient": "linear-gradient(rgb(14, 45, 40) 0%, rgb(16, 49, 43) 42%, rgb(24, 66, 54) 100%)",
+      "backgroundBase": "rgb(16, 49, 43)",
+      "text": "rgb(247, 248, 243)",
+      "category": "rgb(237, 216, 153)",
+      "band": {
+        "left": 0,
+        "width": 320,
+        "height": 48,
+        "bottom": 0,
+        "background": "rgb(36, 74, 61)",
+        "backgroundImage": "none",
+        "pattern": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/@fs/C:/Desarrollo/JSDP/output/footer-propuestas-gradientes-2026-10-31/referencias/patron-oficial.svg\")"
+      },
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "x": 20,
+          "y": 270.609375
+        },
+        {
+          "title": "Capacitación",
+          "x": 20,
+          "y": 549.890625
+        },
+        {
+          "title": "IMSS Sonora",
+          "x": 20,
+          "y": 737.578125
+        },
+        {
+          "title": "JSDP",
+          "x": 20,
+          "y": 950.0625
+        }
+      ],
+      "links": [
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "pending": 2,
+      "bodyPatterns": 0,
+      "overflow": false,
+      "textOverflow": [],
+      "logosLoaded": true
+    }
+  ],
+  "contrasts": [
+    {
+      "proposal": "L",
+      "worstStop": "#173c33",
+      "minimumContrast": 8.600149556933108
+    },
+    {
+      "proposal": "M",
+      "worstStop": "#1c493c",
+      "minimumContrast": 7.198168888956607
+    },
+    {
+      "proposal": "N",
+      "worstStop": "#184236",
+      "minimumContrast": 7.953027042696839
+    }
+  ]
+}

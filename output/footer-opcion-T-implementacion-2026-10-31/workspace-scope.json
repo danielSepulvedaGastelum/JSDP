@@ -1,0 +1,12 @@
+{
+  "addedStatusEntries": [
+    "?? apps/web/public/identity/footer/",
+    "?? output/footer-opcion-T-implementacion-2026-10-31/"
+  ],
+  "removedStatusEntries": [],
+  "sourceHashes": {
+    "tsx": "a3782468e38fe79f9d26663557ffec0a86d47effbb2fa89bff8cc300ed14db79",
+    "css": "ddff0f1a02cd969b101f4f1c164a4964fd12e923b0d1acc78487c9aa87e8270d"
+  },
+  "note": "Los dos archivos del footer ya estaban sin seguimiento antes de esta tarea; scope.json y las copias before registran su modificación acotada."
+}

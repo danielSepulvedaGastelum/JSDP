@@ -1,0 +1,19 @@
+{
+  "disposition": "ship",
+  "scope": "Tres maquetas conceptuales oscuras, seis capturas de escritorio y móvil",
+  "proposals": [
+    "I",
+    "J",
+    "K"
+  ],
+  "materialFindings": [],
+  "recommendation": "I: verde #10312b y ornamento equilibrado",
+  "sourceIntegrity": {
+    "footerComponentUnchanged": true,
+    "footerStylesUnchanged": true,
+    "landingUnchanged": true,
+    "imssMasterUnchanged": true,
+    "imssGeometryPreserved": true,
+    "governmentWhiteExact": true
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "width": 1440,
+    "maxGeometryDelta": 0,
+    "gradientMatches": true,
+    "patternColorMatches": true,
+    "urlsMatch": true,
+    "iconRectsMaxDelta": 0
+  },
+  {
+    "width": 1024,
+    "maxGeometryDelta": 0,
+    "gradientMatches": true,
+    "patternColorMatches": true,
+    "urlsMatch": true,
+    "iconRectsMaxDelta": 0
+  },
+  {
+    "width": 390,
+    "maxGeometryDelta": 0,
+    "gradientMatches": true,
+    "patternColorMatches": true,
+    "urlsMatch": true,
+    "iconRectsMaxDelta": 0
+  }
+]

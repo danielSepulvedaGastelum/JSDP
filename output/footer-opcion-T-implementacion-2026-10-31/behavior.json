@@ -1,0 +1,83 @@
+{
+  "headingNames": {
+    "Enlaces IMSS": 1,
+    "CUBOS": 1,
+    "Capacitación": 1,
+    "IMSS Sonora": 1,
+    "JSDP Sonora": 1
+  },
+  "motion": {
+    "animation": "footer-ornament-drift",
+    "duration": "36s",
+    "iteration": "infinite",
+    "state": "running"
+  },
+  "keyboard": [
+    {
+      "href": "https://siap.imss.gob.mx/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://www.imss.gob.mx/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://intranet/Paginas/index.aspx",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "https://escuela.buengobierno.gob.mx/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://172.24.98.216/portalinfo/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    },
+    {
+      "href": "http://172.24.98.216/personal/",
+      "outline": "solid",
+      "outlineColor": "rgb(224, 202, 140)"
+    }
+  ],
+  "reducedMotion": "none"
+}

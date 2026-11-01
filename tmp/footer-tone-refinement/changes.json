@@ -1,0 +1,19 @@
+{
+  "source": "apps/web/src/features/public/landing/LandingFooter.css",
+  "pattern": {
+    "before": "#adc8b6",
+    "after": "#7f9f8a"
+  },
+  "gradient": {
+    "before": "linear-gradient(135deg, #173c33 0%, #10312b 52%, #0c2925 100%)",
+    "after": "linear-gradient(135deg, #205344 0%, #10312b 52%, #08231e 100%)"
+  },
+  "preserved": [
+    "Transparencia de la franja",
+    "Textura sin costuras",
+    "Animación36s",
+    "Tipografía y logotipos",
+    "Estructura y destinos"
+  ],
+  "componentUnchanged": true
+}

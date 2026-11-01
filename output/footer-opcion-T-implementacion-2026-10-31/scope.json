@@ -1,0 +1,37 @@
+{
+  "selectedPrototype": "output/footer-prototipos-iconos-2026-10-31/T-iconos-de-mayor-definicion.html",
+  "productionChanges": [
+    "apps/web/src/features/public/landing/LandingFooter.tsx",
+    "apps/web/src/features/public/landing/LandingFooter.css"
+  ],
+  "assets": [
+    {
+      "path": "apps/web/public/identity/footer/cubo-firme.svg",
+      "exactApprovedCopy": true,
+      "sha256": "8d3627257a4915e016cd3e9ec1d3dd0ca0abbac5796d5be137d4db80076526e0"
+    },
+    {
+      "path": "apps/web/public/identity/footer/birrete-solido.svg",
+      "exactApprovedCopy": true,
+      "sha256": "ffb32055272c29b24b6805ee7fe418079255bb6cc6b19dc4af27734c444988f1"
+    },
+    {
+      "path": "apps/web/public/identity/footer/sonora-claro.svg",
+      "exactApprovedCopy": true,
+      "sha256": "870f3817afaf88ede185e59aa4ceee678dc99455413d08d079a3db04cd2dd01b"
+    },
+    {
+      "path": "apps/web/public/identity/footer/jsdp-sonora-claro.svg",
+      "exactApprovedCopy": true,
+      "sha256": "e15c60887ba9b43b3be2e66576d5bc7268da92732ebb22df710a22eabb40f130"
+    }
+  ],
+  "sourceOriginalsUntouched": {
+    "imss": true,
+    "jsdp": true
+  },
+  "ornamentEffectUnchanged": true,
+  "ornamentStylesUnchanged": true,
+  "urlsUnchanged": true,
+  "newDependencies": false
+}

@@ -1,6 +1,10 @@
 import { Fragment, useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import type { OrgChart, OrgChartNode } from 'd3-org-chart';
+import { HeroEditorial } from './HeroEditorial';
 import { LandingFooter } from './LandingFooter';
+import './AboutCarousel.css';
+import './OrganizationChart.css';
+import './IdentityIllustrations.css';
 
 type IconName =
   | 'arrow'
@@ -72,13 +76,13 @@ function Icon({ name, size = 24 }: { name: IconName; size?: number }) {
 }
 
 const values = [
-  ['Solidaridad', 'Apoyo mutuo para un mejor servicio', 'solidarity'],
-  ['Compromiso', 'Dedicación para cumplir nuestros objetivos', 'handshake'],
-  ['Integridad', 'Actuar con honestidad y transparencia', 'integrity'],
-  ['Lealtad', 'Corresponsabilidad con el IMSS y su misión', 'loyalty'],
-  ['Innovación', 'Mejora continua en beneficio de las personas', 'idea'],
-  ['Empatía', 'Escucha y respeto a las necesidades de nuestra gente', 'heart'],
-  ['Disciplina', 'Cumplir con responsabilidad nuestros deberes', 'discipline'],
+  ['Solidaridad', 'Apoyo mutuo para un mejor servicio', '01_Solidaridad.webp'],
+  ['Compromiso', 'Dedicación para cumplir nuestros objetivos', '02_Compromiso.webp'],
+  ['Integridad', 'Actuar con honestidad y transparencia', '03_Integridad.webp'],
+  ['Lealtad', 'Corresponsabilidad con el IMSS y su misión', '04_Lealtad.webp'],
+  ['Innovación', 'Mejora continua en beneficio de las personas', '05_Innovacion.webp'],
+  ['Empatía', 'Escucha y respeto a las necesidades de nuestra gente', '06_Empatia.webp'],
+  ['Disciplina', 'Cumplir con responsabilidad nuestros deberes', '07_Disciplina.webp'],
 ] as const;
 
 type OrgNode = {
@@ -99,7 +103,7 @@ const orgNodes: OrgNode[] = [
   { id: 'auditorias', title: 'Oficina de Información y Seguimiento de Auditorías', person: 'Lic. Nelia Guadalupe Ayón Palma', label: 'Titular', tone: 'wine', icon: 'audit' },
   { id: 'personal', title: 'Departamento de Personal Delegacional', person: 'Lic. Juan Eduardo Ramírez Lucero', label: 'Titular', tone: 'gold', icon: 'people' },
   { id: 'presupuesto', title: 'Departamento de Presupuesto y Control del Gasto', person: 'Lic. Rossana Haydee Bastidas Soto', label: 'Titular', tone: 'mint', icon: 'budget' },
-  { id: 'relaciones', title: 'Jefe del Departamento de Relaciones Laborales', person: 'Lic. Miguel Arturo Munguia Encinas', label: 'Titular', tone: 'sage', icon: 'handshake' },
+  { id: 'relaciones', title: 'Departamento de Relaciones Laborales', person: 'Lic. Miguel Arturo Munguia Encinas', label: 'Titular', tone: 'sage', icon: 'handshake' },
   { id: 'capacitacion', title: 'Departamento de Capacitación', person: 'Lic. Elizabeth Martell Lucero', label: 'Encargada', tone: 'slate', icon: 'training' },
 ];
 
@@ -156,261 +160,6 @@ function Header() {
   );
 }
 
-function NetworkGraphic() {
-  const networkRef = useRef<HTMLDivElement>(null);
-  const [isMotionActive, setIsMotionActive] = useState(false);
-
-  useEffect(() => {
-    const network = networkRef.current;
-    if (!network) return;
-
-    let isIntersecting = false;
-    const syncMotion = () => setIsMotionActive(isIntersecting && document.visibilityState === 'visible');
-    const observer = new IntersectionObserver(([entry]) => {
-      isIntersecting = entry.isIntersecting;
-      syncMotion();
-    }, { threshold: 0.05 });
-
-    observer.observe(network);
-    document.addEventListener('visibilitychange', syncMotion);
-
-    return () => {
-      observer.disconnect();
-      document.removeEventListener('visibilitychange', syncMotion);
-    };
-  }, []);
-
-  return (
-    <div ref={networkRef} className={`network${isMotionActive ? ' is-motion-active' : ''}`} role="img" aria-label="Composición visual institucional de la JSDP en Sonora">
-      <img className="sonora-shape" src="/identity/Silueta_Sonora-verde.png" alt="" aria-hidden="true" />
-      <svg className="network-lines" viewBox="0 0 520 420" aria-hidden="true">
-        <defs>
-          <mask id="network-gray-line-occlusion" maskUnits="userSpaceOnUse">
-            <rect width="520" height="420" fill="white" />
-            <circle cx="304" cy="56" r="5.5" fill="black" />
-            <path d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" fill="black" />
-          </mask>
-        </defs>
-        <g className="network-gray-connections">
-          <path className="network-gray-line" d="M380 250A40 40 0 0 0 400 195" />
-        </g>
-        <g className="network-gold-connections">
-          <path className="network-gold-line" d="M135 45Q176 4 222 43" />
-          <path className="network-gold-line" d="M100 98A150 150 0 0 0 205 260" />
-          <path className="network-gold-line" d="M205 250Q174 280 145 320" />
-          <path className="network-gold-line" d="M206 345A100 100 0 0 0 360 336" />
-          <path className="network-gold-line" d="M392 298A35 35 0 0 0 380 250" />
-        </g>
-        <g className="network-gray-connections">
-          <path className="network-gray-line" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)" />
-        </g>
-        <g className="network-green-connections">
-          <path className="network-green-line network-green-line-medical" d="M148 93C178 99 202.67 121.67 210 141" />
-          <path className="network-green-line network-green-line-offices" d="M360 102C333 104 315 116 302 139" />
-          <path className="network-green-line network-green-line-coordination" d="M260 276C258 305 234 334 206 345" />
-        </g>
-        <g className="network-signals">
-          <path className="network-signal signal-gray" pathLength="100" d="M380 250A40 40 0 0 0 400 195" />
-          <path className="network-signal signal-gold" pathLength="100" d="M135 45Q176 4 222 43" />
-          <path className="network-signal signal-gold" pathLength="100" d="M100 98A150 150 0 0 0 205 260" />
-          <path className="network-signal signal-gold" pathLength="100" d="M205 250Q174 280 145 320" />
-          <path className="network-signal signal-gold" pathLength="100" d="M206 345A100 100 0 0 0 360 336" />
-          <path className="network-signal signal-gold" pathLength="100" d="M392 298A35 35 0 0 0 380 250" />
-          <path className="network-signal signal-gray" pathLength="100" d="M326 113.5A80 80 0 0 0 248 31" mask="url(#network-gray-line-occlusion)" />
-          <path className="network-signal signal-green" pathLength="100" d="M148 93C178 99 202.67 121.67 210 141" />
-          <path className="network-signal signal-green" pathLength="100" d="M360 102C333 104 315 116 302 139" />
-          <path className="network-signal signal-green" pathLength="100" d="M260 276C258 305 234 334 206 345" />
-        </g>
-        <g className="network-gold-points">
-          <circle className="network-gold-point" cx="285" cy="377" r="5.5" />
-          <circle className="network-gold-point" cx="380" cy="250" r="5" />
-          <circle className="network-soft-gold-point" cx="85" cy="270" r="9.5" />
-          <circle className="network-soft-gold-point" cx="304" cy="56" r="4.5" />
-        </g>
-        <g className="network-neutral-points">
-          <circle className="network-gray-point" cx="174.5" cy="282.5" r="5" />
-        </g>
-        <g className="network-green-points">
-          <circle className="network-green-point" cx="222" cy="43" r="6" />
-          <circle className="network-green-point" cx="187.5" cy="112" r="7.5" />
-          <circle className="network-green-point" cx="326" cy="113.5" r="7.5" />
-          <circle className="network-green-point" cx="123" cy="198" r="6.5" />
-          <circle className="network-green-point" cx="400" cy="195" r="9" />
-          <circle className="network-green-point" cx="206" cy="345" r="6.5" />
-        </g>
-        <g className="network-petals">
-          <g className="network-petal-motion">
-            <path className="network-petal petal-green" d="M219 10C237 9 255 18 266 35C248 37 229 30 216 17C216 14 217 12 219 10Z" transform="translate(241 23) scale(1.08) translate(-241 -23)" />
-          </g>
-          <g className="network-petal-motion">
-            <path className="network-petal petal-gold" d="M446 118C457 98 476 91 495 99C491 116 475 132 451 134C445 129 443 123 446 118Z" transform="translate(469 145) scale(1.28) translate(-470 -113)" />
-          </g>
-          <g className="network-petal-motion">
-            <path className="network-petal petal-green" d="M474 176C487 190 489 214 477 235C464 221 461 197 470 179L474 176Z" transform="translate(475 232) scale(1.28) translate(-475 -206)" />
-          </g>
-          <g className="network-petal-motion">
-            <path className="network-petal petal-green" d="M198 374C216 365 240 368 258 383C242 393 216 391 197 380L198 374Z" transform="translate(166 387) scale(1.38) translate(-228 -379)" />
-          </g>
-        </g>
-      </svg>
-      <div className="network-center"><Icon name="people" size={36} /><strong>JSDP</strong><span>Sonora</span></div>
-      <div className="network-node medical"><img src="/identity/Unidad_Medica.jpg" alt="" /><span>Unidades médicas</span></div>
-      <div className="network-node offices"><img src="/identity/Unidad_No_Medica.jpg" alt="" /><span>Unidades no médicas</span></div>
-      <div className="network-node persons"><img src="/identity/Personas.jpg" alt="" /><span>Personas</span></div>
-      <div className="network-node coordination"><img src="/identity/Coordinacion.jpg" alt="" /><span>Coordinación</span></div>
-    </div>
-  );
-}
-
-const mobileHeroSlides = [
-  { label: 'Unidades médicas', image: '/identity/Unidad_Medica.jpg' },
-  { label: 'Unidades no médicas', image: '/identity/Unidad_No_Medica.jpg' },
-  { label: 'Coordinación', image: '/identity/Coordinacion.jpg' },
-  { label: 'Personas', image: '/identity/Personas.jpg' },
-] as const;
-
-function MobileHeroCarousel() {
-  const trackRef = useRef<HTMLDivElement>(null);
-  const loopSlides = [mobileHeroSlides.at(-1)!, ...mobileHeroSlides, mobileHeroSlides[0]];
-
-  useEffect(() => {
-    const track = trackRef.current;
-    if (!track) return;
-
-    const mobileQuery = window.matchMedia('(max-width: 760px)');
-    const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    let isVisible = false;
-    let isInteracting = false;
-    let visualIndex = 1;
-    let autoplayTimer: number | undefined;
-    let settleTimer: number | undefined;
-    let resizeFrame = 0;
-
-    const clearAutoplay = () => window.clearTimeout(autoplayTimer);
-    const jumpTo = (index: number) => {
-      if (!track.clientWidth) return;
-      visualIndex = index;
-      track.scrollTo({ left: index * track.clientWidth, behavior: 'auto' });
-    };
-    const normalizeLoop = () => {
-      if (!track.clientWidth) return;
-      visualIndex = Math.round(track.scrollLeft / track.clientWidth);
-      if (visualIndex === 0) jumpTo(mobileHeroSlides.length);
-      if (visualIndex === mobileHeroSlides.length + 1) jumpTo(1);
-    };
-    const canAutoplay = () => (
-      mobileQuery.matches
-      && isVisible
-      && !isInteracting
-      && !reducedMotionQuery.matches
-      && document.visibilityState === 'visible'
-    );
-    const scheduleAutoplay = () => {
-      clearAutoplay();
-      if (!canAutoplay()) return;
-      autoplayTimer = window.setTimeout(() => {
-        visualIndex += 1;
-        track.scrollTo({ left: visualIndex * track.clientWidth, behavior: 'smooth' });
-      }, 5000);
-    };
-    const settle = () => {
-      window.clearTimeout(settleTimer);
-      settleTimer = window.setTimeout(() => {
-        normalizeLoop();
-        scheduleAutoplay();
-      }, 180);
-    };
-    const handlePointerDown = (event: PointerEvent) => {
-      if (event.pointerType !== 'touch') return;
-      isInteracting = true;
-      clearAutoplay();
-    };
-    const handlePointerEnd = (event: PointerEvent) => {
-      if (event.pointerType !== 'touch') return;
-      isInteracting = false;
-      settle();
-    };
-    const handleAvailabilityChange = () => {
-      if (mobileQuery.matches) {
-        resizeFrame = window.requestAnimationFrame(() => jumpTo(visualIndex));
-      }
-      scheduleAutoplay();
-    };
-
-    const observer = new IntersectionObserver(([entry]) => {
-      isVisible = entry.isIntersecting;
-      scheduleAutoplay();
-    }, { threshold: 0.2 });
-    const resizeObserver = new ResizeObserver(() => {
-      window.cancelAnimationFrame(resizeFrame);
-      resizeFrame = window.requestAnimationFrame(() => jumpTo(visualIndex));
-    });
-
-    observer.observe(track);
-    resizeObserver.observe(track);
-    track.addEventListener('scroll', settle, { passive: true });
-    track.addEventListener('pointerdown', handlePointerDown, { passive: true });
-    track.addEventListener('pointerup', handlePointerEnd, { passive: true });
-    track.addEventListener('pointercancel', handlePointerEnd, { passive: true });
-    document.addEventListener('visibilitychange', handleAvailabilityChange);
-    mobileQuery.addEventListener('change', handleAvailabilityChange);
-    reducedMotionQuery.addEventListener('change', handleAvailabilityChange);
-    resizeFrame = window.requestAnimationFrame(() => jumpTo(1));
-
-    return () => {
-      clearAutoplay();
-      window.clearTimeout(settleTimer);
-      window.cancelAnimationFrame(resizeFrame);
-      observer.disconnect();
-      resizeObserver.disconnect();
-      track.removeEventListener('scroll', settle);
-      track.removeEventListener('pointerdown', handlePointerDown);
-      track.removeEventListener('pointerup', handlePointerEnd);
-      track.removeEventListener('pointercancel', handlePointerEnd);
-      document.removeEventListener('visibilitychange', handleAvailabilityChange);
-      mobileQuery.removeEventListener('change', handleAvailabilityChange);
-      reducedMotionQuery.removeEventListener('change', handleAvailabilityChange);
-    };
-  }, []);
-
-  return (
-    <div className="mobile-hero-carousel" role="region" aria-roledescription="carrusel" aria-label="Áreas de la JSDP">
-      <div className="mobile-hero-carousel-track" ref={trackRef}>
-        {loopSlides.map((slide, index) => {
-          const isClone = index === 0 || index === loopSlides.length - 1;
-          const realPosition = index === 0 ? mobileHeroSlides.length : index === loopSlides.length - 1 ? 1 : index;
-          return (
-            <figure
-              className="mobile-hero-slide"
-              key={`${slide.label}-${index}`}
-              aria-hidden={isClone || undefined}
-              aria-label={isClone ? undefined : `${slide.label}, ${realPosition} de ${mobileHeroSlides.length}`}
-            >
-              <img src={slide.image} alt="" draggable="false" decoding="async" />
-              <figcaption>{slide.label}</figcaption>
-            </figure>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
-function Hero() {
-  return (
-    <section className="hero" id="inicio">
-      <div className="hero-copy reveal">
-        <h1><img className="hero-title-logo" src="/identity/JSDP-Sonora-11.svg" alt="JSDP Sonora" /></h1>
-        <p className="hero-lead">Jefatura de Servicios de Desarrollo de Personal</p>
-        <p className="hero-body">Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.</p>
-        <a className="primary-button" href="#conoce">Conoce la JSDP <Icon name="arrow" size={18} /></a>
-      </div>
-      <NetworkGraphic />
-      <MobileHeroCarousel />
-    </section>
-  );
-}
-
 function PlannedFeatures() {
   const items = [
     { title: 'Documentos', text: 'La consulta y descarga se habilitarán en una próxima etapa', icon: 'document' as const },
@@ -421,7 +170,7 @@ function PlannedFeatures() {
 }
 
 function MissionVision() {
-  return <section className="identity-grid" id="identidad"><article className="identity-panel mission reveal"><div className="identity-panel-heading"><Icon name="target" size={64} /><h2>Misión</h2></div><p>Garantizar resultados en seguridad social con servicios de prevención y atención a la salud con calidad, calidez, y transparencia para las y los trabajadores de Sonora y sus beneficiarios</p></article><article className="identity-panel vision reveal"><div className="identity-panel-heading"><Icon name="vision" size={64} /><h2>Visión</h2></div><p>Ser el OOAD líder e innovador en atención a la salud y seguridad social en la región en los proximos tres años</p></article></section>;
+  return <section className="identity-grid" id="identidad"><article className="identity-panel mission reveal"><div className="identity-panel-heading"><img className="identity-image" src="/identity/mision-vision-valores/Mision.webp" alt="" width="96" height="96" loading="lazy" decoding="async" /><h2>Misión</h2></div><p>Garantizar resultados en seguridad social con servicios de prevención y atención a la salud con calidad, calidez, y transparencia para las y los trabajadores de Sonora y sus beneficiarios</p></article><article className="identity-panel vision reveal"><div className="identity-panel-heading"><img className="identity-image" src="/identity/mision-vision-valores/Vision.webp" alt="" width="96" height="96" loading="lazy" decoding="async" /><h2>Visión</h2></div><p>Ser el OOAD líder e innovador en atención a la salud y seguridad social en la región en los proximos tres años</p></article></section>;
 }
 
 function Values() {
@@ -446,7 +195,7 @@ function Values() {
     };
   }, []);
 
-  return <section ref={sectionRef} className="values section-shell reveal" id="valores"><div className="section-heading"><h2>Nuestro Valores</h2><p>Principios que guían nuestro trabajo diario.</p></div><div className="values-marquee"><div className={`values-track ${marqueeActive ? 'is-moving' : ''}`}>{marqueeCopies.map(copyIndex => <div className={`values-grid ${copyIndex > 0 ? 'values-grid-duplicate' : ''}`} aria-hidden={copyIndex > 0 ? true : undefined} key={`values-copy-${copyIndex}`}>{values.map(([name, description, icon]) => <article className="value" key={`${name}-${copyIndex}`}><span><Icon name={icon} size={40} /></span><h3>{name}</h3><p>{description}</p></article>)}</div>)}</div></div></section>;
+  return <section ref={sectionRef} className="values section-shell reveal" id="valores"><div className="section-heading"><h2>Nuestro Valores</h2><p>Principios que guían nuestro trabajo diario.</p></div><div className="values-marquee"><div className={`values-track ${marqueeActive ? 'is-moving' : ''}`}>{marqueeCopies.map(copyIndex => <div className={`values-grid ${copyIndex > 0 ? 'values-grid-duplicate' : ''}`} aria-hidden={copyIndex > 0 ? true : undefined} key={`values-copy-${copyIndex}`}>{values.map(([name, description, image]) => <article className="value" key={`${name}-${copyIndex}`}><span><img className="value-image" src={`/identity/mision-vision-valores/${image}`} alt="" width="88" height="88" loading="lazy" decoding="async" /></span><h3>{name}</h3><p>{description}</p></article>)}</div>)}</div></div></section>;
 }
 
 function OrgCard({ node, selected, onSelect, compact = false, disclosure = false, controls }: { node: OrgNode; selected: boolean; onSelect: () => void; compact?: boolean; disclosure?: boolean; controls?: string }) {
@@ -511,20 +260,53 @@ function OrganizationChart() {
       const chart = new D3OrgChart<OrgChartDatum>();
       chartRef.current = chart;
       const selectNode = (node: OrgChartNode<OrgChartDatum>) => setSelectedId(node.data.id);
+      const auditWidth = 380;
+      const auditRightEdge = 360;
+      const auditCenterX = auditRightEdge - auditWidth / 2;
+      // fit() adds 50 logical pixels around every side. Keep its horizontal
+      // breathing room, but let the compact viewport provide vertical margins.
+      const fitBounds = chart.zoomTreeBounds.bind(chart);
+      chart.zoomTreeBounds = bounds => {
+        // Reuse 25px of each outer fit margin for the wider department row,
+        // keeping the fitted scale (and therefore the visible text size) intact.
+        const horizontalInset = bounds.x1 - bounds.x0 > 1000 ? 25 : 0;
+        fitBounds({ ...bounds, x0: bounds.x0 + horizontalInset, x1: bounds.x1 - horizontalInset, y0: bounds.y0 + 50, y1: bounds.y1 - 50 });
+      };
+      const chartHeight = () => {
+        // The visible tree spans 1100 logical pixels vertically and 1390
+        // horizontally including fit's horizontal padding. Match their ratio.
+        const height = Math.ceil(container.clientWidth * 1100 / 1390);
+        container.style.height = `${height}px`;
+        return height;
+      };
 
       chart
         .container(container)
         .data(orgChartData)
-        .svgHeight(580)
+        .svgHeight(chartHeight())
         .initialExpandLevel(2)
-        .nodeWidth(node => node.data.id === 'jefatura' ? 360 : node.data.id === 'auditorias' ? 250 : 210)
-        .nodeHeight(node => node.data.id === 'jefatura' ? 130 : node.data.id === 'auditorias' ? 126 : 154)
+        .nodeWidth(node => node.data.id === 'jefatura' ? 500 : node.data.id === 'auditorias' ? auditWidth : 320)
+        .nodeHeight(node => node.data.id === 'jefatura' ? 260 : node.data.id === 'auditorias' ? 340 : 380)
         .childrenMargin(() => 56)
         .siblingsMargin(() => 14)
         .compactMarginPair(() => 76)
         .compactMarginBetween(() => 22)
         .compact(false)
         .duration(window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 420)
+        .diagonal((source, target) => {
+          if (source.x === auditCenterX && source.y === 300) {
+            // Keep the right-edge connection fixed as Auditorías grows leftward.
+            const rightEdge = auditRightEdge;
+            const centerY = source.y + 170;
+            return `M${target.x},${target.y} V${centerY - 12} Q${target.x},${centerY} ${target.x - 12},${centerY} H${rightEdge}`;
+          }
+          // Departments join a shared bus 50px above their top edge, safely
+          // below Auditorías (bottom 640), instead of at the path midpoint.
+          const busY = source.y >= 740 ? source.y - 50 : (source.y + target.y) / 2;
+          const direction = source.x >= target.x ? 1 : -1;
+          const radius = Math.min(12, Math.abs(source.x - target.x) / 2, Math.abs(busY - target.y) / 2, Math.abs(source.y - busY) / 2);
+          return `M${target.x},${target.y} V${busY - radius} Q${target.x},${busY} ${target.x + direction * radius},${busY} H${source.x - direction * radius} Q${source.x},${busY} ${source.x},${busY + radius} V${source.y}`;
+        })
         .nodeContent(node => renderOrgChartNode(node, selectedIdRef.current))
         .onNodeClick(selectNode)
         .onExpandOrCollapse(node => {
@@ -542,18 +324,20 @@ function OrganizationChart() {
         .linkUpdate(function (node) {
           const root = node.parent;
           if (!root) return;
-          root.x = 480;
+          root.x = 645;
           root.y = 20;
           if (node.data.id === 'auditorias') {
-            node.x = 155;
-            node.y = 190;
+            node.x = auditCenterX;
+            node.y = 300;
             return;
           }
           const departmentOrder = ['personal', 'presupuesto', 'relaciones', 'capacitacion'];
           const departmentIndex = departmentOrder.indexOf(node.data.id);
           if (departmentIndex >= 0) {
-            node.x = 105 + departmentIndex * 250;
-            node.y = 380;
+            node.x = 135 + departmentIndex * 340;
+            // The bus stays at 690, leaving 50px below Auditorías and a short
+            // 50px final connection to the departments, without changing order.
+            node.y = 740;
           }
         })
         .render()
@@ -562,7 +346,7 @@ function OrganizationChart() {
       enhanceAccessibility();
       observer = new ResizeObserver(() => {
         window.cancelAnimationFrame(resizeFrame);
-        resizeFrame = window.requestAnimationFrame(() => chart.render().fit({ animate: false }));
+        resizeFrame = window.requestAnimationFrame(() => chart.svgHeight(chartHeight()).render().fit({ animate: false }));
       });
       observer.observe(container);
     };
@@ -589,9 +373,124 @@ function OrganizationChart() {
   return <section className="organization reveal" id="estructura"><div className="section-shell org-heading"><div className="section-heading"><h2>Estructura organizacional</h2><p>Conoce la estructura de la Jefatura de Servicios de Desarrollo de Personal.</p></div><button className="collapse-all" type="button" aria-expanded={expanded} aria-controls="organigrama" onClick={toggleTree}>{expanded ? 'Contraer estructura' : 'Expandir estructura'}</button></div><div className="org-layout section-shell"><div id="organigrama" className="org-tree"><div className="org-chart-controls" role="toolbar" aria-label="Controles de zoom del organigrama"><button type="button" onClick={() => chartRef.current?.zoomIn()} aria-label="Acercar organigrama" title="Acercar"><Icon name="zoomIn" size={19} /></button><button type="button" onClick={() => chartRef.current?.zoomOut()} aria-label="Alejar organigrama" title="Alejar"><Icon name="zoomOut" size={19} /></button><button type="button" onClick={() => chartRef.current?.fit({ animate: true })} aria-label="Ajustar organigrama al área visible" title="Ajustar al área"><Icon name="zoomFit" size={19} /></button></div><div ref={chartContainerRef} className="org-d3-chart" role="group" aria-label="Organigrama de la Jefatura de Servicios de Desarrollo de Personal" /></div><OrgInfo node={selected} /></div><div className="org-mobile-list section-shell">{orgNodes.map(node => { const open = sheetOpen && selectedId === node.id; const detailId = `puesto-${node.id}`; return <Fragment key={node.id}><OrgCard node={node} selected={open} onSelect={() => toggleMobile(node.id)} compact disclosure controls={detailId} />{open && <OrgInfo id={detailId} node={node} />}</Fragment>; })}</div></section>;
 }
 
-function Footer() {
-  return <LandingFooter />;
+type AboutSlide = {
+  title: string;
+  image: string;
+  description: string;
+  organizationIntro?: string;
+  offices?: { title: string; description: string }[];
+};
+
+const aboutSlides: AboutSlide[] = [
+  {
+    title: 'Conoce la JSDP', image: '01_JSDP.webp',
+    description: 'La Jefatura de Servicios de Desarrollo de Personal (JSDP) del OOAD 27 Sonora impulsa la gestión integral del personal mediante procesos normativos, transparentes y humanos, en coordinación con las unidades médicas y no médicas.',
+    organizationIntro: 'Para el desarrollo de sus funciones, la JSDP se organiza en los siguientes departamentos y oficinas:',
+  },
+  {
+    title: 'Departamento de Personal', image: '06_Departamento_Personal.webp',
+    description: 'Coordina la administración del personal, desde su ingreso y desarrollo laboral hasta el pago de nómina y la gestión de sus prestaciones, en enlace con las unidades de todo Sonora.',
+    offices: [
+      { title: 'Oficina de Control de Fuerza de Trabajo', description: 'Procesa la nómina y la nominación de personal, coordina con las unidades del estado la gestión de su pago y participa en la selección de personal de nuevo ingreso.' },
+      { title: 'Oficina de Dotación de Recursos Humanos', description: 'Gestiona la bolsa de trabajo interna, las plazas de Confianza B, los asuntos del personal becado y los procesos de escalafón.' },
+      { title: 'Oficina de Prestaciones al Personal', description: 'Administra y tramita las prestaciones para solicitudes de crédito hipotecario, Infonavit, crédito a mediano plazo y adquisición de automóvil.' },
+    ],
+  },
+  {
+    title: 'Departamento de Presupuesto y Control del Gasto', image: '05_Departamento_Presupuesto.webp',
+    description: 'Coordina el ejercicio presupuestal de los servicios personales, las obligaciones patronales y el cumplimiento oportuno de los procesos de nómina.',
+    offices: [
+      { title: 'Oficina de Ejercicio Presupuestal y Obligaciones', description: 'Coordina con las unidades médicas y no médicas las solicitudes de presupuesto para tiempo extra (037), nivelación a categoría superior (010), guardias festivas y administrativas (035) y personal sustituto (08). Procesa el pago de obligaciones patronales: Infonavit, Afores e ISR.' },
+      { title: 'Oficina de Control del Proceso', description: 'Coordina los calendarios quincenales y mensuales de las nóminas de personal activo, jubilados y pensionados, PTD y PTDAM; así como la distribución de productos de nómina y el pago mediante acreditamiento en cuenta.' },
+    ],
+  },
+  {
+    title: 'Departamento de Relaciones Laborales', image: '04_Departamento_Relaciones_Laborales.webp',
+    description: 'Atiende las relaciones con la representación sindical y coordina los asuntos de las subcomisiones mixtas en el ámbito de la JSDP en Sonora.',
+    offices: [
+      { title: 'Oficina de Asuntos Sindicales', description: 'Atiende los asuntos que requieren coordinación con la Sección XVII del Sindicato Nacional de Trabajadores del Seguro Social (SNTSS), correspondiente a Sonora.' },
+      { title: 'Oficina de Subcomisiones Mixtas', description: 'Coordina las actividades de las subcomisiones mixtas con la representación sindical, entre ellas la Disciplinaria, la Paritaria y la de Pasajes.' },
+    ],
+  },
+  {
+    title: 'Departamento de Capacitación', image: '03_Departamento_Capacitacion.webp',
+    description: 'Coordina las actividades de capacitación de las y los trabajadores del IMSS en Sonora, orientadas al desarrollo de sus conocimientos y habilidades para el desempeño de sus funciones.',
+  },
+  {
+    title: 'Oficina de Información y Seguimiento de Auditorías', image: '02_Oficina_Auditorias.webp',
+    description: 'Coordina la atención de solicitudes de información de áreas externas y da seguimiento a las supervisiones realizadas, en el ámbito de la JSDP, a las unidades médicas y no médicas de Sonora.',
+  },
+];
+
+function AboutCarousel() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [active, setActive] = useState(0);
+  const [inView, setInView] = useState(false);
+  const [paused, setPaused] = useState(false);
+  const [hovered, setHovered] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const [pageVisible, setPageVisible] = useState(true);
+  const [reducedMotion, setReducedMotion] = useState(false);
+  const playing = inView && pageVisible && !paused && !hovered && !focused && !reducedMotion;
+
+  useEffect(() => {
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const updateMotion = () => setReducedMotion(preference.matches);
+    const updateVisibility = () => setPageVisible(!document.hidden);
+    updateMotion();
+    updateVisibility();
+    preference.addEventListener('change', updateMotion);
+    document.addEventListener('visibilitychange', updateVisibility);
+    const observer = new IntersectionObserver(([entry]) => {
+      const visible = entry.isIntersecting && entry.intersectionRatio >= .15;
+      setInView(visible);
+      if (!visible) setActive(0);
+    }, { threshold: [0, .15] });
+    if (sectionRef.current) observer.observe(sectionRef.current);
+    return () => {
+      observer.disconnect();
+      preference.removeEventListener('change', updateMotion);
+      document.removeEventListener('visibilitychange', updateVisibility);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!playing) return;
+    const timer = window.setTimeout(() => setActive(index => (index + 1) % aboutSlides.length), aboutSlides[active].offices ? 26000 : 12000);
+    return () => window.clearTimeout(timer);
+  }, [active, playing]);
+
+  const navigate = (step: number) => setActive(index => (index + step + aboutSlides.length) % aboutSlides.length);
+
+  return <section ref={sectionRef} className="about about-carousel" id="conoce" aria-label="Conoce la JSDP y sus áreas" aria-roledescription="carrusel"
+    onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}
+    onFocusCapture={() => setFocused(true)} onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocused(false); }}
+    onKeyDown={event => {
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); navigate(event.key === 'ArrowLeft' ? -1 : 1); }
+      if (event.key === 'Home' || event.key === 'End') { event.preventDefault(); setActive(event.key === 'Home' ? 0 : aboutSlides.length - 1); }
+    }}>
+    <div className="about-visual" aria-hidden="true"><img src="/identity/OOAD_IMSS_ampliada_derecha_optimizada.webp" alt="" loading="lazy" decoding="async" /></div>
+    <div className="section-shell about-carousel-shell">
+      <button className="about-nav about-prev" type="button" aria-label="Área anterior" aria-controls="about-slides" onClick={() => navigate(-1)}><Icon name="chevron" /></button>
+      <div id="about-slides" className="about-slides" aria-live={playing ? 'off' : 'polite'} aria-atomic="true">
+        {aboutSlides.map((slide, index) => <article key={slide.title} className={`about-slide${index === active ? ' is-active' : ''}`} aria-hidden={index !== active} inert={index !== active} role="group" aria-roledescription="diapositiva" aria-label={`${index + 1} de ${aboutSlides.length}: ${slide.title}`}>
+          <img className="about-area-image" src={`/identity/conoce-jsdp/${slide.image}`} alt="" width="512" height="512" loading="lazy" decoding="async" />
+          <div className="about-area-copy"><h2>{slide.title}</h2><p className="about-description">{slide.description}</p>
+            {slide.organizationIntro && <div className="about-organization"><p>{slide.organizationIntro}</p><ul>{aboutSlides.slice(1).map(area => <li key={area.title}>{area.title}</li>)}</ul></div>}
+            {slide.offices && <dl className="about-offices">{slide.offices.map(office => <div key={office.title}><dt>{office.title}</dt><dd>{office.description}</dd></div>)}</dl>}
+          </div>
+        </article>)}
+      </div>
+      <button className="about-nav about-next" type="button" aria-label="Área siguiente" aria-controls="about-slides" onClick={() => navigate(1)}><Icon name="chevron" /></button>
+      <div className="about-carousel-controls">
+        <div className="about-pagination" role="group" aria-label="Seleccionar área">{aboutSlides.map((slide, index) => <button key={slide.title} type="button" aria-label={`Mostrar ${slide.title}`} aria-current={index === active ? 'true' : undefined} onClick={() => setActive(index)}><span /></button>)}</div>
+        <span className="about-counter" aria-hidden="true">{active + 1} / {aboutSlides.length}</span>
+        {!reducedMotion && <button className="about-playback" type="button" onClick={() => setPaused(value => !value)} aria-label={paused ? 'Reanudar avance automático' : 'Pausar avance automático'}><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">{paused ? <path d="m5 3 8 5-8 5Z" /> : <><rect x="4" y="3" width="3" height="10" rx=".5" /><rect x="9" y="3" width="3" height="10" rx=".5" /></>}</svg><span>{paused ? 'Reanudar' : 'Pausar'}</span></button>}
+      </div>
+    </div>
+  </section>;
 }
+
 
 export function LandingPage() {
   const pageId = useId();
@@ -603,5 +502,5 @@ export function LandingPage() {
     items.forEach(el => observer.observe(el));
     return () => observer.disconnect();
   }, []);
-  return <div className="landing-page" id={pageId}><a className="skip-link" href="#contenido">Saltar al contenido</a><Header /><main id="contenido"><div className="page-frame"><Hero /></div><section className="about" id="conoce"><div className="about-visual" aria-hidden="true"><img src="/identity/OOAD_IMSS_ampliada_derecha_optimizada.webp" alt="" loading="lazy" decoding="async" /></div><div className="section-shell reveal"><div className="about-copy"><h2>Conoce la JSDP</h2><p>La Jefatura de Servicios de Desarrollo de Personal, del OOAD 27 Sonora, impulsa la gestión integral del personal, a través de procesos normativos, transparentes y humanos, en coordinación con las unidades médicas y no médicas.</p></div><a className="secondary-button" href="#estructura">Más información <Icon name="arrow" size={18} /></a></div></section><PlannedFeatures /><MissionVision /><Values /><OrganizationChart /></main><Footer /></div>;
+  return <div className="landing-page" id={pageId}><a className="skip-link" href="#contenido">Saltar al contenido</a><Header /><main id="contenido"><HeroEditorial /><AboutCarousel /><PlannedFeatures /><MissionVision /><Values /><OrganizationChart /></main><LandingFooter /></div>;
 }

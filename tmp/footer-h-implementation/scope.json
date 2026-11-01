@@ -1,0 +1,10 @@
+{
+  "changedSourceFiles": [
+    "apps/web/src/features/public/landing/LandingFooter.tsx",
+    "apps/web/src/features/public/landing/LandingFooter.css",
+    "apps/web/src/features/public/landing/LandingPage.tsx"
+  ],
+  "landingOutsideFooterUnchanged": true,
+  "globalStylesUnchanged": true,
+  "diffCheck": true
+}

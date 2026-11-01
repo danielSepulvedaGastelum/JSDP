@@ -23,6 +23,8 @@ declare module 'd3-org-chart' {
     compactMarginBetween(value: (node: OrgChartNode<T>) => number): this;
     compact(value: boolean): this;
     duration(value: number): this;
+    diagonal(value: (source: { x: number; y: number }, target: { x: number; y: number }) => string): this;
+    zoomTreeBounds(bounds: { x0: number; x1: number; y0: number; y1: number; params?: { animate?: boolean; scale?: boolean; onCompleted?: () => void } }): void;
     nodeContent(value: (node: OrgChartNode<T>) => string): this;
     onNodeClick(value: (node: OrgChartNode<T>) => void): this;
     onExpandOrCollapse(value: (node: OrgChartNode<T>) => void): this;

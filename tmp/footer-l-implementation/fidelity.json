@@ -1,0 +1,47 @@
+{
+  "geometry": [
+    {
+      "width": 1440,
+      "maxGeometryDeltaPx": 0,
+      "heightDifference": 0
+    },
+    {
+      "width": 1024,
+      "maxGeometryDeltaPx": 0,
+      "heightDifference": 0
+    },
+    {
+      "width": 390,
+      "maxGeometryDeltaPx": 0,
+      "heightDifference": 0
+    }
+  ],
+  "assets": [
+    {
+      "file": "logo_blanco.svg",
+      "identical": true,
+      "sha256": "4318e37ca43f7a267c4e5ddb0cc60968b2519f0680747c7b90eddea8e9b3e694"
+    },
+    {
+      "file": "Logotipo_del_IMSS_claro.svg",
+      "identical": true,
+      "sha256": "43a05cab654713a06da3ea58ded6b66900015278766d988cc86046dee5fe8f1d"
+    },
+    {
+      "file": "textura_gobierno_mexico_2024_2030.svg",
+      "identical": true,
+      "sha256": "566de501a25d4773075114fd4ae55d57f2b3b8e101b5a84f35caf0515b41c3ea"
+    },
+    {
+      "file": "Patria-PDF-Reconstruida-Regular.woff2",
+      "identical": true,
+      "sha256": "7b4c9423a55775456afc2497f1b73d5a944f8e69386ba93edaaa292c36fa2325"
+    }
+  ],
+  "scope": {
+    "landingPageUnchanged": true,
+    "globalStylesUnchanged": true,
+    "footerGroupsUnchanged": true
+  },
+  "linksExact": true
+}

@@ -1,0 +1,140 @@
+{
+  "build": true,
+  "viewports": [
+    {
+      "width": 390,
+      "band": {
+        "width": 390,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "ink": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/identity/textura_footer_gobierno_mexico_2024_2030.svg\")",
+        "mode": "alpha",
+        "repeat": "repeat-x",
+        "animation": "none"
+      },
+      "links": 8,
+      "pending": 2,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "band": {
+        "width": 320,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "ink": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/identity/textura_footer_gobierno_mexico_2024_2030.svg\")",
+        "mode": "alpha",
+        "repeat": "repeat-x",
+        "animation": "none"
+      },
+      "links": 8,
+      "pending": 2,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "band": {
+        "width": 1024,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "ink": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/identity/textura_footer_gobierno_mexico_2024_2030.svg\")",
+        "mode": "alpha",
+        "repeat": "repeat-x",
+        "animation": "none"
+      },
+      "links": 8,
+      "pending": 2,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "band": {
+        "width": 1440,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "ink": "rgb(173, 200, 182)",
+        "mask": "url(\"http://127.0.0.1:5173/identity/textura_footer_gobierno_mexico_2024_2030.svg\")",
+        "mode": "alpha",
+        "repeat": "repeat-x",
+        "animation": "none"
+      },
+      "links": 8,
+      "pending": 2,
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "svgAlpha": [
+    {
+      "name": "textura_gobierno_mexico_2024_2030.svg",
+      "nativeWidth": 546,
+      "nativeHeight": 546,
+      "fullyTransparentPixels": 132289,
+      "opaquePixels": 142428,
+      "antialiasedEdgePixels": 23399,
+      "edgeColumns": [
+        {
+          "x": 0,
+          "alphaSum": 6342,
+          "paintedRows": 29
+        },
+        {
+          "x": 1,
+          "alphaSum": 6752,
+          "paintedRows": 31
+        },
+        {
+          "x": 178,
+          "alphaSum": 6032,
+          "paintedRows": 29
+        },
+        {
+          "x": 179,
+          "alphaSum": 3375,
+          "paintedRows": 28
+        }
+      ]
+    },
+    {
+      "name": "textura_footer_gobierno_mexico_2024_2030.svg",
+      "nativeWidth": 545,
+      "nativeHeight": 545,
+      "fullyTransparentPixels": 131193,
+      "opaquePixels": 142428,
+      "antialiasedEdgePixels": 23404,
+      "edgeColumns": [
+        {
+          "x": 0,
+          "alphaSum": 6458,
+          "paintedRows": 31
+        },
+        {
+          "x": 1,
+          "alphaSum": 6818,
+          "paintedRows": 33
+        },
+        {
+          "x": 178,
+          "alphaSum": 5984,
+          "paintedRows": 28
+        },
+        {
+          "x": 179,
+          "alphaSum": 5462,
+          "paintedRows": 30
+        }
+      ]
+    }
+  ],
+  "renderedAlpha": {
+    "transparentGapPixels": 24704,
+    "opaquePatternPixels": 28880,
+    "opaquePixelsWithWrongColor": 0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "build": true,
+  "viewports": [
+    {
+      "width": 390,
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "pattern": "rgb(127, 159, 138)",
+      "bandBackground": "rgba(0, 0, 0, 0)",
+      "bandWidth": 390,
+      "bandHeight": 48,
+      "links": 8,
+      "pending": 2,
+      "overflow": false,
+      "textOverflow": [],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "pattern": "rgb(127, 159, 138)",
+      "bandBackground": "rgba(0, 0, 0, 0)",
+      "bandWidth": 1440,
+      "bandHeight": 48,
+      "links": 8,
+      "pending": 2,
+      "overflow": false,
+      "textOverflow": [],
+      "errors": []
+    }
+  ],
+  "minimumTextContrast": 6.247713355098649,
+  "patternLuminanceBefore": 0.5357018871368979,
+  "patternLuminanceAfter": 0.311432781342031,
+  "componentUnchanged": true
+}

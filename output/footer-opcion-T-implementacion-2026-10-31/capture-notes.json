@@ -1,0 +1,83 @@
+{
+  "scope": "Capturas del footer aislado. Header sticky y otros controles fixed ajenos al footer ocultos SOLO durante la captura para que no se superpongan al capturar elementos más altos que el viewport. Sin cambios al CSS/DOM de producción.",
+  "captures": [
+    {
+      "width": 1440,
+      "hiddenOutsideFooter": [
+        {
+          "tag": "A",
+          "className": "skip-link"
+        },
+        {
+          "tag": "HEADER",
+          "className": "site-header"
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "hiddenOutsideFooter": [
+        {
+          "tag": "A",
+          "className": "skip-link"
+        },
+        {
+          "tag": "HEADER",
+          "className": "site-header"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "hiddenOutsideFooter": [
+        {
+          "tag": "A",
+          "className": "skip-link"
+        },
+        {
+          "tag": "HEADER",
+          "className": "site-header"
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "hiddenOutsideFooter": [
+        {
+          "tag": "A",
+          "className": "skip-link"
+        },
+        {
+          "tag": "HEADER",
+          "className": "site-header"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "hiddenOutsideFooter": [
+        {
+          "tag": "A",
+          "className": "skip-link"
+        },
+        {
+          "tag": "HEADER",
+          "className": "site-header"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "hiddenOutsideFooter": [
+        {
+          "tag": "A",
+          "className": "skip-link"
+        },
+        {
+          "tag": "HEADER",
+          "className": "site-header"
+        }
+      ]
+    }
+  ]
+}

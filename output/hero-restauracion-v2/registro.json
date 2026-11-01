@@ -1,0 +1,79 @@
+{
+  "method": "Built-in image_gen photographic restoration, individual visual comparison and targeted revisions; original flag emblems protected from source; Sharp WebP export quality 89",
+  "files": [
+    {
+      "name": "Unidad_Medica",
+      "path": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero2_Unidad_Medica.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 910066,
+      "nativeRestoration": {
+        "width": 1672,
+        "height": 941
+      },
+      "sha256": "e8fc139f139971281caafa140ae59676e6e36c8038a96b159b51b45c70d37340"
+    },
+    {
+      "name": "Unidad_No_Medica",
+      "path": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero2_Unidad_No_Medica.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 466774,
+      "nativeRestoration": {
+        "width": 1672,
+        "height": 941
+      },
+      "sha256": "5a180cd1e6ba7fba2776fe1bfaf4fce2c933c9729fe92787ee12b437401e3088"
+    },
+    {
+      "name": "Coordinacion",
+      "path": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero2_Coordinacion.webp",
+      "width": 3840,
+      "height": 2562,
+      "bytes": 470834,
+      "nativeRestoration": {
+        "width": 1536,
+        "height": 1024
+      },
+      "sha256": "900347df83401deea55d95df4f424e3be316e27610b8ac709ea0c5463dd2b383"
+    },
+    {
+      "name": "Personas",
+      "path": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero2_Personas.webp",
+      "width": 3840,
+      "height": 1731,
+      "bytes": 396440,
+      "nativeRestoration": {
+        "width": 1867,
+        "height": 842
+      },
+      "sourceCrop": {
+        "left": 96,
+        "top": 0,
+        "width": 488,
+        "height": 220
+      },
+      "sha256": "311c5cfb528c7b101b68ebc1a8be76211c288478b733006c7b6dc90c368aca83"
+    }
+  ],
+  "originalHashes": {
+    "Unidad_Medica": "8007db747dbafc419cd3da65a7894b1cf36bd98d04fd2267f423a672fea30510",
+    "Unidad_No_Medica": "0f7963f038eb7b35eb6d1c6dc0e6b4c5ce5d04a7510a576c8f4f2500ef35e7f5",
+    "Personas": "e9ff0804de88abbccb7fb3666daac8121bc215ba5ca5a46dc8d489e268e69746",
+    "Coordinacion": "aa592f7f2c5eb1e98884a347737ef6f5fe6e3a8f5920d85581d8d63bb259edf9"
+  },
+  "personas": {
+    "status": "complete",
+    "userAuthorizedCrop": true,
+    "crop": {
+      "left": 96,
+      "top": 0,
+      "width": 488,
+      "height": 220
+    },
+    "scope": "Only the approved face-and-gown crop; excluded procedure area not restored or reintroduced.",
+    "method": "Built-in image_gen restoration of the crop, restrained color correction, original tiny cap inscription protected, WebP quality 89.",
+    "originalUnchanged": true
+  },
+  "limitations": "Texture reconstructed from low-resolution references; not native captured 4K or guaranteed documentary subpixel fidelity. Native restoration dimensions retained in metadata."
+}

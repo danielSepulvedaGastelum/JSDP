@@ -1,0 +1,18 @@
+{
+  "disposition": "ship",
+  "scope": "Footer L con franja ornamental animada",
+  "materialFindings": [],
+  "evidence": [
+    "verification.json",
+    "motion-verification.json",
+    "fidelity.json",
+    "impeccable-diagnostic.json",
+    "build.log"
+  ],
+  "summary": "Coincide con L; franja48px,180px/36s derecha, ciclo continuo verificado en1440/390. Pausaoffscreen,reducedmotion dinámico y Tab verificados. Sin recortes materiales en seisanchos.",
+  "limits": [
+    "No benchmark de FPS en hardware",
+    "No conectividad de destinos externos",
+    "No certifica el resto de la landing"
+  ]
+}

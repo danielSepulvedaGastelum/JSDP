@@ -1,0 +1,1489 @@
+{
+  "build": true,
+  "viewports": [
+    {
+      "width": 390,
+      "height": 1568.4375,
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "count": 5,
+          "x": 20,
+          "y": 228.8125,
+          "width": 350,
+          "height": 297.078125,
+          "heading": {
+            "x": 20,
+            "y": 228.8125,
+            "width": 350,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 296.90625,
+            "width": 350,
+            "height": 228.984375
+          }
+        },
+        {
+          "title": "CUBOS",
+          "count": 4,
+          "x": 20,
+          "y": 553.890625,
+          "width": 350,
+          "height": 251.28125,
+          "heading": {
+            "x": 20,
+            "y": 553.890625,
+            "width": 350,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 621.984375,
+            "width": 350,
+            "height": 183.1875
+          }
+        },
+        {
+          "title": "Capacitación",
+          "count": 2,
+          "x": 20,
+          "y": 833.171875,
+          "width": 350,
+          "height": 159.6875,
+          "heading": {
+            "x": 20,
+            "y": 833.171875,
+            "width": 350,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 901.265625,
+            "width": 350,
+            "height": 91.59375
+          }
+        },
+        {
+          "title": "IMSS Sonora",
+          "count": 2,
+          "x": 20,
+          "y": 1020.859375,
+          "width": 350,
+          "height": 184.484375,
+          "heading": {
+            "x": 20,
+            "y": 1020.859375,
+            "width": 350,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 1088.953125,
+            "width": 350,
+            "height": 116.390625
+          }
+        },
+        {
+          "title": "JSDP",
+          "count": 2,
+          "x": 20,
+          "y": 1233.34375,
+          "width": 350,
+          "height": 162.09375,
+          "heading": {
+            "x": 20,
+            "y": 1233.34375,
+            "width": 350,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 1301.4375,
+            "width": 350,
+            "height": 94
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://siap.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://www.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://intranet/Paginas/index.aspx",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://escuela.buengobierno.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.24.98.216/portalinfo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.24.98.216/personal/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 69.59375
+        }
+      ],
+      "firstImss": "https://siap.imss.gob.mx/",
+      "pending": [
+        {
+          "text": "Inicio de sesiónEn construcción",
+          "tabIndex": -1
+        },
+        {
+          "text": "DocumentosEn construcción",
+          "tabIndex": -1
+        }
+      ],
+      "header": {
+        "x": 20,
+        "y": 36,
+        "width": 350,
+        "height": 162.8125
+      },
+      "title": {
+        "x": 20,
+        "y": 36,
+        "width": 321.875,
+        "height": 41.796875
+      },
+      "meta": {
+        "x": 20,
+        "y": 1427.4375,
+        "width": 350,
+        "height": 69
+      },
+      "logos": [
+        {
+          "source": "/identity/logo_blanco.svg",
+          "loaded": true,
+          "x": 20,
+          "y": 105.796875,
+          "width": 200,
+          "height": 62.015625
+        },
+        {
+          "source": "/identity/Logotipo_del_IMSS_claro.svg",
+          "loaded": true,
+          "x": 257,
+          "y": 107.796875,
+          "width": 46,
+          "height": 58
+        }
+      ],
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "band": {
+        "width": 390,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(127, 159, 138)"
+      },
+      "overflow": false,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "pageErrors": []
+    },
+    {
+      "width": 820,
+      "height": 1066.4375,
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "count": 5,
+          "x": 40,
+          "y": 235.59375,
+          "width": 350,
+          "height": 307.75,
+          "heading": {
+            "x": 40,
+            "y": 235.59375,
+            "width": 350,
+            "height": 48.75
+          },
+          "list": {
+            "x": 40,
+            "y": 298.34375,
+            "width": 350,
+            "height": 245
+          }
+        },
+        {
+          "title": "CUBOS",
+          "count": 4,
+          "x": 430,
+          "y": 235.59375,
+          "width": 350,
+          "height": 307.75,
+          "heading": {
+            "x": 430,
+            "y": 235.59375,
+            "width": 350,
+            "height": 48.75
+          },
+          "list": {
+            "x": 430,
+            "y": 298.34375,
+            "width": 350,
+            "height": 196
+          }
+        },
+        {
+          "title": "Capacitación",
+          "count": 2,
+          "x": 40,
+          "y": 579.34375,
+          "width": 350,
+          "height": 182.34375,
+          "heading": {
+            "x": 40,
+            "y": 579.34375,
+            "width": 350,
+            "height": 48.75
+          },
+          "list": {
+            "x": 40,
+            "y": 642.09375,
+            "width": 350,
+            "height": 98
+          }
+        },
+        {
+          "title": "IMSS Sonora",
+          "count": 2,
+          "x": 430,
+          "y": 579.34375,
+          "width": 350,
+          "height": 182.34375,
+          "heading": {
+            "x": 430,
+            "y": 579.34375,
+            "width": 350,
+            "height": 48.75
+          },
+          "list": {
+            "x": 430,
+            "y": 642.09375,
+            "width": 350,
+            "height": 119.59375
+          }
+        },
+        {
+          "title": "JSDP",
+          "count": 2,
+          "x": 40,
+          "y": 797.6875,
+          "width": 740,
+          "height": 111.75,
+          "heading": {
+            "x": 40,
+            "y": 797.6875,
+            "width": 740,
+            "height": 48.75
+          },
+          "list": {
+            "x": 40,
+            "y": 860.4375,
+            "width": 740,
+            "height": 49
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://siap.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://www.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://intranet/Paginas/index.aspx",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://escuela.buengobierno.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/portalinfo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/personal/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 69.59375
+        }
+      ],
+      "firstImss": "https://siap.imss.gob.mx/",
+      "pending": [
+        {
+          "text": "Inicio de sesiónEn construcción",
+          "tabIndex": -1
+        },
+        {
+          "text": "DocumentosEn construcción",
+          "tabIndex": -1
+        }
+      ],
+      "header": {
+        "x": 40,
+        "y": 48,
+        "width": 740,
+        "height": 144.59375
+      },
+      "title": {
+        "x": 40,
+        "y": 48,
+        "width": 350,
+        "height": 105.59375
+      },
+      "meta": {
+        "x": 40,
+        "y": 953.4375,
+        "width": 740,
+        "height": 39
+      },
+      "logos": [
+        {
+          "source": "/identity/logo_blanco.svg",
+          "loaded": true,
+          "x": 430,
+          "y": 63.578125,
+          "width": 240,
+          "height": 74.421875
+        },
+        {
+          "source": "/identity/Logotipo_del_IMSS_claro.svg",
+          "loaded": true,
+          "x": 719,
+          "y": 62.796875,
+          "width": 61,
+          "height": 76
+        }
+      ],
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "band": {
+        "width": 820,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(127, 159, 138)"
+      },
+      "overflow": false,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "pageErrors": []
+    },
+    {
+      "width": 1024,
+      "height": 1015.25,
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "count": 5,
+          "x": 40,
+          "y": 206,
+          "width": 452,
+          "height": 307.75,
+          "heading": {
+            "x": 40,
+            "y": 206,
+            "width": 452,
+            "height": 48.75
+          },
+          "list": {
+            "x": 40,
+            "y": 268.75,
+            "width": 452,
+            "height": 245
+          }
+        },
+        {
+          "title": "CUBOS",
+          "count": 4,
+          "x": 532,
+          "y": 206,
+          "width": 452,
+          "height": 307.75,
+          "heading": {
+            "x": 532,
+            "y": 206,
+            "width": 452,
+            "height": 48.75
+          },
+          "list": {
+            "x": 532,
+            "y": 268.75,
+            "width": 452,
+            "height": 196
+          }
+        },
+        {
+          "title": "Capacitación",
+          "count": 2,
+          "x": 40,
+          "y": 549.75,
+          "width": 452,
+          "height": 160.75,
+          "heading": {
+            "x": 40,
+            "y": 549.75,
+            "width": 452,
+            "height": 48.75
+          },
+          "list": {
+            "x": 40,
+            "y": 612.5,
+            "width": 452,
+            "height": 98
+          }
+        },
+        {
+          "title": "IMSS Sonora",
+          "count": 2,
+          "x": 532,
+          "y": 549.75,
+          "width": 452,
+          "height": 160.75,
+          "heading": {
+            "x": 532,
+            "y": 549.75,
+            "width": 452,
+            "height": 48.75
+          },
+          "list": {
+            "x": 532,
+            "y": 612.5,
+            "width": 452,
+            "height": 98
+          }
+        },
+        {
+          "title": "JSDP",
+          "count": 2,
+          "x": 40,
+          "y": 746.5,
+          "width": 944,
+          "height": 111.75,
+          "heading": {
+            "x": 40,
+            "y": 746.5,
+            "width": 944,
+            "height": 48.75
+          },
+          "list": {
+            "x": 40,
+            "y": 809.25,
+            "width": 944,
+            "height": 49
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://siap.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://www.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://intranet/Paginas/index.aspx",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://escuela.buengobierno.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/portalinfo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/personal/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        }
+      ],
+      "firstImss": "https://siap.imss.gob.mx/",
+      "pending": [
+        {
+          "text": "Inicio de sesiónEn construcción",
+          "tabIndex": -1
+        },
+        {
+          "text": "DocumentosEn construcción",
+          "tabIndex": -1
+        }
+      ],
+      "header": {
+        "x": 40,
+        "y": 48,
+        "width": 944,
+        "height": 115
+      },
+      "title": {
+        "x": 40,
+        "y": 59.59375,
+        "width": 406.5625,
+        "height": 52.796875
+      },
+      "meta": {
+        "x": 40,
+        "y": 902.25,
+        "width": 944,
+        "height": 39
+      },
+      "logos": [
+        {
+          "source": "/identity/logo_blanco.svg",
+          "loaded": true,
+          "x": 634,
+          "y": 48.78125,
+          "width": 240,
+          "height": 74.421875
+        },
+        {
+          "source": "/identity/Logotipo_del_IMSS_claro.svg",
+          "loaded": true,
+          "x": 923,
+          "y": 48,
+          "width": 61,
+          "height": 76
+        }
+      ],
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "band": {
+        "width": 1024,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(127, 159, 138)"
+      },
+      "overflow": false,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "pageErrors": []
+    },
+    {
+      "width": 320,
+      "height": 1610.234375,
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "count": 5,
+          "x": 20,
+          "y": 270.609375,
+          "width": 280,
+          "height": 297.078125,
+          "heading": {
+            "x": 20,
+            "y": 270.609375,
+            "width": 280,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 338.703125,
+            "width": 280,
+            "height": 228.984375
+          }
+        },
+        {
+          "title": "CUBOS",
+          "count": 4,
+          "x": 20,
+          "y": 595.6875,
+          "width": 280,
+          "height": 251.28125,
+          "heading": {
+            "x": 20,
+            "y": 595.6875,
+            "width": 280,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 663.78125,
+            "width": 280,
+            "height": 183.1875
+          }
+        },
+        {
+          "title": "Capacitación",
+          "count": 2,
+          "x": 20,
+          "y": 874.96875,
+          "width": 280,
+          "height": 159.6875,
+          "heading": {
+            "x": 20,
+            "y": 874.96875,
+            "width": 280,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 943.0625,
+            "width": 280,
+            "height": 91.59375
+          }
+        },
+        {
+          "title": "IMSS Sonora",
+          "count": 2,
+          "x": 20,
+          "y": 1062.65625,
+          "width": 280,
+          "height": 184.484375,
+          "heading": {
+            "x": 20,
+            "y": 1062.65625,
+            "width": 280,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 1130.75,
+            "width": 280,
+            "height": 116.390625
+          }
+        },
+        {
+          "title": "JSDP",
+          "count": 2,
+          "x": 20,
+          "y": 1275.140625,
+          "width": 280,
+          "height": 162.09375,
+          "heading": {
+            "x": 20,
+            "y": 1275.140625,
+            "width": 280,
+            "height": 54.09375
+          },
+          "list": {
+            "x": 20,
+            "y": 1343.234375,
+            "width": 280,
+            "height": 94
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://siap.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://www.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://intranet/Paginas/index.aspx",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "https://escuela.buengobierno.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.24.98.216/portalinfo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 44.796875
+        },
+        {
+          "href": "http://172.24.98.216/personal/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 69.59375
+        }
+      ],
+      "firstImss": "https://siap.imss.gob.mx/",
+      "pending": [
+        {
+          "text": "Inicio de sesiónEn construcción",
+          "tabIndex": -1
+        },
+        {
+          "text": "DocumentosEn construcción",
+          "tabIndex": -1
+        }
+      ],
+      "header": {
+        "x": 20,
+        "y": 36,
+        "width": 280,
+        "height": 204.609375
+      },
+      "title": {
+        "x": 20,
+        "y": 36,
+        "width": 280,
+        "height": 83.59375
+      },
+      "meta": {
+        "x": 20,
+        "y": 1469.234375,
+        "width": 280,
+        "height": 69
+      },
+      "logos": [
+        {
+          "source": "/identity/logo_blanco.svg",
+          "loaded": true,
+          "x": 20,
+          "y": 147.59375,
+          "width": 200,
+          "height": 62.015625
+        },
+        {
+          "source": "/identity/Logotipo_del_IMSS_claro.svg",
+          "loaded": true,
+          "x": 257,
+          "y": 149.59375,
+          "width": 46,
+          "height": 58
+        }
+      ],
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "band": {
+        "width": 320,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(127, 159, 138)"
+      },
+      "overflow": false,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "pageErrors": []
+    },
+    {
+      "width": 1366,
+      "height": 888,
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "count": 5,
+          "x": 64,
+          "y": 222,
+          "width": 380.65625,
+          "height": 479.09375,
+          "heading": {
+            "x": 64,
+            "y": 222,
+            "width": 355.65625,
+            "height": 49.75
+          },
+          "list": {
+            "x": 64,
+            "y": 285.75,
+            "width": 355.65625,
+            "height": 245
+          }
+        },
+        {
+          "title": "CUBOS",
+          "count": 4,
+          "x": 492.65625,
+          "y": 222,
+          "width": 380.671875,
+          "height": 259.75,
+          "heading": {
+            "x": 492.65625,
+            "y": 222,
+            "width": 380.671875,
+            "height": 49.75
+          },
+          "list": {
+            "x": 492.65625,
+            "y": 285.75,
+            "width": 380.671875,
+            "height": 196
+          }
+        },
+        {
+          "title": "Capacitación",
+          "count": 2,
+          "x": 921.328125,
+          "y": 222,
+          "width": 380.65625,
+          "height": 259.75,
+          "heading": {
+            "x": 921.328125,
+            "y": 222,
+            "width": 380.65625,
+            "height": 49.75
+          },
+          "list": {
+            "x": 921.328125,
+            "y": 285.75,
+            "width": 380.65625,
+            "height": 98
+          }
+        },
+        {
+          "title": "IMSS Sonora",
+          "count": 2,
+          "x": 492.65625,
+          "y": 517.75,
+          "width": 380.671875,
+          "height": 183.34375,
+          "heading": {
+            "x": 492.65625,
+            "y": 517.75,
+            "width": 380.671875,
+            "height": 49.75
+          },
+          "list": {
+            "x": 492.65625,
+            "y": 581.5,
+            "width": 380.671875,
+            "height": 119.59375
+          }
+        },
+        {
+          "title": "JSDP",
+          "count": 2,
+          "x": 921.328125,
+          "y": 517.75,
+          "width": 380.65625,
+          "height": 183.34375,
+          "heading": {
+            "x": 921.328125,
+            "y": 517.75,
+            "width": 380.65625,
+            "height": 49.75
+          },
+          "list": {
+            "x": 921.328125,
+            "y": 581.5,
+            "width": 380.65625,
+            "height": 98
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://siap.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://www.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://intranet/Paginas/index.aspx",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://escuela.buengobierno.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/portalinfo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/personal/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 69.59375
+        }
+      ],
+      "firstImss": "https://siap.imss.gob.mx/",
+      "pending": [
+        {
+          "text": "Inicio de sesiónEn construcción",
+          "tabIndex": -1
+        },
+        {
+          "text": "DocumentosEn construcción",
+          "tabIndex": -1
+        }
+      ],
+      "header": {
+        "x": 64,
+        "y": 64,
+        "width": 1238,
+        "height": 115
+      },
+      "title": {
+        "x": 64,
+        "y": 75.59375,
+        "width": 406.5625,
+        "height": 52.796875
+      },
+      "meta": {
+        "x": 64,
+        "y": 775,
+        "width": 1238,
+        "height": 39
+      },
+      "logos": [
+        {
+          "source": "/identity/logo_blanco.svg",
+          "loaded": true,
+          "x": 952,
+          "y": 64.78125,
+          "width": 240,
+          "height": 74.421875
+        },
+        {
+          "source": "/identity/Logotipo_del_IMSS_claro.svg",
+          "loaded": true,
+          "x": 1241,
+          "y": 64,
+          "width": 61,
+          "height": 76
+        }
+      ],
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "band": {
+        "width": 1366,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(127, 159, 138)"
+      },
+      "overflow": false,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "pageErrors": []
+    },
+    {
+      "width": 1440,
+      "height": 888,
+      "groups": [
+        {
+          "title": "Enlaces IMSS",
+          "count": 5,
+          "x": 100,
+          "y": 222,
+          "width": 381.328125,
+          "height": 479.09375,
+          "heading": {
+            "x": 100,
+            "y": 222,
+            "width": 356.328125,
+            "height": 49.75
+          },
+          "list": {
+            "x": 100,
+            "y": 285.75,
+            "width": 356.328125,
+            "height": 245
+          }
+        },
+        {
+          "title": "CUBOS",
+          "count": 4,
+          "x": 529.328125,
+          "y": 222,
+          "width": 381.328125,
+          "height": 259.75,
+          "heading": {
+            "x": 529.328125,
+            "y": 222,
+            "width": 381.328125,
+            "height": 49.75
+          },
+          "list": {
+            "x": 529.328125,
+            "y": 285.75,
+            "width": 381.328125,
+            "height": 196
+          }
+        },
+        {
+          "title": "Capacitación",
+          "count": 2,
+          "x": 958.65625,
+          "y": 222,
+          "width": 381.34375,
+          "height": 259.75,
+          "heading": {
+            "x": 958.65625,
+            "y": 222,
+            "width": 381.34375,
+            "height": 49.75
+          },
+          "list": {
+            "x": 958.65625,
+            "y": 285.75,
+            "width": 381.34375,
+            "height": 98
+          }
+        },
+        {
+          "title": "IMSS Sonora",
+          "count": 2,
+          "x": 529.328125,
+          "y": 517.75,
+          "width": 381.328125,
+          "height": 183.34375,
+          "heading": {
+            "x": 529.328125,
+            "y": 517.75,
+            "width": 381.328125,
+            "height": 49.75
+          },
+          "list": {
+            "x": 529.328125,
+            "y": 581.5,
+            "width": 381.328125,
+            "height": 119.59375
+          }
+        },
+        {
+          "title": "JSDP",
+          "count": 2,
+          "x": 958.65625,
+          "y": 517.75,
+          "width": 381.34375,
+          "height": 183.34375,
+          "heading": {
+            "x": 958.65625,
+            "y": 517.75,
+            "width": 381.34375,
+            "height": 49.75
+          },
+          "list": {
+            "x": 958.65625,
+            "y": 581.5,
+            "width": 381.34375,
+            "height": 98
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "https://siap.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://www.imss.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://intranet/Paginas/index.aspx",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "https://escuela.buengobierno.gob.mx/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/portalinfo/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 48
+        },
+        {
+          "href": "http://172.24.98.216/personal/",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "height": 69.59375
+        }
+      ],
+      "firstImss": "https://siap.imss.gob.mx/",
+      "pending": [
+        {
+          "text": "Inicio de sesiónEn construcción",
+          "tabIndex": -1
+        },
+        {
+          "text": "DocumentosEn construcción",
+          "tabIndex": -1
+        }
+      ],
+      "header": {
+        "x": 100,
+        "y": 64,
+        "width": 1240,
+        "height": 115
+      },
+      "title": {
+        "x": 100,
+        "y": 75.59375,
+        "width": 406.5625,
+        "height": 52.796875
+      },
+      "meta": {
+        "x": 100,
+        "y": 775,
+        "width": 1240,
+        "height": 39
+      },
+      "logos": [
+        {
+          "source": "/identity/logo_blanco.svg",
+          "loaded": true,
+          "x": 990,
+          "y": 64.78125,
+          "width": 240,
+          "height": 74.421875
+        },
+        {
+          "source": "/identity/Logotipo_del_IMSS_claro.svg",
+          "loaded": true,
+          "x": 1279,
+          "y": 64,
+          "width": 61,
+          "height": 76
+        }
+      ],
+      "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+      "band": {
+        "width": 1440,
+        "height": 48,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(127, 159, 138)"
+      },
+      "overflow": false,
+      "textOverflow": [],
+      "duplicateIds": [],
+      "pageErrors": [],
+      "keyboardTargets": [
+        "https://siap.imss.gob.mx/",
+        "http://www.imss.gob.mx/",
+        "http://intranet/Paginas/index.aspx",
+        "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+        "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+        "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+        "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+        "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+        "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+        "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+        "https://escuela.buengobierno.gob.mx/",
+        "http://172.24.98.216/portalinfo/",
+        "http://172.24.98.216/personal/"
+      ],
+      "focus": {
+        "width": "2px",
+        "color": "rgb(224, 202, 140)",
+        "style": "solid"
+      }
+    }
+  ]
+}

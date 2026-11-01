@@ -1,0 +1,10 @@
+{
+  "build": "passed",
+  "ssr": "passed",
+  "visual": "pending: no integrated browser available",
+  "headerUnchanged": true,
+  "belowHeroUnchanged": true,
+  "globalStylesUnchanged": true,
+  "descriptions": "owner review pending",
+  "review": "source review ship, visual pending"
+}

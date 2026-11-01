@@ -1,0 +1,78 @@
+/* Preserve the left chart / right details composition and readable fitted text. */
+.organization .org-layout {
+  grid-template-columns: minmax(0, 1fr) 300px;
+}
+
+.organization .org-tree {
+  min-height: 0;
+  padding: 12px;
+  border-right: 1px solid var(--line);
+  overflow-x: auto;
+  scrollbar-color: #86a79c #eef3f1;
+}
+
+.organization .org-d3-chart {
+  height: 713px;
+  min-width: 900px;
+}
+
+.organization .d3-org-card-head {
+  min-height: 144px;
+  padding: 16px 14px;
+}
+
+.organization .d3-org-card-head strong {
+  font-size: 30px;
+  line-height: 1.25;
+  overflow-wrap: normal;
+}
+
+.organization .d3-org-card[data-org-node-id] .d3-org-card-person {
+  min-height: 110px;
+  padding: 14px;
+  font-size: 27px;
+  line-height: 1.4;
+}
+
+.organization .d3-org-card-person small {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.organization .org-info {
+  padding: 28px 22px;
+}
+
+.organization .org-layout > .org-info {
+  border-top: 0;
+  display: block;
+}
+
+.organization .org-info-title h3 { font-size: 23px; }
+.organization .org-info-role { margin-top: 22px; padding: 16px; }
+.organization .org-info-role strong { font-size: 18px; line-height: 1.4; }
+.organization .org-info-role > svg { flex-shrink: 0; }
+.organization .org-info dl { margin: 26px 0; }
+.organization .org-info dt { font-size: 17px; }
+.organization .org-info dd { font-size: 18px; line-height: 1.5; }
+.organization .org-info-pending { margin-top: 28px; padding: 10px; flex-wrap: wrap; font-size: 16px; }
+.organization .org-info .pending-badge { font-size: 13px; }
+.organization .collapse-all { font-size: 16px; }
+
+@media (max-width: 1180px) and (min-width: 761px) {
+  .organization .org-layout { grid-template-columns: minmax(0, 1fr) 280px; }
+}
+
+@media (max-width: 760px) {
+  .organization .org-mobile-list { gap: 16px; }
+  .organization .org-card.compact .org-card-head { min-height: 76px; padding: 16px 14px; align-items: center; }
+  .organization .org-card.compact .org-card-head strong { font-size: 18px; line-height: 1.4; }
+  .organization .org-card.compact .org-card-person { padding: 12px 14px; font-size: 17px; line-height: 1.5; }
+  .organization .org-card.compact .org-card-person small { font-size: 15px; }
+  .organization .org-info { padding: 24px 18px; }
+  .organization .org-info-title h3 { font-size: 21px; }
+  .organization .org-info-role { margin-top: 18px; }
+  .organization .org-info dl { grid-template-columns: 1fr; gap: 18px; margin-block: 20px; }
+  .organization .org-info dl div { border-right: 0; }
+  .organization .org-info-pending { flex-wrap: wrap; padding: 10px; gap: 8px; }
+}

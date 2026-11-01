@@ -1,0 +1,51 @@
+{
+  "tool": "image_gen (herramienta integrada)",
+  "purpose": "Tres propuestas dirigidas con Impeccable a partir de la referencia del usuario, con logo y texto del hero a la derecha.",
+  "logoSourceSvg": "docs/identidad-institucional/JSDP-Sonora-11.svg",
+  "variants": [
+    {
+      "id": "W",
+      "title": "W · Transición amplia",
+      "filename": "W-transicion-amplia.png",
+      "refs": [
+        "output/hero-propuestas-2026-10-29-fotograficas/M-desvanecido-lateral.png",
+        "output/hero-propuestas-2026-10-29-fotograficas/referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg"
+      ],
+      "prompt": "Use case: ui-mockup / layout edit. Create ONE refined 1600x1000 desktop hero proposal based on reference 1, the user's chosen visual direction. Keep its white NAV header with the logo at FAR LEFT, green/white identity, institutional typography, and exact existing copy. Move ALL HERO branding, headline, body and primary button to the RIGHT side. The navbar logo must remain at left, clearly separated spatially from the right-hand hero logo.\nReference 2 is the complete official JSDP-Sonora-11 logo: use this exact intact image for both logo placements. Preserve the IMSS emblem/letters, gray divider, green JSDP, dark spaced Sonora, and green/gold/gray underline. No substitute wordmark.\nReference 3 is the actual hospital photograph. Show it prominently on the LEFT, preserving its orientation, building, palms and entrance. Do NOT mirror the photo or the whole screen.\nCRITICAL: the clear reading background on the RIGHT must extend continuously through the FULL HERO HEIGHT, touching the header's bottom and the canvas's bottom. Any fade is HORIZONTAL ONLY and identical from top to bottom. It must read as a full-height luminous side zone, NOT a floating white cloud, oval, radial spotlight, detached card, rounded box or isolated patch. The photograph still occupies the majority, approximately 60–65 percent of the width.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\".\nRemove the old reference's entire bottom navigation rail and carousel controls. The background rotates automatically in the eventual implementation. Show ONLY an informational dark-green label with WHITE \"Unidades médicas\" at the LOWER LEFT over the photo. No carousel arrows, play/pause, dots, pagination, progress bars or other categories. Preserve normal NAV links and action button. No proposal titles in the image.\nVARIANT W: spacious RIGHT reading zone, approximately 40% wide. A broad, beautifully smooth linear horizontal transition blends the hospital into continuous white on the right, with precisely the same profile at every vertical position. The exact hero logo, generous three-line serif headline, body and button are left-aligned within that right zone and balanced vertically as one group. Comfortable right margin. The left photograph stays fully colored and sharply visible. This is the closest refinement of the supplied concept, with the direction of reading reversed."
+    },
+    {
+      "id": "X",
+      "title": "X · Franja editorial",
+      "filename": "X-franja-editorial.png",
+      "refs": [
+        "output/hero-propuestas-2026-10-29-fotograficas/M-desvanecido-lateral.png",
+        "output/hero-propuestas-2026-10-29-fotograficas/referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg"
+      ],
+      "prompt": "Use case: ui-mockup / layout edit. Create ONE refined 1600x1000 desktop hero proposal based on reference 1, the user's chosen visual direction. Keep its white NAV header with the logo at FAR LEFT, green/white identity, institutional typography, and exact existing copy. Move ALL HERO branding, headline, body and primary button to the RIGHT side. The navbar logo must remain at left, clearly separated spatially from the right-hand hero logo.\nReference 2 is the complete official JSDP-Sonora-11 logo: use this exact intact image for both logo placements. Preserve the IMSS emblem/letters, gray divider, green JSDP, dark spaced Sonora, and green/gold/gray underline. No substitute wordmark.\nReference 3 is the actual hospital photograph. Show it prominently on the LEFT, preserving its orientation, building, palms and entrance. Do NOT mirror the photo or the whole screen.\nCRITICAL: the clear reading background on the RIGHT must extend continuously through the FULL HERO HEIGHT, touching the header's bottom and the canvas's bottom. Any fade is HORIZONTAL ONLY and identical from top to bottom. It must read as a full-height luminous side zone, NOT a floating white cloud, oval, radial spotlight, detached card, rounded box or isolated patch. The photograph still occupies the majority, approximately 60–65 percent of the width.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\".\nRemove the old reference's entire bottom navigation rail and carousel controls. The background rotates automatically in the eventual implementation. Show ONLY an informational dark-green label with WHITE \"Unidades médicas\" at the LOWER LEFT over the photo. No carousel arrows, play/pause, dots, pagination, progress bars or other categories. Preserve normal NAV links and action button. No proposal titles in the image.\nVARIANT X: a distinctly architectural RIGHT reading strip occupying about 38% width. Use nearly solid white from TOP TO BOTTOM, joined to the photo through a SHORT soft vertical seam rather than a broad haze. The seam is straight and uniform for the full hero height. Exact hero logo above a structured left-aligned heading, body and button; align them to one clear vertical baseline with measured spacing. No visible border, shadow or floating panel. The hospital on the left has stronger uninterrupted color and contrast than variant W."
+    },
+    {
+      "id": "Y",
+      "title": "Y · Fotografía protagonista",
+      "filename": "Y-fotografia-protagonista.png",
+      "refs": [
+        "output/hero-propuestas-2026-10-29-fotograficas/M-desvanecido-lateral.png",
+        "output/hero-propuestas-2026-10-29-fotograficas/referencias/logo-jsdp-sonora-11.png",
+        "apps/web/public/identity/Unidad_Medica.jpg"
+      ],
+      "prompt": "Use case: ui-mockup / layout edit. Create ONE refined 1600x1000 desktop hero proposal based on reference 1, the user's chosen visual direction. Keep its white NAV header with the logo at FAR LEFT, green/white identity, institutional typography, and exact existing copy. Move ALL HERO branding, headline, body and primary button to the RIGHT side. The navbar logo must remain at left, clearly separated spatially from the right-hand hero logo.\nReference 2 is the complete official JSDP-Sonora-11 logo: use this exact intact image for both logo placements. Preserve the IMSS emblem/letters, gray divider, green JSDP, dark spaced Sonora, and green/gold/gray underline. No substitute wordmark.\nReference 3 is the actual hospital photograph. Show it prominently on the LEFT, preserving its orientation, building, palms and entrance. Do NOT mirror the photo or the whole screen.\nCRITICAL: the clear reading background on the RIGHT must extend continuously through the FULL HERO HEIGHT, touching the header's bottom and the canvas's bottom. Any fade is HORIZONTAL ONLY and identical from top to bottom. It must read as a full-height luminous side zone, NOT a floating white cloud, oval, radial spotlight, detached card, rounded box or isolated patch. The photograph still occupies the majority, approximately 60–65 percent of the width.\nHero copy verbatim: \"Jefatura de Servicios de Desarrollo de Personal\"; \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; green button \"Conoce la JSDP\".\nRemove the old reference's entire bottom navigation rail and carousel controls. The background rotates automatically in the eventual implementation. Show ONLY an informational dark-green label with WHITE \"Unidades médicas\" at the LOWER LEFT over the photo. No carousel arrows, play/pause, dots, pagination, progress bars or other categories. Preserve normal NAV links and action button. No proposal titles in the image.\nVARIANT Y: maximize visible hospital photography to roughly TWO THIRDS of the hero. The narrower RIGHT reading zone occupies about one third and remains connected to BOTH top and bottom edges, solid white at the right margin with a moderate uniform horizontal fade on its left boundary. Use the exact hero logo slightly smaller, a compact elegant serif heading, restrained body text and a comfortably sized green button. Typography must fit naturally without tiny text or clipping. Keep this reading group vertically centered, with generous breathing room above and below. The photo's dominant architecture is the first impression; the bottom-left category label stays visible."
+    }
+  ],
+  "layoutConcept": {
+    "navbarLogo": "Izquierda",
+    "heroContent": "Derecha",
+    "readingBackground": "Franja clara continua a toda la altura del hero, con transición horizontal.",
+    "photo": "Misma fotografía de Unidades médicas para comparar la composición.",
+    "categoryLabel": "Parte inferior izquierda, fondo oscuro y texto blanco.",
+    "rotation": "Futura rotación automática de las cuatro fotografías con etiqueta sincronizada.",
+    "carouselControls": [],
+    "implementationStatus": "Bocetos; no aplicados a la Landing."
+  },
+  "approved": false
+}
