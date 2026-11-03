@@ -1,0 +1,33 @@
+{
+  "fidelity": [
+    {
+      "width": 1440,
+      "maxGeometryDeltaPx": 0,
+      "heightDifference": 0
+    },
+    {
+      "width": 1024,
+      "maxGeometryDeltaPx": 0,
+      "heightDifference": 0
+    },
+    {
+      "width": 390,
+      "maxGeometryDeltaPx": 0,
+      "heightDifference": 0
+    }
+  ],
+  "scope": {
+    "landingPageUnchanged": true,
+    "globalStylesUnchanged": true,
+    "footerEffectsUnchanged": true,
+    "ornamentStylesUnchanged": true
+  },
+  "linksExact": true,
+  "keyboard13Links": true,
+  "motion": {
+    "state": "running",
+    "duration": "36s",
+    "count": "infinite",
+    "reducedMotion": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "focalMoment": "Franja ornamental institucional que se desplaza lentamente hacia la derecha",
+  "continuity": "Textura repetida con periodo180px; transform de0 a180px para un ciclo visual continuo",
+  "feedback": "Se conservan estados de enlaces y navegación existentes",
+  "durationMs": 36000,
+  "direction": "left-to-right",
+  "speedPxPerSecond": 5,
+  "iterationCount": "infinite",
+  "budget": "Solo pseudo-elemento de48px; pausado fuera de pantalla, pestaña oculta y reduced-motion"
+}

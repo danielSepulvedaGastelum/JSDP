@@ -1,0 +1,20 @@
+{
+  "reviewer": "impeccable_finish_reviewer",
+  "freshContext": true,
+  "disposition": "ship",
+  "scope": "Refinamiento local: símbolos20%mayores salvoJSDP; pinturaamarillaunificada y patrónatenuado",
+  "persistence": "pass; cuatro capturas válidas",
+  "fidelity": {
+    "type": "match",
+    "material": "match",
+    "ground": "match",
+    "regularSymbols": "adaptaciónsolicitada30/31.2nominalpx",
+    "jsdpSize": "match;32.5/33.796875px",
+    "logoColors": "adaptaciónsolicitada#edd899",
+    "pattern": "adaptaciónsolicitada#6b8b79",
+    "layoutAndContent": "match"
+  },
+  "ceiling": "reached; símbolos reconocibles, sincolisiones,recortes ni overflow",
+  "material_fixes": [],
+  "keep": "ComposiciónP/T, tipografía, geometríaSVG, tamañoJSDP, marcasblancasdecabecera, gradiente y movimiento"
+}

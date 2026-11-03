@@ -1,0 +1,20 @@
+{
+  "reviewer": "impeccable_finish_reviewer",
+  "freshContext": true,
+  "disposition": "ship",
+  "scope": "Implementación de la opción T en el footer de la landing",
+  "persistence": "pass; seis capturas requeridas válidas y alcance autorizado",
+  "fidelity": {
+    "compositionP": "match",
+    "type": "match",
+    "material": "match",
+    "ground": "match",
+    "logos": "match",
+    "scale": "match",
+    "contentAndAccessibility": "match"
+  },
+  "ceiling": "reached; sin defectos materiales de fidelidad ni infracciones del craft floor",
+  "material_fixes": [],
+  "keep": "Composición P, SVG aprobados, geometría oficial de las marcas, URLs y comportamiento de la franja",
+  "geometryEvidence": "fidelity.json registra 0px de diferencia frente a T en1440,1024y390px"
+}

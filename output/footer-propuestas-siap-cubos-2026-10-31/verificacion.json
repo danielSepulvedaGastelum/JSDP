@@ -1,0 +1,830 @@
+[
+  {
+    "proposal": "P",
+    "width": 1440,
+    "height": 888,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 100,
+        "y": 222
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 529.328125,
+        "y": 222
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 958.65625,
+        "y": 222
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 529.328125,
+        "y": 517.75
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 958.65625,
+        "y": 517.75
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "Q",
+    "width": 1440,
+    "height": 888,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 100,
+        "y": 222
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 100,
+        "y": 397
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 100,
+        "y": 523
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 100,
+        "y": 600.75
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 100,
+        "y": 678.5
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "O",
+    "width": 1440,
+    "height": 888,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 100,
+        "y": 222
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 745.984375,
+        "y": 222
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 100,
+        "y": 513
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 530.65625,
+        "y": 513
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 961.328125,
+        "y": 513
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "Q",
+    "width": 1024,
+    "height": 888.59375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 40,
+        "y": 206
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 40,
+        "y": 381
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 40,
+        "y": 507
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 40,
+        "y": 584
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 40,
+        "y": 682.59375
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "P",
+    "width": 1024,
+    "height": 1015.25,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 40,
+        "y": 206
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 532,
+        "y": 206
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 40,
+        "y": 549.75
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 532,
+        "y": 549.75
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 40,
+        "y": 746.5
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "O",
+    "width": 1024,
+    "height": 899.09375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 40,
+        "y": 206
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 528,
+        "y": 206
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 40,
+        "y": 559.75
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 365.328125,
+        "y": 559.75
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 690.65625,
+        "y": 559.75
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "O",
+    "width": 390,
+    "height": 1568.4375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 20,
+        "y": 228.8125
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 20,
+        "y": 553.890625
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 20,
+        "y": 833.171875
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 20,
+        "y": 1020.859375
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 20,
+        "y": 1233.34375
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "P",
+    "width": 390,
+    "height": 1568.4375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 20,
+        "y": 228.8125
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 20,
+        "y": 553.890625
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 20,
+        "y": 833.171875
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 20,
+        "y": 1020.859375
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 20,
+        "y": 1233.34375
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "Q",
+    "width": 390,
+    "height": 1568.4375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 20,
+        "y": 228.8125
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 20,
+        "y": 553.890625
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 20,
+        "y": 833.171875
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 20,
+        "y": 1020.859375
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 20,
+        "y": 1233.34375
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "O",
+    "width": 320,
+    "height": 1610.234375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 20,
+        "y": 270.609375
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 20,
+        "y": 595.6875
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 20,
+        "y": 874.96875
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 20,
+        "y": 1062.65625
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 20,
+        "y": 1275.140625
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "Q",
+    "width": 320,
+    "height": 1610.234375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 20,
+        "y": 270.609375
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 20,
+        "y": 595.6875
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 20,
+        "y": 874.96875
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 20,
+        "y": 1062.65625
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 20,
+        "y": 1275.140625
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "proposal": "P",
+    "width": 320,
+    "height": 1610.234375,
+    "categories": [
+      {
+        "title": "Enlaces IMSS",
+        "links": 5,
+        "x": 20,
+        "y": 270.609375
+      },
+      {
+        "title": "CUBOS",
+        "links": 4,
+        "x": 20,
+        "y": 595.6875
+      },
+      {
+        "title": "Capacitación",
+        "links": 2,
+        "x": 20,
+        "y": 874.96875
+      },
+      {
+        "title": "IMSS Sonora",
+        "links": 2,
+        "x": 20,
+        "y": 1062.65625
+      },
+      {
+        "title": "JSDP",
+        "links": 2,
+        "x": 20,
+        "y": 1275.140625
+      }
+    ],
+    "firstImss": {
+      "label": "SIAP Portal",
+      "href": "https://siap.imss.gob.mx/"
+    },
+    "cubos": [
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm"
+    ],
+    "activeLinks": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "bandColor": "rgb(127, 159, 138)",
+    "bandBackground": "rgba(0, 0, 0, 0)"
+  }
+]

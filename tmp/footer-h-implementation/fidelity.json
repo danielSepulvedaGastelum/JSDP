@@ -1,0 +1,41 @@
+{
+  "geometry": [
+    {
+      "width": 1440,
+      "heightDifference": 0,
+      "maxGeometryDeltaPx": 0
+    },
+    {
+      "width": 1024,
+      "heightDifference": 0,
+      "maxGeometryDeltaPx": 0
+    },
+    {
+      "width": 390,
+      "heightDifference": 0,
+      "maxGeometryDeltaPx": 0
+    }
+  ],
+  "assets": [
+    {
+      "name": "government",
+      "identical": true
+    },
+    {
+      "name": "imss",
+      "identical": true
+    },
+    {
+      "name": "pattern",
+      "identical": true
+    },
+    {
+      "name": "patria",
+      "identical": true
+    }
+  ],
+  "urlsExact": true,
+  "keyboardTraversalPassed": true,
+  "outsideFooterSourceUnchanged": true,
+  "globalStylesUnchanged": true
+}

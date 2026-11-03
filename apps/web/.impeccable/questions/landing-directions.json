@@ -1,0 +1,157 @@
+{
+  "title": "Elige la dirección visual de la Landing JSDP",
+  "question": "Compara tres mundos visuales completos. La propuesta principal convierte la pleca institucional y la jerarquía de la JSDP en la estructura de toda la experiencia.",
+  "options": [
+    {
+      "id": "assigned-pleca-viva",
+      "kind": "assigned",
+      "label": "Pleca viva",
+      "kicker": "THE ROLL",
+      "lineage": "Pleca institucional IMSS, relaciones jerárquicas y ritmos horizontales",
+      "thesis": "La identidad no decora la página: una línea institucional conecta propósito, personas y accesos.",
+      "palette": ["#154f3a", "#ffffff", "#edd899", "#18332a"],
+      "materials": ["plecas horizontales", "líneas de relación", "campos institucionales limpios"],
+      "viewport": "El logosímbolo abre una pleca que atraviesa el Hero, enmarca el nombre completo de la JSDP y desemboca en un adelanto navegable de su estructura: una Jefatura, una oficina lateral y cuatro departamentos.",
+      "risk": "Exige una composición tipográfica precisa para no sentirse como papelería ampliada.",
+      "raised": [
+        {
+          "from": "Jacquard trazable",
+          "raise": "Cada relación del organigrama tendrá un equivalente textual y será explorable con teclado, nunca dependerá solo del color."
+        },
+        {
+          "from": "Terminal explícita",
+          "raise": "Los estados interactivos se nombrarán con claridad: seleccionado, pausado y movimiento reducido."
+        },
+        {
+          "from": "Décollage estratificado",
+          "raise": "La profundidad se expresará como capas de información persistentes, sin fragmentar la identidad ni la lectura."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/landing-pleca-viva.png"
+    },
+    {
+      "id": "pick-senaletica-clinica",
+      "kind": "pick",
+      "label": "Señalética de servicio",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Sistemas de orientación de unidades médicas y arquitectura pública contemporánea",
+      "thesis": "La Landing funciona como un recorrido claro por la JSDP: cada sección es un destino y cada interacción confirma dónde está la persona.",
+      "palette": ["#f4f3ee", "#154f3a", "#1d2a26", "#c69a4b"],
+      "materials": ["paneles direccionales", "numeración de destinos", "retícula de orientación"],
+      "viewport": "Un gran identificador JSDP convive con una ruta vertical de destinos; el visitante puede ir a conocer la Jefatura, explorar su estructura o seguir a Documentos e Inicio de sesión.",
+      "risk": "Es la opción más familiar y puede recordar demasiado a señalética hospitalaria si se ejecuta con poca sutileza.",
+      "comp": ".impeccable/mocks/decision/landing-senaletica.png"
+    },
+    {
+      "id": "challenger-cyclorama",
+      "kind": "challenger",
+      "catalogId": "stagecraft-theater-lighting-cyclorama-dawn",
+      "label": "Horizonte institucional",
+      "kicker": "CHALLENGER",
+      "verdict": "competitive",
+      "lineage": "Ciclorama escénico de amanecer traducido a la identidad IMSS",
+      "thesis": "La JSDP emerge por fases de luz: propósito, estructura y acceso aparecen como un horizonte institucional que se vuelve plenamente legible.",
+      "palette": ["#10271f", "#154f3a", "#d7bd7a", "#ffffff"],
+      "materials": ["bandas de luz", "horizonte continuo", "transiciones de estado"],
+      "viewport": "El Hero pasa de verde nocturno a luz blanca mediante bandas horizontales; cada fase revela el nombre, el propósito y los accesos sin ocultar la navegación ni el contenido.",
+      "case": "Compite por claridad narrativa y calidad de movimiento, pero identifica menos inmediatamente el entorno cotidiano de la audiencia.",
+      "risk": "Puede sentirse demasiado ceremonial si la transición de luz domina a la información.",
+      "comp": ".impeccable/mocks/decision/landing-horizonte.png",
+      "hero": "https://impeccable.style/worlds/cards/stagecraft-theater-lighting-cyclorama-dawn-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/stagecraft-theater-lighting-cyclorama-dawn.webp"
+    },
+    {
+      "id": "declined-jacquard",
+      "kind": "challenger",
+      "catalogId": "textiles-weave-drape-fashion-jacquard-punched-brocade",
+      "label": "Jacquard trazable",
+      "verdict": "declined",
+      "lineage": "Brocado jacquard e instrucciones perforadas",
+      "thesis": "La organización aparece como miles de decisiones que forman un solo tejido.",
+      "palette": ["#0d1b35", "#c7a35a", "#f2ead5", "#111111"],
+      "materials": ["seda oscura", "hilos dorados", "filas perforadas"],
+      "viewport": "La estructura se teje fila por fila hasta revelar la JSDP y sus áreas.",
+      "case": "Pierde identificación y claridad: su metáfora no pertenece al contexto institucional confirmado.",
+      "kept": "Trazabilidad completa entre patrón visual e información accesible.",
+      "risk": "La metáfora textil eclipsaría la función institucional."
+    },
+    {
+      "id": "declined-terminal",
+      "kind": "challenger",
+      "catalogId": "signals-instruments-phosphor-terminal-midnight",
+      "label": "Terminal de fósforo",
+      "verdict": "declined",
+      "lineage": "Terminal monocroma de sala de máquinas",
+      "thesis": "La institución se presenta como un registro continuo y consultable.",
+      "palette": ["#07110d", "#42c77a", "#153d29"],
+      "materials": ["vidrio oscuro", "fósforo", "registro monoespaciado"],
+      "viewport": "Un transcript institucional enumera propósito, áreas y rutas.",
+      "case": "Pierde ambos ejes: parece una herramienta técnica ajena a la audiencia y reduce la calidez institucional.",
+      "kept": "Los estados deben explicarse por sí mismos y quedar disponibles para teclado.",
+      "risk": "Comunica sistema informático antes que servicio humano."
+    },
+    {
+      "id": "declined-arcade",
+      "kind": "challenger",
+      "catalogId": "medium-native-crt-arcade-pixel-glow",
+      "label": "Retícula de píxel",
+      "verdict": "declined",
+      "lineage": "Pantalla CRT de gabinete arcade",
+      "thesis": "Cada área de la JSDP ocupa una celda exacta y animada.",
+      "palette": ["#050806", "#1ca56a", "#ffffff", "#e0b75c"],
+      "materials": ["píxel luminoso", "retícula entera", "bloom"],
+      "viewport": "La estructura institucional se convierte en un campo modular de destinos.",
+      "case": "Pierde identificación y tono: su gramática lúdica contradice el carácter institucional solicitado.",
+      "kept": "Las capas de movimiento deben poder reducirse sin perder significado.",
+      "risk": "Se percibiría como entretenimiento o gamificación."
+    },
+    {
+      "id": "declined-coffeehouse",
+      "kind": "challenger",
+      "catalogId": "brand-identity-canon-village-coffeehouse-identity",
+      "label": "Identidad artesanal",
+      "verdict": "declined",
+      "lineage": "Identidad corporativa terrosa de los años noventa",
+      "thesis": "La cercanía humana aparece mediante materiales cálidos y huellas de impresión.",
+      "palette": ["#a54f3c", "#68784b", "#c7a046", "#e8ddc9"],
+      "materials": ["papel reciclado", "sellos", "bordes rasgados"],
+      "viewport": "El nombre de la JSDP se presenta como una marca humana y accesible.",
+      "case": "Pierde ambos ejes: parece una marca comercial y se aparta de las normas institucionales disponibles.",
+      "kept": "La precisión institucional puede conservar una dimensión humana y hospitalaria.",
+      "risk": "El lenguaje artesanal banalizaría la jerarquía oficial."
+    },
+    {
+      "id": "declined-decollage",
+      "kind": "challenger",
+      "catalogId": "design-canon-decollage-torn-billboard",
+      "label": "Capas de cartel",
+      "verdict": "declined",
+      "lineage": "Décollage de carteles superpuestos",
+      "thesis": "La JSDP se descubre retirando capas de información institucional.",
+      "palette": ["#154f3a", "#8b1f3d", "#c9a34f", "#e9e4da"],
+      "materials": ["papel superpuesto", "fibras expuestas", "tintas envejecidas"],
+      "viewport": "El Hero revela áreas y propósito a través de estratos interactivos.",
+      "case": "Pierde claridad y confianza: la fragmentación visual contradice la lectura oficial y estable que necesita la Landing.",
+      "kept": "Las capas de información pueden recordar la exploración previa sin perder contexto.",
+      "risk": "El gesto de rasgar comunica deterioro o protesta."
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Portal institucional convencional",
+    "thesis": "Cabecera oficial, Hero informativo y secciones limpias ejecutadas con máxima precisión.",
+    "palette": ["#ffffff", "#154f3a", "#edf2ef", "#c5a15b"],
+    "materials": ["retícula limpia", "tarjetas sobrias", "mástil institucional"],
+    "viewport": "Logotipos en cabecera, titular y llamada a la acción a la izquierda, bloque institucional a la derecha y accesos debajo.",
+    "risk": "Es familiar y funcional, pero indistinguible de muchos portales gubernamentales.",
+    "comp": ".impeccable/mocks/decision/landing-canon.png"
+  },
+  "steer": true
+}

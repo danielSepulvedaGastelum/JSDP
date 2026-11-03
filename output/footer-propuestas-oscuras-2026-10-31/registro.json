@@ -1,0 +1,112 @@
+{
+  "request": "Tres propuestas oscuras con el acomodo H actual, SVG claros, sin patrón en la superficie principal, franja ornamental inferior horizontal delgada a todo el ancho y sin degradado.",
+  "referenceGreen": "#10312b",
+  "method": "Maquetas HTML/CSS renderizadas a partir del DOM y estilos actuales del footer; sin generación por IA.",
+  "imssVariant": {
+    "source": "docs/identidad-institucional/Logotipo_del_IMSS.svg",
+    "change": "Relleno y trazo #154f3a → #fffaf2 en una copia; geometría y maestro intactos."
+  },
+  "band": {
+    "height": 48,
+    "width": "100%",
+    "texture": "Textura vectorial del proyecto, usada como máscara uniforme; referencia de aplicación textura_gobierno_mexico_05.png",
+    "gradient": false
+  },
+  "proposals": [
+    {
+      "id": "I",
+      "slug": "I-verde-institucional-marfil",
+      "title": "Verde institucional y marfil",
+      "description": "El verde exacto de la tarjeta, letras marfil y una franja ornamental en verde claro. La opción más cercana a la referencia.",
+      "bg": "#10312b",
+      "text": "#fffaf2",
+      "heading": "#fffaf2",
+      "category": "#fffaf2",
+      "accent": "#ddc68f",
+      "secondary": "#d0dfd5",
+      "line": "#3d5b50",
+      "row": "#325147",
+      "badge": "#e7d7b4",
+      "badgeBorder": "#6e8068",
+      "bandBg": "#173b31",
+      "bandInk": "#6f947e",
+      "height": 808
+    },
+    {
+      "id": "J",
+      "slug": "J-verde-profundo-oro",
+      "title": "Verde profundo y oro suave",
+      "description": "Un verde más profundo, títulos de categoría en oro claro y una franja inferior dorada. Mayor presencia institucional.",
+      "bg": "#0c2923",
+      "text": "#f7f8f3",
+      "heading": "#fffaf2",
+      "category": "#edd899",
+      "accent": "#e0ca8c",
+      "secondary": "#d4e1d6",
+      "line": "#5e644b",
+      "row": "#344d40",
+      "badge": "#edd899",
+      "badgeBorder": "#837c56",
+      "bandBg": "#19392d",
+      "bandInk": "#b7a271",
+      "height": 808
+    },
+    {
+      "id": "K",
+      "slug": "K-verde-bosque-salvia",
+      "title": "Verde bosque y salvia",
+      "description": "Verde bosque con categorías y detalles en salvia clara; la franja inferior utiliza un contraste suave y fresco.",
+      "bg": "#12362f",
+      "text": "#f3f8f4",
+      "heading": "#ffffff",
+      "category": "#d0e5d7",
+      "accent": "#b8d1bf",
+      "secondary": "#d0e1d6",
+      "line": "#547467",
+      "row": "#3c5d50",
+      "badge": "#d7e9dd",
+      "badgeBorder": "#6f9080",
+      "bandBg": "#244a3d",
+      "bandInk": "#adc8b6",
+      "height": 808
+    }
+  ],
+  "sourceIntegrity": {
+    "footerComponentUnchanged": true,
+    "footerStylesUnchanged": true,
+    "landingUnchanged": true,
+    "imssMasterUnchanged": true,
+    "imssGeometryPreserved": true,
+    "governmentWhiteExact": true
+  },
+  "contrasts": [
+    {
+      "proposal": "I",
+      "text": 13.506119791306581,
+      "heading": 13.506119791306581,
+      "category": 13.506119791306581,
+      "secondary": 10.157370282791966,
+      "badge": 9.876097829513924,
+      "band": 3.6411465043746194
+    },
+    {
+      "proposal": "J",
+      "text": 14.49880600980963,
+      "heading": 14.891118761923135,
+      "category": 10.967120193697273,
+      "secondary": 11.451447596664133,
+      "badge": 10.967120193697273,
+      "band": 5.058666686063836
+    },
+    {
+      "proposal": "K",
+      "text": 12.257788252316214,
+      "heading": 13.170821802755764,
+      "category": 9.953982317648018,
+      "secondary": 9.67307345680923,
+      "badge": 10.404366920834983,
+      "band": 5.520516566301427
+    }
+  ],
+  "diagnostic": []
+}

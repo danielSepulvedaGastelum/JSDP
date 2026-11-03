@@ -1,0 +1,356 @@
+[
+  {
+    "name": "desktop",
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "stage": {
+      "top": 82,
+      "bottom": 705.015625,
+      "left": 0,
+      "right": 1366,
+      "height": 623.015625,
+      "width": 1366
+    },
+    "panel": {
+      "top": 112.71875,
+      "bottom": 545.015625,
+      "left": 63,
+      "right": 613,
+      "height": 432.296875,
+      "width": 550
+    },
+    "cards": [
+      {
+        "top": 579.8125,
+        "bottom": 812.203125,
+        "left": 281.66497802734375,
+        "right": 475.33502197265625
+      },
+      {
+        "top": 601.015625,
+        "bottom": 818.203125,
+        "left": 491,
+        "right": 672
+      },
+      {
+        "top": 601.015625,
+        "bottom": 818.203125,
+        "left": 694,
+        "right": 875
+      },
+      {
+        "top": 601.015625,
+        "bottom": 818.203125,
+        "left": 897,
+        "right": 1078
+      }
+    ],
+    "cardGap": 34.796875,
+    "visibleCards": 4,
+    "overflow": false,
+    "pattern": {
+      "inset": "16px",
+      "color": "rgb(230, 209, 148)",
+      "opacity": "0.46",
+      "mask": "linear-gradient(100deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0.65) 38%, rgba(0, 0, 0, 0) 78%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")"
+    },
+    "errors": []
+  },
+  {
+    "name": "laptop",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "stage": {
+      "top": 82,
+      "bottom": 643.890625,
+      "left": 0,
+      "right": 1280,
+      "height": 561.890625,
+      "width": 1280
+    },
+    "panel": {
+      "top": 110.796875,
+      "bottom": 483.890625,
+      "left": 60,
+      "right": 610,
+      "height": 373.09375,
+      "width": 550
+    },
+    "cards": [
+      {
+        "top": 518.6875,
+        "bottom": 751.078125,
+        "left": 238.6649932861328,
+        "right": 432.33502197265625
+      },
+      {
+        "top": 539.890625,
+        "bottom": 757.078125,
+        "left": 448,
+        "right": 629
+      },
+      {
+        "top": 539.890625,
+        "bottom": 757.078125,
+        "left": 651,
+        "right": 832
+      },
+      {
+        "top": 539.890625,
+        "bottom": 757.078125,
+        "left": 854,
+        "right": 1035
+      }
+    ],
+    "cardGap": 34.796875,
+    "visibleCards": 4,
+    "overflow": false,
+    "pattern": {
+      "inset": "16px",
+      "color": "rgb(230, 209, 148)",
+      "opacity": "0.46",
+      "mask": "linear-gradient(100deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0.65) 38%, rgba(0, 0, 0, 0) 78%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")"
+    },
+    "errors": []
+  },
+  {
+    "name": "wide",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "stage": {
+      "top": 82,
+      "bottom": 721.28125,
+      "left": 0,
+      "right": 1920,
+      "height": 639.28125,
+      "width": 1920
+    },
+    "panel": {
+      "top": 122,
+      "bottom": 561.28125,
+      "left": 340,
+      "right": 890,
+      "height": 439.28125,
+      "width": 550
+    },
+    "cards": [
+      {
+        "top": 596.078125,
+        "bottom": 828.46875,
+        "left": 558.6649780273438,
+        "right": 752.3350219726562
+      },
+      {
+        "top": 617.28125,
+        "bottom": 834.46875,
+        "left": 768,
+        "right": 949
+      },
+      {
+        "top": 617.28125,
+        "bottom": 834.46875,
+        "left": 971,
+        "right": 1152
+      },
+      {
+        "top": 617.28125,
+        "bottom": 834.46875,
+        "left": 1174,
+        "right": 1355
+      }
+    ],
+    "cardGap": 34.796875,
+    "visibleCards": 4,
+    "overflow": false,
+    "pattern": {
+      "inset": "16px",
+      "color": "rgb(230, 209, 148)",
+      "opacity": "0.46",
+      "mask": "linear-gradient(100deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0.65) 38%, rgba(0, 0, 0, 0) 78%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")"
+    },
+    "errors": []
+  },
+  {
+    "name": "tablet",
+    "viewport": {
+      "width": 820,
+      "height": 1180
+    },
+    "stage": {
+      "top": 74,
+      "bottom": 673.28125,
+      "left": 0,
+      "right": 820,
+      "height": 599.28125,
+      "width": 820
+    },
+    "panel": {
+      "top": 114,
+      "bottom": 513.28125,
+      "left": 36,
+      "right": 439.90625,
+      "height": 399.28125,
+      "width": 403.90625
+    },
+    "cards": [
+      {
+        "top": 549.4212646484375,
+        "bottom": 761.28125,
+        "left": 44.224998474121094,
+        "right": 220.77498626708984
+      },
+      {
+        "top": 569.28125,
+        "bottom": 767.28125,
+        "left": 235,
+        "right": 400
+      },
+      {
+        "top": 569.28125,
+        "bottom": 767.28125,
+        "left": 420,
+        "right": 585
+      },
+      {
+        "top": 569.28125,
+        "bottom": 767.28125,
+        "left": 605,
+        "right": 770
+      }
+    ],
+    "cardGap": 36.1400146484375,
+    "visibleCards": 4,
+    "overflow": false,
+    "pattern": {
+      "inset": "16px",
+      "color": "rgb(230, 209, 148)",
+      "opacity": "0.46",
+      "mask": "linear-gradient(100deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0.65) 38%, rgba(0, 0, 0, 0) 78%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")"
+    },
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "stage": {
+      "top": 68,
+      "bottom": 727.28125,
+      "left": 0,
+      "right": 390,
+      "height": 659.28125,
+      "width": 390
+    },
+    "panel": {
+      "top": 96,
+      "bottom": 535.28125,
+      "left": 20,
+      "right": 370,
+      "height": 439.28125,
+      "width": 350
+    },
+    "cards": [
+      {
+        "top": 647.2218627929688,
+        "bottom": 837.46875,
+        "left": 30.225006103515625,
+        "right": 188.77499389648438
+      },
+      {
+        "top": 659.28125,
+        "bottom": 840.46875,
+        "left": 205,
+        "right": 356
+      },
+      {
+        "top": 862.46875,
+        "bottom": 1043.65625,
+        "left": 34,
+        "right": 185
+      },
+      {
+        "top": 862.46875,
+        "bottom": 1043.65625,
+        "left": 205,
+        "right": 356
+      }
+    ],
+    "cardGap": 111.94061279296875,
+    "visibleCards": 2,
+    "overflow": false,
+    "pattern": {
+      "inset": "16px",
+      "color": "rgb(230, 209, 148)",
+      "opacity": "0.46",
+      "mask": "linear-gradient(100deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0.65) 38%, rgba(0, 0, 0, 0) 78%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")"
+    },
+    "errors": []
+  },
+  {
+    "name": "narrow",
+    "viewport": {
+      "width": 320,
+      "height": 740
+    },
+    "stage": {
+      "top": 68,
+      "bottom": 808.109375,
+      "left": 0,
+      "right": 320,
+      "height": 740.109375,
+      "width": 320
+    },
+    "panel": {
+      "top": 96,
+      "bottom": 616.109375,
+      "left": 20,
+      "right": 300,
+      "height": 520.109375,
+      "width": 280
+    },
+    "cards": [
+      {
+        "top": 730.1500244140625,
+        "bottom": 876.296875,
+        "left": 31.10000228881836,
+        "right": 152.8999900817871
+      },
+      {
+        "top": 740.109375,
+        "bottom": 879.296875,
+        "left": 170,
+        "right": 286
+      },
+      {
+        "top": 901.296875,
+        "bottom": 1040.484375,
+        "left": 34,
+        "right": 150
+      },
+      {
+        "top": 901.296875,
+        "bottom": 1040.484375,
+        "left": 170,
+        "right": 286
+      }
+    ],
+    "cardGap": 114.0406494140625,
+    "visibleCards": 1,
+    "overflow": false,
+    "pattern": {
+      "inset": "16px",
+      "color": "rgb(230, 209, 148)",
+      "opacity": "0.46",
+      "mask": "linear-gradient(100deg, rgb(0, 0, 0) 8%, rgba(0, 0, 0, 0.65) 38%, rgba(0, 0, 0, 0) 78%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")"
+    },
+    "errors": []
+  }
+]

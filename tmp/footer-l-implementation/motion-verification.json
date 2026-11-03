@@ -1,0 +1,118 @@
+[
+  {
+    "width": 1440,
+    "initial": {
+      "classActive": false,
+      "playState": "paused"
+    },
+    "live": {
+      "duration": 36000,
+      "easing": "linear",
+      "iterations": "infinite",
+      "playState": "running",
+      "x": 1.08366,
+      "maskSize": "180px"
+    },
+    "offscreenPaused": {
+      "playState": "paused",
+      "unchangedTime": true,
+      "currentTime": 249.9659999457189
+    },
+    "reducedMotion": {
+      "name": "none",
+      "transform": "none"
+    },
+    "dynamicPreferenceResumes": true,
+    "keyboardTargets": [
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "focus": {
+      "color": "rgb(224, 202, 140)",
+      "width": "2px",
+      "style": "solid"
+    },
+    "samples": [
+      {
+        "time": 0,
+        "x": 0,
+        "overflow": false
+      },
+      {
+        "time": 18000,
+        "x": 90,
+        "overflow": false
+      },
+      {
+        "time": 36000,
+        "x": 0,
+        "overflow": false
+      }
+    ],
+    "loopEndpointsPixelIdentical": true
+  },
+  {
+    "width": 390,
+    "initial": {
+      "classActive": false,
+      "playState": "paused"
+    },
+    "live": {
+      "duration": 36000,
+      "easing": "linear",
+      "iterations": "infinite",
+      "playState": "running",
+      "x": 1.08332,
+      "maskSize": "180px"
+    },
+    "offscreenPaused": {
+      "playState": "paused",
+      "unchangedTime": true,
+      "currentTime": 266.56299997186284
+    },
+    "reducedMotion": {
+      "name": "none",
+      "transform": "none"
+    },
+    "dynamicPreferenceResumes": true,
+    "keyboardTargets": [
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "focus": {
+      "color": "rgb(224, 202, 140)",
+      "width": "2px",
+      "style": "solid"
+    },
+    "samples": [
+      {
+        "time": 0,
+        "x": 0,
+        "overflow": false
+      },
+      {
+        "time": 18000,
+        "x": 90,
+        "overflow": false
+      },
+      {
+        "time": 36000,
+        "x": 0,
+        "overflow": false
+      }
+    ],
+    "loopEndpointsPixelIdentical": true
+  }
+]

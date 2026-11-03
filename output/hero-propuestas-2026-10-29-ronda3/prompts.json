@@ -1,0 +1,39 @@
+{
+  "tool": "image_gen (herramienta integrada)",
+  "purpose": "Tercera ronda de propuestas conceptuales del hero dirigida con Impeccable; sin cambios en la aplicación.",
+  "variants": [
+    {
+      "id": "G",
+      "title": "G · Centro y equilibrio",
+      "filename": "G-centro-y-equilibrio.png",
+      "refs": [
+        "C:/Desarrollo/JSDP/tmp/jsdp-shape-logo-locked-2026-10-17/imss-basic-exact.png",
+        "C:/Desarrollo/JSDP/apps/web/public/identity/Coordinacion.jpg",
+        "C:/Desarrollo/JSDP/apps/web/public/identity/OOAD_IMSS_ampliada_derecha_optimizada.webp"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE high-fidelity desktop HERO design for IMSS JSDP Sonora, a staff-development institutional intranet in Mexico. Render a landscape 1600x1000 website screen, edge-to-edge, sharp readable Spanish text. Header and hero only, no device or browser frame.\nReference 1 is the official IMSS mark. Preserve it intact: emblem ABOVE the letters IMSS, original proportions, original green, on white. Shared white header: this mark at far left, thin gold divider, \"JSDP Sonora\"; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; dark-green \"Iniciar sesión\" button.\nHero exact copy: small identity \"JSDP · Sonora\"; main heading \"Jefatura de Servicios de Desarrollo de Personal\"; body \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; one main button \"Conoce la JSDP\" with right arrow.\nEstablished identity: forest green #0b503e, white, restrained muted gold, Patria-like elegant serif headline and simple sans-serif body. Carefully balanced spacing, one clear visual focus. Use the actual reference photography. No invented people, buildings, slogans, numbers, extra controls or testimonials. No oversized duplicate logo. Do not write the proposal name inside the design.\nDIRECTION G: a centered civic composition on white, entirely different from a standard split hero. The identity, headline, body and green button form a spacious centered column. Two narrow photographic panels flank this column, one on the far left and one on the far right, with generous white gutters. Reference 2 is the coordination meeting: use a thoughtful vertical crop on the left retaining recognizable participants. Reference 3 is the actual office facade: use a vertical crop on the right. Both photo panels begin below the header, one slightly lower than the other, as quiet vertical wings surrounding the words. Their subtle curved upper edges add warmth, not floating cards. Keep the heading over three balanced lines and all exact copy legible. No shadows, collage overlaps or extra labels."
+    },
+    {
+      "id": "H",
+      "title": "H · Sonora protagonista",
+      "filename": "H-sonora-protagonista.png",
+      "refs": [
+        "C:/Desarrollo/JSDP/tmp/jsdp-shape-logo-locked-2026-10-17/imss-basic-exact.png",
+        "C:/Desarrollo/JSDP/apps/web/public/identity/Silueta_Sonora-verde.png",
+        "C:/Desarrollo/JSDP/apps/web/public/identity/OOAD_IMSS_ampliada_derecha_optimizada.webp"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE high-fidelity desktop HERO design for IMSS JSDP Sonora, a staff-development institutional intranet in Mexico. Render a landscape 1600x1000 website screen, edge-to-edge, sharp readable Spanish text. Header and hero only, no device or browser frame.\nReference 1 is the official IMSS mark. Preserve it intact: emblem ABOVE the letters IMSS, original proportions, original green, on white. Shared white header: this mark at far left, thin gold divider, \"JSDP Sonora\"; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; dark-green \"Iniciar sesión\" button.\nHero exact copy: small identity \"JSDP · Sonora\"; main heading \"Jefatura de Servicios de Desarrollo de Personal\"; body \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; one main button \"Conoce la JSDP\" with right arrow.\nEstablished identity: forest green #0b503e, white, restrained muted gold, Patria-like elegant serif headline and simple sans-serif body. Carefully balanced spacing, one clear visual focus. Use the actual reference photography. No invented people, buildings, slogans, numbers, extra controls or testimonials. No oversized duplicate logo. Do not write the proposal name inside the design.\nDIRECTION H: geography becomes the hero's singular visual feature. Text block on the left, a large upright PHOTO-FILLED SILHOUETTE OF SONORA on the right. Reference 2 defines the exact Sonora outline: preserve its recognizable long northern edge and tapering southern point. Reference 3 supplies the building photograph; mask that photo INSIDE the silhouette, without rectangular image edges outside it. Keep the silhouette completely inside the frame. A very fine gold outline may clarify its contour. Calm pale-green-tinted white ground; typography forest green, readable body and green action. Generous negative space separates typography and silhouette. NO network connections, map pins, geographic coverage labels, orbit circles or extra photos. The building facade and palms remain recognizable within the map shape."
+    },
+    {
+      "id": "I",
+      "title": "I · Portada institucional",
+      "filename": "I-portada-institucional.png",
+      "refs": [
+        "C:/Desarrollo/JSDP/tmp/jsdp-shape-logo-locked-2026-10-17/imss-basic-exact.png",
+        "C:/Desarrollo/JSDP/apps/web/public/identity/OOAD_IMSS_ampliada_derecha_optimizada.webp"
+      ],
+      "prompt": "Use case: ui-mockup. Create ONE high-fidelity desktop HERO design for IMSS JSDP Sonora, a staff-development institutional intranet in Mexico. Render a landscape 1600x1000 website screen, edge-to-edge, sharp readable Spanish text. Header and hero only, no device or browser frame.\nReference 1 is the official IMSS mark. Preserve it intact: emblem ABOVE the letters IMSS, original proportions, original green, on white. Shared white header: this mark at far left, thin gold divider, \"JSDP Sonora\"; navigation \"Inicio\", \"Conoce la JSDP\", \"Estructura\", \"Documentos\"; dark-green \"Iniciar sesión\" button.\nHero exact copy: small identity \"JSDP · Sonora\"; main heading \"Jefatura de Servicios de Desarrollo de Personal\"; body \"Órgano de Operación Administrativa Desconcentrada Sonora del Instituto Mexicano del Seguro Social.\"; one main button \"Conoce la JSDP\" with right arrow.\nEstablished identity: forest green #0b503e, white, restrained muted gold, Patria-like elegant serif headline and simple sans-serif body. Carefully balanced spacing, one clear visual focus. Use the actual reference photography. No invented people, buildings, slogans, numbers, extra controls or testimonials. No oversized duplicate logo. Do not write the proposal name inside the design.\nDIRECTION I: an architectural editorial cover with a warm light-sand hero ground. Use a disciplined two-zone composition. UPPER ZONE: identity and a broad, generous serif headline on the left; institutional body and green button in a compact right column aligned near the headline's lower lines. This is a horizontal typographic introduction with ample breathing room. A single fine green horizontal rule separates it from the LOWER ZONE: one wide continuous panorama of the real building in reference 2. The photo spans the hero content width, framed by modest sand margins, with no text over it. Keep the whole photograph band and action visible inside the canvas. No floating white panel, cards, thumbnails, arches or network diagrams. Warmth comes from the sand ground, precise typography and real architecture."
+    }
+  ],
+  "approved": false
+}

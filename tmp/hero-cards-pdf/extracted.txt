@@ -1,0 +1,360 @@
+=== PDF PAGE 1 ===
+Textura oficial
+
+=== PDF PAGE 2 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     27
+Textura
+Es la textura oficial del Gobierno de México 2024-2030. 
+Acompañará la narrativa gráfica y se desarrollarán sus 
+posibilidades de aplicación ténica en este documento.
+
+
+=== PDF PAGE 3 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     28
+Escala de grises 
+En casos excepcionales la textura puede ser utilizada 
+en escala de grises cuando no sea posible en todos 
+sus colores por criterios presupuestales o cuando el 
+material donde se implementará sea planeado para 
+reproducirse en escala de grises.
+En estos casos, la textura siempre deberá ser 
+trabajada en modo de color en escala de grises. No  
+se debe dar salida para impresión en escala de grises 
+a archivos que contengan color , el resultado puede 
+ser inesperado.
+A continuación se muestran los porcentajes de gris 
+utilizados en la textura y el grado de opacidad que 
+debería tener . 
+CMYK 43/35/34/01
+RGB 152/152/154
+#98989A
+20% 0% 
+45º
+
+=== PDF PAGE 4 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     29
+Usos de colores institucionales 
+A continuación se muestran los colores de fondo y degradados que deberán ser 
+aplicados en la textura para su impresión y presentación digital.
+Fondo
+CMYK 29/98/59/18
+RGB 156/35/72
+#9b2247
+Degradado
+CMYK 42/96/56/48
+RGB 98/19/51
+#611232
+50% 0% 
+Fondo
+Degradado
+50% 0% 
+Fondo
+Degradado
+20% 0% 
+Fondo
+Degradado
+CMYK 0/0/0/0
+RGB 0/0/0
+#ﬀﬀﬀ
+20% 0% 
+CMYK 43/35/34/01
+RGB 152/152/154
+#98989A
+CMYK 32/46/100/10
+RGB 166/128/45
+#a57f2c
+CMYK 10/14/48/0
+RGB 231/210/149
+#e6d194
+CMYK 87/51/67/68
+RGB 0/47/42
+#002f2a
+CMYK 83/39/65/37
+RGB 30/91/79
+#1e5b4f
+
+=== PDF PAGE 5 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     30
+Uso de la textura modular
+La naturaleza de la textura permite que al 
+duplicarse aún conserve su simetría.
+ La textura es modular
+
+=== PDF PAGE 6 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     31
+Retícula
+Retícula de textura en aplicación vertical. Ejemplo de textura
+aplicada en franja vertical
+
+=== PDF PAGE 7 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     32
+Retícula de textura en aplicación horizontal.
+Ejemplo de textura
+aplicada en franja horizontal
+Recorte de la textura
+Retícula
+
+=== PDF PAGE 8 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     33
+Usos incorrectos
+A continuación se muestran diversos ejemplos de 
+los usos no permitidos para la textura.
+Quitar elementosModiﬁcar colores
+Poner contornoDeformarNo usar colores
+institucionales
+
+=== PDF PAGE 9 ===
+Tipografías
+
+=== PDF PAGE 10 ===
+Light
+Regular
+Bold
+Patria
+A B C D E F G H I J 
+K L M N Ñ O P Q R 
+S T U V W X Y Z
+a b c d e f g h i j k l 
+m n ñ o p q r s t u 
+v w x y z
+ 0 1 2 3 4 5 6 7 8 9 : 
+; < = > ¿ ? " # ¡ ! ^ $ 
+% & ' ( ) * + , - . / ¨ _ 
+| @ ¢ ∞ ¬ ÷ “ ” ≠ 
+Ejemplo de Patria regular
+Tipografía Patria
+Se debe aplicar en títulos destacados y frases  
+breves dentro de las composiciones de texto.
+
+=== PDF PAGE 11 ===
+Ejemplo de Noto Sans Bold
+Noto Sans
+Medium Italic
+SemiBold
+SemiBold Italic
+Bold
+Bold Italic
+ExtraBold
+ExtraBold Italic
+Black
+Black Italic
+Medium
+Italic
+Regular
+Light
+Thin Italic
+Light Italic
+ExtraLight Italic
+Thin
+ExtraLight
+A B C D E F G H I J 
+K L M N Ñ O P Q R 
+S T U V W X Y Z
+a b c d e f g h i j k l 
+m n ñ o p q r s t u 
+v w x y z
+ 0 1 2 3 4 5 6 7 8 9 : 
+; < = > ¿ ? " # ¡ ! ^ $ 
+% & ' ( ) * + , - . / ¨ 
+_ | @ ¢ ∞ ¬ ÷ “ ” ≠ 
+Noto Sans, es una tipografía adicional que permite 
+versatilidad en la comunicación. En conjunto 
+con Patria, podemos diseñar distintos tipos de 
+mensajes con claridad y jerarquía.
+Noto Sans deberá ser usada en cuerpos de texto  
+y documentación oficial.
+También se puede usar en los materiales de 
+publicidad oficial.
+Tipografía Noto Sans
+
+=== PDF PAGE 12 ===
+Imagotipos
+
+=== PDF PAGE 13 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     38
+Secretarías
+Imagotipos de Secretarías versión horizontal.
+Los imagotipos de las diferentes Secretarías de Estado 
+emplean ambas tipografías. El título central de la 
+Secretaría está escrito con la tipografía Patria. Debajo, 
+en Noto Sans, en el descriptivo está escrito el nombre 
+completo de la Secretaría. El Escudo Nacional debe 
+situarse a la izquierda del título central. 
+Está prohibido generar archivos de imagotipos nuevos. La 
+Dirección de Imagen te proporcionará los archivos con el 
+tratamiento adecuado.
+
+=== PDF PAGE 14 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     39
+Secretarías
+Imagotipos de Secretarías versión vertical
+Los imagotipos de las diferentes Secretarías de 
+Estado emplean ambas tipografías. El título central 
+de la Secretaría está escrito con la tipografía Patria. 
+Debajo, en Noto Sans, en el descriptivo está escrito 
+el nombre completo de la Secretaría. El Escudo 
+Nacional debe situarse en la parte inferior del título 
+central.
+Está prohibido generar archivos de imagotipos 
+nuevos. La Dirección de Imagen te proporcionará 
+los archivos con el tratamiento adecuado.
+
+=== PDF PAGE 15 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     40
+Convivencia con dos o más 
+Secretarías
+Se debe guardar la alineación de 
+los imagotipos al renglón de 
+lectura
+Misma altura de las
+mínusculas “éxico”
+Alineación al piso de la palabra “México”
+Secretaría de Bienestar
+Bienestar
+Misma altura de las
+mínusculas “éxico”
+Alineación al piso de la palabra “México”
+Trabajo
+Secretaría del Trabajo
+y Previsión Social
+Cuando los imagotipos de las Secretarías de Estado u Organismos  
+deban convivir con Gobierno de México: 
+El imagotipo del Gobierno de México debe tener siempre el  
+Escudo Nacional a la izquierda en versión horizontal. 
+Las Secretarías se colocarán sin escudo, a la derecha del imagotipo 
+del Gobierno de México; separados por una línea dorada y guardando 
+los criterios que se presenta a continuación:
+Convivencia de Secretarías
+
+=== PDF PAGE 16 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     41
+Convivencia vertical
+Cuando los imagotipos de las Secretarías de Estado u Organismos 
+deban convivir de forma vertical con Gobierno de México:
+• El imagotipo del Gobierno de México debe tener siempre el 
+Escudo Nacional a la izquierda en versión horizontal.
+• Las Secretarías se colocarán sin escudo, en la parte inferior del 
+imagotipo del Gobierno de México; separados por una línea 
+dorada y guardando los criterios adecuados.
+•
+ Para las convivencias de Secretarías con sus Organismos se 
+colocará el imagotipo de la Secretaría a la derecha con escudo 
+y el imagotipo del Organismo a la izquierda separados por una 
+línea dorada.
+
+=== PDF PAGE 17 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     42
+Cuando los imagotipos de las Secretarías de Estado u Organismos 
+deban convivir con Gobierno de México: 
+• El imagotipo del Gobierno de México debe tener siempre el 
+Escudo Nacional a la izquierda en versión horizontal.
+• Las Secretarías se colocarán sin escudo, a la derecha del 
+imagotipo del Gobierno de México; separados por una 
+línea dorada y guardando los criterios que se presenta a 
+continuación:
+Convivencia de Organismos
+
+=== PDF PAGE 18 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     43
+• Para las convivencias de Secretarías con sus Organismos 
+en horizontal, se colocará el imagotipo de la Secretaría a 
+la izquierda con escudo y el imagotipo del Organismo a la 
+derecha, separados por una línea dorada. 
+•
+ Para las convivencias de Secretarías con sus Organismos en 
+vertical, se colocará el imagotipo de la Secretaría arriba con 
+escudo y el imagotipo del Organismo debajo, separados por 
+una línea dorada.
+
+=== PDF PAGE 19 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     44
+Colores institucionales
+Sobre fondos oscuros
+Cuando se aplique el imagotipo horizontal 
+sobre fondos oscuros, se tendría que aplicar de las 
+siguientes maneras.
+
+=== PDF PAGE 20 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     45
+Colores institucionales
+Sobre fondos oscuros
+Cuando se aplique el imagotipo vertical sobre 
+fondos oscuros, se tendría que aplicar de las 
+siguientes maneras.
+
+=== PDF PAGE 21 ===
+Uso de tinta
+Dos tintas
+El uso correcto del color es necesario para posicionar la 
+identidad de las Secretarías. El imagotipo horizontal 
+sobre plecas de color se deberá aplicar siempre a dos 
+tintas.
+No está permitido el uso del imagotipo sobre fondos 
+de color que no formen parte de la paleta institucional.
+
+=== PDF PAGE 22 ===
+Uso de tinta
+Dos tintas
+El uso correcto del color es necesario para posicionar 
+la identidad de las Secretarías. El imagotipo vertical 
+sobre plecas de color se deberá aplicar siempre a 
+dos tintas.
+No está permitido el uso del imagotipo sobre 
+fondos de color que no formen parte de la paleta 
+institucional.
+
+=== PDF PAGE 23 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     48
+Uso de tinta
+alto contraste
+En casos especiales el imagotipo horizontal puede 
+utilizarse a una tinta.
+No está permitido el uso del imagotipo calado (blanco) 
+sobre fondos de colores que no pertenezcan a nuestra 
+paleta de color institucional o no estén aprobados por 
+la Dirección de Imagen.
+Está prohibido el uso a una tinta para salida en medios 
+digitales o en impresiones de cuatricromía.
+
+=== PDF PAGE 24 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     49
+Uso de tinta
+alto contraste
+En casos especiales el imagotipo vertical puede 
+utilizarse a una tinta.
+No está permitido el uso del imagotipo calado (blanco) 
+sobre fondos de colores que no pertenezcan a nuestra 
+paleta de color institucional o no estén aprobados por 
+la Dirección de Imagen.
+Está prohibido el uso a una tinta para salida en medios 
+digitales o en impresiones de cuatricromía.
+
+=== PDF PAGE 25 ===
+Guía de Identidad Gráfica del Gobierno de México 2024 - 2030     50
+Escala de grises
+En casos excepcionales el imagotipo horizontal 
+puede ser utilizado en escala de grises cuando 
+no sea posible en todos sus colores por criterios 
+presupuestales o cuando el material donde se 
+implementará sea planeado para reproducirse en 
+escala de grises.
+En escala de grises, no se deben generar impresiones 
+con archivos que contengan color . El resultado puede 
+ser inesperado.
+A continuación se muestran los porcentajes de gris 
+utilizados en el imagotipo en escala de grises.
+CMYK 0/0/0/70
+RGB 78/78/78
+#4D4D4D
+70%
+Negro
+CMYK 0/0/0/50
+RGB 128/128/128
+#808080
+50%
+Negro
+CMYK 0/0/0/20
+RGB 204/204/204
+#CCCCCC
+20%
+Negro

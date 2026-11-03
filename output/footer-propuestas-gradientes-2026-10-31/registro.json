@@ -1,0 +1,121 @@
+{
+  "request": "Tres propuestas: base verde I, textos J, franja K y degradado ligero únicamente en la superficie principal.",
+  "method": "Maquetas HTML/CSS renderizadas, conservando el acomodo H actual y los recursos SVG claros.",
+  "lockedPalette": {
+    "backgroundBase": "#10312b",
+    "text": "#f7f8f3",
+    "heading": "#fffaf2",
+    "category": "#edd899",
+    "accent": "#e0ca8c",
+    "secondary": "#d4e1d6",
+    "badge": "#edd899",
+    "bandBackground": "#244a3d",
+    "bandPattern": "#adc8b6",
+    "bandHeight": 48,
+    "bandGradient": false
+  },
+  "proposals": [
+    {
+      "id": "L",
+      "slug": "L-degradado-diagonal",
+      "title": "Degradado diagonal",
+      "description": "Una transición suave del verde iluminado en la esquina superior izquierda hacia un verde más profundo abajo a la derecha.",
+      "gradient": "linear-gradient(135deg, #173c33 0%, #10312b 52%, #0c2925 100%)",
+      "stops": [
+        "#173c33",
+        "#10312b",
+        "#0c2925"
+      ],
+      "height": 808
+    },
+    {
+      "id": "M",
+      "slug": "M-luz-superior",
+      "title": "Luz superior",
+      "description": "Luz verde difusa desde la parte superior derecha, con el verde institucional dominando el resto de la superficie.",
+      "gradient": "radial-gradient(ellipse 100% 85% at 75% 0%, #1c493c 0%, #153b32 30%, #10312b 70%)",
+      "stops": [
+        "#1c493c",
+        "#153b32",
+        "#10312b"
+      ],
+      "height": 808
+    },
+    {
+      "id": "N",
+      "slug": "N-profundidad-vertical",
+      "title": "Profundidad vertical",
+      "description": "Un cambio vertical delicado, más profundo arriba y ligeramente más luminoso hacia la franja inferior.",
+      "gradient": "linear-gradient(180deg, #0e2d28 0%, #10312b 42%, #184236 100%)",
+      "stops": [
+        "#0e2d28",
+        "#10312b",
+        "#184236"
+      ],
+      "height": 808
+    }
+  ],
+  "verification": {
+    "fixedColorsMatch": true,
+    "viewports": [
+      1440,
+      1024,
+      390,
+      320
+    ],
+    "minimumTextContrasts": [
+      {
+        "proposal": "L",
+        "worstStop": "#173c33",
+        "minimumContrast": 8.600149556933108
+      },
+      {
+        "proposal": "M",
+        "worstStop": "#1c493c",
+        "minimumContrast": 7.198168888956607
+      },
+      {
+        "proposal": "N",
+        "worstStop": "#184236",
+        "minimumContrast": 7.953027042696839
+      }
+    ],
+    "sourceIntegrity": [
+      {
+        "path": "apps/web/src/features/public/landing/LandingFooter.tsx",
+        "unchanged": true
+      },
+      {
+        "path": "apps/web/src/features/public/landing/LandingFooter.css",
+        "unchanged": true
+      },
+      {
+        "path": "apps/web/src/features/public/landing/LandingPage.tsx",
+        "unchanged": true
+      }
+    ],
+    "assets": [
+      {
+        "file": "gobierno-blanco.svg",
+        "identical": true,
+        "sha256": "4318e37ca43f7a267c4e5ddb0cc60968b2519f0680747c7b90eddea8e9b3e694"
+      },
+      {
+        "file": "imss-claro.svg",
+        "identical": true,
+        "sha256": "43a05cab654713a06da3ea58ded6b66900015278766d988cc86046dee5fe8f1d"
+      },
+      {
+        "file": "patron-oficial.svg",
+        "identical": true,
+        "sha256": "566de501a25d4773075114fd4ae55d57f2b3b8e101b5a84f35caf0515b41c3ea"
+      },
+      {
+        "file": "patria.woff2",
+        "identical": true,
+        "sha256": "7b4c9423a55775456afc2497f1b73d5a944f8e69386ba93edaaa292c36fa2325"
+      }
+    ],
+    "diagnostic": []
+  }
+}

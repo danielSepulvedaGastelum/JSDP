@@ -1,0 +1,100 @@
+{
+  "request": "Tres prototipos con símbolos SVG pequeños a la izquierda de los títulos y logo JSDP claro sustituyendo el texto.",
+  "method": "HTML/CSS sobre el footer P vigente; SVG vectoriales nativos, sin generación de bitmap ni cambios de producción.",
+  "icons": {
+    "imss": {
+      "source": "docs/identidad-institucional/Logotipo_del_IMSS.svg",
+      "change": "#154f3a → #fffaf2; geometría intacta"
+    },
+    "cubos": {
+      "source": "SVG creado; nueve aristas visibles, sin relleno",
+      "variants": "1.5 y2 unidades de trazo sobre viewBox24"
+    },
+    "training": {
+      "source": "SVG creado; birrete simplificado",
+      "variants": "Contorno y silueta sólida"
+    },
+    "sonora": {
+      "source": "docs/identidad-institucional/Silueta_Sonora.jpg",
+      "method": "Contorno del área rosa; simplificación vectorial1.25px en la imagen de354×394; sin inventar contorno",
+      "contours": [
+        {
+          "area": 45115,
+          "vertices": 124
+        }
+      ]
+    },
+    "jsdp": {
+      "source": "docs/identidad-institucional/JSDP-Sonora-11.svg",
+      "change": "Solo paleta, verdes/grises/oro aclarados; geometría y composición indivisibles",
+      "palette": {
+        "#154f3a": "#fffaf2",
+        "#9d9fa1": "#d7e1dc",
+        "#024c37": "#c0d9ca",
+        "#303030": "#f1f5ef",
+        "#09634f": "#9fc7b4",
+        "#b58d32": "#edd899",
+        "#999999": "#cddbd3"
+      }
+    }
+  },
+  "proposals": [
+    {
+      "id": "R",
+      "slug": "R-iconos-integrados",
+      "title": "Símbolos integrados",
+      "description": "Símbolos blancos sin marco, con cubo y birrete de línea fina. Mantiene la apariencia más cercana al footer actual.",
+      "height": 888
+    },
+    {
+      "id": "S",
+      "slug": "S-iconos-enmarcados",
+      "title": "Símbolos enmarcados",
+      "description": "Los mismos símbolos pequeños dentro de un marco sutil; los títulos dorados y la marca JSDP permanecen libres de rellenos.",
+      "height": 888
+    },
+    {
+      "id": "T",
+      "slug": "T-iconos-de-mayor-definicion",
+      "title": "Símbolos de mayor definición",
+      "description": "Cubo con aristas más firmes y birrete sólido, junto a las siluetas oficiales. Favorece la identificación al verlos pequeños.",
+      "height": 888
+    }
+  ],
+  "displaySizes": {
+    "regularIcons": {
+      "desktop": "25 × 25 px, 1em",
+      "mobile": "26 × 26 px, 1em"
+    },
+    "appLogo": {
+      "desktopHeight": 32.5,
+      "mobileHeight": 33.8,
+      "note": "Marca completa dentro del renglón original; no ícono adicional."
+    }
+  },
+  "validation": {
+    "viewports": [
+      1440,
+      1024,
+      390,
+      320
+    ],
+    "cases": 12,
+    "noOverflow": true,
+    "activeLinks": 13,
+    "pendingEntries": 2,
+    "officialGeometryPreserved": true,
+    "productionFilesUnchanged": true,
+    "paletteContrastMinimum": 4.74
+  },
+  "renderProvenance": {
+    "method": "Capturas de Chromium de los HTML/CSS locales, no imágenes generadas por IA",
+    "desktopViewport": "1440 × 888 CSS px",
+    "mobileViewportWidth": 390,
+    "deviceScaleFactor": 2,
+    "reducedMotionForCaptures": true,
+    "interactivePreviewsPreserveAnimation": true,
+    "contactSheet": "comparativa-titulares-1x.png (1440 × 450 px)"
+  },
+  "entry": "index.html"
+}

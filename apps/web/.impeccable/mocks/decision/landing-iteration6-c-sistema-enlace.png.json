@@ -1,0 +1,8 @@
+{
+  "proposal": "C — Sistema de enlace",
+  "tool": "built-in image_gen",
+  "approved": true,
+  "intent": "Landing moderna con navegación de recorrido, representación de la coordinación entre unidades y organigrama interactivo como clímax.",
+  "prompt": "Mockup de alta fidelidad para JSDP OOAD 27 Sonora; rail lateral, red de unidades, mucho blanco, verdes pálidos, oro y guinda restringidos, panel interactivo del organigrama sin azul.",
+  "postprocess": "Logotipo_del_IMSS.svg fue superpuesto sin transformación de forma o color; el generador dejó reservada el área de marca."
+}

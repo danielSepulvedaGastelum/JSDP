@@ -1,0 +1,48 @@
+{
+  "title": "Landing JSDP — gestión de personal · ronda 2026",
+  "question": "Compara las tres direcciones. Todas priorizan el IMSS, reducen la saturación verde, aumentan el aire y representan la estructura real de la JSDP. Elige una, pide combinar elementos o solicita otra variación; ninguna está aprobada todavía.",
+  "options": [
+    {
+      "id": "red-humana",
+      "kind": "assigned",
+      "label": "Red humana institucional",
+      "kicker": "PROPUESTA A",
+      "lineage": "Coordinación de personas y unidades",
+      "thesis": "La JSDP se presenta como el punto institucional que conecta personas, procesos y unidades del IMSS en Sonora.",
+      "palette": ["#FFFFFF", "#F3F4F2", "#154F3A", "#DCE8E1", "#A57F2C"],
+      "materials": ["blanco dominante", "red humana abstracta", "tarjetas pálidas"],
+      "viewport": "Hero de red humana, secciones amplias, valores con iconos y organigrama cromático formal.",
+      "risk": "Es la opción más cercana a una landing contemporánea convencional; debe protegerse de añadir demasiadas tarjetas en implementación.",
+      "comp": ".impeccable/mocks/decision/landing-iteration6-a-red-humana.png"
+    },
+    {
+      "id": "expediente-servicio",
+      "kind": "dealt",
+      "label": "Expediente de servicio",
+      "kicker": "PROPUESTA B",
+      "lineage": "Archivo público convertido en experiencia web",
+      "thesis": "La página organiza el mandato, los accesos y la estructura como capítulos de un expediente institucional claro.",
+      "palette": ["#FFFFFF", "#F4F4F1", "#154F3A", "#E5E9E6", "#A57F2C"],
+      "materials": ["folios numerados", "reglas finas", "geometría editorial"],
+      "viewport": "Portada Patria contenida, índice funcional y organigrama presentado como capítulo final.",
+      "risk": "La adaptación móvil debe conservar la lectura por capítulos sin producir un recorrido demasiado largo.",
+      "comp": ".impeccable/mocks/decision/landing-iteration6-b-expediente-servicio.png"
+    },
+    {
+      "id": "sistema-enlace",
+      "kind": "dealt",
+      "label": "Sistema de enlace",
+      "kicker": "PROPUESTA C",
+      "lineage": "Coordinación institucional visible",
+      "thesis": "Un recorrido lateral y una red de unidades muestran que la JSDP articula la gestión de personal en todo el OOAD 27.",
+      "palette": ["#FFFFFF", "#F2F3F1", "#154F3A", "#E2ECE6", "#A57F2C", "#611232"],
+      "materials": ["rail de recorrido", "nodos de enlace", "panel contextual"],
+      "viewport": "Hero de coordinación y organigrama expandido con detalle del funcionario seleccionado.",
+      "risk": "Es la opción de mayor complejidad interactiva y requerirá más trabajo de accesibilidad y responsive.",
+      "comp": ".impeccable/mocks/decision/landing-iteration6-c-sistema-enlace.png"
+    }
+  ],
+  "buildPath": {"value": "comp", "toggle": true},
+  "canon": false,
+  "steer": false
+}

@@ -1,0 +1,23 @@
+{
+  "disposition": "ship",
+  "scope": "Footer editorial H implementado en LandingPage",
+  "materialFindings": [],
+  "evidence": [
+    "desktop.png",
+    "1366.png",
+    "1024.png",
+    "820.png",
+    "mobile.png",
+    "320.png",
+    "verification.json",
+    "fidelity.json",
+    "scope.json",
+    "build.log",
+    "impeccable-diagnostic.json"
+  ],
+  "limits": [
+    "No certifica el resto de la landing",
+    "No se comprobó conectividad de destinos",
+    "No se probó un lector de pantalla real"
+  ]
+}

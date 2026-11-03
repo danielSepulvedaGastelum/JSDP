@@ -1,0 +1,730 @@
+[
+  {
+    "w": 1920,
+    "h": 944,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 119.75,
+      "bottom": 609.015625,
+      "height": 489.265625,
+      "width": 550
+    },
+    "stageHeight": 772.796875,
+    "cards": [
+      {
+        "labelTop": 862.7084350585938,
+        "labelBottom": 915.5396728515625,
+        "top": 729.59375,
+        "bottom": 961.984375,
+        "visible": 214.40625,
+        "height": 232.390625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 875.203125,
+        "labelBottom": 924.578125,
+        "top": 750.796875,
+        "bottom": 967.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 887.546875,
+        "labelBottom": 912.234375,
+        "top": 750.796875,
+        "bottom": 967.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 887.546875,
+        "labelBottom": 912.234375,
+        "top": 750.796875,
+        "bottom": 967.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 120.578125,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 1920,
+    "h": 1080,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 125.1875,
+      "bottom": 698.78125,
+      "height": 573.59375,
+      "width": 604.796875
+    },
+    "stageHeight": 908.796875,
+    "cards": [
+      {
+        "labelTop": 998.7084350585938,
+        "labelBottom": 1051.5396728515625,
+        "top": 865.59375,
+        "bottom": 1097.984375,
+        "visible": 214.40625,
+        "height": 232.390625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1011.203125,
+        "labelBottom": 1060.578125,
+        "top": 886.796875,
+        "bottom": 1103.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1023.546875,
+        "labelBottom": 1048.234375,
+        "top": 886.796875,
+        "bottom": 1103.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1023.546875,
+        "labelBottom": 1048.234375,
+        "top": 886.796875,
+        "bottom": 1103.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 166.8125,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 2560,
+    "h": 1440,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 130,
+      "bottom": 926.796875,
+      "height": 796.796875,
+      "width": 620
+    },
+    "stageHeight": 1268.796875,
+    "cards": [
+      {
+        "labelTop": 1358.70849609375,
+        "labelBottom": 1411.5396728515625,
+        "top": 1225.59375,
+        "bottom": 1457.984375,
+        "visible": 214.40625,
+        "height": 232.390625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1371.203125,
+        "labelBottom": 1420.578125,
+        "top": 1246.796875,
+        "bottom": 1463.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1383.546875,
+        "labelBottom": 1408.234375,
+        "top": 1246.796875,
+        "bottom": 1463.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1383.546875,
+        "labelBottom": 1408.234375,
+        "top": 1246.796875,
+        "bottom": 1463.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 298.796875,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 1536,
+    "h": 864,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 116.546875,
+      "bottom": 556.21875,
+      "height": 439.671875,
+      "width": 550
+    },
+    "stageHeight": 692.796875,
+    "cards": [
+      {
+        "labelTop": 782.7084350585938,
+        "labelBottom": 835.5396728515625,
+        "top": 649.59375,
+        "bottom": 881.984375,
+        "visible": 214.40625,
+        "height": 232.390625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 795.203125,
+        "labelBottom": 844.578125,
+        "top": 670.796875,
+        "bottom": 887.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 807.546875,
+        "labelBottom": 832.234375,
+        "top": 670.796875,
+        "bottom": 887.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 807.546875,
+        "labelBottom": 832.234375,
+        "top": 670.796875,
+        "bottom": 887.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 93.375,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 1440,
+    "h": 900,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 118,
+      "bottom": 580,
+      "height": 462,
+      "width": 550
+    },
+    "stageHeight": 728.796875,
+    "cards": [
+      {
+        "labelTop": 818.7084350585938,
+        "labelBottom": 871.5396728515625,
+        "top": 685.59375,
+        "bottom": 917.984375,
+        "visible": 214.40625,
+        "height": 232.390625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 831.203125,
+        "labelBottom": 880.578125,
+        "top": 706.796875,
+        "bottom": 923.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 843.546875,
+        "labelBottom": 868.234375,
+        "top": 706.796875,
+        "bottom": 923.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 843.546875,
+        "labelBottom": 868.234375,
+        "top": 706.796875,
+        "bottom": 923.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 105.59375,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 1366,
+    "h": 768,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 112.71875,
+      "bottom": 492.875,
+      "height": 380.15625,
+      "width": 550
+    },
+    "stageHeight": 596.796875,
+    "cards": [
+      {
+        "labelTop": 686.7084350585938,
+        "labelBottom": 739.5396728515625,
+        "top": 553.59375,
+        "bottom": 785.984375,
+        "visible": 214.40625,
+        "height": 232.390625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 699.203125,
+        "labelBottom": 748.578125,
+        "top": 574.796875,
+        "bottom": 791.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 711.546875,
+        "labelBottom": 736.234375,
+        "top": 574.796875,
+        "bottom": 791.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 711.546875,
+        "labelBottom": 736.234375,
+        "top": 574.796875,
+        "bottom": 791.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 60.71875,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 1280,
+    "h": 720,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 110.796875,
+      "bottom": 466.828125,
+      "height": 356.03125,
+      "width": 550
+    },
+    "stageHeight": 548.796875,
+    "cards": [
+      {
+        "labelTop": 640.1964111328125,
+        "labelBottom": 690.0516967773438,
+        "top": 505.59375,
+        "bottom": 737.984375,
+        "visible": 214.40625,
+        "height": 232.390625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 652.59375,
+        "labelBottom": 699.1875,
+        "top": 526.796875,
+        "bottom": 743.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 664.234375,
+        "labelBottom": 687.53125,
+        "top": 526.796875,
+        "bottom": 743.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 664.234375,
+        "labelBottom": 687.53125,
+        "top": 526.796875,
+        "bottom": 743.984375,
+        "visible": 193.203125,
+        "height": 217.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 38.765625,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 1024,
+    "h": 600,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 94,
+      "bottom": 370,
+      "height": 276,
+      "width": 550
+    },
+    "stageHeight": 456,
+    "cards": [
+      {
+        "labelTop": 535.9349975585938,
+        "labelBottom": 577.6650390625,
+        "top": 405.92999267578125,
+        "bottom": 621,
+        "visible": 194.07000732421875,
+        "height": 215.07000732421875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 547.5,
+        "labelBottom": 586.5,
+        "top": 426,
+        "bottom": 627,
+        "visible": 174,
+        "height": 201,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 557.25,
+        "labelBottom": 576.75,
+        "top": 426,
+        "bottom": 627,
+        "visible": 174,
+        "height": 201,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 557.25,
+        "labelBottom": 576.75,
+        "top": 426,
+        "bottom": 627,
+        "visible": 174,
+        "height": 201,
+        "pattern": "none"
+      }
+    ],
+    "gap": 35.92999267578125,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 820,
+    "h": 600,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 94,
+      "bottom": 370,
+      "height": 276,
+      "width": 523.59375
+    },
+    "stageHeight": 456,
+    "cards": [
+      {
+        "labelTop": 534.5399780273438,
+        "labelBottom": 576.27001953125,
+        "top": 406.1399841308594,
+        "bottom": 618,
+        "visible": 193.86001586914062,
+        "height": 211.86001586914062,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 546,
+        "labelBottom": 585,
+        "top": 426,
+        "bottom": 624,
+        "visible": 174,
+        "height": 198,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 555.75,
+        "labelBottom": 575.25,
+        "top": 426,
+        "bottom": 624,
+        "visible": 174,
+        "height": 198,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 555.75,
+        "labelBottom": 575.25,
+        "top": 426,
+        "bottom": 624,
+        "visible": 174,
+        "height": 198,
+        "pattern": "none"
+      }
+    ],
+    "gap": 36.139984130859375,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 761,
+    "h": 600,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 94,
+      "bottom": 370,
+      "height": 276,
+      "width": 482.296875
+    },
+    "stageHeight": 473.6875,
+    "cards": [
+      {
+        "labelTop": 543.9871826171875,
+        "labelBottom": 585.7171630859375,
+        "top": 425.06671142578125,
+        "bottom": 617.984375,
+        "visible": 174.93328857421875,
+        "height": 192.91766357421875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 554.828125,
+        "labelBottom": 593.828125,
+        "top": 443.6875,
+        "bottom": 623.984375,
+        "visible": 156.3125,
+        "height": 180.296875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 564.578125,
+        "labelBottom": 584.078125,
+        "top": 443.6875,
+        "bottom": 623.984375,
+        "visible": 156.3125,
+        "height": 180.296875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 564.578125,
+        "labelBottom": 584.078125,
+        "top": 443.6875,
+        "bottom": 623.984375,
+        "visible": 156.3125,
+        "height": 180.296875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 55.06671142578125,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 820,
+    "h": 1180,
+    "pass": true,
+    "partial": true,
+    "labelsVisible": true,
+    "panel": {
+      "top": 121.1875,
+      "bottom": 756.78125,
+      "height": 635.59375,
+      "width": 463.75
+    },
+    "stageHeight": 1036,
+    "cards": [
+      {
+        "labelTop": 1114.5400390625,
+        "labelBottom": 1156.27001953125,
+        "top": 986.1400146484375,
+        "bottom": 1198,
+        "visible": 193.8599853515625,
+        "height": 211.8599853515625,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1126,
+        "labelBottom": 1165,
+        "top": 1006,
+        "bottom": 1204,
+        "visible": 174,
+        "height": 198,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1135.75,
+        "labelBottom": 1155.25,
+        "top": 1006,
+        "bottom": 1204,
+        "visible": 174,
+        "height": 198,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 1135.75,
+        "labelBottom": 1155.25,
+        "top": 1006,
+        "bottom": 1204,
+        "visible": 174,
+        "height": 198,
+        "pattern": "none"
+      }
+    ],
+    "gap": 229.3587646484375,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 390,
+    "h": 844,
+    "pass": true,
+    "partial": false,
+    "labelsVisible": false,
+    "panel": {
+      "top": 96,
+      "bottom": 535.28125,
+      "height": 439.28125,
+      "width": 350
+    },
+    "stageHeight": 659.28125,
+    "cards": [
+      {
+        "labelTop": 755.68359375,
+        "labelBottom": 799.3570556640625,
+        "top": 647.2218627929688,
+        "bottom": 837.46875,
+        "visible": 190.24688720703125,
+        "height": 190.24688720703125,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 762.578125,
+        "labelBottom": 804.171875,
+        "top": 659.28125,
+        "bottom": 840.46875,
+        "visible": 181.1875,
+        "height": 181.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 976.15625,
+        "labelBottom": 996.953125,
+        "top": 862.46875,
+        "bottom": 1043.65625,
+        "visible": 0,
+        "height": 181.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 976.15625,
+        "labelBottom": 996.953125,
+        "top": 862.46875,
+        "bottom": 1043.65625,
+        "visible": 0,
+        "height": 181.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 111.94061279296875,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  },
+  {
+    "w": 320,
+    "h": 740,
+    "pass": true,
+    "partial": false,
+    "labelsVisible": false,
+    "panel": {
+      "top": 96,
+      "bottom": 616.109375,
+      "height": 520.109375,
+      "width": 280
+    },
+    "stageHeight": 740.109375,
+    "cards": [
+      {
+        "labelTop": 813.5265502929688,
+        "labelBottom": 851.7203369140625,
+        "top": 730.1500244140625,
+        "bottom": 876.296875,
+        "visible": 9.8499755859375,
+        "height": 146.1468505859375,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 819.515625,
+        "labelBottom": 855.890625,
+        "top": 740.109375,
+        "bottom": 879.296875,
+        "visible": 0,
+        "height": 139.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 989.796875,
+        "labelBottom": 1007.984375,
+        "top": 901.296875,
+        "bottom": 1040.484375,
+        "visible": 0,
+        "height": 139.1875,
+        "pattern": "none"
+      },
+      {
+        "labelTop": 989.796875,
+        "labelBottom": 1007.984375,
+        "top": 901.296875,
+        "bottom": 1040.484375,
+        "visible": 0,
+        "height": 139.1875,
+        "pattern": "none"
+      }
+    ],
+    "gap": 114.0406494140625,
+    "overflow": false,
+    "mask": "linear-gradient(to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.7) 28%, rgba(0, 0, 0, 0) 75%), url(\"http://127.0.0.1:5173/identity/textura_gobierno_mexico_2024_2030.svg\")",
+    "errors": []
+  }
+]

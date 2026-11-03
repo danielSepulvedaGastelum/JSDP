@@ -1,0 +1,41 @@
+{
+  "productionTsxUnchanged": true,
+  "productionCssUnchanged": true,
+  "originalImssUnchanged": true,
+  "originalAppUnchanged": true,
+  "imssGeometryUnchanged": true,
+  "jsdpGeometryUnchanged": true,
+  "paletteContrastAgainstLightestGradient": {
+    "#fffaf2": 8.48,
+    "#d7e1dc": 6.59,
+    "#c0d9ca": 5.89,
+    "#f1f5ef": 8,
+    "#9fc7b4": 4.74,
+    "#edd899": 6.25,
+    "#cddbd3": 6.16
+  },
+  "viewportChecks": 12,
+  "viewports": [
+    1440,
+    1024,
+    390,
+    320
+  ],
+  "allChecksNoOverflow": true,
+  "svgFiles": [
+    "birrete-linea.svg",
+    "birrete-solido.svg",
+    "cubo-firme.svg",
+    "cubo-linea.svg",
+    "gobierno-blanco.svg",
+    "imss-claro.svg",
+    "jsdp-sonora-claro.svg",
+    "patron-footer.svg",
+    "sonora-claro.svg"
+  ],
+  "allImagesLoaded": true,
+  "activeLinksMatchProduction": true,
+  "allPendingPreserved": true,
+  "regularSymbolsMatchHeadingSize": true,
+  "allGalleryTargetsExist": true
+}

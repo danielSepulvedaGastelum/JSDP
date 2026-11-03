@@ -1,0 +1,48 @@
+{
+  "title": "Landing JSDP — ronda sobria y espaciosa",
+  "question": "Compara las tres propuestas. Todas reducen la saturación, amplían el espacio entre secciones y rediseñan el organigrama sin azul. Elige una, solicita una combinación o pide otra iteración.",
+  "options": [
+    {
+      "id": "sala-civica",
+      "kind": "assigned",
+      "label": "Sala cívica",
+      "kicker": "OPCIÓN A",
+      "lineage": "Recepción institucional contemporánea",
+      "thesis": "Una entrada pública clara donde cada bloque respira y la jerarquía institucional se comprende de inmediato.",
+      "palette": ["#FFFFFF", "#F3F4F2", "#154F3A", "#B58B2A"],
+      "materials": ["superficie blanca", "bandas gris cálido", "líneas institucionales"],
+      "viewport": "Un encabezado IMSS sobrio y un Hero blanco de gran escala conducen hacia secciones amplias y un organigrama nítido.",
+      "risk": "Es la alternativa más convencional; depende del ritmo y la tipografía para resultar memorable.",
+      "comp": ".impeccable/mocks/decision/landing-iteration4-a-sala-civica.png"
+    },
+    {
+      "id": "archivo-abierto",
+      "kind": "dealt",
+      "label": "Archivo institucional abierto",
+      "kicker": "OPCIÓN B",
+      "lineage": "Documento público convertido en experiencia web",
+      "thesis": "La Landing se lee como un expediente institucional abierto, ordenado y contemporáneo.",
+      "palette": ["#FFFFFF", "#F5F5F3", "#174F3D", "#AE842B"],
+      "materials": ["papel claro", "folios", "reglas doradas finas"],
+      "viewport": "Una portada editorial ligera abre una secuencia de capítulos separados por abundante espacio en blanco.",
+      "risk": "Su ritmo editorial exige una adaptación móvil cuidadosa para conservar la jerarquía sin alargar demasiado la lectura.",
+      "comp": ".impeccable/mocks/decision/landing-iteration4-b-archivo-abierto.png"
+    },
+    {
+      "id": "patio-institucional",
+      "kind": "dealt",
+      "label": "Patio institucional",
+      "kicker": "OPCIÓN C",
+      "lineage": "Espacio cívico, recorrido y estructura",
+      "thesis": "La página crea una pausa institucional: grandes vacíos blancos guían hacia un organigrama espacial e interactivo.",
+      "palette": ["#FFFFFF", "#F1F2F0", "#165440", "#BD8C27"],
+      "materials": ["espacio negativo", "planos pálidos", "conectores de recorrido"],
+      "viewport": "Un Hero asimétrico casi blanco utiliza una línea de recorrido mínima antes de desplegar secciones muy separadas.",
+      "risk": "Es la alternativa más silenciosa; si se reduce demasiado el contraste puede sentirse excesivamente austera.",
+      "comp": ".impeccable/mocks/decision/landing-iteration4-c-patio-institucional.png"
+    }
+  ],
+  "buildPath": {"value": "comp", "toggle": true},
+  "canon": false,
+  "steer": false
+}

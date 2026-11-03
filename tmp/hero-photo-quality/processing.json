@@ -1,0 +1,45 @@
+{
+  "method": "Non-generative Lanczos3 enlargement, very mild sharpening, no crop or palette adjustment; WebP quality 92 effort 6 smartSubsample photo",
+  "sharp": "0.34.5",
+  "sourceHashes": {
+    "Unidad_Medica": "8007db747dbafc419cd3da65a7894b1cf36bd98d04fd2267f423a672fea30510",
+    "Unidad_No_Medica": "0f7963f038eb7b35eb6d1c6dc0e6b4c5ce5d04a7510a576c8f4f2500ef35e7f5",
+    "Personas": "e9ff0804de88abbccb7fb3666daac8121bc215ba5ca5a46dc8d489e268e69746",
+    "Coordinacion": "aa592f7f2c5eb1e98884a347737ef6f5fe6e3a8f5920d85581d8d63bb259edf9"
+  },
+  "files": [
+    {
+      "file": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero_Unidad_Medica.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 561960,
+      "sha256": "535799f24c6c69b2dc0ea936ce5356f03a04ee1dbdd49bc0bc2bc83f2b5da366",
+      "originalUnchanged": true
+    },
+    {
+      "file": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero_Unidad_No_Medica.webp",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 387794,
+      "sha256": "baa5bcc8e7cacf172191a9f5a7b97ec223f89e3adf65214a89e8dbfc8cce765b",
+      "originalUnchanged": true
+    },
+    {
+      "file": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero_Personas.webp",
+      "width": 3840,
+      "height": 2249,
+      "bytes": 375382,
+      "sha256": "521ae7b9d0c0bb1c718af4b5a027cfa2999986da40b2156c337d7af34b9e50ea",
+      "originalUnchanged": true
+    },
+    {
+      "file": "C:/Desarrollo/JSDP/docs/identidad-institucional/hero_Coordinacion.webp",
+      "width": 3840,
+      "height": 2562,
+      "bytes": 377554,
+      "sha256": "c6eb46913a764f573903070966ff57c6f313690f61c1a644b8c3bab2bb66fbb7",
+      "originalUnchanged": true
+    }
+  ],
+  "limitation": "4K pixel dimensions; real source detail is limited to 547–800 pixels width. Generative trial rejected because it reconstructed scene detail."
+}

@@ -1,0 +1,19 @@
+{
+  "reviewer": "impeccable_finish_reviewer; contexto fresco",
+  "disposition": "ship",
+  "scope": "Prototipos R, S y T; no implementación en producción",
+  "persistence": "Siete capturas requeridas válidas y completas: tres escritorios, tres móviles y una comparativa de titulares. HTML, CSS, SVG, fuentes y registros revisados sin repetir pruebas.",
+  "fidelity": {
+    "type": "match",
+    "material": "match",
+    "ground": "match",
+    "compositionP": "match",
+    "variantTreatments": "match",
+    "symbols": "match",
+    "jsdpMark": "match"
+  },
+  "ceiling": "Sin problemas materiales visibles de alineación, contraste o desbordamiento. Las verificaciones de 1024 y 320 se apoyan en el registro de las12capturas.",
+  "detectorAssessment": "Los3avisos cramped-padding del borde derecho heredado son falsos positivos específicos: existe inset24px y el borde desaparece en los tamaños inferiores. No se ignora globalmente la regla.",
+  "material_fixes": [],
+  "keep": "Conservar geometría P, contenido, paleta, ornamento y movimiento; completar solo galería y documentación de prototipos."
+}

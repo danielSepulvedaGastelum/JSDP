@@ -1,0 +1,6 @@
+{
+  "proposal": "A — Sala cívica",
+  "finalEditPrompt": "Preservar la composición Sala cívica, el aire, las superficies blancas y grises y el organigrama. Corregir jerarquía institucional: IMSS como única identidad dominante en header y Gobierno de México pequeño en footer. Usar únicamente contenido verificado, Misión y Visión literales, los valores Solidaridad, Compromiso, Integridad, Lealtad, Innovación, Empatía y Disciplina, y accesos Documentos, Iniciar sesión y Próximamente. Mantener organigrama sin azul con nombres reales. Sin fotografía, guinda ni funciones inventadas.",
+  "tool": "built-in image_gen",
+  "approved": false
+}

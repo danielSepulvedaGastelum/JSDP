@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "rol": "impeccable_documenter",
+  "fecha": "2026-10-31",
+  "resultado": "Documentación completa de la corrección local posterior a T; SHIP existente registrado.",
+  "alcance": "Solo dos párrafos añadidos al brief y este JSON; sin README ni cambios de producción o globales en esta entrega.",
+  "sustitucion": "Las medidas de los cuatro símbolos y las pinturas de los cinco titulares y del patrón sustituyen esas propiedades de T; se conserva todo el historial.",
+  "fuentes": {
+    "base": "T implementada y revisada, según scope.json: beforeSourceMatchesReviewedT=true.",
+    "registros": [
+      "scope.json",
+      "verification.json",
+      "detector.json",
+      "review.json",
+      "build.log"
+    ],
+    "assets_footer": [
+      {
+        "ruta": "apps/web/public/identity/footer/cubo-firme.svg",
+        "pintura": "#edd899",
+        "geometria_y_alfa_intactas": true
+      },
+      {
+        "ruta": "apps/web/public/identity/footer/birrete-solido.svg",
+        "pintura": "#edd899",
+        "geometria_y_alfa_intactas": true
+      },
+      {
+        "ruta": "apps/web/public/identity/footer/sonora-claro.svg",
+        "pintura": "#edd899",
+        "geometria_y_alfa_intactas": true
+      },
+      {
+        "ruta": "apps/web/public/identity/footer/jsdp-sonora-claro.svg",
+        "pintura": "#edd899",
+        "geometria_y_alfa_intactas": true
+      },
+      {
+        "ruta": "apps/web/public/identity/footer/imss-dorado.svg",
+        "pintura": "#edd899",
+        "geometria_y_alfa_intactas": true
+      }
+    ],
+    "imss": "Nuevo imss-dorado.svg para el titular, derivado del IMSS claro; recurso blanco compartido de cabecera intacto.",
+    "markup_normalizado": "Idéntico salvo pintura, según scope.json del agente de implementación.",
+    "maestros_docs": "Conservados; las escrituras SVG se limitaron a public/identity/footer/."
+  },
+  "propiedades_vigentes": {
+    "simbolos_cuatro": {
+      "antes": "1em",
+      "ahora": "1.2em",
+      "incremento_porcentaje": 20,
+      "escritorio_px": 30,
+      "movil_nominal_px": 31.2,
+      "movil_chrome_px": 31.1875
+    },
+    "jsdp": {
+      "tamano": "1.3em sin cambio",
+      "escritorio_px": 32.5,
+      "movil_px": 33.796875
+    },
+    "cinco_logos_y_letras": "#edd899",
+    "patron": {
+      "antes": "#7f9f8a",
+      "ahora": "#6b8b79",
+      "contraste_contra_base": {
+        "antes": 4.83,
+        "ahora": 3.74
+      }
+    }
+  },
+  "evidencia": {
+    "directorio": "output/footer-iconos-dorados-2026-10-31",
+    "verification": {
+      "archivo": "verification.json",
+      "anchos_px": [
+        1440,
+        1024,
+        390,
+        320
+      ],
+      "sin_recortes_overflow_errores": true,
+      "delta_maximo_footer_grupos_enlaces_jsdp_px": 0,
+      "urls_conservadas": 13,
+      "pendientes": 2,
+      "degradado_intacto": true,
+      "movimiento_normal": {
+        "name": "footer-ornament-drift",
+        "duration": "36s",
+        "iterations": "infinite",
+        "state": "running",
+        "maskMode": "alpha",
+        "backgroundColor": "rgb(107, 139, 121)"
+      },
+      "reduced_motion": "none",
+      "nota_captura": "Footer aislado; navegación fija ajena ocultada solo durante la captura. Estilos fuente sin cambios por la captura."
+    },
+    "build": {
+      "archivo": "build.log",
+      "resultado": "tsc --noEmit y Vite aprobados"
+    },
+    "detector": {
+      "archivo": "detector.json",
+      "hallazgos": []
+    },
+    "revision": {
+      "archivo": "review.json",
+      "contexto_fresco": true,
+      "disposicion": "ship",
+      "correcciones_materiales": [],
+      "capturas_validas": 4
+    },
+    "capturas": [
+      "desktop.png",
+      "1024.png",
+      "mobile.png",
+      "320.png"
+    ]
+  },
+  "preservacion": {
+    "layout_links_degradado_y_movimiento": true,
+    "efecto_ornamento_sin_cambios": true,
+    "css_ornamento_sin_cambios": "Conservado salvo el cambio de tinta del patrón solicitado.",
+    "header_imss_bytes_intactos": true,
+    "historial_brief": "Conservado íntegramente; solo se añaden dos párrafos.",
+    "produccion_y_product_design_design_json_config": "Sin escrituras durante esta entrega documental.",
+    "lecturas_globales_repetidas": false,
+    "skills_releidas": false,
+    "pruebas_build_detector_revision_repetidos": false,
+    "navegador_abierto": false
+  },
+  "limites": "Evidencia existente del footer en los cuatro anchos y estados registrados; sin certificación global del sitio, conectividad real de destinos, igualdad completa de píxeles ni benchmark FPS.",
+  "rutas_cambiadas": [
+    "apps/web/.impeccable/surfaces/c-features-public-landing-landingpage-tsx-a74d86b8.md",
+    "output/footer-iconos-dorados-2026-10-31/documentacion.json"
+  ]
+}

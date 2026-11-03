@@ -1,0 +1,85 @@
+{
+  "request": "Símbolos de titulares20%mayores salvoJSDP; todos#edd899, patrónatenuado.",
+  "changedProductionFiles": [
+    "apps/web/src/features/public/landing/LandingFooter.tsx",
+    "apps/web/src/features/public/landing/LandingFooter.css",
+    "apps/web/public/identity/footer/cubo-firme.svg",
+    "apps/web/public/identity/footer/birrete-solido.svg",
+    "apps/web/public/identity/footer/sonora-claro.svg",
+    "apps/web/public/identity/footer/jsdp-sonora-claro.svg",
+    "apps/web/public/identity/footer/imss-dorado.svg"
+  ],
+  "size": {
+    "regularBefore": "1em",
+    "regularAfter": "1.2em",
+    "desktopBefore": 25,
+    "desktopAfter": 30,
+    "mobileBefore": 26,
+    "mobileNominalAfter": 31.2,
+    "mobileMeasuredAfter": 31.1875,
+    "jsdp": "1.3em unchanged;32.5/33.796875px"
+  },
+  "paint": {
+    "allLogoPaints": "#edd899",
+    "headingPaint": "rgb(237, 216, 153)",
+    "contrastAgainstBrightestGradient": 6.25
+  },
+  "pattern": {
+    "before": "#7f9f8a",
+    "after": "#6b8b79",
+    "contrastAgainstBaseBefore": 4.83,
+    "contrastAgainstBaseAfter": 3.74,
+    "method": "Tono salvia más oscuro y apagado; huecos y máscara alfa intactos."
+  },
+  "assets": [
+    {
+      "file": "cubo-firme.svg",
+      "geometryAndAlphaUnchanged": true,
+      "paints": [
+        "#edd899"
+      ],
+      "sha256": "33adc83d2155905e0c49a7cbc155682eef31ff9b7057bb50866d21de086120fa"
+    },
+    {
+      "file": "birrete-solido.svg",
+      "geometryAndAlphaUnchanged": true,
+      "paints": [
+        "#edd899"
+      ],
+      "sha256": "42f7fc94488535193d845b03ba93e6aa5257d6974fa01c6d54d5ffbb4ce66e41"
+    },
+    {
+      "file": "sonora-claro.svg",
+      "geometryAndAlphaUnchanged": true,
+      "paints": [
+        "#edd899"
+      ],
+      "sha256": "319bc7f999d32d6b12f3c0e48e7847e0315af4d15f01910bfd219cd180848daa"
+    },
+    {
+      "file": "jsdp-sonora-claro.svg",
+      "geometryAndAlphaUnchanged": true,
+      "paints": [
+        "#edd899"
+      ],
+      "sha256": "2797d0c45fa9d0ad47d89de5fdc8edbe6a15abd6271633f1a61c5176489e1049"
+    },
+    {
+      "file": "imss-dorado.svg",
+      "geometryAndAlphaUnchanged": true,
+      "paints": [
+        "#edd899"
+      ],
+      "sha256": "ee1a6d5f5fd75713f43ce820b87df04299e6c9ecf8209340a8159fb3538d6d3f"
+    }
+  ],
+  "headerImssBytesUnchanged": true,
+  "beforeSourceMatchesReviewedT": true,
+  "ornamentEffectUnchanged": true,
+  "ornamentCssUnchanged": true,
+  "sourceHashes": {
+    "tsx": "45bb409b269adab08199667d0b9162ece252a028ae6b60af501475b99b87c28b",
+    "css": "cd76bf1fcaa6990c72fb373c3f51afa560576e37527c7db3a6eacd29fbe30926"
+  },
+  "newDependencies": false
+}

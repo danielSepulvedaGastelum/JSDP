@@ -1,0 +1,226 @@
+[
+  {
+    "width": 1920,
+    "height": 944,
+    "panelHeight": 585.265625,
+    "cards": [
+      {
+        "top": 828.390625,
+        "bottom": 1060.78125,
+        "gap": 123.375,
+        "pattern": "none"
+      },
+      {
+        "top": 849.59375,
+        "bottom": 1066.78125,
+        "gap": 144.578125,
+        "pattern": "none"
+      },
+      {
+        "top": 849.59375,
+        "bottom": 1066.78125,
+        "gap": 144.578125,
+        "pattern": "none"
+      },
+      {
+        "top": 849.59375,
+        "bottom": 1066.78125,
+        "gap": 144.578125,
+        "pattern": "none"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "panelHeight": 669.59375,
+    "cards": [
+      {
+        "top": 954.796875,
+        "bottom": 1187.1875,
+        "gap": 160.015625,
+        "pattern": "none"
+      },
+      {
+        "top": 976,
+        "bottom": 1193.1875,
+        "gap": 181.21875,
+        "pattern": "none"
+      },
+      {
+        "top": 976,
+        "bottom": 1193.1875,
+        "gap": 181.21875,
+        "pattern": "none"
+      },
+      {
+        "top": 976,
+        "bottom": 1193.1875,
+        "gap": 181.21875,
+        "pattern": "none"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "panelHeight": 476.15625,
+    "cards": [
+      {
+        "top": 669.984375,
+        "bottom": 902.375,
+        "gap": 81.109375,
+        "pattern": "none"
+      },
+      {
+        "top": 691.1875,
+        "bottom": 908.375,
+        "gap": 102.3125,
+        "pattern": "none"
+      },
+      {
+        "top": 691.1875,
+        "bottom": 908.375,
+        "gap": 102.3125,
+        "pattern": "none"
+      },
+      {
+        "top": 691.1875,
+        "bottom": 908.375,
+        "gap": 102.3125,
+        "pattern": "none"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "panelHeight": 446.390625,
+    "cards": [
+      {
+        "top": 626.796875,
+        "bottom": 859.1875,
+        "gap": 69.609375,
+        "pattern": "none"
+      },
+      {
+        "top": 648,
+        "bottom": 865.1875,
+        "gap": 90.8125,
+        "pattern": "none"
+      },
+      {
+        "top": 648,
+        "bottom": 865.1875,
+        "gap": 90.8125,
+        "pattern": "none"
+      },
+      {
+        "top": 648,
+        "bottom": 865.1875,
+        "gap": 90.8125,
+        "pattern": "none"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "height": 600,
+    "panelHeight": 372,
+    "cards": [
+      {
+        "top": 515.9299926757812,
+        "bottom": 731,
+        "gap": 45.92999267578125,
+        "pattern": "none"
+      },
+      {
+        "top": 536,
+        "bottom": 737,
+        "gap": 66,
+        "pattern": "none"
+      },
+      {
+        "top": 536,
+        "bottom": 737,
+        "gap": 66,
+        "pattern": "none"
+      },
+      {
+        "top": 536,
+        "bottom": 737,
+        "gap": 66,
+        "pattern": "none"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "height": 600,
+    "panelHeight": 372,
+    "cards": [
+      {
+        "top": 516.1400146484375,
+        "bottom": 728,
+        "gap": 46.1400146484375,
+        "pattern": "none"
+      },
+      {
+        "top": 536,
+        "bottom": 734,
+        "gap": 66,
+        "pattern": "none"
+      },
+      {
+        "top": 536,
+        "bottom": 734,
+        "gap": 66,
+        "pattern": "none"
+      },
+      {
+        "top": 536,
+        "bottom": 734,
+        "gap": 66,
+        "pattern": "none"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 761,
+    "height": 600,
+    "panelHeight": 406.46875,
+    "cards": [
+      {
+        "top": 541.8479614257812,
+        "bottom": 734.765625,
+        "gap": 37.37921142578125,
+        "pattern": "none"
+      },
+      {
+        "top": 560.46875,
+        "bottom": 740.765625,
+        "gap": 56,
+        "pattern": "none"
+      },
+      {
+        "top": 560.46875,
+        "bottom": 740.765625,
+        "gap": 56,
+        "pattern": "none"
+      },
+      {
+        "top": 560.46875,
+        "bottom": 740.765625,
+        "gap": 56,
+        "pattern": "none"
+      }
+    ],
+    "overflow": false
+  }
+]

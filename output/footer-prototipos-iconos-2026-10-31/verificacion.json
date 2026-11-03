@@ -1,0 +1,1298 @@
+[
+  {
+    "proposal": "S",
+    "width": 1440,
+    "height": 888,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 100,
+        "y": 222
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 529.328125,
+        "y": 222
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 958.65625,
+        "y": 222
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 529.328125,
+        "y": 520
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 107.75,
+            "height": 32.5,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 958.65625,
+        "y": 520
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "T",
+    "width": 1440,
+    "height": 888,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 100,
+        "y": 222
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/cubo-firme.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 529.328125,
+        "y": 222
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/birrete-solido.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 958.65625,
+        "y": 222
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 529.328125,
+        "y": 520
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 107.75,
+            "height": 32.5,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 958.65625,
+        "y": 520
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "R",
+    "width": 1440,
+    "height": 888,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 100,
+        "y": 222
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 529.328125,
+        "y": 222
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 958.65625,
+        "y": 222
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 529.328125,
+        "y": 520
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 107.75,
+            "height": 32.5,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 958.65625,
+        "y": 520
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "R",
+    "width": 1024,
+    "height": 1022,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 40,
+        "y": 206
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 532,
+        "y": 206
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 40,
+        "y": 552
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 532,
+        "y": 552
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 107.75,
+            "height": 32.5,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 40,
+        "y": 751
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "T",
+    "width": 1024,
+    "height": 1022,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 40,
+        "y": 206
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/cubo-firme.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 532,
+        "y": 206
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/birrete-solido.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 40,
+        "y": 552
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 532,
+        "y": 552
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 107.75,
+            "height": 32.5,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 40,
+        "y": 751
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "S",
+    "width": 1024,
+    "height": 1022,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 40,
+        "y": 206
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 532,
+        "y": 206
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 40,
+        "y": 552
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 25,
+            "height": 25,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 532,
+        "y": 552
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "25px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 107.75,
+            "height": 32.5,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 40,
+        "y": 751
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "T",
+    "width": 390,
+    "height": 1580.15625,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 228.8125
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/cubo-firme.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 556.234375
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/birrete-solido.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 837.859375
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 1027.890625
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 112.046875,
+            "height": 33.796875,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 20,
+        "y": 1242.71875
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "S",
+    "width": 390,
+    "height": 1580.15625,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 228.8125
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 556.234375
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 837.859375
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 1027.890625
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 112.046875,
+            "height": 33.796875,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 20,
+        "y": 1242.71875
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "R",
+    "width": 390,
+    "height": 1580.15625,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 228.8125
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 556.234375
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 837.859375
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 1027.890625
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 112.046875,
+            "height": 33.796875,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 20,
+        "y": 1242.71875
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "S",
+    "width": 320,
+    "height": 1621.953125,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 270.609375
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 598.03125
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 879.65625
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 1069.6875
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 112.046875,
+            "height": 33.796875,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 20,
+        "y": 1284.515625
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "R",
+    "width": 320,
+    "height": 1621.953125,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 270.609375
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/cubo-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 598.03125
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/birrete-linea.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 879.65625
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 1069.6875
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 112.046875,
+            "height": 33.796875,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 20,
+        "y": 1284.515625
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  },
+  {
+    "proposal": "T",
+    "width": 320,
+    "height": 1621.953125,
+    "headings": [
+      {
+        "text": "Enlaces IMSS",
+        "accessibleName": "Enlaces IMSS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/imss-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 270.609375
+      },
+      {
+        "text": "CUBOS",
+        "accessibleName": "CUBOS",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/cubo-firme.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 598.03125
+      },
+      {
+        "text": "Capacitación",
+        "accessibleName": "Capacitación",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/birrete-solido.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 879.65625
+      },
+      {
+        "text": "IMSS Sonora",
+        "accessibleName": "IMSS Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/sonora-claro.svg",
+            "width": 26,
+            "height": 26,
+            "loaded": true,
+            "alt": ""
+          }
+        ],
+        "x": 20,
+        "y": 1069.6875
+      },
+      {
+        "text": "",
+        "accessibleName": "JSDP Sonora",
+        "fontSize": "26px",
+        "icons": [
+          {
+            "src": "assets/jsdp-sonora-claro.svg",
+            "width": 112.046875,
+            "height": 33.796875,
+            "loaded": true,
+            "alt": "JSDP Sonora"
+          }
+        ],
+        "x": 20,
+        "y": 1284.515625
+      }
+    ],
+    "links": [
+      "https://siap.imss.gob.mx/",
+      "http://www.imss.gob.mx/",
+      "http://intranet/Paginas/index.aspx",
+      "https://rh.imss.gob.mx/Personal/TarjetonDigital/",
+      "https://rh.imss.gob.mx/Personal/tarjetonjubilados/",
+      "http://172.17.246.66/cubos27/sdeleg/menu/sisinf.htm",
+      "http://172.17.246.66/cubos27/rdeleg/menu/rellab.htm",
+      "http://172.17.246.66/cubos27/cdeleg/menu/capac.htm",
+      "http://172.17.246.66/cubos27/U27EA02/menu/umae.htm",
+      "https://sicaviqa.imss.gob.mx/SICAVIMSS/",
+      "https://escuela.buengobierno.gob.mx/",
+      "http://172.24.98.216/portalinfo/",
+      "http://172.24.98.216/personal/"
+    ],
+    "pending": 2,
+    "overflow": false,
+    "textOverflow": [],
+    "failedImages": [],
+    "gradient": "linear-gradient(135deg, rgb(32, 83, 68) 0%, rgb(16, 49, 43) 52%, rgb(8, 35, 30) 100%)",
+    "patternColor": "rgb(127, 159, 138)"
+  }
+]

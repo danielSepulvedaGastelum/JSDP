@@ -1,0 +1,8 @@
+{
+  "proposal": "A — Red humana institucional",
+  "tool": "built-in image_gen",
+  "approved": false,
+  "intent": "Landing mayormente blanca que representa la coordinación de personal mediante una red humana sobria y un organigrama cromático formal.",
+  "prompt": "Mockup de alta fidelidad para JSDP OOAD 27 Sonora; fondo blanco y gris claro, verde IMSS como remate, oro mínimo, red humana abstracta, contenido institucional real y organigrama sin azul.",
+  "postprocess": "Logotipo_del_IMSS.svg fue superpuesto sin transformación de forma o color; el generador dejó reservada el área de marca."
+}

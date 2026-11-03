@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "rol": "impeccable_documenter",
+  "fecha": "2026-10-31",
+  "resultado_documentacion": "completa",
+  "alcance": "Exploración de tres prototipos sobre el footer P; sin implementación en producción.",
+  "seleccion_aprobada": null,
+  "recomendacion_galeria": "T; no equivale a selección aprobada",
+  "cambio_global_sistema": false,
+  "entrada": "index.html",
+  "archivos": {
+    "comparativa": [
+      "detalle-titulares.html",
+      "comparativa-titulares-1x.png"
+    ],
+    "estilos": [
+      "footer-actual.css",
+      "prototipos.css",
+      "galeria.css"
+    ],
+    "capturas": "PNG homónimos en la raíz y en movil/",
+    "recursos": "assets/: SVG y fuente Patria"
+  },
+  "variantes": [
+    {
+      "id": "R",
+      "html": "R-iconos-integrados.html",
+      "diferencia": "Símbolos blancos sin marco, con cubo y birrete de línea fina. Mantiene la apariencia más cercana al footer actual."
+    },
+    {
+      "id": "S",
+      "html": "S-iconos-enmarcados.html",
+      "diferencia": "Los mismos símbolos pequeños dentro de un marco sutil; los títulos dorados y la marca JSDP permanecen libres de rellenos."
+    },
+    {
+      "id": "T",
+      "html": "T-iconos-de-mayor-definicion.html",
+      "diferencia": "Cubo con aristas más firmes y birrete sólido, junto a las siluetas oficiales. Favorece la identificación al verlos pequeños."
+    }
+  ],
+  "fuentes_svg": {
+    "imss": {
+      "fuente": "docs/identidad-institucional/Logotipo_del_IMSS.svg",
+      "tratamiento": "#154f3a → #fffaf2; geometría intacta"
+    },
+    "cubos": {
+      "fuente": "SVG creados; nueve aristas sin relleno",
+      "trazos_viewbox_24": [
+        1.5,
+        2
+      ]
+    },
+    "birretes": "SVG creados; contorno fino y silueta sólida",
+    "sonora": {
+      "fuente": "docs/identidad-institucional/Silueta_Sonora.jpg",
+      "trazado": "Contorno del área rosa de la imagen 354 × 394; simplificación 1.25 px; 124 vértices."
+    },
+    "jsdp": {
+      "fuente": "docs/identidad-institucional/JSDP-Sonora-11.svg",
+      "tratamiento": "Marca completa; solo paleta, sin alterar geometría ni composición.",
+      "paleta": {
+        "#154f3a": "#fffaf2",
+        "#9d9fa1": "#d7e1dc",
+        "#024c37": "#c0d9ca",
+        "#303030": "#f1f5ef",
+        "#09634f": "#9fc7b4",
+        "#b58d32": "#edd899",
+        "#999999": "#cddbd3"
+      }
+    },
+    "heredados": "gobierno-blanco.svg y patron-footer.svg del footer P",
+    "originales_intactos": true,
+    "geometria_svg_original_conservada": true
+  },
+  "medidas_px": {
+    "iconos": {
+      "escritorio": 25,
+      "movil": 26
+    },
+    "alto_marca_jsdp": {
+      "escritorio": 32.5,
+      "movil": 33.8
+    }
+  },
+  "conservado": {
+    "base": "P",
+    "distribucion": true,
+    "contenido": true,
+    "degradado": true,
+    "ornamento_y_movimiento": true,
+    "enlaces": 13,
+    "opciones_pendientes": 2
+  },
+  "evidencia_existente": {
+    "registros": [
+      "registro.json",
+      "verificacion.json",
+      "verificacion-final.json"
+    ],
+    "comprobaciones_viewport": 12,
+    "anchos_px": [
+      1440,
+      1024,
+      390,
+      320
+    ],
+    "sin_desbordamientos": true,
+    "imagenes_cargadas": true,
+    "procedencia_png": "Capturas Chromium de HTML/CSS local; sin generación de imágenes por IA.",
+    "revision": {
+      "archivo": "revision.json",
+      "contexto": "fresco",
+      "disposicion": "ship",
+      "prototipos": [
+        "R",
+        "S",
+        "T"
+      ],
+      "capturas_validas": 7,
+      "correcciones_materiales": 0
+    },
+    "detector": {
+      "archivo": "detector.json",
+      "avisos": 3,
+      "regla": "cramped-padding",
+      "resolucion": "Falsos positivos específicos: separador IMSS heredado con inset de 24 px; borde ausente en tamaños inferiores.",
+      "exencion_global": false
+    }
+  },
+  "fuente_vs_sistema": {
+    "fuente": "HTML/CSS/SVG y registros describen estos prototipos; no definen normas globales.",
+    "contexto_producto_leido": "apps/web/PRODUCT.md",
+    "promocion_a_design_md_design_json_o_brief_produccion": false
+  },
+  "produccion": {
+    "tsx_sin_cambios": true,
+    "css_sin_cambios": true,
+    "evidencia": "verificacion-final.json"
+  },
+  "pruebas_navegador_o_revision_repetidos": false,
+  "rutas_cambiadas": [
+    "output/footer-prototipos-iconos-2026-10-31/README.md",
+    "output/footer-prototipos-iconos-2026-10-31/documentacion.json"
+  ]
+}

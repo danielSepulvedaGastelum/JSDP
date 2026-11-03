@@ -1,0 +1,57 @@
+[
+  {
+    "name": "desktop",
+    "label": "Unidades médicas",
+    "description": "Unidades médicas",
+    "photo": "/identity/hero2_Unidad_Medica.webp",
+    "loaded": true,
+    "gap": 34.796875,
+    "visibleCards": 4,
+    "overflow": false,
+    "topColor": "rgb(132, 96, 27)"
+  },
+  {
+    "name": "desktop",
+    "label": "Unidades no médicas",
+    "description": "Unidades no médicas",
+    "photo": "/identity/hero2_Unidad_No_Medica.webp",
+    "loaded": true,
+    "gap": 34.796875,
+    "visibleCards": 4,
+    "overflow": false,
+    "topColor": "rgb(132, 96, 27)"
+  },
+  {
+    "name": "desktop",
+    "label": "Personas",
+    "description": "Personas",
+    "photo": "/identity/hero2_Personas.webp",
+    "loaded": true,
+    "gap": 34.796875,
+    "visibleCards": 4,
+    "overflow": false,
+    "topColor": "rgb(132, 96, 27)"
+  },
+  {
+    "name": "desktop",
+    "label": "Coordinación",
+    "description": "Coordinación",
+    "photo": "/identity/hero2_Coordinacion.webp",
+    "loaded": true,
+    "gap": 34.796875,
+    "visibleCards": 4,
+    "overflow": false,
+    "topColor": "rgb(132, 96, 27)"
+  },
+  {
+    "name": "mobile",
+    "label": "Unidades médicas",
+    "description": "Unidades médicas",
+    "photo": "/identity/hero2_Unidad_Medica.webp",
+    "loaded": true,
+    "gap": 111.94061279296875,
+    "visibleCards": 2,
+    "overflow": false,
+    "topColor": "rgb(132, 96, 27)"
+  }
+]

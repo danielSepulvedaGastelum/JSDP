@@ -1,0 +1,142 @@
+[
+  {
+    "width": 1440,
+    "scale": 1.25,
+    "phases": [
+      {
+        "label": "start",
+        "time": 0,
+        "file": "band-1440-dpr1.25-start.png",
+        "x": 0,
+        "overflow": false
+      },
+      {
+        "label": "fractional",
+        "time": 100,
+        "file": "band-1440-dpr1.25-fractional.png",
+        "x": 0.5,
+        "overflow": false
+      },
+      {
+        "label": "half",
+        "time": 18000,
+        "file": "band-1440-dpr1.25-half.png",
+        "x": 90,
+        "overflow": false
+      },
+      {
+        "label": "near-end",
+        "time": 35900,
+        "file": "band-1440-dpr1.25-near-end.png",
+        "x": 179.5,
+        "overflow": false
+      },
+      {
+        "label": "end",
+        "time": 36000,
+        "file": "band-1440-dpr1.25-end.png",
+        "x": 0,
+        "overflow": false
+      }
+    ],
+    "pixelChecks": [
+      {
+        "file": "band-1440-dpr1.25-start.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-1440-dpr1.25-fractional.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-1440-dpr1.25-half.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-1440-dpr1.25-near-end.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-1440-dpr1.25-end.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      }
+    ],
+    "loopEndpointsPixelIdentical": true,
+    "reducedMotion": true
+  },
+  {
+    "width": 390,
+    "scale": 2,
+    "phases": [
+      {
+        "label": "start",
+        "time": 0,
+        "file": "band-390-dpr2-start.png",
+        "x": 0,
+        "overflow": false
+      },
+      {
+        "label": "fractional",
+        "time": 100,
+        "file": "band-390-dpr2-fractional.png",
+        "x": 0.5,
+        "overflow": false
+      },
+      {
+        "label": "half",
+        "time": 18000,
+        "file": "band-390-dpr2-half.png",
+        "x": 90,
+        "overflow": false
+      },
+      {
+        "label": "near-end",
+        "time": 35900,
+        "file": "band-390-dpr2-near-end.png",
+        "x": 179.5,
+        "overflow": false
+      },
+      {
+        "label": "end",
+        "time": 36000,
+        "file": "band-390-dpr2-end.png",
+        "x": 0,
+        "overflow": false
+      }
+    ],
+    "pixelChecks": [
+      {
+        "file": "band-390-dpr2-start.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-390-dpr2-fractional.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-390-dpr2-half.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-390-dpr2-near-end.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      },
+      {
+        "file": "band-390-dpr2-end.png",
+        "whitePixels": 0,
+        "pixelsBrighterThanPattern": 0
+      }
+    ],
+    "loopEndpointsPixelIdentical": true,
+    "reducedMotion": true
+  }
+]

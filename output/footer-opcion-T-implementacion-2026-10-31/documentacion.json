@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "rol": "impeccable_documenter",
+  "fecha": "2026-10-31",
+  "resultado_documentacion": "completa",
+  "alcance": "Documentación de la opción T ya aprobada e implementada en el footer; refinamiento ordinario de P.",
+  "seleccion_aprobada": {
+    "id": "T",
+    "fuente_aprobacion": "Instrucción explícita del usuario para implementar la opción T.",
+    "html": "output/footer-prototipos-iconos-2026-10-31/T-iconos-de-mayor-definicion.html",
+    "png": "output/footer-prototipos-iconos-2026-10-31/T-iconos-de-mayor-definicion.png",
+    "historial": "Los registros de prototipos describen la exploración previa sin selección; esta aprobación posterior se documenta sin reescribirlos."
+  },
+  "cambio_global_sistema": false,
+  "implementacion_previa": {
+    "archivos": [
+      "apps/web/src/features/public/landing/LandingFooter.tsx",
+      "apps/web/src/features/public/landing/LandingFooter.css"
+    ],
+    "nuevos_assets": [
+      {
+        "path": "apps/web/public/identity/footer/cubo-firme.svg",
+        "exactApprovedCopy": true,
+        "sha256": "8d3627257a4915e016cd3e9ec1d3dd0ca0abbac5796d5be137d4db80076526e0",
+        "fuente_aprobada": "output/footer-prototipos-iconos-2026-10-31/assets/cubo-firme.svg",
+        "verificacion": "Copia exacta y SHA-256 registrados en scope.json; no se repitieron comprobaciones."
+      },
+      {
+        "path": "apps/web/public/identity/footer/birrete-solido.svg",
+        "exactApprovedCopy": true,
+        "sha256": "ffb32055272c29b24b6805ee7fe418079255bb6cc6b19dc4af27734c444988f1",
+        "fuente_aprobada": "output/footer-prototipos-iconos-2026-10-31/assets/birrete-solido.svg",
+        "verificacion": "Copia exacta y SHA-256 registrados en scope.json; no se repitieron comprobaciones."
+      },
+      {
+        "path": "apps/web/public/identity/footer/sonora-claro.svg",
+        "exactApprovedCopy": true,
+        "sha256": "870f3817afaf88ede185e59aa4ceee678dc99455413d08d079a3db04cd2dd01b",
+        "fuente_aprobada": "output/footer-prototipos-iconos-2026-10-31/assets/sonora-claro.svg",
+        "verificacion": "Copia exacta y SHA-256 registrados en scope.json; no se repitieron comprobaciones."
+      },
+      {
+        "path": "apps/web/public/identity/footer/jsdp-sonora-claro.svg",
+        "exactApprovedCopy": true,
+        "sha256": "e15c60887ba9b43b3be2e66576d5bc7268da92732ebb22df710a22eabb40f130",
+        "fuente_aprobada": "output/footer-prototipos-iconos-2026-10-31/assets/jsdp-sonora-claro.svg",
+        "verificacion": "Copia exacta y SHA-256 registrados en scope.json; no se repitieron comprobaciones."
+      }
+    ],
+    "dependencias_nuevas": false,
+    "raster_nuevo_producto": false
+  },
+  "procedencia": {
+    "registro": "output/footer-prototipos-iconos-2026-10-31/registro.json",
+    "cubos": {
+      "fuente": "SVG creado para T; nueve aristas sin relleno",
+      "trazo_unidades": 2,
+      "viewbox": "0 0 24 24",
+      "color": "#fffaf2"
+    },
+    "capacitacion": {
+      "fuente": "SVG creado para T; birrete sólido",
+      "color": "#fffaf2"
+    },
+    "sonora": {
+      "fuente": "docs/identidad-institucional/Silueta_Sonora.jpg",
+      "metodo": "Contorno del área rosa; simplificación vectorial1.25px en la imagen de354×394; sin inventar contorno",
+      "vertices": 124,
+      "color": "#fffaf2"
+    },
+    "imss": {
+      "recurso_reutilizado": "apps/web/public/identity/Logotipo_del_IMSS_claro.svg",
+      "fuente_original": "docs/identidad-institucional/Logotipo_del_IMSS.svg",
+      "tratamiento_preexistente": "#154f3a → #fffaf2; geometría intacta"
+    },
+    "jsdp": {
+      "fuente": "docs/identidad-institucional/JSDP-Sonora-11.svg",
+      "tratamiento": "Marca completa con solo la paleta aclarada; geometría y composición exactas del máster.",
+      "paleta": {
+        "#154f3a": "#fffaf2",
+        "#9d9fa1": "#d7e1dc",
+        "#024c37": "#c0d9ca",
+        "#303030": "#f1f5ef",
+        "#09634f": "#9fc7b4",
+        "#b58d32": "#edd899",
+        "#999999": "#cddbd3"
+      }
+    },
+    "maestros_oficiales_intactos": true,
+    "evidencia": "scope.json y registro.json de los prototipos"
+  },
+  "medidas_px": {
+    "iconos": {
+      "escritorio": 25,
+      "movil": 26
+    },
+    "alto_marca_jsdp": {
+      "escritorio": 32.5,
+      "movil": 33.8
+    }
+  },
+  "preservacion": {
+    "composicion": "P",
+    "contenido_y_tipografia": true,
+    "hrefs_exactos": 13,
+    "opciones_pendientes": 2,
+    "degradado": "linear-gradient(135deg, #205344 0%, #10312b 52%, #08231e 100%)",
+    "tinta_patron": "#7f9f8a",
+    "ornamento_altura_px": 48,
+    "efecto_tsx_ornamento_sin_cambios": true,
+    "css_ornamento_sin_cambios": true,
+    "estilos_globales": "Sin cambios en esta extensión local",
+    "documentos_globales": "Sin crear ni reparar PRODUCT.md, DESIGN.md, .impeccable/design.json ni configuración global",
+    "historial_brief": "Archivo previo conservado íntegramente; solo se añade una sección de tres párrafos",
+    "contexto_producto": "apps/web/PRODUCT.md leído para compromisos institucionales; su desfase funcional previo queda fuera del alcance"
+  },
+  "accesibilidad_y_comportamiento": {
+    "h3_jsdp_nombre_accesible": "JSDP Sonora, mediante alt del SVG completo",
+    "iconos_decorativos": {
+      "alt": "",
+      "aria_hidden": true
+    },
+    "enlaces": {
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "aviso": "abre en una pestaña nueva",
+      "tab": 13,
+      "foco": "Contorno oro #e0ca8c"
+    },
+    "pendientes": "Inicio de sesión y Documentos: spans con aria-disabled=true, fuera de Tab",
+    "movimiento_normal": {
+      "duracion": "36s",
+      "iteracion": "infinite",
+      "estado_registrado": "running"
+    },
+    "reduced_motion": "animation: none; desactivada",
+    "pausas_conservadas": "Fuera de pantalla, pestaña oculta y cambios de prefers-reduced-motion; efecto sin cambios",
+    "evidencia": "behavior.json y TSX/CSS del footer"
+  },
+  "evidencia_existente": {
+    "directorio": "output/footer-opcion-T-implementacion-2026-10-31",
+    "registros": [
+      "scope.json",
+      "verification.json",
+      "fidelity.json",
+      "behavior.json",
+      "review.json",
+      "detector.json",
+      "capture-notes.json",
+      "build.log"
+    ],
+    "verificacion": {
+      "archivo": "verification.json",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 1366,
+          "height": 900
+        },
+        {
+          "width": 1024,
+          "height": 1180
+        },
+        {
+          "width": 820,
+          "height": 1180
+        },
+        {
+          "width": 390,
+          "height": 844
+        },
+        {
+          "width": 320,
+          "height": 740
+        }
+      ],
+      "enlaces_por_viewport": 13,
+      "pendientes_por_viewport": 2,
+      "sin_overflow": true,
+      "sin_recortes": true,
+      "sin_imagenes_fallidas": true,
+      "errores_pagina": 0
+    },
+    "fidelidad": {
+      "archivo": "fidelity.json",
+      "referencia": "T aprobada",
+      "anchos_px": [
+        1440,
+        1024,
+        390
+      ],
+      "diferencia_geometrica_maxima_px": 0,
+      "degradado_coincide": true,
+      "tinta_patron_coincide": true,
+      "urls_coinciden": true,
+      "igualdad_pixeles_certificada": false
+    },
+    "build": {
+      "archivo": "build.log",
+      "typescript": "tsc --noEmit aprobado",
+      "vite": "build aprobado"
+    },
+    "detector": {
+      "archivo": "detector.json",
+      "hallazgos": []
+    },
+    "revision": {
+      "archivo": "review.json",
+      "revisor": "impeccable_finish_reviewer",
+      "contexto_fresco": true,
+      "disposicion": "ship",
+      "alcance": "Todo el footer con la opción T",
+      "correcciones_materiales": [],
+      "capturas_validas": 6
+    },
+    "capturas": [
+      {
+        "ancho": 1440,
+        "archivo": "desktop.png"
+      },
+      {
+        "ancho": 1366,
+        "archivo": "1366.png"
+      },
+      {
+        "ancho": 1024,
+        "archivo": "1024.png"
+      },
+      {
+        "ancho": 820,
+        "archivo": "820.png"
+      },
+      {
+        "ancho": 390,
+        "archivo": "mobile.png"
+      },
+      {
+        "ancho": 320,
+        "archivo": "320.png"
+      }
+    ]
+  },
+  "notas_captura": {
+    "registro": "capture-notes.json",
+    "aislamiento": "Header sticky y skip-link ajenos al footer ocultos solo durante las capturas aisladas; sin modificar DOM/CSS de producción.",
+    "captura_final_1366": {
+      "alto_viewport_px": 1000,
+      "condicion": "Después de estabilizarse",
+      "fuente": "Registro del agente de implementación durante la captura estabilizada.",
+      "distincion": "verification.json conserva métricas de 1366×900; la captura final usa 1000px de alto."
+    },
+    "movimiento": "verification.json registra animation:none en las capturas; behavior.json registra 36s/infinite/running en movimiento normal y none con reduced motion."
+  },
+  "limites": {
+    "certificacion_sitio_completo": false,
+    "conectividad_real_destinos_comprobada": false,
+    "benchmark_fps": false,
+    "igualdad_pixeles_footer_completo": false,
+    "evidencia": "Resultados existentes, limitados al footer, dimensiones y estados registrados."
+  },
+  "ejecucion_documental": {
+    "guia": "C:/Users/daniel.sepulveda/.agents/skills/impeccable/reference/document.md",
+    "contexto": "Lectura directa del contexto y la evidencia existente mediante Node REPL.",
+    "pruebas_repetidas": false,
+    "build_repetido": false,
+    "detector_repetido": false,
+    "revision_repetida": false,
+    "navegador_abierto": false,
+    "archivos_produccion_editados": []
+  },
+  "rutas_cambiadas": [
+    "apps/web/.impeccable/surfaces/c-features-public-landing-landingpage-tsx-a74d86b8.md",
+    "output/footer-opcion-T-implementacion-2026-10-31/README.md",
+    "output/footer-opcion-T-implementacion-2026-10-31/documentacion.json"
+  ]
+}
