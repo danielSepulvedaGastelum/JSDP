@@ -1,0 +1,421 @@
+{
+  "browser": "Microsoft Edge headless (Chromium)",
+  "viewports": [
+    1440,
+    820,
+    390,
+    320
+  ],
+  "proposals": 10,
+  "interactionChecks": [
+    "campos vacíos",
+    "mostrar/ocultar contraseña",
+    "aviso de prototipo",
+    "solicitud pendiente",
+    "recuperación pendiente",
+    "navegación"
+  ],
+  "errors": [],
+  "report": [
+    {
+      "proposal": "01",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "01",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "01",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "01",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "02",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "INICIASESIÓN",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "02",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "INICIASESIÓN",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "02",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "INICIASESIÓN",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "02",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "INICIASESIÓN",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "03",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Qué gusto verte",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "03",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Qué gusto verte",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "03",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Qué gusto verte",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "03",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Qué gusto verte",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "04",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "04",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "04",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "04",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "05",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Bienvenido de nuevo",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "05",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Bienvenido de nuevo",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "05",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Bienvenido de nuevo",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "05",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Bienvenido de nuevo",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "06",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Tu espacio en JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "06",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Tu espacio en JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "06",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Tu espacio en JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "06",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Tu espacio en JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "07",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "07",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "07",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "07",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Inicia sesión",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "08",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Qué gusto verte aquí",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "08",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Qué gusto verte aquí",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "08",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Qué gusto verte aquí",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "08",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Qué gusto verte aquí",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "09",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Bienvenidoa tu espacio.",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "09",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Bienvenidoa tu espacio.",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "09",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Bienvenidoa tu espacio.",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "09",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Bienvenidoa tu espacio.",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "10",
+      "viewport": "escritorio",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "10",
+      "viewport": "movil",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "10",
+      "viewport": "tablet",
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    },
+    {
+      "proposal": "10",
+      "viewport": "estrecho",
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "h1": "Bienvenido a JSDP",
+      "form": true,
+      "sculpture": true
+    }
+  ]
+}

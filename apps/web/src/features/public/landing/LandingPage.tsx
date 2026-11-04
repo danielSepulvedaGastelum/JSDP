@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import { Fragment, useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import type { OrgChart, OrgChartNode } from 'd3-org-chart';
 import { HeroEditorial } from './HeroEditorial';
@@ -151,9 +152,9 @@ function Header() {
     <header className="site-header">
       <div className="header-inner">
         <BrandLogo />
-        <div className="header-actions" aria-label="Funciones próximas">
+        <div className="header-actions" aria-label="Accesos">
           <span className="header-action header-action-plain" aria-label="Documentos, próximamente" aria-disabled="true"><span><strong>Documentos</strong></span></span>
-          <span className="header-action header-action-login" aria-label="Iniciar sesión, próximamente" aria-disabled="true"><Icon name="login" size={19} /><span><strong>Iniciar sesión</strong></span></span>
+          <Link to="/inicio-sesion" className="header-action header-action-login"><Icon name="login" size={19} /><span><strong>Iniciar sesión</strong></span></Link>
         </div>
       </div>
     </header>
@@ -351,9 +352,16 @@ function OrganizationChart() {
       observer.observe(container);
     };
 
-    void setupChart();
+    const visibility = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) {
+        visibility.disconnect();
+        void setupChart();
+      }
+    }, { rootMargin: '200px' });
+    visibility.observe(container);
 
     return () => {
+      visibility.disconnect();
       disposed = true;
       observer?.disconnect();
       window.cancelAnimationFrame(resizeFrame);

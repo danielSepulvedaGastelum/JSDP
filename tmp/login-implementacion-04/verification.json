@@ -1,0 +1,60 @@
+{
+  "result": "pass",
+  "engine": "Edge headless / Chromium",
+  "sizes": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": []
+    },
+    {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "broken": []
+    },
+    {
+      "width": 820,
+      "scrollWidth": 820,
+      "broken": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "broken": []
+    }
+  ],
+  "transitions": [
+    {
+      "direction": "home",
+      "finished": true
+    },
+    {
+      "direction": "login",
+      "finished": true
+    }
+  ],
+  "reduced": {
+    "name": "route-crossfade",
+    "duration": "0.1s"
+  },
+  "errors": [],
+  "apiRequests": [],
+  "checks": [
+    "header",
+    "footer",
+    "return",
+    "history back/forward",
+    "scroll restoration",
+    "interrupted transition",
+    "direct URL/reload",
+    "show password",
+    "pending actions",
+    "no API",
+    "fallback"
+  ]
+}

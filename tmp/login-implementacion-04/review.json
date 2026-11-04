@@ -1,0 +1,16 @@
+﻿{
+    "disposition":  "ship",
+    "persistence":  "La propuesta elegida está integrada en /inicio-sesion; sin artefactos Spec Kit.",
+    "fidelity":  [
+                     "Composición, colores, fotografía ovalada y logotipos: coinciden con propuesta 04.",
+                     "Volver al inicio y aviso de disponibilidad: adaptaciones al alcance solicitado.",
+                     "Escritorio y móvil: sin recortes ni desbordamientos en las capturas revisadas."
+                 ],
+    "ceiling":  "Se conserva la dirección visual elegida y se añade transición ovalada bidireccional con movimiento reducido.",
+    "material_fixes":  [
+
+                       ],
+    "keep":  "Conservar Sonora orgánica, las marcas originales y el alcance exclusivamente visual.",
+    "verification":  "Pruebas previas completas y comprobación actual en puerto 5173: acceso y regreso correctos.",
+    "reviewer":  "Revisión directa tras interrupción del revisor independiente por límite de créditos."
+}

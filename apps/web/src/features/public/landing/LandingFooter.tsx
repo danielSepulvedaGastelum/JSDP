@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import { useEffect, useId, useRef, useState } from 'react';
 import './LandingFooter.css';
 
@@ -61,7 +62,7 @@ const footerLinkGroups: FooterLinkGroup[] = [
     icon: '/identity/footer/jsdp-sonora-claro.svg',
     wordmark: true,
     links: [
-      { label: 'Inicio de sesión', pending: true },
+      { label: 'Inicio de sesión', href: '/inicio-sesion' },
       { label: 'Documentos', pending: true },
     ],
   },
@@ -147,7 +148,9 @@ export function LandingFooter() {
               <ul>
                 {group.links.map(link => (
                   <li key={link.label}>
-                    {'href' in link ? (
+                    {'href' in link && link.href.startsWith('/') ? (
+                      <Link className="landing-footer-link" to={link.href}>{link.label}</Link>
+                    ) : 'href' in link ? (
                       <a className="landing-footer-link" href={link.href} target="_blank" rel="noopener noreferrer">
                         <span>
                           {link.label}

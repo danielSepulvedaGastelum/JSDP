@@ -1,0 +1,335 @@
+{
+  "results": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "layout": {
+        "width": 1920,
+        "height": 1080,
+        "scrollWidth": 1920,
+        "scrollHeight": 1080,
+        "accessHeight": 792,
+        "accessScroll": 792,
+        "noticeHeight": 56,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "layout": {
+        "width": 1440,
+        "height": 960,
+        "scrollWidth": 1440,
+        "scrollHeight": 960,
+        "accessHeight": 792,
+        "accessScroll": 792,
+        "noticeHeight": 56,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "layout": {
+        "width": 1366,
+        "height": 768,
+        "scrollWidth": 1366,
+        "scrollHeight": 768,
+        "accessHeight": 687,
+        "accessScroll": 687,
+        "noticeHeight": 56,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "layout": {
+        "width": 1280,
+        "height": 720,
+        "scrollWidth": 1280,
+        "scrollHeight": 720,
+        "accessHeight": 641,
+        "accessScroll": 641,
+        "noticeHeight": 56,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "layout": {
+        "width": 1024,
+        "height": 600,
+        "scrollWidth": 1024,
+        "scrollHeight": 600,
+        "accessHeight": 526,
+        "accessScroll": 526,
+        "noticeHeight": 52,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "layout": {
+        "width": 820,
+        "height": 1180,
+        "scrollWidth": 820,
+        "scrollHeight": 1180,
+        "accessHeight": 792,
+        "accessScroll": 792,
+        "noticeHeight": 56,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "layout": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scrollHeight": 1315,
+        "accessHeight": 780,
+        "accessScroll": 780,
+        "noticeHeight": 80,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 800,
+      "layout": {
+        "width": 320,
+        "height": 800,
+        "scrollWidth": 320,
+        "scrollHeight": 1393,
+        "accessHeight": 858,
+        "accessScroll": 858,
+        "noticeHeight": 80,
+        "icons": 2,
+        "shadow": "rgba(0, 0, 0, 0.25) 0px 24px 48px -12px, rgba(0, 0, 0, 0.15) 0px 4px 8px 0px"
+      },
+      "stability": [
+        {
+          "action": "long input",
+          "changed": []
+        },
+        {
+          "action": "show password",
+          "changed": []
+        },
+        {
+          "action": "Iniciar sesión",
+          "changed": []
+        },
+        {
+          "action": "¿Olvidaste tu contraseña?",
+          "changed": []
+        },
+        {
+          "action": "Solicitar usuario",
+          "changed": []
+        },
+        {
+          "action": "long future message",
+          "changed": []
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "failures": []
+}

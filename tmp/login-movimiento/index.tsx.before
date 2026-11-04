@@ -1,0 +1,76 @@
+
+import { useLayoutEffect, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
+import { BrowserRouter, Route, Routes, useLocation, useNavigationType } from 'react-router';
+import { LandingPage } from '../../features/public/landing/LandingPage';
+import { LoginPage } from '../../features/public/auth/LoginPage';
+import './transitions.css';
+
+function AnimatedRoutes() {
+  const location = useLocation();
+  const navigationType = useNavigationType();
+  const [rendered, setRendered] = useState({ location, fallback: false });
+  const current = useRef(location);
+  const scrollPositions = useRef(new Map<string, number>());
+
+  useLayoutEffect(() => {
+    const previous = current.current;
+    if (previous.key === location.key) return;
+    // Hash/query changes keep their native behavior; animate only page changes.
+    if (previous.pathname === location.pathname) {
+      current.current = location;
+      setRendered({ location, fallback: false });
+      return;
+    }
+
+    let cancelled = false;
+    scrollPositions.current.set(previous.key, window.scrollY);
+    const savedScroll = navigationType === 'POP' ? scrollPositions.current.get(location.key) ?? 0 : 0;
+    const direction = location.pathname === '/inicio-sesion' ? 'login' : 'home';
+    const supportsTransition = typeof document.startViewTransition === 'function';
+    document.documentElement.dataset.routeDirection = direction;
+    const commit = () => {
+      if (cancelled) return;
+      current.current = location;
+      flushSync(() => setRendered({ location, fallback: !supportsTransition }));
+      window.scrollTo({ top: savedScroll, behavior: 'instant' });
+      const main = document.querySelector<HTMLElement>('main');
+      if (main) {
+        main.setAttribute('tabindex', '-1');
+        main.focus({ preventScroll: true });
+      }
+    };
+    // Keep the prior page mounted until the browser has taken its snapshot.
+    const transition = supportsTransition ? document.startViewTransition(commit) : undefined;
+    const frame = transition ? undefined : requestAnimationFrame(commit);
+    // A skipped/interrupted snapshot must never prevent navigation.
+    void transition?.ready.catch(() => undefined);
+    return () => {
+      cancelled = true;
+      transition?.skipTransition();
+      if (frame !== undefined) cancelAnimationFrame(frame);
+    };
+  }, [location, navigationType]);
+
+  useLayoutEffect(() => {
+    const restoration = window.history.scrollRestoration;
+    window.history.scrollRestoration = 'manual';
+    // Load the chosen photograph while the visitor is on the landing.
+    const photograph = new Image();
+    photograph.src = '/identity/Escultura_IMSS.webp';
+    return () => { window.history.scrollRestoration = restoration; };
+  }, []);
+
+  return (
+    <div key={rendered.location.pathname} className={rendered.fallback ? 'route-scene route-scene-fallback' : 'route-scene'}>
+      <Routes location={rendered.location}>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/inicio-sesion" element={<LoginPage />} />
+      </Routes>
+    </div>
+  );
+}
+
+export function AppRouter() {
+  return <BrowserRouter><AnimatedRoutes /></BrowserRouter>;
+}

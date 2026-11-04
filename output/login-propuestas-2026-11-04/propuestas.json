@@ -1,0 +1,112 @@
+[
+  {
+    "n": "01",
+    "slug": "aire-institucional",
+    "name": "Aire institucional",
+    "ref": "Referencia 1 · Solara, composición abierta",
+    "desc": "Formulario sobre blanco y panel verde independiente. La escultura se presenta como una pieza enmarcada, con espacio y jerarquía serena.",
+    "title": "Inicia sesión",
+    "headline": "Un espacio para<br>nuestra gente.",
+    "caption": "Jefatura de Servicios de Desarrollo de Personal",
+    "class": "air"
+  },
+  {
+    "n": "02",
+    "slug": "monumento-nocturno",
+    "name": "Monumento nocturno",
+    "ref": "Referencia 2 · Universo oscuro",
+    "desc": "Fotografía inmersiva a la izquierda y acceso oscuro a la derecha. Verde profundo, contraste dorado y una composición de gran presencia.",
+    "title": "INICIA<br>SESIÓN",
+    "headline": "Nuestra identidad.<br>Nuestro compromiso.",
+    "caption": "IMSS · OOAD Sonora",
+    "class": "night"
+  },
+  {
+    "n": "03",
+    "slug": "marco-institucional",
+    "name": "Marco institucional",
+    "ref": "Referencia 3 · Solara, tarjeta dividida",
+    "desc": "Una tarjeta central contiene dos mitades equilibradas. Fondo perla, formulario suave y fotografía contenida sobre verde institucional.",
+    "title": "Qué gusto verte",
+    "headline": "Desarrollo de personal.<br>Identidad compartida.",
+    "caption": "JSDP · Sonora",
+    "class": "frame"
+  },
+  {
+    "n": "04",
+    "slug": "sonora-organica",
+    "name": "Sonora orgánica",
+    "ref": "Referencia 4 · Globo y formas orgánicas",
+    "desc": "Tarjeta clara sobre un fondo ocre. La escultura ocupa un recorte ovalado entre formas suaves; el formulario se sitúa a la derecha.",
+    "title": "Bienvenido a JSDP",
+    "headline": "Cerca de<br>nuestra gente.",
+    "caption": "Instituto Mexicano del Seguro Social",
+    "class": "organic"
+  },
+  {
+    "n": "05",
+    "slug": "galeria-patrimonio",
+    "name": "Galería de patrimonio",
+    "ref": "Referencia 5 · Fotografía floral enmarcada",
+    "desc": "Formulario íntimo y fotografía vertical con bordes suaves. Mucho blanco, acento guinda y tratamiento editorial de la imagen.",
+    "title": "Bienvenido de nuevo",
+    "headline": "",
+    "caption": "Instituto Mexicano del Seguro Social · Sonora",
+    "class": "gallery"
+  },
+  {
+    "n": "06",
+    "slug": "luz-abierta",
+    "name": "Luz abierta",
+    "ref": "Referencia 6 · Hojas a sangre",
+    "desc": "Acceso mínimo a la izquierda e imagen amplia hasta el borde derecho. Esquinas asimétricas y acentos verdes para una experiencia ligera.",
+    "title": "Tu espacio en JSDP",
+    "headline": "",
+    "caption": "Jefatura de Servicios de Desarrollo de Personal",
+    "class": "light"
+  },
+  {
+    "n": "07",
+    "slug": "relieve-guinda",
+    "name": "Relieve guinda",
+    "ref": "Referencia 7 · Panel violeta y cristal",
+    "desc": "Panel guinda con textura institucional y un marco translúcido para la escultura. Formulario centrado y fondo rosa mineral.",
+    "title": "Inicia sesión",
+    "headline": "Juntos, desde<br>Sonora.",
+    "caption": "JSDP · IMSS",
+    "class": "relief"
+  },
+  {
+    "n": "08",
+    "slug": "horizonte-imss",
+    "name": "Horizonte IMSS",
+    "ref": "Referencia 8 · Faro y formulario lateral",
+    "desc": "La fotografía ocupa dos tercios de la página. El acceso se concentra en una columna lateral blanca, directa y compacta.",
+    "title": "Qué gusto verte aquí",
+    "headline": "",
+    "caption": "Instituto Mexicano del Seguro Social",
+    "class": "horizon"
+  },
+  {
+    "n": "09",
+    "slug": "portal-editorial",
+    "name": "Portal editorial",
+    "ref": "Variación · Referencias 5 + 8",
+    "desc": "Cabecera institucional común, fotografía panorámica y formulario editorial. Crema, verde y tipografía Patria articulan una entrada sobria.",
+    "title": "Bienvenido<br>a tu espacio.",
+    "headline": "El valor de<br>pertenecer.",
+    "caption": "IMSS · OOAD Sonora",
+    "class": "editorial"
+  },
+  {
+    "n": "10",
+    "slug": "umbral-central",
+    "name": "Umbral central",
+    "ref": "Variación · Referencias 2 + 7",
+    "desc": "La escultura se extiende a todo el fondo. Una tarjeta clara concentra el acceso en el centro, con una franja inferior de identidad institucional.",
+    "title": "Bienvenido a JSDP",
+    "headline": "",
+    "caption": "",
+    "class": "central"
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "result": "pass",
+  "motions": [
+    {
+      "profile": "soft",
+      "direction": "home",
+      "start": 2431.7000000476837,
+      "ready": 2689.7000000476837,
+      "animations": [
+        "editorial-description-in",
+        "footer-ornament-drift",
+        "motion-fade"
+      ],
+      "finished": 3377.100000023842
+    },
+    {
+      "profile": "soft",
+      "direction": "login",
+      "start": 3654.5,
+      "ready": 3773.2999999523163,
+      "animations": [
+        "motion-fade"
+      ],
+      "finished": 4483.299999952316
+    },
+    {
+      "profile": "depth",
+      "direction": "home",
+      "start": 5507.600000023842,
+      "ready": 5597.600000023842,
+      "animations": [
+        "editorial-description-in",
+        "footer-ornament-drift",
+        "motion-fade",
+        "motion-leave"
+      ],
+      "finished": 6234.899999976158
+    },
+    {
+      "profile": "depth",
+      "direction": "login",
+      "start": 6493.600000023842,
+      "ready": 6612.799999952316,
+      "animations": [
+        "motion-fade",
+        "motion-depth"
+      ],
+      "finished": 7433.399999976158
+    },
+    {
+      "profile": "slide",
+      "direction": "home",
+      "start": 8356.799999952316,
+      "ready": 8440.200000047684,
+      "animations": [
+        "editorial-description-in",
+        "footer-ornament-drift",
+        "motion-slide-home"
+      ],
+      "finished": 9249.700000047684
+    },
+    {
+      "profile": "slide",
+      "direction": "login",
+      "start": 9531.799999952316,
+      "ready": 9647.200000047684,
+      "animations": [
+        "motion-slide-in"
+      ],
+      "finished": 10366.100000023842
+    },
+    {
+      "profile": "layers",
+      "direction": "home",
+      "start": 11439.799999952316,
+      "ready": 11522.100000023842,
+      "animations": [
+        "editorial-description-in",
+        "footer-ornament-drift",
+        "motion-fade",
+        "motion-leave",
+        "motion-leave"
+      ],
+      "finished": 12150.200000047684
+    },
+    {
+      "profile": "layers",
+      "direction": "login",
+      "start": 12368.299999952316,
+      "ready": 12477.899999976158,
+      "animations": [
+        "motion-fade",
+        "motion-image",
+        "motion-form"
+      ],
+      "finished": 13350.200000047684
+    },
+    {
+      "profile": "curtain",
+      "direction": "home",
+      "start": 14406.899999976158,
+      "ready": 14493.5,
+      "animations": [
+        "editorial-description-in",
+        "footer-ornament-drift",
+        "motion-fade",
+        "motion-close"
+      ],
+      "finished": 15133
+    },
+    {
+      "profile": "curtain",
+      "direction": "login",
+      "start": 15351.399999976158,
+      "ready": 15460.700000047684,
+      "animations": [
+        "motion-fade",
+        "motion-curtain"
+      ],
+      "finished": 16316.5
+    }
+  ],
+  "reduced": {
+    "profile": "curtain",
+    "direction": "login",
+    "start": 17294.600000023842,
+    "ready": 17408.299999952316,
+    "animations": [
+      "motion-fade",
+      "motion-fade"
+    ],
+    "finished": 17583.700000047684
+  },
+  "errors": [],
+  "expectedInvalidSelectionStatus": 400,
+  "network": [],
+  "checks": [
+    "5 native transition profiles both directions",
+    "5 replay profiles",
+    "5 fallback profiles",
+    "history",
+    "reduced motion",
+    "source persistence",
+    "invalid selection rejected",
+    "mobile controls",
+    "final card geometry unchanged"
+  ]
+}

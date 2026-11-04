@@ -1,0 +1,58 @@
+
+:root {
+  --route-duration: 650ms;
+  --route-ease: cubic-bezier(.22,.61,.36,1);
+}
+/* The previous snapshot stays opaque until the new page has covered it. */
+html[data-route-direction]::view-transition-group(root) { animation: none; }
+html[data-route-direction]::view-transition-old(root) { animation: none; opacity: 1; mix-blend-mode: normal; }
+html[data-route-direction]::view-transition-new(root) {
+  animation: motion-fade var(--route-duration) var(--route-ease) both;
+  mix-blend-mode: normal;
+}
+html[data-motion-profile="depth"] .login-card,
+html[data-motion-profile="curtain"] .login-card { view-transition-name: login-card; }
+html[data-motion-profile="layers"] .login-photo { view-transition-name: login-image; }
+html[data-motion-profile="layers"] .login-form-content { view-transition-name: login-form; }
+::view-transition-group(login-card), ::view-transition-group(login-image), ::view-transition-group(login-form) { animation: none; }
+::view-transition-old(login-card), ::view-transition-old(login-image), ::view-transition-old(login-form) {
+  animation: motion-leave 280ms ease-out both; mix-blend-mode: normal;
+}
+::view-transition-new(login-card), ::view-transition-new(login-image), ::view-transition-new(login-form) { mix-blend-mode: normal; }
+html[data-motion-profile="depth"]::view-transition-new(root),
+html[data-motion-profile="layers"]::view-transition-new(root),
+html[data-motion-profile="curtain"]::view-transition-new(root) { animation-duration: 500ms; }
+html[data-motion-profile="depth"]::view-transition-new(login-card) { animation: motion-depth 760ms var(--route-ease) both; }
+html[data-motion-profile="slide"]::view-transition-new(root) { animation-name: motion-slide-in; }
+html[data-motion-profile="slide"][data-route-direction="home"]::view-transition-new(root) { animation-name: motion-slide-home; }
+html[data-motion-profile="layers"]::view-transition-new(login-image) { animation: motion-image 680ms 60ms var(--route-ease) both; }
+html[data-motion-profile="layers"]::view-transition-new(login-form) { animation: motion-form 680ms 140ms var(--route-ease) both; }
+html[data-motion-profile="curtain"]::view-transition-new(login-card) { animation: motion-curtain 800ms cubic-bezier(.45,0,.2,1) both; }
+html[data-motion-profile="curtain"][data-route-direction="home"]::view-transition-old(login-card) { animation: motion-close 420ms ease-in-out both; }
+::view-transition-group(motion-controls) { animation: none; z-index: 100; }
+::view-transition-old(motion-controls) { display: none; }
+::view-transition-new(motion-controls) { animation: none; mix-blend-mode: normal; }
+
+@keyframes motion-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes motion-leave { to { opacity: 0; } }
+@keyframes motion-depth { from { opacity: 0; transform: scale(.965); } to { opacity: 1; transform: scale(1); } }
+@keyframes motion-slide-in { from { opacity: 0; transform: translateX(32px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes motion-slide-home { from { opacity: 0; transform: translateX(-32px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes motion-image { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes motion-form { from { opacity: 0; transform: translateX(16px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes motion-curtain { from { opacity: 0; clip-path: inset(49% 0 round 24px); } to { opacity: 1; clip-path: inset(0% 0 round 24px); } }
+@keyframes motion-close { from { opacity: 1; clip-path: inset(0% 0 round 24px); } to { opacity: 0; clip-path: inset(49% 0 round 24px); } }
+.route-scene main:focus { outline: none; }
+.header-action-login { text-decoration: none; }
+.header-action-login:hover { background: var(--green-dark); }
+@media (prefers-reduced-motion: reduce) {
+  html[data-route-direction]::view-transition-new(root),
+  html[data-route-direction]::view-transition-new(login-card),
+  html[data-route-direction]::view-transition-new(login-image),
+  html[data-route-direction]::view-transition-new(login-form) {
+    animation: motion-fade 120ms linear both;
+  }
+  html[data-route-direction]::view-transition-old(login-card),
+  html[data-route-direction]::view-transition-old(login-image),
+  html[data-route-direction]::view-transition-old(login-form) { animation: motion-leave 120ms linear both; }
+}
