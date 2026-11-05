@@ -153,7 +153,7 @@ function Header() {
       <div className="header-inner">
         <BrandLogo />
         <div className="header-actions" aria-label="Accesos">
-          <span className="header-action header-action-plain" aria-label="Documentos, próximamente" aria-disabled="true"><span><strong>Documentos</strong></span></span>
+          <span className="header-action header-action-plain" aria-label="Documentos, próximamente" aria-disabled="true"><span><strong>Documentos</strong><small className="header-availability">Próximamente</small></span></span>
           <Link to="/inicio-sesion" className="header-action header-action-login"><Icon name="login" size={19} /><span><strong>Iniciar sesión</strong></span></Link>
         </div>
       </div>
@@ -175,28 +175,27 @@ function MissionVision() {
 }
 
 function Values() {
-  const sectionRef = useRef<HTMLElement>(null);
-  const [marqueeActive, setMarqueeActive] = useState(false);
-  const marqueeCopies = [0, 1, 2, 3];
-
-  useEffect(() => {
-    const section = sectionRef.current;
-    if (!section) return;
-    let inView = false;
-    const syncMotion = () => setMarqueeActive(inView && document.visibilityState === 'visible');
-    const observer = new IntersectionObserver(([entry]) => {
-      inView = entry.isIntersecting;
-      syncMotion();
-    }, { rootMargin: '120px 0px' });
-    observer.observe(section);
-    document.addEventListener('visibilitychange', syncMotion);
-    return () => {
-      observer.disconnect();
-      document.removeEventListener('visibilitychange', syncMotion);
-    };
-  }, []);
-
-  return <section ref={sectionRef} className="values section-shell reveal" id="valores"><div className="section-heading"><h2>Nuestro Valores</h2><p>Principios que guían nuestro trabajo diario.</p></div><div className="values-marquee"><div className={`values-track ${marqueeActive ? 'is-moving' : ''}`}>{marqueeCopies.map(copyIndex => <div className={`values-grid ${copyIndex > 0 ? 'values-grid-duplicate' : ''}`} aria-hidden={copyIndex > 0 ? true : undefined} key={`values-copy-${copyIndex}`}>{values.map(([name, description, image]) => <article className="value" key={`${name}-${copyIndex}`}><span><img className="value-image" src={`/identity/mision-vision-valores/${image}`} alt="" width="88" height="88" loading="lazy" decoding="async" /></span><h3>{name}</h3><p>{description}</p></article>)}</div>)}</div></div></section>;
+  return (
+    <section className="values section-shell reveal values-static" id="valores">
+      <div className="section-heading">
+        <h2>Nuestro Valores</h2>
+        <p>Principios que guían nuestro trabajo diario.</p>
+      </div>
+      <div className="values-marquee">
+        <div className="values-track">
+          <div className="values-grid">
+            {values.map(([name, description, image]) => (
+              <article className="value" key={name}>
+                <span><img className="value-image" src={`/identity/mision-vision-valores/${image}`} alt="" width="88" height="88" loading="lazy" decoding="async" /></span>
+                <h3>{name}</h3>
+                <p>{description}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 function OrgCard({ node, selected, onSelect, compact = false, disclosure = false, controls }: { node: OrgNode; selected: boolean; onSelect: () => void; compact?: boolean; disclosure?: boolean; controls?: string }) {
@@ -452,7 +451,7 @@ function AboutCarousel() {
     const observer = new IntersectionObserver(([entry]) => {
       const visible = entry.isIntersecting && entry.intersectionRatio >= .15;
       setInView(visible);
-      if (!visible) setActive(0);
+      
     }, { threshold: [0, .15] });
     if (sectionRef.current) observer.observe(sectionRef.current);
     return () => {
@@ -491,7 +490,7 @@ function AboutCarousel() {
       </div>
       <button className="about-nav about-next" type="button" aria-label="Área siguiente" aria-controls="about-slides" onClick={() => navigate(1)}><Icon name="chevron" /></button>
       <div className="about-carousel-controls">
-        <div className="about-pagination" role="group" aria-label="Seleccionar área">{aboutSlides.map((slide, index) => <button key={slide.title} type="button" aria-label={`Mostrar ${slide.title}`} aria-current={index === active ? 'true' : undefined} onClick={() => setActive(index)}><span /></button>)}</div>
+        <div className="about-pagination area-selector" role="group" aria-label="Seleccionar área">{aboutSlides.map((slide, index) => <button key={slide.title} type="button" aria-label={`Mostrar ${slide.title}`} aria-current={index === active ? 'true' : undefined} onClick={() => setActive(index)}><span className="area-name">{["JSDP", "Personal", "Presupuesto", "Relaciones laborales", "Capacitación", "Auditorías"][index]}</span></button>)}</div>
         <span className="about-counter" aria-hidden="true">{active + 1} / {aboutSlides.length}</span>
         {!reducedMotion && <button className="about-playback" type="button" onClick={() => setPaused(value => !value)} aria-label={paused ? 'Reanudar avance automático' : 'Pausar avance automático'}><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">{paused ? <path d="m5 3 8 5-8 5Z" /> : <><rect x="4" y="3" width="3" height="10" rx=".5" /><rect x="9" y="3" width="3" height="10" rx=".5" /></>}</svg><span>{paused ? 'Reanudar' : 'Pausar'}</span></button>}
       </div>
@@ -510,5 +509,5 @@ export function LandingPage() {
     items.forEach(el => observer.observe(el));
     return () => observer.disconnect();
   }, []);
-  return <div className="landing-page" id={pageId}><a className="skip-link" href="#contenido">Saltar al contenido</a><Header /><main id="contenido"><HeroEditorial /><AboutCarousel /><PlannedFeatures /><MissionVision /><Values /><OrganizationChart /></main><LandingFooter /></div>;
+  return <div className="landing-page landing-layout" id={pageId}><a className="skip-link" href="#contenido">Saltar al contenido</a><Header /><main id="contenido"><HeroEditorial /><AboutCarousel /><PlannedFeatures /><MissionVision /><Values /><OrganizationChart /></main><LandingFooter /></div>;
 }
