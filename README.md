@@ -4,8 +4,22 @@ Base técnica de la plataforma interna de la Jefatura de Servicios de Desarrollo
 (JSDP) del Órgano de Operación Administrativa Desconcentrada (OOAD) Sonora del Instituto
 Mexicano del Seguro Social (IMSS), dentro del Gobierno de México.
 
-La Spec 001 comprende un saludo mínimo y un endpoint de salud. Público significa acceso
-sin autenticación dentro de la intranet; no exposición a Internet ni alcance para todos los OOAD.
+Estado revisado el **2026-11-13**: landing institucional, interfaz de inicio de sesión y
+demostración privada «Panorama de Luz». La API conserva únicamente el endpoint de salud.
+Público significa acceso sin autenticación dentro de la intranet prevista; no exposición
+a Internet ni alcance para todos los OOAD. El área privada actual se abre directamente
+y todavía no implementa autenticación, autorización ni persistencia.
+
+## Contexto y continuidad
+
+- [AGENTS.md](AGENTS.md): lecturas de inicio e instrucciones para agentes.
+- [Contexto verificado](docs/CONTEXTO.md): historia, funciones implementadas, límites y pruebas.
+- [Decisiones registradas](docs/DECISIONES.md): acuerdos, fuentes y decisiones abiertas.
+- [Pendientes y próximos pasos](docs/PENDIENTES.md): continuidad propuesta.
+- [Producto](apps/web/PRODUCT.md) y [Constitución](.specify/memory/constitution.md): contexto institucional y reglas vigentes.
+
+Las specs 001–004 conservan sus alcances históricos. Las specs retrospectivas no acreditan
+operación productiva. La interfaz privada todavía no tiene una spec propia en `specs/`.
 
 ## Organización
 
@@ -65,10 +79,13 @@ npm run dev:web
 npm run dev:api
 ```
 
-Web: http://127.0.0.1:5173/, con únicamente `<p>Hola IMSS</p>`.
+Web: http://127.0.0.1:5173/, con la landing institucional.
+Login: http://127.0.0.1:5173/inicio-sesion, con formulario y avisos locales, sin autenticar.
+Demo privada: http://127.0.0.1:5173/app/inicio, accesible directamente, sin sesión real.
+Ejemplo de escenario: http://127.0.0.1:5173/app/presupuesto/habilitar-carga?perfil=budget.
 API: http://127.0.0.1:3000/api/health, con HTTP 200 y
 `{"status":"ok","service":"express"}`. La salud solo describe Express.
-La web no consulta la API. Detener cada proceso con Ctrl+C.
+La web no consume APIs de negocio. Detener cada proceso con Ctrl+C.
 
 Verificar tipos y compilar ambas aplicaciones, con los servidores detenidos:
 
@@ -76,6 +93,16 @@ Verificar tipos y compilar ambas aplicaciones, con los servidores detenidos:
 npm run typecheck
 npm run build
 ```
+
+La interfaz privada también tiene comprobaciones de reglas locales y renderizado SSR:
+
+```powershell
+npm run test:private --workspace apps/web
+```
+
+La revisión del 2026-11-13 pasó tipos, compilación y estas pruebas; sus límites están en
+[CONTEXTO.md](docs/CONTEXTO.md#verificación-de-esta-revisión). SSR no sustituye revisión
+visual ni interacción en navegador. Vite advierte un chunk privado mayor de 500 kB.
 
 Comprobar individualmente cada aplicación:
 
@@ -134,46 +161,29 @@ reales como ejemplos o datos de prueba. La guía completa de aceptación está e
 
 ## Áreas del Frontend
 
-`apps/web/src/features/public/` y `apps/web/src/features/private/` existen físicamente.
-Cada una contiene solo un .gitkeep para conservar la carpeta vacía en Git.
-No contienen componentes React, layouts, stores ni archivos TypeScript vacíos.
+- `apps/web/src/features/public/landing/`: landing institucional en `/`.
+- `apps/web/src/features/public/auth/`: formulario de acceso en `/inicio-sesion`.
+- `apps/web/src/features/private/`: demostración en `/app/*`, con navegación, escenarios y componentes Arc UI adaptados.
+- `apps/web/src/app/router/`: React Router declarativo, transiciones públicas y entrada privada diferida.
+- `apps/web/src/styles/index.css`: estilos públicos; los privados están en `features/private/styles/`.
 
-Estas ubicaciones futuras se reservan **solo en este mapa**, sin crear sus subcarpetas:
+`/documentos` sigue sin página y las rutas públicas desconocidas no tienen una vista propia.
+`perfil` selecciona un escenario de demostración; no concede permisos. Las operaciones
+administrativas viven en estado React y se pierden al recargar. Los catálogos CSV pueden
+leerse y exportarse localmente; las cargas de bases son simuladas y no llegan a un servidor.
+Cerrar sesión solo navega al login. No utilizar credenciales ni datos personales reales.
 
-| Ubicación futura en apps/web/src | Uso previsto |
-| --- | --- |
-| features/public/landing | Landing Page institucional |
-| features/public/documents | Consulta y descarga de documentos |
-| features/public/auth | Login |
-| features/private/dashboard | Dashboard |
-| features/private | Futuros módulos definidos por otras especificaciones |
-| components | Componentes comunes con necesidad real |
-| layouts | Layouts futuros independientes por experiencia |
-| hooks | Hooks futuros |
-| stores | Stores Zustand futuros |
-| services | Servicios futuros |
+Consultar el [README privado](apps/web/src/features/private/README.md) para rutas, controles y organización.
 
-`src/app/router/index.tsx` y `src/styles/index.css` sí tienen uso técnico actual.
-El router utiliza Declarative Mode con BrowserRouter, Routes y una Route para /.
-No hay vistas habilitadas en /documentos, /inicio-sesion o /app/*; las rutas no coincidentes
-no renderizan contenido de aplicación. El fallback HTTP de Vite no representa una página activa.
+## Contexto de producto y diseño
 
-La futura área pública será accesible sin autenticación dentro de la intranet.
-Las operaciones privadas no se habilitarán hasta disponer de autenticación y autorización
-reales verificadas en el Backend. No se implementan layouts ni seguridad simulada ahora.
+[PRODUCT.md](apps/web/PRODUCT.md) conserva audiencia, propósito y contenidos institucionales.
+La landing, el login y Panorama de Luz comparten identidad con composiciones diferentes.
+No existe todavía `apps/web/DESIGN.md`; hay estilos implementados y material local de exploración.
+Las decisiones institucionales pendientes y las divergencias de documentación están registradas
+en [DECISIONES.md](docs/DECISIONES.md) y [CONTEXTO.md](docs/CONTEXTO.md).
 
-## Contexto visual futuro
-
-Dentro del único Frontend se prevén, sin crearlos durante la Spec 001:
-
-- `apps/web/PRODUCT.md`: un único contexto principal de producto.
-- `apps/web/DESIGN.md`: el sistema visual compartido.
-- `apps/web/.impeccable/surfaces/`: briefs futuros por experiencia cuando sean necesarios.
-
-Landing Page, Documentos, Login y Dashboard podrán tener diseños distintos con identidad
-compartida, sin dividir el Frontend en aplicaciones. No habrá PRODUCT.md o DESIGN.md por
-página ni se supone carga automática de documentos arbitrarios. No se ejecuta Impeccable,
-no se crean briefs, interfaces institucionales o temas en esta entrega.
-
-El único CSS actual es la importación técnica de Tailwind; Zustand no tiene stores.
-El alcance se limita al esqueleto descrito en [la Spec 001](specs/001-inicializar-monorepo/spec.md).
+Los recursos de referencia se conservan en `docs/identidad-institucional/`; las copias servidas
+por Vite están en `apps/web/public/identity/` y `apps/web/public/private/`. El nombre `private`
+de una carpeta de recursos no restringe su acceso. La presencia de archivos no acredita
+autorización institucional ni publicación del producto.

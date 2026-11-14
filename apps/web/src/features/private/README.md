@@ -28,7 +28,7 @@ El parámetro perfil de la URL conserva el escenario al navegar o recargar. Ejem
 
 Los perfiles, cifras, notificaciones y operaciones se conservan como demostraciones locales. La selección de escenario filtra la navegación visual y no otorga permisos efectivos. No se añade autenticación, JWT, persistencia ni backend. Los archivos no se envían: Simular carga completa los requisitos de la demostración. Las dos bases y la confirmación de guardias se mantienen por quincena; los checks de preparación son de solo lectura. La opción Cerrar sesión navega al inicio de sesión existente.
 
-La landing y el formulario de inicio de sesión conservan su comportamiento. La entrada privada se carga de forma diferida; no importa módulos ni estilos de la galería ni dependencias servidas desde CDN. El texto de PRODUCT.md sobre rutas todavía no habilitadas pertenece al estado anterior y no se modifica como efecto lateral de esta integración.
+La landing y el formulario de inicio de sesión conservan su comportamiento. La entrada privada se carga de forma diferida; no importa módulos ni estilos de la galería ni dependencias servidas desde CDN. El estado global y los límites operativos se consolidan en [el contexto del proyecto](../../../../../docs/CONTEXTO.md); PRODUCT.md ya refleja las rutas implementadas y distingue esta demostración de una operación autenticada.
 
 ## Verificación
 
@@ -40,4 +40,4 @@ Desde la raíz:
 
 Las pruebas cubren300 vistas normales,100 estados de carga, rutas de los11 escenarios, controles conservados,8 combinaciones de habilitación,64 combinaciones de fuentes de Balance,11 catálogos CSV y el orden ARIA de las tablas. No se usan supresiones de TypeScript ni se relaja el modo estricto.
 
-El navegador de inspección no está disponible en esta conexión; las comprobaciones de renderizado son SSR y las de entrega son HTTP. La revisión de píxeles, foco y arrastre real en navegador queda pendiente.
+En la integración original se registró que el navegador de inspección no estaba disponible: las comprobaciones de renderizado fueron SSR y las de entrega, HTTP. La revisión de píxeles, foco y arrastre real en navegador quedó pendiente. La revisión del 2026-11-13 repitió tipos, compilación y test:private correctamente; no repitió HTTP ni ejecutó navegador. Véase [la evidencia actual](../../../../../docs/CONTEXTO.md#verificación-de-esta-revisión).

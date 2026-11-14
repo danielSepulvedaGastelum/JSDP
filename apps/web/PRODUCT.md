@@ -2,6 +2,13 @@
 
 <!-- impeccable:product-schema 1 -->
 
+Estado técnico actualizado el **2026-11-13**, contrastado con el commit `d097d88`.
+El historial, las evidencias y los límites de reconstrucción de conversaciones están en
+[docs/CONTEXTO.md](../../docs/CONTEXTO.md); los acuerdos y el trabajo restante, en
+[DECISIONES.md](../../docs/DECISIONES.md) y [PENDIENTES.md](../../docs/PENDIENTES.md).
+Las confirmaciones institucionales históricas de este documento se conservan; esta revisión
+no constituye una nueva autorización ni una enmienda de la Constitución.
+
 ## Platform
 
 web
@@ -29,8 +36,15 @@ coherentes con las funcionalidades y rutas existentes. Su propósito es ayudar a
 institucional a comprender qué es la JSDP, cómo está organizada y desde dónde acceder a los
 servicios de la plataforma que se habiliten.
 
-El texto exacto y la fuente autorizada para describir las funciones de la JSDP todavía no
-están incorporados al repositorio y no deben inventarse.
+La landing ya incorpora descripciones de la JSDP y sus áreas. Su presencia en código no
+acredita por sí sola la fuente autorizada de cada atribución; no deben ampliarse o inventarse
+funciones institucionales sin evidencia validada.
+
+La demostración privada explora presupuesto de conceptos extraordinarios (008 Sustitutos,
+010 Nivelación, 035 Guardias y 037 Tiempo extra), consulta del gasto, preparación de cargas,
+Balance de Plazas y usuarios. El objetivo operativo inicial registrado es coordinar las
+solicitudes de las unidades médicas y no médicas hacia el OOAD; las pantallas actuales
+no ejecutan todavía ese proceso institucional.
 
 ## Positioning
 
@@ -55,20 +69,27 @@ para todos los OOAD del país ni un sitio público de Internet.
 
 ### Estado actual confirmado
 
-- El Frontend es una sola aplicación React. Actualmente solo `/` está habilitada y muestra
-  el saludo técnico mínimo `Hola IMSS`.
+- El Frontend es una sola aplicación React. `/` muestra la landing institucional;
+  `/inicio-sesion`, la interfaz de acceso; `/app/*`, la demostración Panorama de Luz,
+  integrada con carga diferida y accesible directamente sin sesión.
 - El Backend expone únicamente `GET /api/health`, que confirma la disponibilidad de Express.
 - La web no consume todavía la API.
-- No existen todavía autenticación, autorización, sesiones, usuarios, roles, APIs de
+- No existen autenticación, autorización del servidor, sesiones, cuentas reales, APIs de
   negocio, persistencia, tablas, migraciones, stores Zustand ni comunicación en tiempo real.
-- No existen componentes, layouts o páginas institucionales implementados para la Landing.
+  Sí existen usuarios de ejemplo y once escenarios visuales; no son permisos efectivos.
+- La landing incorpora hero, Conoce la JSDP, próximas funciones, misión/visión, siete
+  valores estáticos, organigrama y enlaces. La Spec 004 actualiza el estado histórico de 002.
+- El login muestra avisos locales: no envía credenciales, recupera contraseñas ni solicita cuentas.
+- La privada incluye Inicio, presupuesto, cargas simuladas, catálogos locales, monitoreo,
+  histórico, Balance de Plazas, usuarios y archivos de ejemplo. Recargar pierde los cambios
+  administrativos. La importación CSV de catálogos es local; no hay ingestión de bases en servidor.
 
-### Áreas y rutas previstas
+### Áreas y rutas
 
-- `/`: Landing Page institucional pública.
+- `/`: Landing Page institucional pública implementada.
 - `/documentos`: consulta y descarga de documentos, todavía no habilitada.
-- `/inicio-sesion`: acceso de autenticación, todavía no habilitado.
-- `/app/*`: área privada, todavía no habilitada.
+- `/inicio-sesion`: interfaz implementada; autenticación todavía no habilitada.
+- `/app/*`: demostración privada implementada; operaciones reales todavía no habilitadas.
 - Las funcionalidades públicas y privadas deben permanecer separadas. Los controles del
   Frontend nunca sustituyen la autenticación y autorización efectivas en el Backend.
 
@@ -109,9 +130,13 @@ para todos los OOAD del país ni un sitio público de Internet.
   recurso maestro autorizado si se utiliza la textura gubernamental.
 - `VI-05`: validar la vigencia y suficiencia de las normas y cumplir las revisiones y
   autorizaciones institucionales que correspondan antes de publicar materiales definitivos.
-- La libertad creativa para la futura Landing permanece abierta. Este documento no fija
-  paleta adicional, tipografías de interfaz, composición, animación ni orden rígido de
-  secciones.
+- La landing tiene la composición 1A con Misión/Visión de 1B documentada en Spec 004;
+  el login procede de la propuesta 04 de Spec 003; la privada integra la propuesta 10
+  «Panorama de Luz», según su README. Estas elecciones implementadas no cierran las
+  validaciones institucionales de color, tipografía, marcas ni publicación.
+- PRODUCT registra la atribución de misión/visión/valores confirmada, mientras VI-04
+  sigue abierta en la Constitución. La discrepancia requiere conciliación documental;
+  esta actualización no la declara resuelta ni modifica el gobierno del proyecto.
 
 ## Brand Commitments
 
