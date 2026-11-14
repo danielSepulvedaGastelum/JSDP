@@ -1,5 +1,5 @@
 
-import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import { BrowserRouter, Route, Routes, useLocation, useNavigate, useNavigationType } from 'react-router';
 import { LandingPage } from '../../features/public/landing/LandingPage';
@@ -8,6 +8,8 @@ import { MotionPreview } from './MotionPreview';
 import { chosenMotion } from './motion-choice';
 import { animateEntrance, cancelEntrance, isMotionProfile, motionProfiles, prepareRoute, waitForRoute, type MotionProfile } from './motion';
 import './transitions.css';
+
+const PrivateApp = lazy(() => import('../../features/private/PrivateApp'));
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -160,5 +162,16 @@ function AnimatedRoutes() {
   </>;
 }
 export function AppRouter() {
-  return <BrowserRouter><AnimatedRoutes /></BrowserRouter>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/app/*" element={
+          <Suspense fallback={<main className="private-route-loading" aria-busy="true">Abriendo JSDP…</main>}>
+            <PrivateApp />
+          </Suspense>
+        } />
+        <Route path="*" element={<AnimatedRoutes />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
